@@ -9,5 +9,12 @@
     .stroke-blue-950 {
       -webkit-text-stroke: 2px #172554;
     }
+    .stroke-orange-300 {
+      -webkit-text-stroke: 2px #ffb86a;
+    }
+  }
+  
+  body {
+    @apply transition-colors duration-300 bg-white dark:bg-neutral-900;
   }
   

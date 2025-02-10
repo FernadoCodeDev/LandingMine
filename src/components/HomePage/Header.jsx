@@ -18,11 +18,12 @@ const Header = () => {
   }, []);
 
   useEffect(() => {
+    const html = document.documentElement;
     if (darkMode) {
-      document.body.classList.add("dark");
+      html.classList.add("dark");
       localStorage.setItem("darkMode", "true");
     } else {
-      document.body.classList.remove("dark");
+      html.classList.remove("dark");
       localStorage.setItem("darkMode", "false");
     }
   }, [darkMode]);
@@ -43,10 +44,6 @@ const Header = () => {
           className="object-contain w-24 h-auto cursor-pointer"
           onClick={() => setDarkMode(!darkMode)}
         />{" "}
-      </div>
-
-      <div className="text-black bg-white dark:bg-gray-800 dark:text-white">
-        <p>Prueba de darkMode</p>
       </div>
     </header>
   );
