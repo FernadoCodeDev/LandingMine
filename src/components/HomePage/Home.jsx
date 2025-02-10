@@ -1,5 +1,7 @@
 import React from "react";
 import Header from "./Header";
+import Logo from "../../img/LandingMineWeb.webp";
+import Landing from "../../img/LandingPageUnderConstruction.webp";
 import Footer from "./Footer";
 
 const Home = () => {
@@ -10,57 +12,89 @@ const Home = () => {
 
       {/* Main Content */}
       <main className="flex-grow">
-        <section className="py-16 text-center">
-          <h1 className="mb-4 text-4xl font-bold">LandingMine</h1>
+        <section className="items-center py-16 text-center">
+          <img
+            src={Logo}
+            alt="Landing"
+            className="object-contain w-40 h-auto mx-auto lg:w-60"
+          />
+          <h1 className="mb-4 text-4xl font-bold text-blue-950">
+            L
+            <span className="text-4xl font-bold text-transparent stroke-blue-950">
+              anding
+            </span>
+            M
+            <span className="text-4xl font-bold text-transparent stroke-blue-950">
+              ine
+            </span>
+          </h1>
+
           <p className="mb-8 text-lg">
-            ¿Qué es <strong>LandingMine</strong>? Es una colección de landing
-            pages inspiradas en diseños de todo el mundo, hechas con React y
-            Tailwind CSS.
+            ¿Qué es <strong className="text-blue-950">LandingMine</strong>? Es una colección de landing
+            pages inspiradas en diseños como 
+            <span className="font-bold text-blue-950"> collectui</span>, 
+            <span className="font-bold text-blue-950"> Dribbble</span>, 
+            <span className="font-bold text-blue-950"> Behance, </span> 
+            hechas con <span className="font-bold text-cyan-400">React</span> y 
+            <span className="font-bold text-sky-400"> Tailwind CSS.</span>
           </p>
           <div className="grid max-w-screen-xl grid-cols-1 gap-8 px-4 mx-auto md:grid-cols-2 lg:grid-cols-3">
-            <div>
-              <img src="" alt="" />
-              <div className="p-4 bg-gray-100 rounded-lg shadow-md">
+          
+            <div className="bg-gray-100 rounded-lg shadow-md ">
+              <img
+                src={Landing}
+                alt="Landing"
+                className="w-full h-auto"
+              />
+              <div className="p-4">
                 <h2 className="text-xl font-semibold">Landing Page 1</h2>
                 <p>Descripción de la landing page.</p>
 
                 <a href="#">
-                  <button className="w-full m-1 p-2 text-center text-white font-bold transition duration-750 ease-in-out bg-orange-600 border-2 border-orange-700 rounded-none hover:border-orange-800 hover:bg-orange-700 hover:rounded-[2vh]">
+                  <button className="w-full p-2 m-1 font-bold text-center text-orange-300 transition duration-500 ease-in-out bg-blue-800 hover:bg-blue-950 ">
                     Button A
                   </button>
                 </a>
               </div>
             </div>
 
-            <div>
-              <img src="" alt="" />
-              <div className="p-4 bg-gray-100 rounded-lg shadow-md">
+            <div className="bg-gray-100 rounded-lg shadow-md ">
+              <img
+                src={Landing}
+                alt="Landing"
+                className="w-full h-auto"
+              />
+              <div className="p-4">
                 <h2 className="text-xl font-semibold">Landing Page 2</h2>
                 <p>Descripción de la landing page.</p>
 
                 <a href="#">
-                  <button className="w-full m-1 p-2 text-center text-white font-bold transition duration-750 ease-in-out bg-orange-600 border-2 border-orange-700 rounded-none hover:border-orange-800 hover:bg-orange-700 hover:rounded-[2vh]">
+                  <button className="w-full p-2 m-1 font-bold text-center text-orange-300 transition duration-500 ease-in-out bg-blue-800 hover:bg-blue-950 ">
                     Button A
                   </button>
                 </a>
               </div>
             </div>
 
-            <div>
-              <img src="" alt="" />
-              <div className="p-4 bg-gray-100 rounded-lg shadow-md">
+            <div className="bg-gray-100 rounded-lg shadow-md ">
+              <img
+                src={Landing}
+                alt="Landing"
+                className="w-full h-auto"
+              />
+              <div className="p-4">
                 <h2 className="text-xl font-semibold">Landing Page 3</h2>
                 <p>Descripción de la landing page.</p>
 
                 <a href="#">
-                  <button className="w-full m-1 p-2 text-center text-white font-bold transition duration-750 ease-in-out bg-orange-600 border-2 border-orange-700 rounded-none hover:border-orange-800 hover:bg-orange-700 hover:rounded-[2vh]">
+                  <button className="w-full p-2 m-1 font-bold text-center text-orange-300 transition duration-500 ease-in-out bg-blue-800 hover:bg-blue-950 ">
                     Button A
                   </button>
                 </a>
               </div>
             </div>
 
-           
+            
           </div>
         </section>
       </main>

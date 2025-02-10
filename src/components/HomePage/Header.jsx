@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import Logo from "../../img/LandingMine.webp";
+import Logo from "../../img/LandingMineWeb.webp";
 import DarkModeIcon from "../../img/DarkMode.webp";
 
 const Header = () => {
@@ -30,11 +30,13 @@ const Header = () => {
   return (
     <header className="bg-blue-950">
       <div className="flex justify-between m-5">
-        <img
-          src={Logo}
-          alt="LandingMine Logo"
-          className="object-contain w-32 h-auto"
-        />
+        <a href="/">
+          <img
+            src={Logo}
+            alt="LandingMine Logo"
+            className="object-contain h-auto cursor-pointer w-36"
+          />
+        </a>
         <img
           src={DarkModeIcon}
           alt="Dark Mode Icon"

@@ -2,3 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer utilities {
+    .stroke-black {
+      -webkit-text-stroke: 2px black;
+    }
+    .stroke-blue-950 {
+      -webkit-text-stroke: 2px #172554;
+    }
+  }
+  
