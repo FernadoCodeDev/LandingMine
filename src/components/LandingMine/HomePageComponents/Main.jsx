@@ -1,6 +1,6 @@
 import React from "react";
-import Logo from "../../img/LandingMineWeb.webp";
-import Landing from "../../img/LandingPageUnderConstruction.webp";
+import Logo from "../../../img/LandingMineWeb.webp";
+import Landing from "../../../img/LandingPageUnderConstruction.webp";
 import Footer from "./Footer";
 
 const Home = () => {

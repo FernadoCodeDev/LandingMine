@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
-import DarkModeIcon from "../../img/DarkMode.webp";
-import MobileMenu from "../../img/MobileMenu.webp";
-import CloseMenuIcon from "../../img/CloseMenuIcon.webp";
+import DarkModeIcon from "../../../img/DarkMode.webp";
+import MobileMenu from "../../../img/MobileMenu.webp";
+import CloseMenuIcon from "../../../img/CloseMenuIcon.webp";
 import Main from "./Main";
 
 const Header = () => {
