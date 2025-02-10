@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import DarkModeIcon from "../../img/DarkMode.webp";
 import MobileMenu from "../../img/MobileMenu.webp";
 import CloseMenuIcon from "../../img/CloseMenuIcon.webp";
-import Home from "./Home";
+import Main from "./Main";
 
 const Header = () => {
   const [darkMode, setDarkMode] = useState(false);
@@ -137,7 +137,7 @@ const Header = () => {
         />
       )}
 
-      <Home />
+      <Main />
     </div>
   );
 };

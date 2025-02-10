@@ -1,10 +1,10 @@
 import React from 'react';
-import Header from '../components/HomePage/Header';
+import Home from '../components/LandingMine/Home';
 
 const home = () => {
   return (
    <div>
-    <Header />
+    <Home />
     </div>
   );
 };

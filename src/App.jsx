@@ -1,13 +1,13 @@
 import React from 'react';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'; // Importamos React Router
-import Home from './pages/Home'; // Página de inicio
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import LandingMine from './pages/LandingMine'; // Home Page
 
 const App = () => {
   return (
     <Router>
       <Routes>
-        {/* Define las rutas para cada página */}
-        <Route path="/" element={<Home />} />
+        {/* Routes for each page */}
+        <Route path="/" element={<LandingMine />} />
       </Routes>
     </Router>
   );
