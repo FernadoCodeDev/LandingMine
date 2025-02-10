@@ -56,7 +56,7 @@ const Header = () => {
   return (
     <div className="flex flex-row">
     
-      <nav className="w-64 h-screen text-white bg-blue-950">
+      <nav className="w-64 h-auto text-white bg-blue-950">
       <div className="flex flex-row items-center m-5">
         <img
           src={DarkModeIcon}
