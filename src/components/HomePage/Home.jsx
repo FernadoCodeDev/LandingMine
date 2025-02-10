@@ -6,10 +6,8 @@ import Footer from "./Footer";
 
 const Home = () => {
   return (
-    <div className="flex flex-col min-h-screen">
-      {/* Header */}
-      <Header />
-
+    <div className="">
+     
       {/* Main Content */}
       <main className="flex-grow">
         <section className="items-center py-16 text-center">
@@ -83,9 +81,6 @@ const Home = () => {
           </div>
         </section>
       </main>
-
-      {/* Footer */}
-      <Footer />
     </div>
   );
 };
