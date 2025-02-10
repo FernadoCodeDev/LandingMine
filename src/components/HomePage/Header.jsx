@@ -1,30 +1,27 @@
-// src/components/Header.jsx
 import React, { useState, useEffect } from "react";
 import DarkModeIcon from "../../img/DarkMode.webp";
 import MobileMenu from "../../img/MobileMenu.webp";
+import CloseMenuIcon from "../../img/CloseMenuIcon.webp";
 import Home from "./Home";
 
 const Header = () => {
   const [darkMode, setDarkMode] = useState(false);
-  const [menuOpen, setMenuOpen] = useState(false); // Estado para controlar si el menú está abierto
-  const [isMobile, setIsMobile] = useState(false); // Estado para controlar si es pantalla pequeña
+  const [menuOpen, setMenuOpen] = useState(false);
+  const [isMobile, setIsMobile] = useState(false); // Small Screen Check
 
-  // Detectar cambios de tamaño de la pantalla
   useEffect(() => {
     const handleResize = () => {
-      setIsMobile(window.innerWidth < 720); // Si el ancho es menor a 720px es móvil
+      setIsMobile(window.innerWidth < 720);
     };
 
-    // Agregar event listener para cambios de tamaño
     window.addEventListener("resize", handleResize);
-    handleResize(); // Llamar la función al cargar para asegurarse del tamaño actual
+    handleResize();
 
     return () => {
-      window.removeEventListener("resize", handleResize); // Limpiar el event listener
+      window.removeEventListener("resize", handleResize);
     };
   }, []);
 
-  // Manejar el cambio de tema oscuro
   useEffect(() => {
     const storedMode = localStorage.getItem("darkMode");
     if (storedMode) {
@@ -48,50 +45,100 @@ const Header = () => {
     }
   }, [darkMode]);
 
-  // Función para abrir/cerrar el menú en pantallas móviles
   const toggleMenu = () => {
-    setMenuOpen(!menuOpen);
+    setMenuOpen(!menuOpen); // Menu Status
   };
 
   return (
-    <div className="flex flex-row">
-    
-      <nav className="w-64 h-auto text-white bg-blue-950">
-      <div className="flex flex-row items-center m-5">
+    <div className="flex flex-row ">
+      {/*Menu sizes less than 720 px */}
+      {isMobile && (
+        <div
+          className={`fixed top-0 left-0 w-full h-full bg-blue-950 transition-transform duration-500 ease-in-out transform ${
+      menuOpen ? "translate-x-0" : "-translate-x-full"
+          }`}
+        >
+          {/* Close menu */}
+          <img
+            src={CloseMenuIcon}
+            alt="Close Menu"
+            className="absolute w-20 h-auto cursor-pointer top-5 right-5"
+            onClick={toggleMenu}
+          />
+          <nav className="p-5 text-white">
+            <div className="flex flex-row items-center justify-between mb-4">
+              <img
+                src={DarkModeIcon}
+                alt="Dark Mode Icon"
+                className="object-contain w-24 h-auto cursor-pointer"
+                onClick={() => setDarkMode(!darkMode)}
+              />
+            </div>
+            <ul className="space-y-4">
+              <li>
+                <a href="#" className="px-4 py-2 rounded hover:bg-gray-600">
+                  Inicio
+                </a>
+              </li>
+              <li>
+                <a href="#" className="px-4 py-2 rounded hover:bg-gray-600">
+                  All
+                </a>
+              </li>
+              <li>
+                <a href="#" className="px-4 py-2 rounded hover:bg-gray-600">
+                  LandigMine
+                </a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      )}
+
+      {/* menu larger than 72px*/}
+      {!isMobile && (
+        <nav className="w-64 h-auto text-white bg-blue-950">
+          <div className="flex flex-row items-center m-5">
+            <img
+              src={DarkModeIcon}
+              alt="Dark Mode Icon"
+              className="object-contain w-24 h-auto cursor-pointer"
+              onClick={() => setDarkMode(!darkMode)}
+            />
+          </div>
+          <ul className="p-4 space-y-4">
+            <li>
+              <a href="#" className="px-4 py-2 rounded hover:bg-gray-600">
+                Home
+              </a>
+            </li>
+            <li>
+              <a href="#" className="px-4 py-2 rounded hover:bg-gray-600">
+                All
+              </a>
+            </li>
+            <li>
+              <a href="#" className="px-4 py-2 rounded hover:bg-gray-600">
+                LandigMine
+              </a>
+            </li>
+          </ul>
+        </nav>
+      )}
+
+      {/* Button to open menu on screens smaller than 720 px */}
+      {/* menuOpen makes sure that when the menu is opened the image is hidden */}
+      {isMobile && !menuOpen && (
         <img
-          src={DarkModeIcon}
-          alt="Dark Mode Icon"
-          className="object-contain w-24 h-auto cursor-pointer"
-          onClick={() => setDarkMode(!darkMode)}
+          src={MobileMenu}
+          alt="Mobile Menu"
+          className="absolute z-10 w-16 h-auto cursor-pointer top-5 left-5 invert dark:invert-0"
+          onClick={toggleMenu}
         />
+      )}
 
-      </div>
-        <ul className="p-4 space-y-4">
-          <li>
-            <a href="#" className="px-4 py-2 rounded hover:bg-gray-600">
-              About
-            </a>
-          </li>
-
-          <li>
-            <a href="#" className="px-4 py-2 rounded hover:bg-gray-600">
-              About
-            </a>
-          </li>
-
-          <li>
-            <a href="#" className="px-4 py-2 rounded hover:bg-gray-600">
-              About
-            </a>
-          </li>
-        </ul>
-      </nav>
-
-      {/* Contenido principal */}
       <Home />
-     
     </div>
-
   );
 };
 

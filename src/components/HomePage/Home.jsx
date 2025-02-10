@@ -1,13 +1,12 @@
 import React from "react";
-import Header from "./Header";
 import Logo from "../../img/LandingMineWeb.webp";
 import Landing from "../../img/LandingPageUnderConstruction.webp";
 import Footer from "./Footer";
 
 const Home = () => {
   return (
-    <div className="">
-     
+    <div className="flex flex-col min-h-screen">
+
       {/* Main Content */}
       <main className="flex-grow">
         <section className="items-center py-16 text-center">
@@ -36,7 +35,7 @@ const Home = () => {
             hechas con <span className="font-bold text-cyan-400">React</span> y
             <span className="font-bold text-sky-400"> Tailwind CSS.</span>
           </p>
-          <div className="grid max-w-screen-xl grid-cols-1 gap-8 px-4 mx-auto md:grid-cols-2 lg:grid-cols-3">
+          <div className="grid grid-cols-1 gap-8 px-4 mx-auto md:grid-cols-2 lg:grid-cols-3">
             <div className="bg-gray-300 rounded-lg shadow-md dark:bg-neutral-700">
               <img src={Landing} alt="Landing" className="w-full h-auto" />
               <div className="p-4">

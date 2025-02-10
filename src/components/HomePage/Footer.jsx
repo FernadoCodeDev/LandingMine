@@ -2,7 +2,7 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <footer className="py-4 text-center text-white bg-blue-950">
+    <footer className="w-full py-4 text-center text-white bg-blue-950">
       <h3>
         Puedes encontrar este y más trabajos mios en 
         <a href="#">
