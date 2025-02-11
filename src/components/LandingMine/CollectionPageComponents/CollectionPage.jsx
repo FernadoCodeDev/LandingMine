@@ -32,13 +32,13 @@ const CollectionPage = () => {
               Explora la Mina de Landing Pages
             </h2>
 
-            <p className="text-center w-full p-2 m-2 text-lg md:max-w-[70rem] md:mx-auto dark:text-white">
+            <p className="text-center w-full p-2 text-lg max-w-full md:max-w-[70rem] md:mx-auto dark:text-white">
               Bienvenido a{" "}
               <strong className="text-blue-950 dark:text-orange-300">
                 LandingMine,
               </strong>{" "}
               tu mina digital de aterrizajes exclusivos y cuidadosamente
-              seleccionados. Aquí encontrarás una vasta colección de {" "}
+              seleccionados. Aquí encontrarás una vasta colección de{" "}
               <span className="font-bold text-blue-950 dark:text-orange-300">
                 landing pages
               </span>{" "}
@@ -49,23 +49,6 @@ const CollectionPage = () => {
               CollectUI, Dribbble y Behance. Cada página es una pieza única,
               perfecta para dar vida a tu proyecto con una base sólida y
               moderna.
-            </p>
-
-            <p className="text-center w-full p-2 m-2 text-lg md:max-w-[70rem] md:mx-auto dark:text-white">
-              Desde aterrizajes minimalistas hasta estructuras complejas,{" "}
-              <strong className="text-blue-950 dark:text-orange-300">
-                LandingMine,
-              </strong>{" "}
-              te ofrece una selección curada que te permitirá encontrar el
-              diseño ideal para tu próximo proyecto. Ya sea que estés buscando
-              una presentación de producto impactante, una página de captura de
-              leads o una solución innovadora, aquí puedes encontrar las mejores
-              opciones creadas con tecnologías que marcan la diferencia.
-            </p>
-
-            <p className="text-center w-full p-2 mb-2 text-lg md:max-w-[70rem] md:mx-auto dark:text-white">
-              Entra y explora, descubre nuevas ideas y encuentra la inspiración
-              que tu proyecto necesita, todo en un solo lugar.
             </p>
 
             <Advertisement />

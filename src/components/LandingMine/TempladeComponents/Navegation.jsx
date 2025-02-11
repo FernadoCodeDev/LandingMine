@@ -83,7 +83,7 @@ const Navegation = () => {
             >
               Colletion
             </a>
-            <a href="#" className="px-4 py-2 rounded hover:bg-gray-600">
+            <a href="/AboutLandingMine" className="px-4 py-2 rounded hover:bg-gray-600">
               LandigMine
             </a>
             </div>
@@ -112,7 +112,7 @@ const Navegation = () => {
             >
               Colletion
             </a>
-            <a href="#" className="px-4 py-2 rounded hover:bg-gray-600">
+            <a href="/AboutLandingMine" className="px-4 py-2 rounded hover:bg-gray-600">
               LandigMine
             </a>
             </div>
