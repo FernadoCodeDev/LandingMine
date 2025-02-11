@@ -50,7 +50,7 @@ const AboutPage = () => {
                     Tailwind CSS,{" "}
                   </span>
                   Cada landing page en esta colección ha sido cuidadosamente
-                  diseñada y optimizada para ser
+                  diseñada y optimizada para ser {" "}
                   <strong className="text-blue-950 dark:text-orange-300">
                     100% responsive
                   </strong>
@@ -93,7 +93,7 @@ const AboutPage = () => {
                   <strong className="text-blue-950 dark:text-orange-300">
                     {" "}
                     Back-End,
-                  </strong>
+                  </strong>{" "}
                   te invito a visitar mi{" "}
                   <strong className="text-blue-950 dark:text-orange-300">
                     página personal.
@@ -102,9 +102,9 @@ const AboutPage = () => {
                   como los enlaces a mis repositorios en
                   <strong className="text-blue-950 dark:text-orange-300">
                     {" "}
-                    GitHub
+                    GitHub,
                   </strong>{" "}
-                  , donde puedes profundizar en el código de cada uno de los
+                   donde puedes profundizar en el código de cada uno de los
                   proyectos.
                 </p>
               </div>
