@@ -97,13 +97,13 @@ const AboutPage = () => {
                   te invito a visitar mi{" "}
                   <strong className="text-blue-950 dark:text-orange-300">
                     página personal.
-                  </strong>
-                  Allí encontrarás una colección de mis trabajos previos, así
+                  </strong>{" "}
+                  Ahí encontrarás una colección de mis trabajos previos, así
                   como los enlaces a mis repositorios en
                   <strong className="text-blue-950 dark:text-orange-300">
                     {" "}
                     GitHub
-                  </strong>
+                  </strong>{" "}
                   , donde puedes profundizar en el código de cada uno de los
                   proyectos.
                 </p>

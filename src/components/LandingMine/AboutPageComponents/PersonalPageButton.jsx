@@ -2,8 +2,8 @@ import React from "react";
 
 const PersonalPage = () => {
   return (
-    <div class="flex items-center justify-center p-5">
-      <div class="rounded-lg bg-gray-200 p-5">
+    <div class="flex items-center justify-center ">
+      <div class="rounded-lg bg-gray-200 p-5 w-full">
         <div class="flex">
           <div class="flex w-10 items-center justify-center rounded-tl-lg rounded-bl-lg border-r border-gray-200 bg-white p-5">
             <svg
@@ -16,13 +16,18 @@ const PersonalPage = () => {
           </div>
           <input
             type="text"
-            class="w-full max-w-[160px] bg-white pl-2 text-base font-semibold outline-0"
+            disabled
+            class="w-full bg-white pl-2 text-base font-semibold outline-0"
+            placeholder="fercode.atwebpages.com"
           />
+          <a href="http://fercode.atwebpages.com/">
           <input
             type="button"
-            value="Search"
-            class="bg-blue-500 p-2 rounded-tr-lg rounded-br-lg text-white font-semibold hover:bg-blue-800 transition-colors"
+            value="Buscar"
+            class="bg-blue-500 p-2 rounded-tr-lg rounded-br-lg cursor-pointer text-white font-semibold hover:bg-blue-800 transition-colors"
           />
+          </a>
+          
         </div>
       </div>
     </div>
