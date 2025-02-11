@@ -164,7 +164,7 @@ const HomePage = () => {
               </div>
 
               <div className="w-full md:col-span-2 lg:col-span-3">
-                <a href="#">
+                <a href="/Collection">
                   <button className="w-full p-2 font-bold text-white transition duration-500 ease-in-out bg-orange-500 hover:bg-orange-700 ">
                     Ver landing pages
                   </button>
