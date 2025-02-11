@@ -4,7 +4,7 @@ import Landing from "../../../img/LandingPageUnderConstruction.webp";
 import Navegation from "../TempladeComponents/Navegation";
 import Footer from "../TempladeComponents/Footer";
 
-const HomePage = () => {
+const CollectionPage = () => {
   return (
     <div className="flex flex-row min-h-screen">
       <Navegation />
@@ -28,32 +28,8 @@ const HomePage = () => {
               </span>
             </h1>
 
-            <p className="text-center w-full p-2 mb-8 text-lg md:max-w-[70rem] md:mx-auto dark:text-white">
-              ¿Qué es{" "}
-              <strong className="text-blue-950 dark:text-orange-300">
-                LandingMine
-              </strong>
-              ? Es una colección de landing pages inspiradas en diseños como
-              <span className="font-bold text-blue-950 dark:text-orange-300">
-                {" "}
-                collectui
-              </span>
-              ,
-              <span className="font-bold text-blue-950 dark:text-orange-300">
-                {" "}
-                Dribbble
-              </span>
-              ,
-              <span className="font-bold text-blue-950 dark:text-orange-300">
-                {" "}
-                Behance,{" "}
-              </span>
-              hechas con <span className="font-bold text-cyan-400">
-                React
-              </span>{" "}
-              y<span className="font-bold text-sky-400"> Tailwind CSS.</span>
-            </p>
-            
+            <h1>Coleción</h1>
+
             <div className="grid grid-cols-1 gap-8 px-4 mx-auto md:grid-cols-2 lg:grid-cols-3">
               <div className="bg-gray-300 rounded-lg shadow-md dark:bg-neutral-800">
                 <img src={Landing} alt="Landing" className="w-full h-auto" />
@@ -163,13 +139,6 @@ const HomePage = () => {
                 </div>
               </div>
 
-              <div className="w-full md:col-span-2 lg:col-span-3">
-                <a href="#">
-                  <button className="w-full p-2 font-bold text-white transition duration-500 ease-in-out bg-orange-500 hover:bg-orange-700 ">
-                    Ver landing pages
-                  </button>
-                </a>
-              </div>
             </div>
           </section>
         </main>
@@ -179,4 +148,4 @@ const HomePage = () => {
   );
 };
 
-export default HomePage;
+export default CollectionPage;

@@ -1,12 +1,12 @@
 import React from 'react';
-import Home from '../../components/LandingMine/HomePageComponents/Home';
+import HomePage from '../../components/LandingMine/HomePageComponents/Home';
 
-const home = () => {
+const Home = () => {
   return (
    <div>
-    <Home />
+    <HomePage />
     </div>
   );
 };
 
-export default home;
+export default Home;
