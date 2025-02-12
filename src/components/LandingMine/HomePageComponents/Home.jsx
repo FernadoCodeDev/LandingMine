@@ -3,6 +3,7 @@ import Logo from "../../../img/LandingMineWeb.webp";
 import Landing from "../../../img/LandingPageUnderConstruction.webp";
 import Navegation from "../TempladeComponents/Navegation";
 import Footer from "../TempladeComponents/Footer";
+import Button from "./Button";
 
 const HomePage = () => {
   return (
@@ -163,13 +164,7 @@ const HomePage = () => {
                 </div>
               </div>
 
-              <div className="w-full md:col-span-2 lg:col-span-3">
-                <a href="/Collection">
-                  <button className="w-full p-2 font-bold text-white transition duration-500 ease-in-out bg-orange-500 hover:bg-orange-700 ">
-                    Ver landing pages
-                  </button>
-                </a>
-              </div>
+              <Button />
             </div>
           </section>
         </main>
