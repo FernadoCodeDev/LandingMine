@@ -4,6 +4,7 @@ import Landing from "../../../img/LandingPageUnderConstruction.webp";
 import Navegation from "../TempladeComponents/Navegation";
 import Footer from "../TempladeComponents/Footer";
 import Button from "./Button";
+import ButtonLanding from "../CollectionPageComponents/ButtonLanding";
 
 const HomePage = () => {
   return (
@@ -54,7 +55,7 @@ const HomePage = () => {
               </span>{" "}
               y<span className="font-bold text-sky-400"> Tailwind CSS.</span>
             </p>
-            
+
             <div className="grid grid-cols-1 gap-8 px-4 mx-auto md:grid-cols-2 lg:grid-cols-3">
               <div className="bg-gray-300 rounded-lg shadow-md dark:bg-neutral-800">
                 <img src={Landing} alt="Landing" className="w-full h-auto" />
@@ -67,9 +68,7 @@ const HomePage = () => {
                   </p>
 
                   <a href="#">
-                    <button className="w-full p-2 m-1 font-bold text-center text-orange-300 transition duration-500 ease-in-out bg-blue-800 hover:bg-blue-950 ">
-                      Button A
-                    </button>
+                    <ButtonLanding />
                   </a>
                 </div>
               </div>
@@ -85,9 +84,7 @@ const HomePage = () => {
                   </p>
 
                   <a href="#">
-                    <button className="w-full p-2 m-1 font-bold text-center text-orange-200 transition duration-500 ease-in-out bg-blue-800 hover:bg-blue-950 ">
-                      Button A
-                    </button>
+                    <ButtonLanding />
                   </a>
                 </div>
               </div>
@@ -103,9 +100,7 @@ const HomePage = () => {
                   </p>
 
                   <a href="#">
-                    <button className="w-full p-2 m-1 font-bold text-center text-orange-300 transition duration-500 ease-in-out bg-blue-800 hover:bg-blue-950 ">
-                      Button A
-                    </button>
+                    <ButtonLanding />
                   </a>
                 </div>
               </div>
@@ -114,16 +109,14 @@ const HomePage = () => {
                 <img src={Landing} alt="Landing" className="w-full h-auto" />
                 <div className="p-4">
                   <h2 className="text-xl font-semibold dark:text-white">
-                    Landing Page 3
+                    Landing Page 4
                   </h2>
                   <p className="text-black dark:text-white">
                     Descripción de la landing page.
                   </p>
 
                   <a href="#">
-                    <button className="w-full p-2 m-1 font-bold text-center text-orange-300 transition duration-500 ease-in-out bg-blue-800 hover:bg-blue-950 ">
-                      Button A
-                    </button>
+                    <ButtonLanding />
                   </a>
                 </div>
               </div>
@@ -132,16 +125,14 @@ const HomePage = () => {
                 <img src={Landing} alt="Landing" className="w-full h-auto" />
                 <div className="p-4">
                   <h2 className="text-xl font-semibold dark:text-white">
-                    Landing Page 3
+                    Landing Page 5
                   </h2>
                   <p className="text-black dark:text-white">
                     Descripción de la landing page.
                   </p>
 
                   <a href="#">
-                    <button className="w-full p-2 m-1 font-bold text-center text-orange-300 transition duration-500 ease-in-out bg-blue-800 hover:bg-blue-950 ">
-                      Button A
-                    </button>
+                    <ButtonLanding />
                   </a>
                 </div>
               </div>
@@ -150,16 +141,14 @@ const HomePage = () => {
                 <img src={Landing} alt="Landing" className="w-full h-auto" />
                 <div className="p-4">
                   <h2 className="text-xl font-semibold dark:text-white">
-                    Landing Page 3
+                    Landing Page 6
                   </h2>
                   <p className="text-black dark:text-white">
                     Descripción de la landing page.
                   </p>
 
                   <a href="#">
-                    <button className="w-full p-2 m-1 font-bold text-center text-orange-300 transition duration-500 ease-in-out bg-blue-800 hover:bg-blue-950 ">
-                      Button A
-                    </button>
+                    <ButtonLanding />
                   </a>
                 </div>
               </div>
