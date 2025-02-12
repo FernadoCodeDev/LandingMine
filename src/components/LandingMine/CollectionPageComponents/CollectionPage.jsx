@@ -2,7 +2,7 @@ import React from "react";
 import Logo from "../../../img/LandingMineWeb.webp";
 import Navegation from "../TempladeComponents/Navegation";
 import Footer from "../TempladeComponents/Footer";
-import Advertisement from "./LandingPageAd";
+import LandingPageAd from "./LandingPageAd";
 
 const CollectionPage = () => {
   return (
@@ -51,7 +51,7 @@ const CollectionPage = () => {
               moderna.
             </p>
 
-            <Advertisement />
+            <LandingPageAd />
           </section>
         </main>
         <Footer />

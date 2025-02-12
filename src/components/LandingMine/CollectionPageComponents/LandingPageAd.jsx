@@ -1,7 +1,8 @@
 import React from "react";
 import Landing from "../../../img/LandingPageUnderConstruction.webp";
+import ButtonLanding from "./ButtonLanding";
 
-const Advertisement = () => {
+const LandingPageAd = () => {
   return (
     <div className="grid grid-cols-1 gap-8 px-4 mx-auto md:grid-cols-2 lg:grid-cols-3">
       <div className="bg-gray-300 rounded-lg shadow-md dark:bg-neutral-800">
@@ -15,9 +16,7 @@ const Advertisement = () => {
           </p>
 
           <a href="#">
-            <button className="w-full p-2 m-1 font-bold text-center text-orange-300 transition duration-500 ease-in-out bg-blue-800 hover:bg-blue-950 ">
-              Ver landing page
-            </button>
+            <ButtonLanding />
           </a>
         </div>
       </div>
@@ -33,9 +32,7 @@ const Advertisement = () => {
           </p>
 
           <a href="#">
-            <button className="w-full p-2 m-1 font-bold text-center text-orange-200 transition duration-500 ease-in-out bg-blue-800 hover:bg-blue-950 ">
-              Ver landing page
-            </button>
+            <ButtonLanding />
           </a>
         </div>
       </div>
@@ -51,9 +48,7 @@ const Advertisement = () => {
           </p>
 
           <a href="#">
-            <button className="w-full p-2 m-1 font-bold text-center text-orange-300 transition duration-500 ease-in-out bg-blue-800 hover:bg-blue-950 ">
-              Ver landing page
-            </button>
+            <ButtonLanding />
           </a>
         </div>
       </div>
@@ -69,9 +64,7 @@ const Advertisement = () => {
           </p>
 
           <a href="#">
-            <button className="w-full p-2 m-1 font-bold text-center text-orange-300 transition duration-500 ease-in-out bg-blue-800 hover:bg-blue-950 ">
-              Ver landing page
-            </button>
+            <ButtonLanding />
           </a>
         </div>
       </div>
@@ -87,9 +80,7 @@ const Advertisement = () => {
           </p>
 
           <a href="#">
-            <button className="w-full p-2 m-1 font-bold text-center text-orange-300 transition duration-500 ease-in-out bg-blue-800 hover:bg-blue-950 ">
-              Ver landing page
-            </button>
+            <ButtonLanding />
           </a>
         </div>
       </div>
@@ -105,9 +96,7 @@ const Advertisement = () => {
           </p>
 
           <a href="#">
-            <button className="w-full p-2 m-1 font-bold text-center text-orange-300 transition duration-500 ease-in-out bg-blue-800 hover:bg-blue-950 ">
-              Ver landing page
-            </button>
+            <ButtonLanding />
           </a>
         </div>
       </div>
@@ -123,9 +112,7 @@ const Advertisement = () => {
           </p>
 
           <a href="#">
-            <button className="w-full p-2 m-1 font-bold text-center text-orange-300 transition duration-500 ease-in-out bg-blue-800 hover:bg-blue-950 ">
-              Ver landing page
-            </button>
+            <ButtonLanding />
           </a>
         </div>
       </div>
@@ -141,9 +128,7 @@ const Advertisement = () => {
           </p>
 
           <a href="#">
-            <button className="w-full p-2 m-1 font-bold text-center text-orange-300 transition duration-500 ease-in-out bg-blue-800 hover:bg-blue-950 ">
-              Ver landing page
-            </button>
+            <ButtonLanding />
           </a>
         </div>
       </div>
@@ -159,9 +144,7 @@ const Advertisement = () => {
           </p>
 
           <a href="#">
-            <button className="w-full p-2 m-1 font-bold text-center text-orange-300 transition duration-500 ease-in-out bg-blue-800 hover:bg-blue-950 ">
-              Ver landing page
-            </button>
+            <ButtonLanding />
           </a>
         </div>
       </div>
@@ -177,9 +160,7 @@ const Advertisement = () => {
           </p>
 
           <a href="#">
-            <button className="w-full p-2 m-1 font-bold text-center text-orange-300 transition duration-500 ease-in-out bg-blue-800 hover:bg-blue-950 ">
-              Ver landing page
-            </button>
+            <ButtonLanding />
           </a>
         </div>
       </div>
@@ -195,9 +176,7 @@ const Advertisement = () => {
           </p>
 
           <a href="#">
-            <button className="w-full p-2 m-1 font-bold text-center text-orange-300 transition duration-500 ease-in-out bg-blue-800 hover:bg-blue-950 ">
-              Ver landing page
-            </button>
+            <ButtonLanding />
           </a>
         </div>
       </div>
@@ -213,9 +192,7 @@ const Advertisement = () => {
           </p>
 
           <a href="#">
-            <button className="w-full p-2 m-1 font-bold text-center text-orange-300 transition duration-500 ease-in-out bg-blue-800 hover:bg-blue-950 ">
-              Ver landing page
-            </button>
+            <ButtonLanding />
           </a>
         </div>
       </div>
@@ -231,9 +208,7 @@ const Advertisement = () => {
           </p>
 
           <a href="#">
-            <button className="w-full p-2 m-1 font-bold text-center text-orange-300 transition duration-500 ease-in-out bg-blue-800 hover:bg-blue-950 ">
-              Ver landing page
-            </button>
+            <ButtonLanding />
           </a>
         </div>
       </div>
@@ -249,9 +224,7 @@ const Advertisement = () => {
           </p>
 
           <a href="#">
-            <button className="w-full p-2 m-1 font-bold text-center text-orange-300 transition duration-500 ease-in-out bg-blue-800 hover:bg-blue-950 ">
-              Ver landing page
-            </button>
+            <ButtonLanding />
           </a>
         </div>
       </div>
@@ -267,9 +240,7 @@ const Advertisement = () => {
           </p>
 
           <a href="#">
-            <button className="w-full p-2 m-1 font-bold text-center text-orange-300 transition duration-500 ease-in-out bg-blue-800 hover:bg-blue-950 ">
-              Ver landing page
-            </button>
+            <ButtonLanding />
           </a>
         </div>
       </div>
@@ -285,9 +256,7 @@ const Advertisement = () => {
           </p>
 
           <a href="#">
-            <button className="w-full p-2 m-1 font-bold text-center text-orange-300 transition duration-500 ease-in-out bg-blue-800 hover:bg-blue-950 ">
-              Ver landing page
-            </button>
+            <ButtonLanding />
           </a>
         </div>
       </div>
@@ -303,9 +272,7 @@ const Advertisement = () => {
           </p>
 
           <a href="#">
-            <button className="w-full p-2 m-1 font-bold text-center text-orange-300 transition duration-500 ease-in-out bg-blue-800 hover:bg-blue-950 ">
-              Ver landing page
-            </button>
+            <ButtonLanding />
           </a>
         </div>
       </div>
@@ -321,9 +288,7 @@ const Advertisement = () => {
           </p>
 
           <a href="#">
-            <button className="w-full p-2 m-1 font-bold text-center text-orange-300 transition duration-500 ease-in-out bg-blue-800 hover:bg-blue-950 ">
-              Ver landing page
-            </button>
+            <ButtonLanding />
           </a>
         </div>
       </div>
@@ -339,9 +304,7 @@ const Advertisement = () => {
           </p>
 
           <a href="#">
-            <button className="w-full p-2 m-1 font-bold text-center text-orange-300 transition duration-500 ease-in-out bg-blue-800 hover:bg-blue-950 ">
-              Ver landing page
-            </button>
+            <ButtonLanding />
           </a>
         </div>
       </div>
@@ -357,13 +320,11 @@ const Advertisement = () => {
           </p>
 
           <a href="#">
-            <button className="w-full p-2 m-1 font-bold text-center text-orange-300 transition duration-500 ease-in-out bg-blue-800 hover:bg-blue-950 ">
-              Ver landing page
-            </button>
+            <ButtonLanding />
           </a>
         </div>
       </div>
     </div>
   );
 };
-export default Advertisement;
+export default LandingPageAd;
