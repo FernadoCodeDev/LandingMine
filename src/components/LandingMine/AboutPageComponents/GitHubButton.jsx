@@ -29,7 +29,7 @@ const GitHub = () => {
             ></path>
           </svg>
           <span class="inline-block tabular-nums tracking-wider font-display font-medium text-white">
-            Start
+            Star
           </span>
         </div>
       </button>
