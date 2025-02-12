@@ -53,7 +53,7 @@ const Navegation = () => {
       {/*Menu sizes less than 720 px */}
       {isMobile && (
         <div
-          className={`fixed top-0 left-0 w-full h-full bg-blue-950 transition-transform duration-500 ease-in-out transform ${
+          className={`fixed top-0 left-0 w-full h-full bg-blue-950 transition-transform duration-500 ease-in-out transform z-50 ${
             menuOpen ? "translate-x-0" : "-translate-x-full"
           }`}
         >
