@@ -1,15 +1,12 @@
 import React from "react";
-import DarkMode from "../GlobalComponents/DarkMode";
-import MobileMenu from "../GlobalComponents/MobileMenu";
+import HeaderPizzaPizza from "./components/Header";
+
 
 const HomePage = () => {
   return (
-    <div>
-      
-      <MobileMenu />
-      <DarkMode />
+    <div className="flex flex-col min-h-screen">
+      <HeaderPizzaPizza />
 
-      <h1>Pizza Pizza</h1>
     </div>
   );
 };

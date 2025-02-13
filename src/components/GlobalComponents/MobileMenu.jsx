@@ -3,15 +3,15 @@ import MobileMenuIcon from "../../img/MobileMenu.webp";
 
 const MobileMenu = () => {
   const [menuOpen, setMenuOpen] = useState(false);
-  const [isMobile, setIsMobile] = useState(window.innerWidth < 720);
+  const [isMobile, setIsMobile] = useState(window.innerWidth < 768);
 
   useEffect(() => {
     const handleResize = () => {
-      setIsMobile(window.innerWidth < 720);
+      setIsMobile(window.innerWidth < 768);
     };
 
     window.addEventListener("resize", handleResize);
-    handleResize(); 
+    handleResize();
 
     return () => {
       window.removeEventListener("resize", handleResize);
@@ -23,21 +23,21 @@ const MobileMenu = () => {
   };
 
   return (
-    <div className="relative">
+    <div>
       {/* Show Menu Icon when in mobile device size */}
       {isMobile && (
         <img
           src={MobileMenuIcon}
           alt="Mobile Menu"
-          className="w-10 h-10 cursor-pointer"
+          className="w-20 h-auto cursor-pointer invert dark:invert-0"
           onClick={toggleMenu}
         />
       )}
 
       <nav
-        className={` left-0 w-full bg-gray-800 text-white p-5 transition-all duration-700 ${
-          menuOpen ? "flex" : "hidden"
-        } ${isMobile ? "flex-col" : "flex-row"} md:flex md:static md:w-auto`}
+        className={`w-full text-center text-black dark:text-white transition-all duration-500 ease-in-out overflow-hidden 
+        ${menuOpen ? "max-h-[200px] opacity-100" : "max-h-0 opacity-0"} 
+        ${isMobile ? "flex flex-col" : "flex flex-row max-h-none opacity-100"}`}
       >
         <a href="/#" className="p-2 hover:text-gray-300">
           Home
