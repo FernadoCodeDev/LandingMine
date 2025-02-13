@@ -1,7 +1,7 @@
 import React from "react";
 import DarkMode from "../../GlobalComponents/DarkMode";
 import MobileMenu from "../../GlobalComponents/MobileMenu";
-import ImagePizzaPizza from "../../../components/PizzaPizza/img/PizzaPizza.webp";
+import ImagePizzaPizza from "../img/PizzaPizza.webp";
 
 const HeaderPizzaPizza = () => {
   return (
@@ -12,7 +12,6 @@ const HeaderPizzaPizza = () => {
           <MobileMenu />
         </div>
 
-        <h1>Pizza Pizza</h1>
       </div>
   );
 };
