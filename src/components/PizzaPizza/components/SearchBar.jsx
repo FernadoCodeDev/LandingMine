@@ -2,7 +2,6 @@ import React from "react";
 
 const SearchBar = () => {
   return (
-    <div className="grid items-center grid-cols-2 bg-gray-200 dark:bg-neutral-900 md:grid-cols-3">
       <div class="flex items-center justify-center col-span-2 md:col-span-3">
         <div class="flex w-full p-2 max-w-[80rem]">
           <div class="flex w-10 items-center justify-center rounded-tl-lg rounded-bl-lg border-r border-gray-200 bg-white p-5">
@@ -22,7 +21,6 @@ const SearchBar = () => {
           />
         </div>
       </div>
-    </div>
   );
 };
 
