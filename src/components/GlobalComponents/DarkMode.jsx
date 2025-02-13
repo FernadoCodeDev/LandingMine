@@ -6,7 +6,9 @@ const DarkMode = () => {
 
   useEffect(() => {
     const storedMode = localStorage.getItem("darkMode");
-    const prefersDark = window.matchMedia("(prefers-color-scheme: dark)").matches;
+    const prefersDark = window.matchMedia(
+      "(prefers-color-scheme: dark)"
+    ).matches;
     setDarkMode(storedMode ? storedMode === "true" : prefersDark);
   }, []);
 

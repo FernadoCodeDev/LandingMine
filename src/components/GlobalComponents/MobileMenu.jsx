@@ -1,12 +1,9 @@
 import React, { useState, useEffect } from "react";
-import DarkModeIcon from "../../../img/DarkMode.webp";
-import MobileMenu from "../../../img/MobileMenu.webp";
-import CloseMenuIcon from "../../../img/CloseMenuIcon.webp";
+import MobileMenuIcon from "../../img/MobileMenu.webp";
 
-const Navegation = () => {
-  const [darkMode, setDarkMode] = useState(false);
+const MobileMenu = () => {
   const [menuOpen, setMenuOpen] = useState(false);
-  const [isMobile, setIsMobile] = useState(false); // Small Screen Check
+  const [isMobile, setIsMobile] = useState(window.innerWidth < 720);
 
   useEffect(() => {
     const handleResize = () => {
@@ -14,65 +11,46 @@ const Navegation = () => {
     };
 
     window.addEventListener("resize", handleResize);
-    handleResize();
+    handleResize(); 
 
     return () => {
       window.removeEventListener("resize", handleResize);
     };
   }, []);
 
-  useEffect(() => {
-    const storedMode = localStorage.getItem("darkMode");
-    if (storedMode) {
-      setDarkMode(storedMode === "true");
-    } else {
-      const prefersDark = window.matchMedia(
-        "(prefers-color-scheme: dark)"
-      ).matches;
-      setDarkMode(prefersDark);
-    }
-  }, []);
-
-  useEffect(() => {
-    const html = document.documentElement;
-    if (darkMode) {
-      html.classList.add("dark");
-      localStorage.setItem("darkMode", "true");
-    } else {
-      html.classList.remove("dark");
-      localStorage.setItem("darkMode", "false");
-    }
-  }, [darkMode]);
-
   const toggleMenu = () => {
-    setMenuOpen(!menuOpen); // Menu Status
+    setMenuOpen(!menuOpen);
   };
 
   return (
-    <div>
-      <img
-        src={MobileMenu}
-        alt="Mobile Menu"
-        className="h-auto cursor-pointer w-f"
-        onClick={toggleMenu}
-      />
+    <div className="relative">
+      {/* Show Menu Icon when in mobile device size */}
+      {isMobile && (
+        <img
+          src={MobileMenuIcon}
+          alt="Mobile Menu"
+          className="w-10 h-10 cursor-pointer"
+          onClick={toggleMenu}
+        />
+      )}
 
-      <nav className="p-5 text-white">
-          <a href="/#" className="">
-            Home
-          </a>
-          <a href="/#" className="">
-            Colletion
-          </a>
-          <a
-            href="/#"
-            className=""
-          >
-            LandigMine
-          </a>
+      <nav
+        className={` left-0 w-full bg-gray-800 text-white p-5 transition-all duration-700 ${
+          menuOpen ? "flex" : "hidden"
+        } ${isMobile ? "flex-col" : "flex-row"} md:flex md:static md:w-auto`}
+      >
+        <a href="/#" className="p-2 hover:text-gray-300">
+          Home
+        </a>
+        <a href="/#" className="p-2 hover:text-gray-300">
+          Contact
+        </a>
+        <a href="/#" className="p-2 hover:text-gray-300">
+          Us
+        </a>
       </nav>
     </div>
   );
 };
 
-export default Navegation;
+export default MobileMenu;
