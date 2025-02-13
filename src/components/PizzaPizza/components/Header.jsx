@@ -5,7 +5,7 @@ import ImagePizzaPizza from "../img/PizzaPizza.webp";
 
 const HeaderPizzaPizza = () => {
   return (
-    <div className="grid items-center grid-cols-2 md:grid-cols-3 ">
+    <div className="grid items-center grid-cols-2 bg-gray-200 dark:bg-neutral-900 md:grid-cols-3">
       <div className="order-1 w-auto m-2 md:order-1">
         <img
           src={ImagePizzaPizza}
@@ -21,7 +21,7 @@ const HeaderPizzaPizza = () => {
         <MobileMenu />
       </div>
 
-      <div className="order-4 w-full col-span-2 border-b-4 border-gray-200 dark:border-neutral-800 md:col-span-4">
+      <div className="order-4 w-full col-span-2 border-b-4 border-gray-400 dark:border-neutral-800 md:col-span-4">
       </div>
     </div>
   );
