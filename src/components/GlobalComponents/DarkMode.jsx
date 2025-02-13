@@ -27,7 +27,7 @@ const DarkMode = () => {
     <img
       src={DarkModeIcon}
       alt="DarkModeIcon"
-      className="w-20 h-auto cursor-pointer invert dark:invert-0"
+      className="w-20 h-auto cursor-pointer invert dark:invert-0 md:w-32"
       onClick={() => setDarkMode(!darkMode)}
     />
   );
