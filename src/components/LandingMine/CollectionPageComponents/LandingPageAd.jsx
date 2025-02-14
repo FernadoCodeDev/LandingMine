@@ -1,18 +1,19 @@
 import React from "react";
 import Landing from "../../../img/LandingPageUnderConstruction.webp";
 import ButtonLanding from "./ButtonLanding";
+import PizzaPizzaLanding from "../../PizzaPizza/img/PizzaPizza.webp";
 
 const LandingPageAd = () => {
   return (
     <div className="grid grid-cols-1 gap-8 px-4 mx-auto md:grid-cols-2 lg:grid-cols-3">
       <div className="bg-gray-300 rounded-lg shadow-md dark:bg-neutral-800">
-        <img src={Landing} alt="Landing" className="w-full h-auto" />
+        <img src={PizzaPizzaLanding} alt="PizzaPizzaLanding" className="object-contain w-full p-2 bg-gray-500 h-60 dark:bg-neutral-700" />
         <div className="p-4">
           <h2 className="text-xl font-semibold dark:text-white">
-            Landing Page 1
+          PizzaPizza
           </h2>
           <p className="text-black dark:text-white">
-            Descripción de la landing page.
+          landing page sobre una pizzeria
           </p>
 
           <a href="#">
