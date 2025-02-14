@@ -16,7 +16,7 @@ const LandingPageAd = () => {
           landing page sobre una pizzeria
           </p>
 
-          <a href="#">
+          <a href="PizzaPizza">
             <ButtonLanding />
           </a>
         </div>
