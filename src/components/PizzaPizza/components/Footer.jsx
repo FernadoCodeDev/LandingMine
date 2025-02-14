@@ -4,7 +4,6 @@ const Footer = () => {
   return (
     <footer className="w-full p-6 mt-8 text-white bg-red-600">
       <div className="max-w-6xl mx-auto">
-        {/* Texto con más espacio entre párrafos */}
         <p className="mb-4 text-lg leading-relaxed">
           PizzaPizza expresa su más sincero agradecimiento a la talentosa
           diseñadora{" "}
@@ -34,10 +33,8 @@ const Footer = () => {
         </p>
       </div>
 
-      {/* Separador visual (opcional) */}
       <div className="mt-8 border-t-2 border-white opacity-50"></div>
 
-      {/* Texto pequeño y alineado al centro */}
       <p className="mt-6 text-sm text-center">
         © 2025 PizzaPizza.{" "}
         <a
