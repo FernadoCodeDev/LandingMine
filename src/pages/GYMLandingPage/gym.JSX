@@ -1,12 +1,12 @@
 import React from 'react';
-import HomePagePizzaPizza from '../../components/PizzaPizza';
+import GymHomePage from '../../components/GYM/HomeGym';
 
-const PizzaPizza = () => {
+const gym = () => {
   return (
    <div>
-    <HomePagePizzaPizza />
+    <GymHomePage />
     </div>
   );
 };
 
-export default PizzaPizza;
+export default gym;
