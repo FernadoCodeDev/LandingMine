@@ -9,7 +9,7 @@ const FourthSection = () => {
     <div className="w-full bg-neutral-900 ">
       <div className="grid grid-cols-1 md:grid-cols-2 ">
         <div className="flex flex-col justify-center order-2 p-4 text-center md:order-1">
-          <h1 className="font-mono font-bold text-white text-[2rem]">
+          <h1 className="font-mono font-bold text-white text-[rem]">
             <span className="text-yellow-300 ">SALUD</span> Y{" "}
             <span className="text-yellow-300">NUTRICIÓN</span>
           </h1>
@@ -27,7 +27,7 @@ const FourthSection = () => {
           </p>
 
           <div className="flex flex-row justify-end mt-4">
-            <button className="w-40 font-semibold text-[0.6rem] md:text-[1rem] p-2 text-black bg-yellow-300 rounded-tl-full rounded-br-full">
+            <button className="w-full lg:w-60 font-semibold text-[0.6rem] md:text-[1rem] p-2 text-black bg-yellow-300 rounded-tl-full rounded-br-full">
               MÁS INFORMACIÓN
             </button>
           </div>
