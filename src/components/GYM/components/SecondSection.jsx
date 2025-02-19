@@ -13,28 +13,28 @@ const SecondSection = () => {
 
       <div className="flex flex-col">
         <img src={ImageGym3} alt="ImageGym2" className="w-full h-auto" />
-        <p className="font-mono font-bold text-white text-center text-[1rem] md:text-[2rem] p-4">
+        <p className="font-mono font-bold text-white text-center text-[1rem] lg:text-[2rem] p-4">
           SOLO PARA MIEMBROS
         </p>
       </div>
       <div className="flex flex-col">
         <img src={ImageGym4} alt="ImageGym2" className="w-full h-auto" />
 
-        <p className="font-mono font-bold text-white text-center text-[1rem] md:text-[2rem] p-4">
+        <p className="font-mono font-bold text-white text-center text-[1rem] lg:text-[2rem] p-4">
           ENTRENAMIENTO PERSONAL
         </p>
       </div>
 
       <div className="flex flex-col">
         <img src={ImageGym5} alt="ImageGym2" className="w-full h-auto" />
-        <p className="font-mono font-bold text-white text-center text-[1rem] md:text-[2rem] p-4">
+        <p className="font-mono font-bold text-white text-center text-[1rem] lg:text-[2rem] p-4">
           CLASES DE CROSSFIT
         </p>
       </div>
 
       <div className="flex flex-col">
         <img src={ImageGym6} alt="ImageGym2" className="w-full h-auto" />
-        <p className="font-mono font-bold text-white text-center text-[rem] md:text-[2rem] p-4">
+        <p className="font-mono font-bold text-white text-center text-[rem] lg:text-[2rem] p-4">
           ENTRENAMIENTO DE FUERZA
         </p>
       </div>
