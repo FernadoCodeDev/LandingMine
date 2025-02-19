@@ -7,12 +7,9 @@ import ImageGym1 from "../img/ImageGym1.webp";
 const HeaderGym = () => {
   return (
     <div className="relative flex flex-col w-full h-auto">
-      <div className="w-full h-full ">
-        <img
-          src={Background}
-          alt="Background"
-          className="absolute inset-0 object-cover w-full h-full -z-10"
-        />
+      <div className="w-full h-full bg-fixed bg-center bg-no-repeat "
+      style={{ backgroundImage: `url(${Background})` }}
+      >
 
         <header className="z-10 grid items-center grid-cols-2 p-4 md:grid-cols-3">
           <img
