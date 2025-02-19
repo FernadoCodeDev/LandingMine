@@ -15,7 +15,7 @@ const ThirdSection = () => {
       <div className="grid justify-center grid-cols-3 m-auto py-4 w-full md:max-w-[100rem] md:p-4">
         <div className="flex flex-col justify-center py-4 bg-transparent">
           <div className="w-full h-auto p-4 opacity-25 bg-neutral-200">
-            <h1 className="font-bold text-center text-[1rem]">FLEXI</h1>
+            <h1 className="font-bold text-center text-[1rem]">FLEXIBLE</h1>
             <img
               src={ImageTime1}
               alt="ImageTime1"
@@ -24,9 +24,9 @@ const ThirdSection = () => {
             <h1 className="font-bold text-center text-[1rem]">$120</h1>
 
             <div className="m-auto my-2">
-              <p className="text-center">12 Classes per Month </p>
-              <p className="text-center">3 Classes per Week</p>
-              <p className="text-center">No Joining fees</p>
+              <p className="text-center">12 Clases por mes </p>
+              <p className="text-center">3 Clases por semana</p>
+              <p className="text-center">Sin tarifas de inscripción</p>
             </div>
 
             <button className="w-full font-semibold text-[0.6rem] md:text-[1rem] p-2 text-black bg-yellow-300 rounded-tl-full rounded-br-full">
@@ -36,7 +36,7 @@ const ThirdSection = () => {
         </div>
 
         <div className="flex flex-col justify-center p-4 bg-white ">
-          <h1 className="font-bold text-center text-[1rem]">ALL ACCESS</h1>
+          <h1 className="font-bold text-center text-[1rem]">TODO ACCESO</h1>
           <img
             src={ImageTime2}
             alt="ImageTime2"
@@ -45,9 +45,9 @@ const ThirdSection = () => {
           <h1 className="font-bold text-center text-[1rem]">$260</h1>
 
           <div className="m-auto my-2">
-            <p className="text-center">Unlimited classes per Month</p>
-            <p className="text-center">3 Classes per Day</p>
-            <p className="text-center">No Joining fees</p>
+            <p className="text-center">Clases ilimitadas por mes</p>
+            <p className="text-center">3 Clases por día</p>
+            <p className="text-center">Sin tarifas de inscripción</p>
           </div>
 
           <button className="w-full font-semibold text-[0.6rem] md:text-[1rem] p-2 text-black transition-all duration-700 ease-out bg-yellow-300 rounded-tl-full rounded-br-full hover:bg-yellow-500">
@@ -57,7 +57,7 @@ const ThirdSection = () => {
 
         <div className="flex flex-col justify-center py-4 bg-transparent">
           <div className="w-full h-auto p-4 opacity-25 bg-neutral-200">
-            <h1 className="font-bold text-center text-[1rem]">ALL ACCESS</h1>
+            <h1 className="font-bold text-center text-[1rem]">FUERA DE PICO</h1>
             <img
               src={ImageTime3}
               alt="ImageTime3"
@@ -66,9 +66,9 @@ const ThirdSection = () => {
             <h1 className="font-bold text-center text-[1rem]">$160</h1>
 
             <div className="m-auto my-2">
-              <p className="text-center">20 classes per Month</p>
-              <p className="text-center">5 Classes per Week</p>
-              <p className="text-center">No Joining fees</p>
+              <p className="text-center">20 clases por mes</p>
+              <p className="text-center">5 Clases por semana</p>
+              <p className="text-center">Sin tarifas de inscripción</p>
             </div>
 
             <button className="w-full font-semibold text-[0.6rem] md:text-[1rem] p-2 text-black bg-yellow-300 rounded-tl-full rounded-br-full">
