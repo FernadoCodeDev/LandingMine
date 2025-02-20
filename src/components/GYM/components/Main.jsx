@@ -6,7 +6,7 @@ import FourthSection from "./FourthSection";
 
 const MainGym = () => {
   return (
-    <main className="w-full bg-neutral-800">
+    <main className="w-fubg-neutral-800ll ">
       <section className="">
         <FirstSection />
         <SecondSection />
