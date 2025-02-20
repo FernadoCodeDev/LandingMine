@@ -1,6 +1,6 @@
 import React from "react";
 
-const SVGComponent = (props) => (
+const SVG5 = (props) => (
   <svg
     id="_x32_"
     xmlns="http://www.w3.org/2000/svg"
@@ -34,4 +34,4 @@ const SVGComponent = (props) => (
     </g>
   </svg>
 );
-export default SVGComponent;
+export default SVG5;

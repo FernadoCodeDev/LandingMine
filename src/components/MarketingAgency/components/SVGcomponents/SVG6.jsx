@@ -1,6 +1,6 @@
 import React from "react";
 
-const SVGComponent = (props) => (
+const SVG6 = (props) => (
   <svg
     fill="#fdb30a"
     viewBox="0 0 24 24"
@@ -18,4 +18,4 @@ const SVGComponent = (props) => (
     </g>
   </svg>
 );
-export default SVGComponent;
+export default SVG6;
