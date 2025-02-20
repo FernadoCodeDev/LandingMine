@@ -5,7 +5,7 @@ import ImageTime3 from "../img/ImgTime3.webp";
 
 const ThirdSection = () => {
   return (
-    <div>
+    <div className="bg-neutral-800">
       <div className="flex flex-col justify-center w-full h-20 text-center bg-yellow-300 ">
         <h1 className="font-mono font-bold text-[1rem] lg:text-[2rem]">
           VIVE LA EXPERIENCIA DE FITNESS DEFINITIVA

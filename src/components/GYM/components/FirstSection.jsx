@@ -3,13 +3,13 @@ import ImageGym2 from "../img/ImageGym2.webp";
 
 const FirstSection = () => {
   return (
-    <div className="relative grid grid-cols-1 p-4 md:grid-cols-2">
+    <div className="relative grid grid-cols-1 p-4 md:grid-cols-2 bg-neutral-800">
       <div>
         <img src={ImageGym2} alt="ImageGym2" className="w-full h-auto" />
       </div>
 
       <div className="relative p-4 text-white">
-        <h1 className="absolute leading-none inset-0 font-mono font-bold text-center opacity-10 text-neutral-500 text-[4rem] lg:text-[8rem] z-1 translate-y-6">
+        <h1 className="absolute leading-none inset-0 font-mono font-bold text-center opacity-10 text-neutral-500 text-[4rem] lg:text-[7rem] z-1 translate-y-6">
           ¿QUIENES SOMOS?
         </h1>
 
