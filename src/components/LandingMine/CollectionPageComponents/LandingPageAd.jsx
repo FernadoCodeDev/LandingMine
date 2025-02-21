@@ -3,18 +3,21 @@ import Landing from "../../../img/LandingPageUnderConstruction.webp";
 import ButtonLanding from "./ButtonLanding";
 import BackgroundPizzaPizza from "../../PizzaPizza/img/BackgroundPizzaPizza.webp";
 import BackgroundGym from "../../GYM/img/BackgroundGym.webp";
+import BackgroundMA from "../../MarketingAgency/img/MarketingAgency.webp";
 
 const LandingPageAd = () => {
   return (
     <div className="grid grid-cols-1 gap-8 px-4 mx-auto md:grid-cols-2 lg:grid-cols-3">
       <div className="bg-gray-300 rounded-lg shadow-md dark:bg-neutral-800">
-        <img src={BackgroundPizzaPizza} alt="BackgroundPizzaPizza" className="w-full h-auto" />
+        <img
+          src={BackgroundPizzaPizza}
+          alt="BackgroundPizzaPizza"
+          className="w-full h-60"
+        />
         <div className="p-4">
-          <h2 className="text-xl font-semibold dark:text-white">
-          PizzaPizza
-          </h2>
+          <h2 className="text-xl font-semibold dark:text-white">PizzaPizza</h2>
           <p className="text-black dark:text-white">
-          landing page sobre una pizzeria
+            landing page sobre una pizzeria
           </p>
 
           <a href="/PizzaPizza">
@@ -24,13 +27,11 @@ const LandingPageAd = () => {
       </div>
 
       <div className="bg-gray-200 rounded-lg shadow-md dark:bg-neutral-800">
-        <img src={BackgroundGym} alt="BackgroundGym" className="w-full h-auto" />
+        <img src={BackgroundGym} alt="BackgroundGym" className="w-full h-60" />
         <div className="p-4">
-          <h2 className="text-xl font-semibold dark:text-white">
-          Gym
-          </h2>
+          <h2 className="text-xl font-semibold dark:text-white">Gym</h2>
           <p className="text-black dark:text-white">
-          landing page sobre un gimnasio
+            landing page sobre un gimnasio
           </p>
 
           <a href="/Gym">
@@ -40,16 +41,16 @@ const LandingPageAd = () => {
       </div>
 
       <div className="bg-gray-200 rounded-lg shadow-md dark:bg-neutral-800">
-        <img src={Landing} alt="Landing" className="w-full h-auto" />
+        <img src={BackgroundMA} alt="BackgroundMA" className="w-full h-60" />
         <div className="p-4">
           <h2 className="text-xl font-semibold dark:text-white">
-            Landing Page 3
+            Marketing Agency
           </h2>
           <p className="text-black dark:text-white">
-            Descripción de la landing page.
+            landing page sobre un Agencia de Marketing digital
           </p>
 
-          <a href="#">
+          <a href="/MarketingAgency">
             <ButtonLanding />
           </a>
         </div>
