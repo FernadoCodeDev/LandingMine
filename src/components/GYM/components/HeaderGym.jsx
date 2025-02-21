@@ -19,7 +19,11 @@ const HeaderGym = () => {
           />
 
           <div className="flex items-center justify-center w-full col-span-2 p-2 m-auto">
-            <MobileMenu />
+            <MobileMenu 
+            textColor="text-white"
+            hoverColor="hover:text-gray-300"
+            bgColor="bg-transparent"
+            invertColor="invert-0"/>
           </div>
         </header>
 

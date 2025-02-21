@@ -12,8 +12,13 @@ const HeaderMA = () => {
       ></div>
 
       <div className="relative flex flex-col justify-start items-center gap-2 h-screen p-4 md:flex-row md:justify-between md:items-start">
-        <div className="order-2 md:order-1 md:w-auto md:h-20 md:bg-opacity-60 md:bg-white dark:md:bg-neutral-400 md:p-2">
-          <MobileMenu />
+        <div className="order-2 md:order-1 md:w-auto md:h-20 md:bg-opacity-60 md:bg-neutral-400 ">
+          <MobileMenu
+            textColor="text-white"
+            hoverColor="hover:text-gray-300"
+            bgColor="bg-transparent"
+            invertColor="invert-0"
+          />
         </div>
         <img
           src={MALogo}

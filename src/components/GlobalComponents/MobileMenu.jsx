@@ -1,7 +1,14 @@
 import React, { useState, useEffect } from "react";
 import MobileMenuIcon from "../../img/MobileMenu.webp";
 
-const MobileMenu = () => {
+const MobileMenu = ({
+  textColor = "text-gray-500",
+  hoverColor = "hover:text-gray-700",
+  bgColor = "bg-white",
+  invertColor = "invert",
+
+  //Each landing has a different style where in some darkMode is not used for some visible text in each landing these variables are used
+}) => {
   const [menuOpen, setMenuOpen] = useState(false);
   const [isMobile, setIsMobile] = useState(window.innerWidth < 768);
 
@@ -11,8 +18,6 @@ const MobileMenu = () => {
     };
 
     window.addEventListener("resize", handleResize);
-    handleResize();
-
     return () => {
       window.removeEventListener("resize", handleResize);
     };
@@ -23,29 +28,37 @@ const MobileMenu = () => {
   };
 
   return (
-    <div>
-      {/* Show Menu Icon when in mobile device size */}
+    <div className={`p-2`}>
       {isMobile && (
         <img
           src={MobileMenuIcon}
           alt="Mobile Menu"
-          className="w-24 h-auto cursor-pointer invert dark:invert-0"
+          className={`w-24 h-auto cursor-pointer ${invertColor}`}
           onClick={toggleMenu}
         />
       )}
 
       <nav
-        className={`w-full text-center text-gray-500 dark:text-white transition-all duration-500 ease-in-out overflow-hidden 
+        className={`w-full text-center transition-all duration-500 ease-in-out overflow-hidden 
         ${menuOpen ? "max-h-[200px] opacity-100" : "max-h-0 opacity-0"} 
         ${isMobile ? "flex flex-col" : "flex flex-row max-h-none opacity-100"}`}
       >
-        <a href="/#" className="p-2 text-[1rem] md:text-[2rem] font-bold hover:text-gray-700 dark:hover:text-gray-400">
+        <a
+          href="/#"
+          className={`p-2 text-[1rem] md:text-[2rem] font-bold ${textColor} ${hoverColor}`}
+        >
           Home
         </a>
-        <a href="/#" className="p-2 text-[1rem] md:text-[2rem] font-bold hover:text-gray-700 dark:hover:text-gray-400">
+        <a
+          href="/#"
+          className={`p-2 text-[1rem] md:text-[2rem] font-bold ${textColor} ${hoverColor}`}
+        >
           Contact
         </a>
-        <a href="/#" className="p-2 text-[1rem] md:text-[2rem] font-bold hover:text-gray-700 dark:hover:text-gray-400">
+        <a
+          href="/#"
+          className={`p-2 text-[1rem] md:text-[2rem] font-bold ${textColor} ${hoverColor}`}
+        >
           Us
         </a>
       </nav>
