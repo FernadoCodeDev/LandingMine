@@ -4,7 +4,7 @@ import MobileMenuIcon from "../../img/MobileMenu.webp";
 const MobileMenu = ({
   textColor = "text-gray-500",
   hoverColor = "hover:text-gray-700",
-  bgColor = "bg-white",
+  bgColor = "bg-transparent",
   invertColor = "invert",
 
   //Each landing has a different style where in some darkMode is not used for some visible text in each landing these variables are used
@@ -45,19 +45,19 @@ const MobileMenu = ({
       >
         <a
           href="/#"
-          className={`p-2 text-[1rem] md:text-[2rem] font-bold ${textColor} ${hoverColor}`}
+          className={`p-2 text-[1rem] md:text-[2rem] font-bold ${bgColor} ${textColor} ${hoverColor}`}
         >
           Home
         </a>
         <a
           href="/#"
-          className={`p-2 text-[1rem] md:text-[2rem] font-bold ${textColor} ${hoverColor}`}
+          className={`p-2 text-[1rem] md:text-[2rem] font-bold ${bgColor} ${textColor} ${hoverColor}`}
         >
           Contact
         </a>
         <a
           href="/#"
-          className={`p-2 text-[1rem] md:text-[2rem] font-bold ${textColor} ${hoverColor}`}
+          className={`p-2 text-[1rem] md:text-[2rem] font-bold ${bgColor} ${textColor} ${hoverColor}`}
         >
           Us
         </a>
