@@ -18,10 +18,14 @@ const HeaderPizzaPizza = () => {
       </div>
       
       <div className="flex flex-row items-center justify-center order-3 w-full col-span-2 p-2 m-auto md:col-span-1 md:order-2">
-        <MobileMenu />
+      <MobileMenu 
+            textColor="text-gray-500 dark:text-slate-300"
+            hoverColor="hover:text-gray-700 dark:hover:text-slate-100"
+            bgColor="bg-transparent"
+            invertColor="invert dark:invert-0"/>
       </div>
 
-      <div className="order-4 w-full col-span-2 border-b-4 border-gray-400 dark:border-neutral-800 md:col-span-4">
+      <div className="order-4 w-full col-span-2  border-b-4 border-gray-400 dark:border-neutral-800 md:col-span-4">
       </div>
     </div>
   );
