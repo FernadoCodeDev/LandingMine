@@ -15,17 +15,22 @@ const FirstSection = () => {
         style={{ backgroundImage: `url(${BackgroundSection})` }}
       ></div>
 
-      <div className="relative grid grid-cols-1 md:grid-cols-2 items-center justify-center text-center text-white p-4">
-        <h2 className="text-3xl font-bold md:text-5xl">Título de la sección</h2>
+      <div className="relative grid grid-cols-1 m-auto mb-8 md:grid-cols-2 max-w-[80rem] items-center justify-between text-center text-white p-4">
+        <h2 className="text-3xl font-bold md:text-5xl">
+        Diseño web en Orlando, Daytona Beach, Miami y Atlanta.
+        </h2>
         <div className="mt-4 ">
-          <p className="text-lg md:text-xl">
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Qui velit
-            aperiam dolores, nisi consequuntur aut voluptates beatae ad mollitia
-            distinctio iusto? Vero optio dignissimos velit odit voluptatum
-            repellendus esse ipsum.
+          <p className="text-lg text-start md:text-xl">
+            Bienvenido a Marketing Agency. Como estudio de diseño web y agencia
+            de marketing digital con sede en Daytona Beach, Florida, y con
+            oficinas en Orlando, Miami y Atlanta, ayudamos a nuestros clientes a
+            lograr una presencia en línea única con clientes potenciales,
+            hermosas páginas web, redes sociales y más. Estamos brindando
+            resultados en Florida, el país y el mundo, así que ¡descubra cómo
+            podemos ayudarlo!
           </p>
-          <button className="flex fl mt-4 px-6 py-2 bg-slate-50 hover:bg-slate-300 text-black rounded-full transition-all">
-            Botón de acción
+          <button className="flex mt-4 px-6 py-2 bg-slate-50 hover:bg-slate-300 text-black rounded-full transition-all">
+            Inicie Hoy!
           </button>
         </div>
       </div>
@@ -37,7 +42,11 @@ const FirstSection = () => {
               <SVG1 />
             </div>
             <h2 className="text-xl font-semibold p-2">SEO</h2>
-            <p className="text-sm p-2">Through organic SEO, paid search and GPS-enabled search, reach customers on an all-new level.</p>
+            <p className="text-sm p-2">
+              A través de SEO orgánico, anuncios pagados y búsqueda
+              geolocalizada, llega a los clientes de una manera completamente
+              nueva.
+            </p>
           </div>
 
           <div className="bg-neutral-600">
@@ -45,7 +54,10 @@ const FirstSection = () => {
               <SVG2 />
             </div>
             <h2 className="text-xl font-semibold p-2">Social Media</h2>
-            <p className="text-sm p-2">Increase your online following and deliver messages and promotions that wow your audience.</p>
+            <p className="text-sm p-2">
+              Aumenta tu seguimiento en línea y envía mensajes y promociones que
+              sorprendan a tu audiencia.
+            </p>
           </div>
 
           <div className="bg-neutral-600">
@@ -53,7 +65,10 @@ const FirstSection = () => {
               <SVG3 />
             </div>
             <h2 className="text-xl font-semibold p-2">Email</h2>
-            <p className="text-sm p-2">Reach all your customers at once with creatively designed, strategic email messaging.</p>
+            <p className="text-sm p-2">
+              Llega a todos tus clientes de una vez con mensajes estratégicos y
+              creativamente diseñados por correo electrónico.{" "}
+            </p>
           </div>
 
           <div className="bg-neutral-600">
@@ -61,7 +76,10 @@ const FirstSection = () => {
               <SVG4 />
             </div>
             <h2 className="text-xl font-semibold p-2">Paid Search</h2>
-            <p className="text-sm p-2">Customers are searching for a business like yours! Help them find you with paid search ads.</p>
+            <p className="text-sm p-2">
+              ¡Los clientes están buscando un negocio como el tuyo! Ayúdales a
+              encontrarte con anuncios de búsqueda pagados
+            </p>
           </div>
 
           <div className="bg-neutral-600">
@@ -69,7 +87,10 @@ const FirstSection = () => {
               <SVG5 />
             </div>
             <h2 className="text-xl font-semibold p-2">Web Design</h2>
-            <p className="text-sm p-2">Discover our beautiful, lead-generating websites that convert visitors into customers.</p>
+            <p className="text-sm p-2">
+              Descubre nuestros hermosos sitios web generadores de prospectos
+              que convierten visitantes en clientes.
+            </p>
           </div>
 
           <div className="bg-neutral-600">
@@ -77,7 +98,10 @@ const FirstSection = () => {
               <SVG6 />
             </div>
             <h2 className="text-xl font-semibold p-2">Content</h2>
-            <p className="text-sm p-2">Embrace your one-of-a-kind voice with the help of custom-crafted, search-friendly content.</p>
+            <p className="text-sm p-2">
+              Haz que tu voz única se escuche con la ayuda de contenido
+              personalizado y optimizado para buscadores.
+            </p>
           </div>
         </div>
       </div>
