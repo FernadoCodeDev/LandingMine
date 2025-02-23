@@ -1,5 +1,5 @@
 import React from "react";
-import useScrollAnimation from "../../hooks/ScrollAnimation"; 
+import useScrollAnimation from "../../hooks/ScrollAnimation";
 import laptop from "../img/laptop.webp";
 import KeysHome from "../img/KeysHome.webp";
 import CosmicPizza from "../img/CosmicPizza.webp";
@@ -19,19 +19,22 @@ const SecondSection = () => {
         }`}
       >
         <div className="order-2 p-4 md:order-1">
-          <h1 className="font-bold text-[2rem]">Stonewood Grill & Tavern</h1>
+          <h1 className="font-bold text-[2rem]">Elegance Jewelry</h1>
           <p className="text-[1rem]">
-            El objetivo de este proyecto era crear una presentación digital de alto
-            impacto para Stonewood Grill & Tavern, un restaurante especializado
-            en carnes de primera calidad. El sitio web debía reflejar el
-            ambiente exclusivo del restaurante y, al mismo tiempo, ofrecer una
-            experiencia de usuario perfecta para impulsar las reservas y la
-            participación de los clientes.
+            El objetivo de este proyecto era crear una presentación digital de
+            alto impacto para Elegance Jewelry, una tienda especializada en
+            joyería fina y exclusiva. El sitio web debía capturar la esencia del
+            lujo y la sofisticación de sus piezas, al mismo tiempo que ofrecía
+            una experiencia de usuario impecable para atraer clientes, aumentar
+            las ventas en línea y fortalecer la presencia de la marca en el
+            mercado.
           </p>
 
           <div className="flex flex-row justify-start gap-2 mt-4">
-            <button className="p-2 bg-yellow-400 rounded-full">Explorar más</button>
-            <button className="p-2 border-2 border-gray-600 rounded-full">
+            <button className="p-2 transition-all duration-700 ease-out bg-yellow-300 border rounded-full hover:bg-yellow-500">
+              Explorar más
+            </button>
+            <button className="p-2 transition-all duration-700 ease-out border-2 border-gray-600 rounded-full hover:bg-gray-200">
               Ver nuestro trabajo
             </button>
           </div>
@@ -48,11 +51,17 @@ const SecondSection = () => {
             <div
               key={index}
               className={`p-2 bg-white rounded-xl transition-all duration-700 ease-in-out ${
-                isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-10"
+                isVisible
+                  ? "opacity-100 translate-y-0"
+                  : "opacity-0 translate-y-10"
               }`}
-              style={{ transitionDelay: `${index * 100}ms` }} // Retraso progresivo
+              style={{ transitionDelay: `${index * 100}ms` }}
             >
-              <img src={image} alt="Project" className="object-contain w-40 h-40 m-auto" />
+              <img
+                src={image}
+                alt="Project"
+                className="object-contain w-40 h-40 m-auto"
+              />
             </div>
           )
         )}
