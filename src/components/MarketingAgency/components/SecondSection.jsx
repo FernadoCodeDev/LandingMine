@@ -1,5 +1,5 @@
 import React from "react";
-import useScrollAnimation from "../../hooks/useScrollAnimation"; 
+import useScrollAnimation from "../../hooks/ScrollAnimation"; 
 import laptop from "../img/laptop.webp";
 import KeysHome from "../img/KeysHome.webp";
 import CosmicPizza from "../img/CosmicPizza.webp";
