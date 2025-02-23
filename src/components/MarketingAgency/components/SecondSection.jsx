@@ -19,8 +19,8 @@ const SecondSection = () => {
         }`}
       >
         <div className="order-2 p-4 md:order-1">
-          <h1 className="font-bold text-[2rem]">Elegance Jewelry</h1>
-          <p className="text-[1rem]">
+          <h1 className="font-bold text-[2rem] lg:text-[3rem]">Elegance Jewelry</h1>
+          <p className="text-[1rem] ">
             El objetivo de este proyecto era crear una presentación digital de
             alto impacto para Elegance Jewelry, una tienda especializada en
             joyería fina y exclusiva. El sitio web debía capturar la esencia del
@@ -31,7 +31,7 @@ const SecondSection = () => {
           </p>
 
           <div className="flex flex-row justify-start gap-2 mt-4">
-            <button className="p-2 transition-all duration-700 ease-out bg-yellow-300 border rounded-full hover:bg-yellow-500">
+            <button className="p-2 transition-all duration-700 ease-out bg-yellow-300 border-2 border-yellow-400 rounded-full hover:border-yellow-500 hover:bg-yellow-400">
               Explorar más
             </button>
             <button className="p-2 transition-all duration-700 ease-out border-2 border-gray-600 rounded-full hover:bg-gray-200">
