@@ -3,8 +3,8 @@ const SVGtexting = (props) => {
   return (
     <svg
       fill="#ffffff"
-      height="200px"
-      width="200px"
+      width="100%"
+      height="auto"
       id="Capa_1"
       xmlns="http://www.w3.org/2000/svg"
       xmlnsXlink="http://www.w3.org/1999/xlink"
@@ -27,4 +27,4 @@ const SVGtexting = (props) => {
   );
 };
 
-export default texting;
+export default SVGtexting;

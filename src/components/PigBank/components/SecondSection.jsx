@@ -1,5 +1,12 @@
 import React from "react";
 import Masonry from "react-masonry-css";
+import SVGemailing from "./svgcomponets/SVG-emailing";
+import SVGvoicemail from "./svgcomponets/SVG-voicemail";
+import SVGtexting from "./svgcomponets/SVG-texting ";
+import SVGstorage from "./svgcomponets/SVG-storage";
+import SVGbilling from "./svgcomponets/SVG-billing";
+import SVGmarketing from "./svgcomponets/SVG-marketing";
+import SVGManage from "./svgcomponets/SVG-Manage";
 
 const SecondSection = () => {
   return (
@@ -17,15 +24,43 @@ const SecondSection = () => {
 
         {/* Masonry efect*/}
         <Masonry
-          breakpointCols={{ default: 3, 768: 2, 500: 1 }}
-          className="flex gap-4 p-4"
-          columnClassName="flex flex-col gap-4"
+          breakpointCols={{ default: 3, 768: 3, 500: 3 }}
+          className="flex items-center justify-center gap-2 p-4 text-center"
+          columnClassName="flex flex-col"
         >
-          <div className="p-6 bg-red-400">
-            
+          <div >
+            <div className="p-4 mb-2 bg-red-400 rounded-3xl">
+              <SVGemailing />
+            </div>
+
+            <div className="p-4 mt-2 bg-red-400 rounded-3xl">
+              <SVGstorage />
+            </div>
           </div>
 
+          <div className="">
+            <div className="p-4 mb-2 bg-red-400 rounded-3xl">
+              <SVGvoicemail />
+            </div>
 
+            <div className="p-4 my-2 bg-red-400 rounded-3xl">
+              <SVGbilling />
+            </div>
+
+            <div className="p-4 mt-2 bg-red-400 rounded-3xl">
+              <SVGManage />
+            </div>
+          </div>
+
+          <div>
+            <div className="p-4 mb-2 bg-red-400 rounded-3xl">
+              <SVGtexting />
+            </div>
+
+            <div className="p-4 mt-2 bg-red-400 rounded-3xl">
+              <SVGmarketing />
+            </div>
+          </div>
         </Masonry>
       </div>
     </div>

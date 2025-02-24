@@ -2,8 +2,8 @@ import React from "react";
 const SVGstorage = (props) => {
   return (
     <svg
-      height="200px"
-      width="200px"
+      width="100%"
+      height="auto"
       id="_x32_"
       xmlns="http://www.w3.org/2000/svg"
       xmlnsXlink="http://www.w3.org/1999/xlink"
