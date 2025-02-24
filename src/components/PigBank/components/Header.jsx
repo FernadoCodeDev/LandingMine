@@ -32,15 +32,15 @@ const HeaderPB = () => {
 
       <div className="flex flex-col items-center justify-center text-center md:mt-20">
         <div className="flex items-center gap-2">
-          <h1 className="text-3xl text-black lg:text-6xl dark:text-white md:text-4xl">
+          <h1 className="text-4xl text-black md:text-6xl xl:text-9xl dark:text-white ">
             Mejora
           </h1>
           <img
             src={PigBank}
             alt="PigBank"
-            className="w-20 h-auto md:w-32 lg:w-40 rotate-12"
+            className="w-20 h-auto md:w-32 xl:w-40 rotate-12"
           />
-          <h1 className="text-3xl text-black lg:text-6xl dark:text-white md:text-4xl">
+          <h1 className="text-4xl text-black md:text-6xl xl:text-9xl dark:text-white">
             tus
           </h1>
         </div>
@@ -49,16 +49,16 @@ const HeaderPB = () => {
           <img
             src={PingBankCard}
             alt="PingBankCard"
-            className="w-20 md:w-32 lg:w-40 h-auto rotate-[330deg]"
+            className="w-20 md:w-32 xl:w-40 h-auto rotate-[330deg]"
           />
 
-          <h1 className="text-3xl text-black lg:text-6xl dark:text-white md:text-4xl">
+          <h1 className="text-4xl text-black dark:text-white md:text-6xl xl:text-9xl">
             finanzas
           </h1>
         </div>
 
         <div>
-          <h1 className="text-3xl text-black dark:text-white md:text-4xl lg:text-6xl">
+          <h1 className="text-4xl text-black dark:text-white md:text-6xl xl:text-9xl">
             con{" "}
             <span className="font-bold text-red-500 border-b-2 border-red-500 ">
               Pig Bank
@@ -67,7 +67,7 @@ const HeaderPB = () => {
         </div>
 
         <div className="mt-8">
-          <p className="p-4 max-w-[60rem] text-xl text-center text-black dark:text-white">
+          <p className="p-4 max-w-[60rem] text-2xl text-center text-black dark:text-white">
             Mover dinero nunca debería requerir más que unos simples clicks.
           </p>
 
