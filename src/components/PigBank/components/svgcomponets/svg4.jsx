@@ -3,9 +3,7 @@ import React from "react";
 const svg4 = (props) => {
   return (
     <svg
-      fill="#000000"
-      height="200px"
-      width="200px"
+      fill="#fff"
       id="Layer_1"
       xmlns="http://www.w3.org/2000/svg"
       xmlnsXlink="http://www.w3.org/1999/xlink"

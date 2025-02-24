@@ -1,5 +1,11 @@
 import React from "react";
 import PingBankCard from "../img/PingBankCard.webp";
+import SVG1 from "./svgcomponets/svg1";
+import SVG2 from "./svgcomponets/svg2";
+import SVG3 from "./svgcomponets/svg3";
+import SVG4 from "./svgcomponets/svg4";
+
+
 
 const FirstSection = () => {
   return (
@@ -16,11 +22,40 @@ const FirstSection = () => {
         </div>
       </div>
 
-      <div className="grid grid-cols-1 mt-5 md:grid-cols-3">
-        <div className=""></div>
-        <div className=""></div>
-        <div className=""></div>
-        <div className=""></div>
+      <div className="grid grid-cols-1 gap-4 mt-5 md:grid-cols-3">
+        <div>
+          <div className="w-20 h-20 p-2 bg-red-400 rounded-full">
+            <SVG1 />
+          </div>
+          <h1>Lorem</h1>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est </p>
+        </div>
+
+        <div>
+          <div className="w-20 h-20 p-2 bg-red-400 rounded-full">
+            <SVG2 />
+          </div>
+          <h1>Lorem</h1>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est </p>
+        </div>
+
+        <div>
+          <div className="w-20 h-20 p-2 bg-red-400 rounded-full">
+            <SVG3 />
+          </div>
+          <h1>Lorem</h1>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est </p>
+        </div>
+
+        <div>
+          <div className="w-20 h-20 p-2 bg-red-400 rounded-full">
+            <SVG4 />
+          </div>
+          <h1>Lorem</h1>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est </p>
+        </div>
+
+
         <div className="md:order-2">
           <img
             src={PingBankCard}

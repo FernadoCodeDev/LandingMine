@@ -4,7 +4,7 @@ const svg3 = (props) => {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
-      fill="#000000"
+      fill="#fff"
       viewBox="0 0 24 24"
       {...props}
     >
