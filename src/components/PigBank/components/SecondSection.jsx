@@ -21,7 +21,8 @@ const SecondSection = () => {
           className="flex gap-4 p-4"
           columnClassName="flex flex-col gap-4"
         >
-          <div className="p-4 bg-red-400">
+          <div className="p-6 bg-red-400">
+            
           </div>
 
 
