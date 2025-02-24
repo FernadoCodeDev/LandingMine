@@ -33,7 +33,7 @@ const HeaderPB = () => {
       <div className="flex flex-col items-center justify-center text-center md:mt-20">
         <div className="flex items-center gap-2">
           <h1 className="text-3xl text-black lg:text-6xl dark:text-white md:text-4xl">
-            Enhance
+            Mejora
           </h1>
           <img
             src={PigBank}
@@ -41,7 +41,7 @@ const HeaderPB = () => {
             className="w-20 h-auto md:w-32 lg:w-40 rotate-12"
           />
           <h1 className="text-3xl text-black lg:text-6xl dark:text-white md:text-4xl">
-            your
+            tus
           </h1>
         </div>
 
@@ -53,13 +53,13 @@ const HeaderPB = () => {
           />
 
           <h1 className="text-3xl text-black lg:text-6xl dark:text-white md:text-4xl">
-            Financial
+            finanzas
           </h1>
         </div>
 
         <div>
           <h1 className="text-3xl text-black dark:text-white md:text-4xl lg:text-6xl">
-            with{" "}
+            con{" "}
             <span className="font-bold text-red-500 border-b-2 border-red-500 ">
               Pig Bank
             </span>
@@ -68,14 +68,11 @@ const HeaderPB = () => {
 
         <div className="mt-8">
           <p className="p-4 max-w-[60rem] text-xl text-center text-black dark:text-white">
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quia eos
-            harum inventore non expedita nihil aliquam! Facilis voluptates
-            perspiciatis est quam obcaecati ratione nostrum dolorum, labore
-            repellat ducimus? Optio, alias.
+            Mover dinero nunca debería requerir más que unos simples clicks.
           </p>
 
           <button className="p-3 mt-4 font-bold text-center text-white transition-all duration-700 ease-out bg-red-500 rounded-full hover:bg-red-600 ">
-            Send Money Now
+            Envía dinero ahora
           </button>
         </div>
       </div>
