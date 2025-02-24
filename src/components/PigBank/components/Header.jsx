@@ -1,5 +1,5 @@
 import React from "react";
-import PigBankLogo from "../img/PigBankLogoNo.1.webp";
+import PigBankLogo from "../img/PigBankLogoNo1.webp";
 import MobileMenu from "../../GlobalComponents/MobileMenu";
 import DarkMode from "../../GlobalComponents/DarkMode";
 
