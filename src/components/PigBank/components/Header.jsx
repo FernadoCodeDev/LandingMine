@@ -74,7 +74,9 @@ const HeaderPB = () => {
             repellat ducimus? Optio, alias.
           </p>
 
-          <button className="p-3 mt-4 font-bold text-center text-white transition-all duration-700 ease-out bg-red-500 rounded-full hover:bg-red-600 ">Send Money Now</button>
+          <button className="p-3 mt-4 font-bold text-center text-white transition-all duration-700 ease-out bg-red-500 rounded-full hover:bg-red-600 ">
+            Send Money Now
+          </button>
         </div>
       </div>
 
