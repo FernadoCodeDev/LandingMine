@@ -28,8 +28,8 @@ const HeaderPB = () => {
         </div>
       </div>
 
-      <div className="absolute w-1/2 max-w-[10rem] md:max-w-[100rem] rounded-tr-3xl left-0 bottom-0 bg-red-600 h-40 clip-trapezoid-right"></div>
-      <div className="absolute w-1/2 max-w-[10rem] md:max-w-[100rem] rounded-tl-3xl right-0 bottom-0 bg-red-400 h-40 clip-trapezoid-left"></div>
+      <div className="absolute w-1/2 max-w-[10rem] rounded-tr-3xl left-0 bottom-[50%] bg-red-500 h-40 clip-trapezoid-left"></div>
+      <div className="absolute w-1/5 max-w-[10rem] rounded-bl-3xl right-0 bottom-[50%] bg-red-400 h-40 clip-trapezoid-right"></div>
     </div>
   );
 };
