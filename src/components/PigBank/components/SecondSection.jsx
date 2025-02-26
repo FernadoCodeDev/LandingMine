@@ -12,20 +12,27 @@ const SecondSection = () => {
   return (
     <div className="relative w-full min-h-screen bg-red-500">
       <div className="grid justify-between grid-cols-1 p-2 text-white md:grid-cols-2">
-        <div>
-          <div className="w-1/3 p-2 text-center bg-red-400 rounded-lg">
-            <h1>INTEGRACIÓN</h1>
+        <div className="flex flex-col justify-between">
+          <div>
+            <div className="w-1/3 p-2 text-center bg-red-400 rounded-lg">
+              <h1>INTEGRACIÓN</h1>
+            </div>
+            <h1 className="m-2 text-3xl font-bold lg:text-8xl">
+              Compra en cualquier lugar
+            </h1>
           </div>
-          <h1 className="text-3xl font-bold">Compra en cualquier lugar</h1>
-          <p className="p-2 text-start max-w-[40rem]">
-            Ahora es mucho más fácil pagar a alguien. Todo lo que necesitas es
-            una dirección de correo electrónico para enviar pagos comerciales
-            transfronterizos en más de 25 divisas a casi cualquier persona, en
-            cualquier lugar.
-          </p>
-          <button className="p-3 mt-2 font-bold text-black transition-all duration-700 ease-out bg-white rounded-full hover:bg-gray-200">
-          Explorar más
-          </button>
+          <div>
+            <p className="p-2 text-start lg:text-3xl max-w-[40rem]">
+              Ahora es mucho más fácil pagar a alguien. Todo lo que necesitas es
+              una dirección de correo electrónico para enviar pagos comerciales
+              transfronterizos en más de 25 divisas a casi cualquier persona, en
+              cualquier lugar.
+            </p>
+
+            <button className="p-3 mt-2 font-bold text-black transition-all duration-700 ease-out bg-white rounded-full lg:text-3xl hover:bg-gray-200">
+              Explorar más
+            </button>
+          </div>
         </div>
 
         {/* Masonry efect*/}
@@ -35,36 +42,43 @@ const SecondSection = () => {
           columnClassName="flex flex-col"
         >
           <div>
-            <div className="p-4 mb-2 bg-red-400 rounded-3xl">
-              <SVGemailing />
+            <div className="flex flex-col items-center justify-center p-4 mt-2 text-center bg-red-400 rounded-3xl ">
+              <SVGemailing className="max-w-[200px]" />
+              <h1 className="mt-4 font-bold text-white">Emailing</h1>
             </div>
 
-            <div className="p-4 mt-2 bg-red-400 rounded-3xl">
-              <SVGstorage />
-            </div>
-          </div>
-
-          <div className="">
-            <div className="p-4 mb-2 bg-red-400 rounded-3xl">
-              <SVGvoicemail />
-            </div>
-
-            <div className="p-4 my-2 bg-red-400 rounded-3xl">
-              <SVGbilling />
-            </div>
-
-            <div className="p-4 mt-2 bg-red-400 rounded-3xl">
-              <SVGManage />
+            <div className="flex flex-col items-center justify-center p-4 mt-2 text-center bg-red-400 rounded-3xl ">
+              <SVGstorage className="max-w-[200px]" />
+              <h1 className="font-bold text-white">Storage</h1>
             </div>
           </div>
 
           <div>
-            <div className="p-4 mb-2 bg-red-400 rounded-3xl">
-              <SVGtexting />
+            <div className="flex flex-col items-center justify-center p-4 mt-2 text-center bg-red-400 rounded-3xl ">
+              <SVGvoicemail className="max-w-[200px]" />
+              <h1 className="font-bold text-white">Voicemail </h1>
             </div>
 
-            <div className="p-4 mt-2 bg-red-400 rounded-3xl">
-              <SVGmarketing />
+            <div className="flex flex-col items-center justify-center p-4 mt-2 text-center bg-red-400 rounded-3xl ">
+              <SVGbilling className="max-w-[200px]" />
+              <h1 className="font-bold text-white">Billing</h1>
+            </div>
+
+            <div className="flex flex-col items-center justify-center p-4 mt-2 text-center bg-red-400 rounded-3xl ">
+              <SVGManage className="max-w-[200px]" />
+              <h1 className="font-bold text-white">Manage</h1>
+            </div>
+          </div>
+
+          <div>
+            <div className="flex flex-col items-center justify-center p-4 mt-2 text-center bg-red-400 rounded-3xl ">
+              <SVGtexting className="max-w-[200px]" />
+              <h1 className="font-bold text-white">Texting</h1>
+            </div>
+
+            <div className="flex flex-col items-center justify-center p-4 mt-2 text-center bg-red-400 rounded-3xl ">
+              <SVGmarketing className="max-w-[200px]" />
+              <h1 className="font-bold text-white">Marketing</h1>
             </div>
           </div>
         </Masonry>
