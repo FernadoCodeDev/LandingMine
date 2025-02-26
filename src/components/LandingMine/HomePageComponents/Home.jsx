@@ -8,7 +8,7 @@ import ButtonLanding from "../CollectionPageComponents/ButtonLanding";
 import BackgroundPizzaPizza from "../../PizzaPizza/img/BackgroundPizzaPizza.webp";
 import BackgroundGym from "../../GYM/img/BackgroundGym.webp";
 import BackgroundMA from "../../MarketingAgency/img/MarketingAgency.webp";
-
+import BackgroundPB from "../../PigBank/img/PigBankBG.webp";
 const HomePage = () => {
   return (
     <div className="flex flex-row min-h-screen">
@@ -109,23 +109,23 @@ const HomePage = () => {
               </div>
 
               <div className="bg-gray-200 rounded-lg shadow-md dark:bg-neutral-800">
-                <img src={Landing} alt="Landing" className="w-full h-auto" />
+                <img src={BackgroundPB} alt="BackgroundPB" className="w-full h-60" />
                 <div className="p-4">
                   <h2 className="text-xl font-semibold dark:text-white">
-                    Landing Page 4
+                    Pig Bank
                   </h2>
                   <p className="text-black dark:text-white">
-                    Descripción de la landing page.
+                  landing page sobre un Banco
                   </p>
 
-                  <a href="#">
+                  <a href="/PigBank">
                     <ButtonLanding />
                   </a>
                 </div>
               </div>
 
               <div className="bg-gray-200 rounded-lg shadow-md dark:bg-neutral-800">
-                <img src={Landing} alt="Landing" className="w-full h-auto" />
+                <img src={Landing} alt="Landing" className="w-full h-60" />
                 <div className="p-4">
                   <h2 className="text-xl font-semibold dark:text-white">
                     Landing Page 5
@@ -141,7 +141,7 @@ const HomePage = () => {
               </div>
 
               <div className="bg-gray-200 rounded-lg shadow-md dark:bg-neutral-800">
-                <img src={Landing} alt="Landing" className="w-full h-auto" />
+                <img src={Landing} alt="Landing" className="w-full h-60" />
                 <div className="p-4">
                   <h2 className="text-xl font-semibold dark:text-white">
                     Landing Page 6

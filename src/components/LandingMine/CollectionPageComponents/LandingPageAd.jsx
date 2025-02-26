@@ -4,6 +4,7 @@ import ButtonLanding from "./ButtonLanding";
 import BackgroundPizzaPizza from "../../PizzaPizza/img/BackgroundPizzaPizza.webp";
 import BackgroundGym from "../../GYM/img/BackgroundGym.webp";
 import BackgroundMA from "../../MarketingAgency/img/MarketingAgency.webp";
+import BackgroundPB from "../../PigBank/img/PigBankBG.webp"
 
 const LandingPageAd = () => {
   return (
@@ -57,16 +58,14 @@ const LandingPageAd = () => {
       </div>
 
       <div className="bg-gray-200 rounded-lg shadow-md dark:bg-neutral-800">
-        <img src={Landing} alt="Landing" className="w-full h-auto" />
+        <img src={BackgroundPB} alt="BackgroundPB" className="w-full h-60" />
         <div className="p-4">
-          <h2 className="text-xl font-semibold dark:text-white">
-            Landing Page 4
-          </h2>
+          <h2 className="text-xl font-semibold dark:text-white">Pig Bank</h2>
           <p className="text-black dark:text-white">
-            Descripción de la landing page.
+            landing page sobre un Banco
           </p>
 
-          <a href="#">
+          <a href="/PigBank">
             <ButtonLanding />
           </a>
         </div>
