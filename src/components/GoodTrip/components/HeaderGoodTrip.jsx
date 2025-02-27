@@ -12,36 +12,82 @@ const HeaderPB = () => {
         style={{ backgroundImage: `url(${BackgroundGT})` }}
       ></div>
 
-      <div className="grid items-center justify-between grid-cols-2 p-4 md:grid-cols-3">
-        <div className="order-1 m-auto">
-          <img
-            src={GoodTripLogo}
-            alt="GoodTripLogo"
-            className="w-full h-auto bg-red-400 md:max-w-80"
-          />
-        </div>
-
-        <div className="order-3 col-span-2 m-auto md:col-span-1 md:order-2 ">
+      <div className="relative grid items-start h-screen grid-cols-2 gap-2 p-4 md:grid-cols-3">
+        <div className="order-3 col-span-2 mx-auto md:col-span-1 md:order-2 md:w-auto">
           <MobileMenu
-            textColor="text-black dark:text-white"
-            hoverColor="hover:text-red-500 dark:hover:text-red-500 "
+            textColor="text-white transition-all duration-700 ease-out"
+            hoverColor="hover:text-gray-800"
             bgColor="bg-transparent"
-            invertColor="invert dark:invert-0"
+            invertColor="invert-0"
           />
         </div>
-        <div className="order-2 m-auto">
+        <img
+          src={GoodTripLogo}
+          alt="GoodTripLogo"
+          className="order-1 object-contain w-40 h-auto cursor-pointer md:order-1"
+        />
+
+        <div className="flex justify-end order-2 md:order-3">
           <DarkMode />
         </div>
-      </div>
 
-      <div className="flex flex-col items-center justify-center text-center md:mt-20">
-        <h1>TEXT </h1>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi impedit
-          ea, maiores a placeat, eum corrupti vitae tenetur libero consequatur
-          explicabo delectus quos amet eos optio cupiditate, porro obcaecati
-          quod?
-        </p>
+        <div className="order-4 col-span-2 text-center md:col-span-3 ">
+          <h1 className="font-serif text-white text-[2rem] md:text-[4rem]">
+            Embárcate en el viaje de tus sueños con nuestra experiencia y
+            orientación
+          </h1>
+
+          <div className="grid grid-cols-1 gap-2 mt-4 md:mx-auto md:grid-cols-4 max-w-[70rem]">
+            <button className="bg-transparent border-2 text-white border-white  w-full md:max-w-[20rem] transition-all duration-700 ease-out hover:text-black hover:bg-white p-2 rounded-full ">
+              Buscar destino
+            </button>
+
+            <button className="bg-transparent border-2 text-white border-white  w-full md:max-w-[20rem] transition-all duration-700 ease-out hover:text-black hover:bg-white p-2 rounded-full ">
+              Duración del tour
+            </button>
+
+            <button className="bg-transparent border-2 text-white border-white  w-full md:max-w-[20rem] transition-all duration-700 ease-out hover:text-black hover:bg-white p-2 rounded-full ">
+              Tipo de viaje
+            </button>
+
+            <button className="bg-slate-50  w-full md:max-w-[20rem] transition-all duration-700 ease-out hover:bg-slate-300 p-2 rounded-full ">
+              Explorar paquete
+            </button>
+          </div>
+
+          {/* Content greater than 1000px start*/}
+          {/* This happens because the content will not display correctly at sizes smaller than that because if it is smaller than 1000px, Hidden is used.*/}
+          <div className="justify-center hidden w-full grid-cols-1 gap-6 p-4 text-white lg:grid lg:absolute lg:bottom-0 lg:left-0 lg:grid-cols-3">
+            <div className="flex flex-col items-center text-center">
+              <div className="flex items-center gap-1">
+                <div className="w-16 border-t-2 border-white opacity-50"></div>
+                <p>200+ family & company trust us</p>
+              </div>
+              <p className="mt-2 font-serif text-2xl text-start">
+                I've used a lot of trip agencies, but EZ is the best one!
+              </p>
+              <p className="mt-1 font-semibold">
+                Jay Gurinjay, CEO of Wanjay Music
+              </p>
+
+              <div className="lg:p-1 lg:bottom-[0%] lg:w-full lg:border-t-2 lg:border-white opacity-50"></div>
+            </div>
+
+            <div className="flex flex-col items-center justify-between">
+              <div></div>
+              <div className="lg:p-1  lg:bottom-[0%] lg:w-full lg:border-t-2 lg:border-white opacity-50"></div>
+            </div>
+
+            <div className="flex flex-col items-center justify-between">
+              <button className="p-2 bg-transparent border-2 text-center rounded-full text-white border-white w-full lg:max-w-[20rem]">
+                Buscar destino
+              </button>
+              <div className="lg:p-1  lg:bottom-[0%] lg:w-full lg:border-t-2 lg:border-white opacity-50"></div>
+            </div>
+          </div>
+
+          {/* Content greater than 1000px End*/}
+        </div>
       </div>
     </div>
   );
