@@ -2,7 +2,6 @@ import React from "react";
 import imageN1 from "../img/imageN1.webp";
 import imageN2 from "../img/imageN2.webp";
 import imageN3 from "../img/imageN3.webp";
-import GoodTripLogo from "../img/GoodTripLogo.webp";
 
 const SecondSection = () => {
   return (
