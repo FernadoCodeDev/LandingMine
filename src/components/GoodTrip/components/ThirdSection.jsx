@@ -7,8 +7,8 @@ import imageN7 from "../img/imageN7.webp";
 const ThirdSection = () => {
   return (
     <div className="relative w-full min-h-screen">
-      <div className="relative w-full min-h-screen p-2 pt-20 text-black border-b-2 border-gray-300 min-h-auto bg-yellow-50">
-        <div className="w-1/3 p-2 mx-auto mb-4 text-center border-2 border-black rounded-full md:w-1/6">
+      <div className="relative w-full min-h-screen p-2 pt-20 text-black border-b-2 border-gray-300 dark:text-white min-h-auto bg-yellow-50 dark:bg-neutral-800">
+        <div className="w-1/3 p-2 mx-auto mb-4 text-center border-2 border-black rounded-full dark:border-white md:w-1/6">
           <h1>Nuestro paquete</h1>
         </div>
 

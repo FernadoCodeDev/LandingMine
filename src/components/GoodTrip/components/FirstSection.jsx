@@ -2,8 +2,8 @@ import React from "react";
 
 const FirstSection = () => {
   return (
-    <div className="relative w-full p-4 text-black border-t-2 border-b-2 border-gray-300 min-h-auto bg-yellow-50">
-      <div className="w-1/3 p-2 mb-4 text-center border-2 border-black rounded-full md:w-1/6">
+    <div className="relative w-full p-4 text-black border-t-2 border-b-2 border-gray-300 dark:text-white min-h-auto bg-yellow-50 dark:bg-neutral-800">
+      <div className="w-1/3 p-2 mb-4 text-center border-2 border-black rounded-full dark:border-white md:w-1/6">
         <h1>INTEGRACIÓN</h1>
       </div>
 
@@ -30,7 +30,7 @@ const FirstSection = () => {
         </div>
 
         <div className="flex-col justify-center font-serif text-center">
-          <h1 className="text-5xl">World</h1>
+          <h1 className="text-5xl">Mundo</h1>
           <p className="text-1xl">Destino de primera clase</p>
         </div>
       </div>
