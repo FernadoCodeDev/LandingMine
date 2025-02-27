@@ -3,6 +3,10 @@ import BackgroundGT from "../img/BackgroundGT.webp";
 import GoodTripLogo from "../img/GoodTripLogo.webp";
 import MobileMenu from "../../GlobalComponents/MobileMenu";
 import DarkMode from "../../GlobalComponents/DarkMode";
+import SearchSVG from "./SVGComponets/SearchSVG";
+import DateSVG from "./SVGComponets/DateSVG";
+import ArrowSVG from "./SVGComponets/ArrowSVG";
+import Location from "./SVGComponets/Location";
 
 const HeaderPB = () => {
   return (
@@ -38,20 +42,23 @@ const HeaderPB = () => {
           </h1>
 
           <div className="grid grid-cols-1 gap-2 mt-4 md:mx-auto md:grid-cols-4 max-w-[70rem]">
-            <button className="bg-transparent border-2 text-white border-white  w-full md:max-w-[20rem] transition-all duration-700 ease-out hover:text-black hover:bg-white p-2 rounded-full ">
-              Buscar destino
+            <button className="bg-transparent border-2 text-white border-white w-full md:max-w-[20rem] transition-all duration-700 ease-out hover:bg-orange-300 p-2 rounded-full flex items-center justify-center space-x-2">
+              <SearchSVG width="24" height="24" />
+              <span>Buscar destino</span>
             </button>
 
-            <button className="bg-transparent border-2 text-white border-white  w-full md:max-w-[20rem] transition-all duration-700 ease-out hover:text-black hover:bg-white p-2 rounded-full ">
-              Duración del tour
+            <button className="bg-transparent border-2 text-white border-white w-full md:max-w-[20rem] transition-all duration-700 ease-out hover:bg-orange-300 p-2 rounded-full flex items-center justify-center space-x-2">
+              <DateSVG width="24" height="24" />
+              <span>Duración del tour</span>
             </button>
 
-            <button className="bg-transparent border-2 text-white border-white  w-full md:max-w-[20rem] transition-all duration-700 ease-out hover:text-black hover:bg-white p-2 rounded-full ">
-              Tipo de viaje
+            <button className="bg-transparent border-2 text-white border-white w-full md:max-w-[20rem] transition-all duration-700 ease-out hover:bg-orange-300 p-2 rounded-full flex items-center justify-center space-x-2">
+              <span>Tipo de viaje</span>
+              <ArrowSVG width="24" height="24" />
             </button>
 
             <button className="bg-slate-50  w-full md:max-w-[20rem] transition-all duration-700 ease-out hover:bg-slate-300 p-2 rounded-full ">
-              Explorar paquete
+              <span>Explorar paquete</span>
             </button>
           </div>
 
@@ -61,13 +68,13 @@ const HeaderPB = () => {
             <div className="flex flex-col items-center text-center">
               <div className="flex items-center gap-1">
                 <div className="w-16 border-t-2 border-white opacity-50"></div>
-                <p>200+ family & company trust us</p>
+                <p>200+ Familia y empresa confían en nosotros</p>
               </div>
               <p className="mt-2 font-serif text-2xl text-start">
-                I've used a lot of trip agencies, but EZ is the best one!
+              He utilizado muchas agencias de viajes, ¡pero Good Trip es la mejor!
               </p>
               <p className="mt-1 font-semibold">
-                Jay Gurinjay, CEO of Wanjay Music
+              Jay Gurinjay, director ejecutivo de Wanjay Music
               </p>
 
               <div className="lg:p-1 lg:bottom-[0%] lg:w-full lg:border-t-2 lg:border-white opacity-50"></div>
@@ -79,9 +86,10 @@ const HeaderPB = () => {
             </div>
 
             <div className="flex flex-col items-center justify-between">
-              <button className="p-2 bg-transparent border-2 text-center rounded-full text-white border-white w-full lg:max-w-[20rem]">
-                Buscar destino
-              </button>
+              <div className="bg-transparent border-2 text-white border-white w-full md:max-w-[20rem] p-2 rounded-full flex items-center justify-center space-x-2">
+                <Location width="24" height="24" />
+                <span>Busca tú destino</span>
+              </div>
               <div className="lg:p-1  lg:bottom-[0%] lg:w-full lg:border-t-2 lg:border-white opacity-50"></div>
             </div>
           </div>
