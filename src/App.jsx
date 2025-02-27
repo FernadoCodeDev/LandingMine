@@ -7,6 +7,7 @@ import PizzaPizza from "./pages/PizzaPizzaLandingPage/PizzaPizza"; // PizzaPizza
 import Gym from "./pages/GYMLandingPage/Gym"; // gym Landing Page
 import MarketingAgency from "./pages/MarketingAgency/MarketingAgency"; // MarketingAgency Landing Page
 import PigBank from "./pages/PigBankLandingPage/PigBank"; // PigBank Landing Page
+import GoodTrip from "./pages/GoodTrip/GoodTrip"; // GoodTrip Landing Page
 
 const App = () => {
   return (
@@ -25,6 +26,8 @@ const App = () => {
         <Route path="/MarketingAgency" element={<MarketingAgency />} />
         {/*PigBank Landing Page  */}
         <Route path="/PigBank" element={<PigBank />} />
+        {/*GoodTrip Landing Page  */}
+        <Route path="/GoodTrip" element={<GoodTrip />} />
       </Routes>
     </Router>
   );
