@@ -6,7 +6,7 @@ import BackgroundGym from "../../GYM/img/BackgroundGym.webp";
 import BackgroundMA from "../../MarketingAgency/img/MarketingAgency.webp";
 import BackgroundPB from "../../PigBank/img/PigBankBG.webp";
 import BackgroundGoodTrip from "../../GoodTrip/img/GoodTrip.webp";
-
+import BackgroundKitchenShop from "../../KitchenShop/img/BackgroundKitchenShop.webp"
 
 const LandingPageAd = () => {
   return (
@@ -92,16 +92,18 @@ const LandingPageAd = () => {
       </div>
 
       <div className="bg-gray-200 rounded-lg shadow-md dark:bg-neutral-800">
-        <img src={Landing} alt="Landing" className="w-full h-auto" />
+        <img
+          src={BackgroundKitchenShop}
+          alt="BackgroundKitchenShop"
+          className="w-full h-60"
+        />
         <div className="p-4">
-          <h2 className="text-xl font-semibold dark:text-white">
-            Landing Page 6
-          </h2>
+          <h2 className="text-xl font-semibold dark:text-white">KitchenShop</h2>
           <p className="text-black dark:text-white">
-            Descripción de la landing page.
+            E-commerce sobre una tienda de articulos de cocina
           </p>
 
-          <a href="#">
+          <a href="/KitchenShop">
             <ButtonLanding />
           </a>
         </div>
