@@ -7,8 +7,9 @@ import DarkMode from "../../GlobalComponents/DarkMode";
 const HeaderKS = () => {
   return (
     <div className="relative w-full min-h-screen bg-stone-200">
-      <div className="relative grid items-start h-screen grid-cols-2 gap-2 p-4 md:grid-cols-3">
-        <div className="order-3 col-span-2 mx-auto md:col-span-1 md:order-2 md:w-auto">
+      {/* Design less than 768px */}
+      <div className="relative grid items-start h-screen grid-cols-2 gap-2 p-4 md:hidden">
+        <div className="order-3 col-span-2 mx-auto">
           <MobileMenu
             textColor="text-stone-600 transition-all duration-700 ease-out"
             hoverColor="hover:text-stone-900"
@@ -19,39 +20,56 @@ const HeaderKS = () => {
         <img
           src={KitchenShopLogo}
           alt="KitchenShopLogo"
-          className="order-1 object-contain w-40 h-auto cursor-pointer md:order-1"
+          className="order-1 object-contain w-40 h-auto cursor-pointer"
         />
+        <div className="flex justify-end order-2">
+          <DarkMode />
+        </div>
+        <div className="order-4 col-span-2 text-center">
+          <h1 className="font-serif font-bold text-stone-900 text-[2rem]">
+            Text 1
+          </h1>
+          <p className="font-serif text-xl text-stone-900">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+          </p>
+        </div>
+      </div>
 
-        <div className="flex justify-end order-2 md:order-3">
-          <div
-            className="hidden md:block md:absolute md:inset-0 md:w-full md:min-h-screen md:bg-fixed md:bg-center md:bg-cover"
-            style={{ backgroundImage: `url(${KitchenShopBG})` }}
-          >
+      {/* design greater than md */}
+      <div className="hidden md:grid md:grid-cols-2 md:min-h-screen">
+        {/* left side bg-stone-200 */}
+
+        <div className="flex flex-col items-center justify-between p-6 bg-stone-200">
+          <div>
+            <img
+              src={KitchenShopLogo}
+              alt="KitchenShopLogo"
+              className="w-40 h-auto cursor-pointer"
+            />
+            <MobileMenu
+              textColor="text-stone-600"
+              hoverColor="hover:text-stone-900"
+              bgColor="bg-transparent"
+              invertColor="invert"
+            />
           </div>
-            <DarkMode />
+          <div>
+            <h1 className="font-serif font-bold text-[4rem] relative z-10">
+              Text 2
+            </h1>
+            <p className="relative z-10 font-serif text-xl">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+            </p>
+          </div>
         </div>
 
-        <div className="order-4 col-span-2 gap-2 text-center">
-          <div className="grid grid-cols-2">
-            <div className="">
-              <h1 className="font-serif font-bold text-stone-900 text-[2rem] md:text-[4rem]">
-                Text
-              </h1>
-            </div>
-
-            <div className="">
-              <p className="font-serif text-xl text-statr text-stone-900">
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Est,
-                fuga nostrum
-              </p>
-            </div>
-
-            <div className="col-span-2">
-              <h1 className="font-serif font-bold text-[2rem] md:text-[4rem] text-stone-900">
-                Text
-              </h1>
-            </div>
-          </div>
+        {/* right side bg-stone-900 with background image */}
+        <div className="relative flex flex-col justify-between p-6 text-white">
+          <div
+            className="absolute inset-0 w-full h-full bg-cover "
+            style={{ backgroundImage: `url(${KitchenShopBG})` }}
+          ></div>
+          <DarkMode />
         </div>
       </div>
     </div>
