@@ -8,7 +8,7 @@ import Gym from "./pages/GYMLandingPage/Gym"; // gym Landing Page
 import MarketingAgency from "./pages/MarketingAgency/MarketingAgency"; // MarketingAgency Landing Page
 import PigBank from "./pages/PigBankLandingPage/PigBank"; // PigBank Landing Page
 import GoodTrip from "./pages/GoodTrip/GoodTrip"; // GoodTrip Landing Page
-import kitchenShop from "./pages/KitchenShop/kitchenShop"; // kitchen Shop Landing Page
+import KitchenShop from "./pages/KitchenShop/kitchenShop"; // kitchen Shop Landing Page
 
 const App = () => {
   return (
@@ -31,7 +31,7 @@ const App = () => {
         <Route path="/GoodTrip" element={<GoodTrip />} />
 
         {/*kitchenShop Landing Page  */}
-        <Route path="/kitchenShop" element={<kitchenShop />} />
+        <Route path="/kitchenShop" element={<KitchenShop />} />
       </Routes>
     </Router>
   );
