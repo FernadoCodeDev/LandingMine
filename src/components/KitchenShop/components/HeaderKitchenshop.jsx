@@ -25,13 +25,25 @@ const HeaderKS = () => {
         <div className="flex justify-end order-2">
           <DarkMode />
         </div>
-        <div className="order-4 col-span-2 text-center">
-          <h1 className="font-serif font-bold text-stone-900 text-[2rem]">
-            Text 1
-          </h1>
-          <p className="font-serif text-xl text-stone-900">
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-          </p>
+        <div className="grid order-4 grid-cols-2 col-span-2 gap-0">
+          <div className="">
+            <h1 className="text-[2.5rem] font-bold text-center text-stone-900">
+            COCINA 
+            </h1>
+          </div>
+
+          <div className="">
+            <p className="text-[0.7rem] pt-[0.7rem] text-start text-stone-900">
+              Las herramientas de cocina de calidad mejoran la cocción con
+              precisión y facilidad.{" "}
+            </p>
+          </div>
+
+          <div className="col-span-2">
+            <h1 className="text-[3rem] font-bold text-center text-stone-900">
+            INTELIGENTE
+            </h1>
+          </div>
         </div>
       </div>
 
@@ -39,7 +51,7 @@ const HeaderKS = () => {
       <div className="hidden md:grid md:grid-cols-2 md:min-h-screen">
         {/* left side bg-stone-200 */}
 
-        <div className="flex flex-col items-center justify-between p-6 bg-stone-200">
+        <div className="flex flex-col items-start justify-between p-6 bg-stone-200">
           <div>
             <img
               src={KitchenShopLogo}
@@ -53,18 +65,30 @@ const HeaderKS = () => {
               invertColor="invert"
             />
           </div>
-          <div>
-            <h1 className="font-serif font-bold text-[4rem] relative z-10">
-              Text 2
-            </h1>
-            <p className="relative z-10 font-serif text-xl">
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-            </p>
+          <div className="grid grid-cols-2 gap-0 max-w-[30rem]">
+            <div className="">
+              <h1 className="text-4xl font-bold text-center lg:text-5xl text-stone-900">
+                COCINA
+              </h1>
+            </div>
+
+            <div className="">
+              <p className="text-[0.7rem] lg:pt-[0.5rem] text-start text-stone-900">
+                Las herramientas de cocina de calidad mejoran la cocción con
+                precisión y facilidad.
+              </p>
+            </div>
+
+            <div className="col-span-2">
+              <h1 className="text-4xl font-bold text-center lg:text-6xl text-stone-900">
+                INTELIGENTE
+              </h1>
+            </div>
           </div>
         </div>
 
         {/* right side bg-stone-900 with background image */}
-        <div className="relative flex flex-col justify-between p-6 text-white">
+        <div className="relative flex flex-col items-end justify-between p-6 text-white">
           <div
             className="absolute inset-0 w-full h-full bg-cover "
             style={{ backgroundImage: `url(${KitchenShopBG})` }}
