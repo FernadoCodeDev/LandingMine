@@ -3,6 +3,7 @@ import Background from "../img/Background.webp";
 import DreamHouseLogo from "../img/DreamHouseLogo.webp";
 import MobileMenu from "../../GlobalComponents/MobileMenu";
 import DarkMode from "../../GlobalComponents/DarkMode";
+import SearchSVG from "./SVGComponents/SearchSVG";
 
 const HeaderDH = () => {
   return (
@@ -40,8 +41,8 @@ const HeaderDH = () => {
             We understand the fact that modern people strive for maximum comfort
           </p>
 
-          <div className="m-auto hidden w-full p-4 bg-white md:block max-w-[70rem] ">
-            <div className="grid grid-cols-4 gap-2">
+          <div className="m-auto w-full p-4 bg-white max-w-[70rem]">
+            <div className="grid grid-cols-1 gap-2 md:grid-cols-4">
               <div className="flex flex-col">
                 <h1 className="font-bold text-start">Location</h1>
                 <input
@@ -72,9 +73,9 @@ const HeaderDH = () => {
                 />
               </div>
 
-              <div className="w-20 h-full p-2 bg-blue-400 ms-auto">
-                a
-              </div>
+              <button className="flex justify-center w-full h-auto p-2 transition-all duration-700 ease-out bg-blue-400 md:w-20 hover:bg-blue-600 md:ms-auto">
+                <SearchSVG width="40" height="40"/>
+              </button>
             </div>
           </div>
         </div>
