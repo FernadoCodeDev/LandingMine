@@ -6,8 +6,8 @@ import BackgroundGym from "../../GYM/img/BackgroundGym.webp";
 import BackgroundMA from "../../MarketingAgency/img/MarketingAgency.webp";
 import BackgroundPB from "../../PigBank/img/PigBankBG.webp";
 import BackgroundGoodTrip from "../../GoodTrip/img/GoodTrip.webp";
-import BackgroundKitchenShop from "../../KitchenShop/img/BackgroundKitchenShop.webp"
-import BackgroundDreamHouse from "../../DreamHouse/img/BackgroundDreamHouse.webp"
+import BackgroundCooktopiaShop from "../../CooktopiaShop/img/BackgroundCooktopiaShop.webp";
+import BackgroundDreamHouse from "../../DreamHouse/img/BackgroundDreamHouse.webp";
 
 const LandingPageAd = () => {
   return (
@@ -94,30 +94,34 @@ const LandingPageAd = () => {
 
       <div className="bg-gray-200 rounded-lg shadow-md dark:bg-neutral-800">
         <img
-          src={BackgroundKitchenShop}
-          alt="BackgroundKitchenShop"
+          src={BackgroundCooktopiaShop}
+          alt="BackgroundCooktopiaShop"
           className="w-full h-60"
         />
         <div className="p-4">
-          <h2 className="text-xl font-semibold dark:text-white">KitchenShop</h2>
+          <h2 className="text-xl font-semibold dark:text-white">
+            Cooktopia Shop
+          </h2>
           <p className="text-black dark:text-white">
             E-commerce sobre una tienda de articulos de cocina
           </p>
 
-          <a href="/KitchenShop">
+          <a href="/CooktopiaShop">
             <ButtonLanding />
           </a>
         </div>
       </div>
 
       <div className="bg-gray-200 rounded-lg shadow-md dark:bg-neutral-800">
-        <img src={BackgroundDreamHouse} alt="BackgroundDreamHouse" className="w-full h-60" />
+        <img
+          src={BackgroundDreamHouse}
+          alt="BackgroundDreamHouse"
+          className="w-full h-60"
+        />
         <div className="p-4">
-          <h2 className="text-xl font-semibold dark:text-white">
-          Dream House
-          </h2>
+          <h2 className="text-xl font-semibold dark:text-white">Dream House</h2>
           <p className="text-black dark:text-white">
-          landing page sobre un Agencia de Bienes Raíces
+            landing page sobre un Agencia de Bienes Raíces
           </p>
 
           <a href="/DreamHouse">

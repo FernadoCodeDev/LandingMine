@@ -3,7 +3,7 @@ import FirstSection from "./FirstSection";
 import SecondSection from "./SecondSection";
 import ThirdSection from "./ThirdSection";
 
-const MainKS = () => {
+const MainCS = () => {
   return (
     <main>
       <section>
@@ -15,4 +15,4 @@ const MainKS = () => {
   );
 };
 
-export default MainKS;
+export default MainCS;

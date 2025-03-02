@@ -1,10 +1,10 @@
 import React from "react";
-import KitchenShopLogo from "../img/Kitchen Shop Logo.webp";
-import KitchenShopBG from "../img/KitchenShopBG.webp";
+import CooktopiaShopLogo from "../img/CooktopiaShop Logo.webp";
+import CooktopiaShopBG from "../img/CooktopiaShopBG.webp";
 import MobileMenu from "../../GlobalComponents/MobileMenu";
 import DarkMode from "../../GlobalComponents/DarkMode";
 
-const HeaderKS = () => {
+const HeaderCS = () => {
   return (
     <div className="relative w-full min-h-screen bg-stone-200">
       {/* Design less than 768px */}
@@ -18,8 +18,8 @@ const HeaderKS = () => {
           />
         </div>
         <img
-          src={KitchenShopLogo}
-          alt="KitchenShopLogo"
+          src={CooktopiaShopLogo}
+          alt="CooktopiaShopLogo"
           className="order-1 object-contain w-40 h-auto cursor-pointer"
         />
         <div className="flex justify-end order-2">
@@ -54,8 +54,8 @@ const HeaderKS = () => {
         <div className="flex flex-col items-start justify-between p-6 bg-stone-200">
           <div>
             <img
-              src={KitchenShopLogo}
-              alt="KitchenShopLogo"
+              src={CooktopiaShopLogo}
+              alt="CooktopiaShopLogo"
               className="w-40 h-auto cursor-pointer"
             />
             <MobileMenu
@@ -91,7 +91,7 @@ const HeaderKS = () => {
         <div className="relative flex flex-col items-end justify-between p-6 text-white">
           <div
             className="absolute inset-0 w-full h-full bg-cover "
-            style={{ backgroundImage: `url(${KitchenShopBG})` }}
+            style={{ backgroundImage: `url(${CooktopiaShopBG})` }}
           ></div>
           <DarkMode />
         </div>
@@ -100,4 +100,4 @@ const HeaderKS = () => {
   );
 };
 
-export default HeaderKS;
+export default HeaderCS;

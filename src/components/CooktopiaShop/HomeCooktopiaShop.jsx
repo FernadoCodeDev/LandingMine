@@ -1,17 +1,16 @@
 import React from "react";
-import HeaderKitchenshop from "./components/HeaderKitchenshop";
+import HeaderCooktopiaShop from "./components/HeaderCooktopiaShop";
 import Main from "./components/Main";
 import Footer from "./components/Footer";
 
-const KitchenshopHome = () => {
+const CooktopiaShopHome = () => {
   return (
     <div className="flex flex-col min-h-screen">
-      <HeaderKitchenshop />
+      <HeaderCooktopiaShop />
       <Main />
       <Footer />
-
     </div>
   );
 };
 
-export default KitchenshopHome;
+export default CooktopiaShopHome;

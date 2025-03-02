@@ -10,7 +10,7 @@ import BackgroundGym from "../../GYM/img/BackgroundGym.webp";
 import BackgroundMA from "../../MarketingAgency/img/MarketingAgency.webp";
 import BackgroundPB from "../../PigBank/img/PigBankBG.webp";
 import BackgroundGoodTrip from "../../GoodTrip/img/GoodTrip.webp";
-import BackgroundKitchenShop from "../../KitchenShop/img/BackgroundKitchenShop.webp";
+import BackgroundCooktopiaShop from "../../CooktopiaShop/img/BackgroundCooktopiaShop.webp";
 
 const HomePage = () => {
   return (
@@ -163,19 +163,19 @@ const HomePage = () => {
 
               <div className="bg-gray-200 rounded-lg shadow-md dark:bg-neutral-800">
                 <img
-                  src={BackgroundKitchenShop}
-                  alt="BackgroundKitchenShop"
+                  src={BackgroundCooktopiaShop}
+                  alt="BackgroundCooktopiaShop"
                   className="w-full h-60"
                 />
                 <div className="p-4">
                   <h2 className="text-xl font-semibold dark:text-white">
-                    KitchenShop
+                    Cooktopia Shop
                   </h2>
                   <p className="text-black dark:text-white">
                     E-commerce sobre una tienda de articulos de cocina
                   </p>
 
-                  <a href="/KitchenShop">
+                  <a href="/CooktopiaShop">
                     <ButtonLanding />
                   </a>
                 </div>
