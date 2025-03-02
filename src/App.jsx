@@ -9,6 +9,8 @@ import MarketingAgency from "./pages/MarketingAgency/MarketingAgency"; // Market
 import PigBank from "./pages/PigBankLandingPage/PigBank"; // PigBank Landing Page
 import GoodTrip from "./pages/GoodTrip/GoodTrip"; // GoodTrip Landing Page
 import KitchenShop from "./pages/KitchenShop/kitchenShop"; // kitchen Shop Landing Page
+import DreamHouse from "./pages/DreamHouse/DreamHouse"; // DreamHouse Shop Landing Page
+
 
 const App = () => {
   return (
@@ -32,6 +34,9 @@ const App = () => {
 
         {/*kitchenShop Landing Page  */}
         <Route path="/kitchenShop" element={<KitchenShop />} />
+
+        {/*DreamHouse Landing Page  */}
+        <Route path="/DreamHouse" element={<DreamHouse />} />
       </Routes>
     </Router>
   );

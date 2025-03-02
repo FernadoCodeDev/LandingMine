@@ -7,6 +7,7 @@ import BackgroundMA from "../../MarketingAgency/img/MarketingAgency.webp";
 import BackgroundPB from "../../PigBank/img/PigBankBG.webp";
 import BackgroundGoodTrip from "../../GoodTrip/img/GoodTrip.webp";
 import BackgroundKitchenShop from "../../KitchenShop/img/BackgroundKitchenShop.webp"
+import BackgroundDreamHouse from "../../DreamHouse/img/BackgroundDreamHouse.webp"
 
 const LandingPageAd = () => {
   return (
@@ -110,16 +111,16 @@ const LandingPageAd = () => {
       </div>
 
       <div className="bg-gray-200 rounded-lg shadow-md dark:bg-neutral-800">
-        <img src={Landing} alt="Landing" className="w-full h-auto" />
+        <img src={BackgroundDreamHouse} alt="BackgroundDreamHouse" className="w-full h-60" />
         <div className="p-4">
           <h2 className="text-xl font-semibold dark:text-white">
-            Landing Page 7
+          Dream House
           </h2>
           <p className="text-black dark:text-white">
-            Descripción de la landing page.
+          landing page sobre un Agencia de Bienes Raíces
           </p>
 
-          <a href="#">
+          <a href="/DreamHouse">
             <ButtonLanding />
           </a>
         </div>
