@@ -20,7 +20,7 @@ const FirstSection = () => {
           EQUIPOS
         </button>
         <button className="p-2 font-bold transition duration-700 ease-out border-b-2 cursor-pointer dark:border-neutral-700 hover:border-stone-800 dark:hover:hover:border-slate-100">
-          utensilios
+          UTENSILIOS
         </button>
         <button className="p-2 font-bold transition duration-700 ease-out border-b-2 cursor-pointer dark:border-neutral-700 hover:border-stone-800 dark:hover:hover:border-slate-100">
           HERRAMIENTAS
@@ -82,7 +82,7 @@ const FirstSection = () => {
             />
 
             <div className="flex flex-row justify-between w-full p-2 ">
-              <h1 className="font-bold text-stone-800">Media Luna</h1>
+              <h1 className="font-bold text-stone-800">Cuchillo Media Luna</h1>
               <p className=" text-stone-800">
                 <span className="font-bold text-stone-800">$</span>
                 24.99
@@ -101,7 +101,7 @@ const FirstSection = () => {
           {/* Content */}
           <div className="relative z-10 flex flex-col items-center justify-between w-full h-full">
             <div className="flex flex-row justify-between w-full p-2">
-              <h1 className="font-bold text-stone-200">Set de Cuchillos</h1>
+              <h1 className="font-bold text-stone-200">Top vendido</h1>
               <div className="flex items-center justify-center w-10 h-10 p-2 border-2 rounded-full border-stone-200">
                 <ArrowSVG />
               </div>
@@ -115,7 +115,7 @@ const FirstSection = () => {
             />
 
             <div className="flex flex-row justify-between w-full p-2 ">
-              <h1 className="font-bold text-stone-800">Juego de utensilios</h1>
+              <h1 className="font-bold text-stone-800">Set de Cuchillos</h1>
               <p className=" text-stone-800">
                 <span className="font-bold text-stone-800">$</span>
                 24.99
