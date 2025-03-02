@@ -16,7 +16,7 @@ const HeaderDH = () => {
       <div className="relative grid items-start h-screen grid-cols-2 gap-2 p-4 md:grid-cols-3">
         <div className="order-3 col-span-2 mx-auto md:col-span-1 md:order-1 md:w-auto md:h-20 md:backdrop-blur-[4px] md:bg-black/20">
           <MobileMenu
-            textColor="text-white transition-all duration-700 ease-out"
+            textColor="text-black transition-all duration-700 ease-out"
             hoverColor="hover:text-gray-800"
             bgColor="bg-backdrop-blur-[4px] last-of-type:rounded-b-3xl bg-black/20 md:bg-transparent"
             invertColor="invert-0"
@@ -34,47 +34,48 @@ const HeaderDH = () => {
         </div>
 
         <div className="relative order-4 col-span-2 text-center md:col-span-3">
-          <h1 className="font-bold text-white text-[2rem] md:text-[4rem]">
-            Find Your Dream Home
+          <h1 className="font-bold text-black text-[2rem] md:text-[4rem]">
+            Encuentra la casa de tus sueños
           </h1>
-          <p className="text-white text-[1rem] md:text-[2rem] lg:text-[2.5rem">
-            We understand the fact that modern people strive for maximum comfort
+          <p className="text-black text-[1rem] md:text-[2rem] lg:text-[2.5rem">
+            Entendemos el hecho de que la gente moderna se esfuerza por lograr
+            la máxima comodidad.
           </p>
 
           <div className="m-auto w-full p-4 bg-white max-w-[70rem]">
             <div className="grid grid-cols-1 gap-2 md:grid-cols-4">
               <div className="flex flex-col">
-                <h1 className="font-bold text-start">Location</h1>
+                <h1 className="font-bold text-start">Ubicación</h1>
                 <input
                   className="p-1"
                   type="text"
                   disabled
-                  placeholder="Enter your location"
+                  placeholder="Ingresa tu ubicación"
                 />
               </div>
 
               <div className="flex flex-col">
-                <h1 className="font-bold text-start">Location</h1>
+                <h1 className="font-bold text-start">Tipo de propiedad</h1>
                 <input
                   className="p-1"
                   type="text"
                   disabled
-                  placeholder="Enter your location"
+                  placeholder="Condominios"
                 />
               </div>
 
               <div className="flex flex-col">
-                <h1 className="font-bold text-start">Location</h1>
+                <h1 className="font-bold text-start">Precio máximo</h1>
                 <input
                   className="p-1"
                   type="text"
                   disabled
-                  placeholder="Enter your location"
+                  placeholder="$3,000"
                 />
               </div>
 
               <button className="flex justify-center w-full h-auto p-2 transition-all duration-700 ease-out bg-blue-400 md:w-20 hover:bg-blue-600 md:ms-auto">
-                <SearchSVG width="40" height="40"/>
+                <SearchSVG width="40" height="40" />
               </button>
             </div>
           </div>
