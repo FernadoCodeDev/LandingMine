@@ -160,6 +160,10 @@ const FirstSection = () => {
           <div className="absolute bottom-0 left-0 w-full h-[50%] bg-stone-200"></div>
         </div>
       </div>
+
+      <button className="flex justify-center w-full p-2 m-auto my-4 font-mono font-bold text-white transition-all duration-700 ease-out bg-stone-700 hover:bg-stone-800 md:w-1/3">
+        VER TODOS
+      </button>
     </div>
   );
 };
