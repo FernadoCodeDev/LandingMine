@@ -2,28 +2,28 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <footer className="w-full p-6 text-black bg-orange-300">
+    <footer className="w-full p-6 text-white bg-stone-700">
       <div className="max-w-6xl mx-auto">
         <p className="mb-4 text-lg leading-relaxed">
-          Good Trip expresa su más sincero agradecimiento al talentoso diseñador
+        <span className="font-bold">Kitchen Shop</span> expresa su más sincero agradecimiento al talentoso diseñador
    {" "}
           <a
-            href="https://dribbble.com/dhiradanuarta"
-            className="ml-1 font-bold text-black transition duration-300 ease-in-out hover:text-white"
+            href="https://dribbble.com/skabuhena"
+            className="ml-1 font-bold text-white transition duration-300 ease-in-out hover:text-stone-200"
           >
-            Dhira Danuarta
+            Mostafa Kamal
           </a>{" "}
           cuya obra sirvió de inspiración para la creación de la landing page{" "}
-          <span className="font-bold">Good Trip</span>. Utilicé su diseño como
+          <span className="font-bold">Kitchen Shop</span>. Utilicé su diseño como
           referencia para desarrollar esta interpretación propia, respetando
           siempre su estilo.
         </p>
 
         <p className="mb-4 text-lg leading-relaxed">
-          Cabe aclarar que <span className="font-bold">Good Trip</span> no es
-          una agencia real y fue creado únicamente con fines de
+          Cabe aclarar que <span className="font-bold">Kitchen Shop</span> no es
+          una tienda real y fue creado únicamente con fines de
           desarrollo y diseño. Además, yo diseñé el logotipo de{" "}
-          <span className="font-bold">Good Trip</span> y utilicé imágenes de
+          <span className="font-bold">Kitchen Shop</span> y utilicé imágenes de
           uso libre en su construcción.
         </p>
 
@@ -36,10 +36,10 @@ const Footer = () => {
       <div className="mt-8 border-t-2 border-black opacity-50"></div>
 
       <p className="mt-6 text-sm text-center">
-        © 2025 Good Trip.{" "}
+        © 2025 Kitchen Shop.{" "}
         <a
           href="/"
-          className="ml-1 font-bold text-black transition duration-300 ease-in-out hover:text-white"
+          className="ml-1 font-bold text-white transition duration-300 ease-in-out hover:text-stone-200"
         >
           Regresar a LandingMine
         </a>
