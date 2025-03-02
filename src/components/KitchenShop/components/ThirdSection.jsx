@@ -64,7 +64,7 @@ const ThirdSection = () => {
           </div>
         </div>
 
-        <h1 className="z-0  relative rotate-[355deg] -top-[2rem] lg:-top-[3rem] text-[13vw] lg:text-[10.5vw] font-bold text-transparent stroke-blue-950 dark:stroke-orange-300">
+        <h1 className="z-0  relative rotate-[355deg] -top-[2rem] lg:-top-[3rem] text-[13vw] lg:text-[10.5vw] font-bold text-transparent stroke-stone-700 dark:stroke-white">
           ADVENTURES!
         </h1>
       </div>

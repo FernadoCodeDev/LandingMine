@@ -9,8 +9,17 @@
     .stroke-blue-950 {
       -webkit-text-stroke: 2px #172554;
     }
+
     .stroke-orange-300 {
       -webkit-text-stroke: 2px #ffb86a;
+    }
+
+    .stroke-stone-700 {
+      -webkit-text-stroke: 2px #44403b;
+    }
+
+    .stroke-white {
+      -webkit-text-stroke: 2px #fff;
     }
 
     .clip-trapezoid-right {
