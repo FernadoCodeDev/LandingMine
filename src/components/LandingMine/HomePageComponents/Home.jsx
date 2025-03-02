@@ -5,7 +5,7 @@ import Navegation from "../TempladeComponents/Navegation";
 import Footer from "../TempladeComponents/Footer";
 import Button from "./Button";
 import ButtonLanding from "../CollectionPageComponents/ButtonLanding";
-import BackgroundPizzaPizza from "../../PizzaPizza/img/BackgroundPizzaPizza.webp";
+import BackgroundPizzaUp from "../../PizzaUp/img/BackgroundPizzaUp.webp";
 import BackgroundGym from "../../GYM/img/BackgroundGym.webp";
 import BackgroundMA from "../../MarketingAgency/img/MarketingAgency.webp";
 import BackgroundPB from "../../PigBank/img/PigBankBG.webp";
@@ -64,29 +64,35 @@ const HomePage = () => {
 
             <div className="grid grid-cols-1 gap-8 px-4 mx-auto md:grid-cols-2 lg:grid-cols-3">
               <div className="bg-gray-300 rounded-lg shadow-md dark:bg-neutral-800">
-                <img src={BackgroundPizzaPizza} alt="BackgroundPizzaPizza" className="w-full h-60"/>
+                <img
+                  src={BackgroundPizzaUp}
+                  alt="BackgroundPizzaUp"
+                  className="w-full h-60"
+                />
                 <div className="p-4">
                   <h2 className="text-xl font-semibold dark:text-white">
-                    PizzaPizza
+                    PizzaUp
                   </h2>
                   <p className="text-black dark:text-white">
                     landing page sobre una pizzeria
                   </p>
 
-                  <a href="/PizzaPizza">
+                  <a href="/PizzaUp">
                     <ButtonLanding />
                   </a>
                 </div>
               </div>
 
               <div className="bg-gray-200 rounded-lg shadow-md dark:bg-neutral-800">
-                <img src={BackgroundGym} alt="BackgroundGym" className="w-full h-60" />
+                <img
+                  src={BackgroundGym}
+                  alt="BackgroundGym"
+                  className="w-full h-60"
+                />
                 <div className="p-4">
-                  <h2 className="text-xl font-semibold dark:text-white">
-                  Gym
-                  </h2>
+                  <h2 className="text-xl font-semibold dark:text-white">Gym</h2>
                   <p className="text-black dark:text-white">
-                  landing page sobre un gimnasio
+                    landing page sobre un gimnasio
                   </p>
 
                   <a href="/Gym">
@@ -96,13 +102,17 @@ const HomePage = () => {
               </div>
 
               <div className="bg-gray-200 rounded-lg shadow-md dark:bg-neutral-800">
-                <img src={BackgroundMA} alt="BackgroundMA" className="w-full h-60" />
+                <img
+                  src={BackgroundMA}
+                  alt="BackgroundMA"
+                  className="w-full h-60"
+                />
                 <div className="p-4">
                   <h2 className="text-xl font-semibold dark:text-white">
-                  Marketing Agency
+                    Marketing Agency
                   </h2>
                   <p className="text-black dark:text-white">
-                  landing page sobre un Agencia de Marketing digital
+                    landing page sobre un Agencia de Marketing digital
                   </p>
 
                   <a href="/MarketingAgency">
@@ -112,13 +122,17 @@ const HomePage = () => {
               </div>
 
               <div className="bg-gray-200 rounded-lg shadow-md dark:bg-neutral-800">
-                <img src={BackgroundPB} alt="BackgroundPB" className="w-full h-60" />
+                <img
+                  src={BackgroundPB}
+                  alt="BackgroundPB"
+                  className="w-full h-60"
+                />
                 <div className="p-4">
                   <h2 className="text-xl font-semibold dark:text-white">
                     Pig Bank
                   </h2>
                   <p className="text-black dark:text-white">
-                  landing page sobre un Banco
+                    landing page sobre un Banco
                   </p>
 
                   <a href="/PigBank">
@@ -128,13 +142,17 @@ const HomePage = () => {
               </div>
 
               <div className="bg-gray-200 rounded-lg shadow-md dark:bg-neutral-800">
-                <img src={BackgroundGoodTrip} alt="BackgroundGoodTrip" className="w-full h-60" />
+                <img
+                  src={BackgroundGoodTrip}
+                  alt="BackgroundGoodTrip"
+                  className="w-full h-60"
+                />
                 <div className="p-4">
                   <h2 className="text-xl font-semibold dark:text-white">
-                 Good Trip
+                    Good Trip
                   </h2>
                   <p className="text-black dark:text-white">
-                  landing page sobre un Agencia de Viajes
+                    landing page sobre un Agencia de Viajes
                   </p>
 
                   <a href="/GoodTrip">
@@ -144,13 +162,17 @@ const HomePage = () => {
               </div>
 
               <div className="bg-gray-200 rounded-lg shadow-md dark:bg-neutral-800">
-                <img src={BackgroundKitchenShop} alt="BackgroundKitchenShop" className="w-full h-60" />
+                <img
+                  src={BackgroundKitchenShop}
+                  alt="BackgroundKitchenShop"
+                  className="w-full h-60"
+                />
                 <div className="p-4">
                   <h2 className="text-xl font-semibold dark:text-white">
-                  KitchenShop
+                    KitchenShop
                   </h2>
                   <p className="text-black dark:text-white">
-                  E-commerce sobre una tienda de articulos de cocina
+                    E-commerce sobre una tienda de articulos de cocina
                   </p>
 
                   <a href="/KitchenShop">

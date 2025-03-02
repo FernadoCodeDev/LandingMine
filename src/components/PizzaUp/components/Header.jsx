@@ -1,15 +1,15 @@
 import React from "react";
 import DarkMode from "../../GlobalComponents/DarkMode";
 import MobileMenu from "../../GlobalComponents/MobileMenu";
-import ImagePizzaPizza from "../img/PizzaPizza.webp";
+import PizzaUp from "../img/PizzaUp.webp";
 
-const HeaderPizzaPizza = () => {
+const HeaderPizzaUp = () => {
   return (
     <div className="grid items-center grid-cols-2 bg-gray-200 dark:bg-neutral-900 md:grid-cols-3">
       <div className="order-1 w-auto m-2 md:order-1">
         <img
-          src={ImagePizzaPizza}
-          alt="ImagePizzaPizza"
+          src={PizzaUp}
+          alt="PizzaUp"
           className="w-40 h-auto m-2"
         />
       </div>
@@ -25,10 +25,10 @@ const HeaderPizzaPizza = () => {
             invertColor="invert dark:invert-0"/>
       </div>
 
-      <div className="order-4 w-full col-span-2  border-b-4 border-gray-400 dark:border-neutral-800 md:col-span-4">
+      <div className="order-4 w-full col-span-2 border-b-4 border-gray-400 dark:border-neutral-800 md:col-span-4">
       </div>
     </div>
   );
 };
 
-export default HeaderPizzaPizza;
+export default HeaderPizzaUp;

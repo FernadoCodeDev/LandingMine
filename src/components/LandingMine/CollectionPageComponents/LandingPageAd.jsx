@@ -1,7 +1,7 @@
 import React from "react";
 import Landing from "../../../img/LandingPageUnderConstruction.webp";
 import ButtonLanding from "./ButtonLanding";
-import BackgroundPizzaPizza from "../../PizzaPizza/img/BackgroundPizzaPizza.webp";
+import BackgroundPizzaUp from "../../PizzaUp/img/BackgroundPizzaUp.webp";
 import BackgroundGym from "../../GYM/img/BackgroundGym.webp";
 import BackgroundMA from "../../MarketingAgency/img/MarketingAgency.webp";
 import BackgroundPB from "../../PigBank/img/PigBankBG.webp";
@@ -14,17 +14,17 @@ const LandingPageAd = () => {
     <div className="grid grid-cols-1 gap-8 px-4 mx-auto md:grid-cols-2 lg:grid-cols-3">
       <div className="bg-gray-300 rounded-lg shadow-md dark:bg-neutral-800">
         <img
-          src={BackgroundPizzaPizza}
-          alt="BackgroundPizzaPizza"
+          src={BackgroundPizzaUp}
+          alt="BackgroundPizzaUp"
           className="w-full h-60"
         />
         <div className="p-4">
-          <h2 className="text-xl font-semibold dark:text-white">PizzaPizza</h2>
+          <h2 className="text-xl font-semibold dark:text-white">PizzaUp</h2>
           <p className="text-black dark:text-white">
             landing page sobre una pizzeria
           </p>
 
-          <a href="/PizzaPizza">
+          <a href="/PizzaUp">
             <ButtonLanding />
           </a>
         </div>

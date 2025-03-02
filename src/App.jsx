@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Home from "./pages/LandingMinePage/Home"; // Home LandingMine Page
 import Collection from "./pages/LandingMinePage/Collection"; // Collection LandingMine Page
 import AboutLandingMine from "./pages/LandingMinePage/AboutLandigMine"; // Collection LandingMine Page
-import PizzaPizza from "./pages/PizzaPizzaLandingPage/PizzaPizza"; // PizzaPizza Landing Page
+import PizzaUp from "./pages/PizzaUp/PizzaUp"; // PizzaUp Landing Page
 import Gym from "./pages/GYMLandingPage/Gym"; // gym Landing Page
 import MarketingAgency from "./pages/MarketingAgency/MarketingAgency"; // MarketingAgency Landing Page
 import PigBank from "./pages/PigBankLandingPage/PigBank"; // PigBank Landing Page
@@ -21,8 +21,8 @@ const App = () => {
         <Route path="/Collection" element={<Collection />} />
         <Route path="/AboutLandingMine" element={<AboutLandingMine />} />
 
-        {/*PizzaPizza Landing Page  */}
-        <Route path="/PizzaPizza" element={<PizzaPizza />} />
+        {/*PizzaUp Landing Page  */}
+        <Route path="/PizzaUp" element={<PizzaUp />} />
         {/*Gym Landing Page  */}
         <Route path="/Gym" element={<Gym />} />
         {/*MarketingAgency Landing Page  */}
