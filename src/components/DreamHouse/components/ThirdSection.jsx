@@ -79,13 +79,12 @@ const ThirdSection = () => {
           className="absolute inset-0 object-cover w-full h-full"
         />
         <div className="relative z-10 flex flex-col h-auto p-4 m-4 text-black backdrop-blur-[2px] bg-white/20 md:bg-white md:w-1/3 md:ms-auto">
-          <h1 className="pb-2 text-3xl font-bold">Find The Perfect House</h1>
+          <h1 className="pb-2 text-3xl font-bold">Encuentra la casa perfecta</h1>
 
-          <p className="py-2 ">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eveniet
-            doloribus dignissimos aperiam officiis facere nisi doloremque alias
-            minima asperiores hic odio ipsa dolorem molestiae praesentium nulla
-            facilis, voluptates tempore maxime.
+          <p className="py-2">
+            <span className="font-bold">DreamHouse</span> posee cientos de casas
+            en venta cerca de usted. Vea las casas que están en venta o eche un
+            vistazo a las que aún no han salido al mercado.
           </p>
 
           <div className="grid items-center grid-cols-3 gap-2">
@@ -93,7 +92,7 @@ const ThirdSection = () => {
               <p>1/4</p>
             </div>
             <div className="p-2 font-bold text-center text-white border border-gray-100 md:text-neutral-700">
-              <p>Discover Houses</p>
+              <p>Descubre tú nuevo Hogar</p>
             </div>
 
             <button className="flex flex-col font-bold text-center text-white transition-all duration-700 ease-out md:text-neutral-700 md:hover:text-black hover:text-slate-300 ">
