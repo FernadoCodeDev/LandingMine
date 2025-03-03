@@ -1,6 +1,9 @@
 import React from "react";
 import imgN1 from "../img/imgN1.webp";
 import Location from "./SVGComponents/Location";
+import Bed from "./SVGComponents/Bed";
+import Bathtub from "./SVGComponents/Bathtub";
+import CurrencySVG from "./SVGComponents/CurrencySVG";
 
 const SecondSection = () => {
   return (
@@ -40,14 +43,31 @@ const SecondSection = () => {
             <h2 className="text-xl font-semibold dark:text-white">
               The Queen Inside - Type 3
             </h2>
-            <div className="flex flex-row gap-2 text-black dark:text-white">
+            <div className="flex flex-row gap-2 mt-4 text-black dark:text-white">
               <Location width="20" />
               <p className="text-slate-600 dark:text-slate-300">
                 Evergreen Chemists
               </p>
             </div>
 
-            <button className="flex flex-row m-auto font-bold text-blue-400 transition-all duration-700 ease-out hover:text-blue-600 ">
+            <div className="flex flex-row justify-between gap-2 mt-4 text-black dark:text-white">
+              <div className="flex flex-row gap-2">
+                <Bed width="20" />
+                <p className="font-bold text-slate-600 dark:text-slate-300">2</p>
+              </div>
+
+              <div className="flex flex-row gap-2">
+                <Bathtub width="20" />
+                <p className="font-bold text-slate-600 dark:text-slate-300">2</p>
+              </div>
+
+              <div className="flex flex-row">
+                <CurrencySVG width="20" />
+                <p className="font-bold text-slate-600 dark:text-slate-300">7,720,000</p>
+              </div>
+            </div>
+
+            <button className="flex flex-row m-auto mt-4 font-bold text-blue-400 transition-all duration-700 ease-out hover:text-blue-600 ">
               See Details{" "}
               <svg
                 class="w-6 h-6 transition-transform duration-500 group-hover:translate-x-1"
