@@ -34,17 +34,17 @@ const SecondSection = () => {
       </div>
 
       <div className="grid grid-cols-1 mt-6 m-auto max-w-[70rem] md:grid-cols-3">
-        <div className="bg-gray-200 rounded-lg shadow-md dark:bg-neutral-800">
+        <div className="bg-white rounded-lg shadow-md dark:bg-neutral-800">
           <img src={imgN1} alt="imgN1" className="w-full h-auto" />
           <div className="p-4">
             <h2 className="text-xl font-semibold dark:text-white">
-             The Queen Inside - Type 3
+              The Queen Inside - Type 3
             </h2>
-            <div className="flex flex-row justify-center">
-            <Location width="20"/>
-            <p className="text-black dark:text-white">
-            E-commerce sobre una tienda de articulos de cocina
-            </p>
+            <div className="flex flex-row gap-2 text-black dark:text-white">
+              <Location width="20" />
+              <p className="text-slate-600 dark:text-slate-300">
+                Evergreen Chemists
+              </p>
             </div>
 
             <button>see Details</button>
