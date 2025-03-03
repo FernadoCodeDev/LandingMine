@@ -1,5 +1,9 @@
 import React from "react";
 import imgN4 from "../img/imgN4.webp";
+import HouseSVG from "./SVGComponents/HouseSVG";
+import DateSVG from "./SVGComponents/DateSVG";
+import PurchaseSVG from "./SVGComponents/PurchaseSVG";
+import GuaranteeSVG from "./SVGComponents/guaranteeSVG";
 
 const ThirdSection = () => {
   return (
@@ -10,51 +14,59 @@ const ThirdSection = () => {
         {/* Desktop Layout */}
         <div className="relative items-start hidden space-x-8 md:flex">
           <div className="relative flex items-center">
-            <div className="flex items-center justify-center w-24 h-24 font-bold text-white bg-blue-500">
-              1
+            <div className="flex flex-col items-center justify-center w-40 h-40 font-bold text-center text-white bg-blue-500">
+              <HouseSVG width="40" />
+              <p>Descubre la casa</p>
             </div>
             <div className="absolute w-16 h-1 -translate-y-1/2 bg-gray-400 left-full top-1/2"></div>
           </div>
           <div className="relative flex items-center">
-            <div className="flex items-center justify-center w-24 h-24 font-bold text-white bg-blue-500">
-              2
+            <div className="flex flex-col items-center justify-center w-40 h-40 font-bold text-center text-white bg-blue-500">
+              <DateSVG width="40" />
+              <p>Horario de visita</p>
             </div>
             <div className="absolute w-16 h-1 -translate-y-1/2 bg-gray-400 left-full top-1/2"></div>
           </div>
           <div className="relative flex items-center">
-            <div className="flex items-center justify-center w-24 h-24 font-bold text-white bg-blue-500">
-              3
+            <div className="flex flex-col items-center justify-center w-40 h-40 font-bold text-center text-white bg-blue-500">
+              <PurchaseSVG width="40" />
+              <p>Compra sin complicaciones</p>
             </div>
             <div className="absolute w-16 h-1 -translate-y-1/2 bg-gray-400 left-full top-1/2"></div>
           </div>
-          <div className="z-10 flex items-center justify-center w-24 h-24 font-bold text-white bg-blue-500">
-            4
+          <div className="z-10 flex flex-col items-center justify-center w-40 h-40 font-bold text-center text-white bg-blue-500 ">
+            <GuaranteeSVG width="40" />
+            <p>Garantía de recompra</p>
           </div>
         </div>
 
         {/* Mobile Layout */}
         <div className="relative grid grid-cols-2 gap-4 md:hidden">
           <div className="relative flex items-center justify-center">
-            <div className="flex items-center justify-center w-24 h-24 font-bold text-white bg-blue-500">
-              1
+            <div className="flex flex-col items-center justify-center w-40 h-40 font-bold text-center text-white bg-blue-500">
+              <HouseSVG width="40" />
+              <p>Descubre la casa</p>
             </div>
             <div className="absolute w-16 h-1 -translate-y-1/2 bg-gray-400 left-full top-1/2"></div>
           </div>
           <div className="relative flex items-center justify-center">
-            <div className="flex items-center justify-center w-24 h-24 font-bold text-white bg-blue-500">
-              2
+            <div className="flex flex-col items-center justify-center w-40 h-40 font-bold text-center text-white bg-blue-500">
+              <DateSVG width="40" />
+              <p>Horario de visita</p>
             </div>
             <div className="absolute w-1 h-12 -translate-x-1/2 bg-gray-400 top-full left-1/2"></div>
           </div>
           <div className="relative flex items-center justify-center">
-            <div className="flex items-center justify-center w-24 h-24 font-bold text-white bg-blue-500">
-              4
+            <div className="flex flex-col items-center justify-center w-40 h-40 font-bold text-center text-white bg-blue-500">
+              <GuaranteeSVG width="40" />
+              <p>Garantía de recompra</p>
             </div>
             <div className="absolute w-16 h-1 -translate-y-1/2 bg-gray-400 left-full top-1/2"></div>
           </div>
           <div className="relative flex items-center justify-center">
-            <div className="flex items-center justify-center w-24 h-24 font-bold text-white bg-blue-500">
-              3
+            <div className="flex flex-col items-center justify-center w-40 h-40 font-bold text-center text-white bg-blue-500">
+              <PurchaseSVG width="40" />
+              <p>Compra sin complicaciones</p>
             </div>
           </div>
         </div>
