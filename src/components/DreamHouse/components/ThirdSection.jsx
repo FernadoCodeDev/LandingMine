@@ -1,8 +1,96 @@
 import React from "react";
+import imgN4 from "../img/imgN4.webp";
 
 const ThirdSection = () => {
   return (
-    <div className="relative w-full p-4 text-black border-t-2 border-b-2 border-gray-300 dark:text-white min-h-auto bg-yellow-50 dark:bg-neutral-800"></div>
+    <div className="relative w-full min-h-screen p-4 text-black bg-slate-100 dark:text-white dark:bg-neutral-900">
+      <h1 className="text-3xl font-bold text-center">Cómo funciona</h1>
+
+      <div className="flex flex-col items-center justify-center mt-6">
+        {/* Desktop Layout */}
+        <div className="relative items-start hidden space-x-8 md:flex">
+          <div className="relative flex items-center">
+            <div className="flex items-center justify-center w-24 h-24 font-bold text-white bg-blue-500">
+              1
+            </div>
+            <div className="absolute w-16 h-1 -translate-y-1/2 bg-gray-400 left-full top-1/2"></div>
+          </div>
+          <div className="relative flex items-center">
+            <div className="flex items-center justify-center w-24 h-24 font-bold text-white bg-blue-500">
+              2
+            </div>
+            <div className="absolute w-16 h-1 -translate-y-1/2 bg-gray-400 left-full top-1/2"></div>
+          </div>
+          <div className="relative flex items-center">
+            <div className="flex items-center justify-center w-24 h-24 font-bold text-white bg-blue-500">
+              3
+            </div>
+            <div className="absolute w-16 h-1 -translate-y-1/2 bg-gray-400 left-full top-1/2"></div>
+          </div>
+          <div className="z-10 flex items-center justify-center w-24 h-24 font-bold text-white bg-blue-500">
+            4
+          </div>
+        </div>
+
+        {/* Mobile Layout */}
+        <div className="relative grid grid-cols-2 gap-4 md:hidden">
+          <div className="relative flex items-center justify-center">
+            <div className="flex items-center justify-center w-24 h-24 font-bold text-white bg-blue-500">
+              1
+            </div>
+            <div className="absolute w-16 h-1 -translate-y-1/2 bg-gray-400 left-full top-1/2"></div>
+          </div>
+          <div className="relative flex items-center justify-center">
+            <div className="flex items-center justify-center w-24 h-24 font-bold text-white bg-blue-500">
+              2
+            </div>
+            <div className="absolute w-1 h-12 -translate-x-1/2 bg-gray-400 top-full left-1/2"></div>
+          </div>
+          <div className="relative flex items-center justify-center">
+            <div className="flex items-center justify-center w-24 h-24 font-bold text-white bg-blue-500">
+              4
+            </div>
+            <div className="absolute w-16 h-1 -translate-y-1/2 bg-gray-400 left-full top-1/2"></div>
+          </div>
+          <div className="relative flex items-center justify-center">
+            <div className="flex items-center justify-center w-24 h-24 font-bold text-white bg-blue-500">
+              3
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div className="relative m-auto max-w-[70rem] mt-6 overflow-hidden">
+        <img
+          src={imgN4}
+          alt="imgN4"
+          className="absolute inset-0 object-cover w-full h-full"
+        />
+        <div className="relative z-10 flex flex-col h-auto p-4 m-4 text-black backdrop-blur-[2px] bg-white/20 md:bg-white md:w-1/3 md:ms-auto">
+          <h1 className="pb-2 text-3xl font-bold">Find The Perfect House</h1>
+
+          <p className="py-2 ">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eveniet
+            doloribus dignissimos aperiam officiis facere nisi doloremque alias
+            minima asperiores hic odio ipsa dolorem molestiae praesentium nulla
+            facilis, voluptates tempore maxime.
+          </p>
+
+          <div className="grid items-center grid-cols-3 gap-2">
+            <div className="p-2 font-bold text-center text-white border border-gray-100 md:text-neutral-700">
+              <p>1/4</p>
+            </div>
+            <div className="p-2 font-bold text-center text-white border border-gray-100 md:text-neutral-700">
+              <p>Discover Houses</p>
+            </div>
+
+            <button className="flex flex-col font-bold text-center text-white transition-all duration-700 ease-out md:text-neutral-700 md:hover:text-black hover:text-slate-300 ">
+              Next
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
   );
 };
 
