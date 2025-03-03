@@ -2,7 +2,7 @@ import React from "react";
 const BedSVG = (props) => {
   return (
     <svg
-      fill="#000000"
+      fill="currentColor"
       viewBox="0 0 50 50"
       xmlns="http://www.w3.org/2000/svg"
       xmlnsXlink="http://www.w3.org/1999/xlink"
