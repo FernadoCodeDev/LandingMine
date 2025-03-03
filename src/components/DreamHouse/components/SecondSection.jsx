@@ -10,14 +10,14 @@ import CurrencySVG from "./SVGComponents/CurrencySVG";
 const SecondSection = () => {
   return (
     <div className="relative w-full min-h-screen p-4 text-black bg-white dark:text-white dark:bg-neutral-800">
-      <div className="grid grid-cols-1 md:grid-cols-2  gap-2 m-auto max-w-[70rem]">
-        <h1 className="m-auto text-2xl font-bold">Popular Property</h1>
+      <div className="grid grid-cols-1 mb-12 md:grid-cols-2 pb-6 border-b-2 border-slate-300 gap-2 m-auto max-w-[70rem]">
+        <h1 className="m-auto text-2xl font-bold md:text-6xl">
+          Popular Property
+        </h1>
 
-        <p className="text-start text-slate-800 dark:text-gray-200">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum enim
-          nemo necessitatibus neque optio hic recusandae cum soluta sed aliquid
-          nihil explicabo, dignissimos velit provident? Beatae ab non error
-          officiis.
+        <p className="text-start text-slate-800 md:text-2xl dark:text-gray-200">
+          brindamos un servicio completo para la venta, compra o alquiler de
+          inmuebles, brindamos un brindamos un servicio completo para la venta.
         </p>
       </div>
 
@@ -42,8 +42,8 @@ const SecondSection = () => {
         <div className="bg-white rounded-lg shadow-md dark:bg-neutral-800">
           <img src={imgN1} alt="imgN1" className="w-full h-auto" />
           <div className="p-4">
-            <h2 className="text-xl font-semibold dark:text-white">
-              The Queen Inside - Type 3
+            <h2 className="text-xl font-semibold md:text-2xl dark:text-white">
+              The Queen Inside - Type 1
             </h2>
             <div className="flex flex-row gap-2 mt-4 text-black dark:text-white">
               <Location width="20" />
@@ -98,8 +98,8 @@ const SecondSection = () => {
         <div className="bg-white rounded-lg shadow-md dark:bg-neutral-800">
           <img src={imgN2} alt="imgN2" className="w-full h-auto" />
           <div className="p-4">
-            <h2 className="text-xl font-semibold dark:text-white">
-              The Queen Inside - Type 3
+            <h2 className="text-xl font-semibold md:text-2xl dark:text-white">
+              The Queen Inside - Type 2
             </h2>
             <div className="flex flex-row gap-2 mt-4 text-black dark:text-white">
               <Location width="20" />
@@ -154,7 +154,7 @@ const SecondSection = () => {
         <div className="bg-white rounded-lg shadow-md dark:bg-neutral-800">
           <img src={imgN3} alt="imgN3" className="w-full h-auto" />
           <div className="p-4">
-            <h2 className="text-xl font-semibold dark:text-white">
+            <h2 className="text-xl font-semibold md:text-2xl dark:text-white">
               The Queen Inside - Type 3
             </h2>
             <div className="flex flex-row gap-2 mt-4 text-black dark:text-white">
@@ -207,6 +207,10 @@ const SecondSection = () => {
           </div>
         </div>
       </div>
+
+      <button className="flex flex-col text-center transition-all duration-700 ease-out bg-blue-400 hover:bg-blue-600 text-white md:w-1/2 dark:bg-neutral-900 dark:hover:bg-black my-12 p-2 w-full max-w-[70rem] m-auto">
+        Ver todas
+      </button>
     </div>
   );
 };
