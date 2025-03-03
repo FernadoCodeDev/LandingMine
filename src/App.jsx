@@ -9,8 +9,8 @@ import MarketingAgency from "./pages/MarketingAgency/MarketingAgency"; // Market
 import PigBank from "./pages/PigBankLandingPage/PigBank"; // PigBank Landing Page
 import GoodTrip from "./pages/GoodTrip/GoodTrip"; // GoodTrip Landing Page
 import CooktopiaShop from "./pages/CooktopiaShop/CooktopiaShop"; // CooktopiaShop Landing Page
-import DreamHouse from "./pages/DreamHouse/DreamHouse"; // DreamHouse Shop Landing Page
-
+import DreamHouse from "./pages/DreamHouse/DreamHouse"; // DreamHouse Landing Page
+import WebCall from "./pages/WebCall/WebCall"; // WebCall Landing Page
 
 const App = () => {
   return (
@@ -31,12 +31,12 @@ const App = () => {
         <Route path="/PigBank" element={<PigBank />} />
         {/*GoodTrip Landing Page  */}
         <Route path="/GoodTrip" element={<GoodTrip />} />
-
         {/*CooktopiaShop Landing Page  */}
         <Route path="/CooktopiaShop" element={<CooktopiaShop />} />
-
         {/*DreamHouse Landing Page  */}
         <Route path="/DreamHouse" element={<DreamHouse />} />
+        {/*WebCall Landing Page  */}
+        <Route path="/WebCall" element={<WebCall />} />
       </Routes>
     </Router>
   );
