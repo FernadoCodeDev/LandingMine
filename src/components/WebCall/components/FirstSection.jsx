@@ -12,10 +12,10 @@ const FirstSection = () => {
   return (
     <div className="relative w-full min-h-screen p-2 bg-gray-900 text-amber-50">
       <div className="pt-20 md:pt-32 m-auto flex flex-row justify-between w-full border-b-2 my-2 border-amber-50 p-2 max-w-[100rem]">
-        <p className="text-5xl font-fantasy ">SPONSORS & PARTNERS</p>
+        <p className="text-5xl font-fantasy ">PATROCINADORES Y SOCIOS</p>
 
         <div className="flex flex-row items-end justify-end gap-2">
-          <p className="text-xl ">VIEW ALL SPONSORS</p>
+          <p className="text-xl ">VER TODOS LOS PATROCINADORES</p>
           <div className="flex flex-col items-center justify-center w-8 h-8 p-1 border border-purple-400 rounded-full cursor-pointer">
             <svg
               class="w-8 h-8 transition-transform duration-500 group-hover:translate-x-1"

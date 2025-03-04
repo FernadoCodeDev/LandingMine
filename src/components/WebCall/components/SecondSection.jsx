@@ -56,7 +56,7 @@ const SecondSection = () => {
             9:00
           </h1>
           <h1 className="font-sans font-bold md:text-3xl text-amber-50">
-          APERTURA
+            APERTURA
           </h1>
         </div>
 
@@ -65,7 +65,7 @@ const SecondSection = () => {
             9:30
           </h1>
           <h1 className="font-sans font-bold md:text-3xl text-amber-50">
-          INTRODUCCIÓN Y BIENVENIDA
+            INTRODUCCIÓN Y BIENVENIDA
           </h1>
         </div>
 
@@ -74,10 +74,11 @@ const SecondSection = () => {
             10:00
           </h1>
           <h1 className="flex flex-col items-center justify-center font-sans font-bold text-center text-purple-400 md:text-start md:text-3xl">
-          DISEÑADOR T-shaped
+            DISEÑADOR T-shaped
           </h1>
           <p className="flex flex-col items-center justify-center text-center ">
-          Un diseñador T-shaped es alguien que tiene un conocimiento profundo y específico dentro de su campo.
+            Un diseñador T-shaped es alguien que tiene un conocimiento profundo
+            y específico dentro de su campo.
           </p>
 
           <div className="flex flex-col items-center justify-center">
@@ -97,10 +98,10 @@ const SecondSection = () => {
             11:00
           </h1>
           <h1 className="flex flex-col items-center justify-center font-sans font-bold text-center text-purple-400 md:text-start md:text-3xl">
-          MODELO DE FLEX BOX 
+            MODELO DE FLEX BOX
           </h1>
           <p className="flex flex-col items-center justify-center text-center ">
-          El modelo FLEX BOX en CS5 es un modo de diseño unidimensional
+            El modelo FLEX BOX en CS5 es un modo de diseño unidimensional
           </p>
 
           <div className="flex flex-col items-center justify-center">
@@ -127,7 +128,8 @@ const SecondSection = () => {
             DEEP WORK
           </h1>
           <p className="flex flex-col items-center justify-center text-center ">
-          Proceso de planificación y control consciente del tiempo dedicado a actividades específicas
+            Proceso de planificación y control consciente del tiempo dedicado a
+            actividades específicas
           </p>
 
           <div className="flex flex-col items-center justify-center">
@@ -151,7 +153,7 @@ const SecondSection = () => {
             12:30
           </h1>
           <h1 className="font-sans font-bold md:text-3xl text-amber-50">
-            LUNCH BREAK
+            Pausa para el almuerzo
           </h1>
         </div>
 
@@ -160,10 +162,11 @@ const SecondSection = () => {
             14:00
           </h1>
           <h1 className="flex flex-col items-center justify-center font-sans font-bold text-center text-purple-400 md:text-start md:text-3xl">
-          INSPIRACIÓN DE DISEÑO
+            INSPIRACIÓN DE DISEÑO
           </h1>
           <p className="flex flex-col items-center justify-center text-center ">
-          La inspiración puede venir de cualquier lugar, de un verso de poesía o del color de una acera.
+            La inspiración puede venir de cualquier lugar, de un verso de poesía
+            o del color de una acera.
           </p>
 
           <div className="flex flex-col items-center justify-center">
