@@ -23,7 +23,7 @@ const HeaderWC = () => {
         </div>
       </div>
 
-      <h1 className="m-auto text-center font-bold font-mono text-amber-100 text-[9vw] max-w-[100rem]">DIGITAL CONFERENCE </h1>
+      <h1 className="m-auto text-center font-fantasy font-bold text-amber-100 text-[9vw] max-w-[100rem]">DIGITAL CONFERENCE </h1>
     </div>
   );
 };
