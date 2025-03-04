@@ -37,7 +37,7 @@ const ThirdSection = () => {
               <p>Regular</p>
             </div>
 
-            <h1 className="py-4 text-6xl font-fantasy">$65</h1>
+            <h1 className="py-4 text-3xl md:text-6xl font-fantasy">$65</h1>
 
             <ul>
               <li className="flex items-center gap-2 md:text-2xl">
@@ -65,7 +65,7 @@ const ThirdSection = () => {
             <p>PREMIUN</p>
           </div>
 
-          <h1 className="py-4 text-6xl font-fantasy">$95</h1>
+          <h1 className="py-4 text-3xl md:text-6xl font-fantasy">$95</h1>
 
           <ul>
             <li className="flex items-center gap-2 md:text-2xl">
@@ -93,7 +93,7 @@ const ThirdSection = () => {
               <p>VIP</p>
             </div>
 
-            <h1 className="py-4 text-6xl font-fantasy">$150</h1>
+            <h1 className="py-4 text-3xl md:text-6xl font-fantasy">$150</h1>
 
             <ul>
               <li className="flex items-center gap-2 md:text-2xl">
