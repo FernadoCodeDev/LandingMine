@@ -16,6 +16,7 @@ const HeaderWLP = () => {
             hoverColor="hover:text-amber-950"
             bgColor="bg-backdrop-blur-[4px] last-of-type:rounded-b-3xl bg-black/20 md:bg-transparent"
             invertColor="invert"
+            className="z-40"
           />
         </div>
 
@@ -38,10 +39,26 @@ const HeaderWLP = () => {
                 className="m-auto w-full max-w-[20rem] h-auto object-con "
               />
 
-              <div className="text-cyan-400 font-antonio absolute inset-0 flex flex-col items-center justify-center text-center max-w-[30rem] p-4 m-auto z-10">
-                <h1 className="text-2xl font-bold">LUCHA</h1>
-                <h2 className="text-2xl font-bold">CON </h2>
-                <h1 className="text-2xl font-bold">HONOR</h1>
+              <div className="-top-[6rem] absolute inset-0 flex items-center justify-center text-center max-w-[30rem] p-4 m-auto z-10 text-teal-600 font-antonio">
+                <div className="grid items-center justify-center grid-cols-1 opacity-75 ">
+                  <div className="flex flex-row gap-1">
+                    {/* First text in horizontal */}
+                    <h1 className="text-6xl font-bold lg:text-9xl">LUCHA</h1>
+
+                    {/* Second text in vertical */}
+                    <h2 className="flex flex-col text-xl font-bold leading-none lg:text-4xl">
+                      <span>C</span>
+                      <span>O</span>
+                      <span>N</span>
+                    </h2>
+                  </div>
+                  <div className="">
+                    {/* Third text in horizontal */}
+                    <h1 className="text-6xl font-bold lg:text-9xl text-start">
+                      HONOR
+                    </h1>
+                  </div>
+                </div>
               </div>
             </div>
 
@@ -58,18 +75,62 @@ const HeaderWLP = () => {
                 className="m-auto max-w-[20rem] object-cover w-full h-auto "
               />
 
-              <div className="text-orange-400 font-antonio absolute inset-0 flex flex-col items-center justify-center text-center max-w-[30rem] p-4 m-auto z-10">
-              <h1 className="text-2xl font-bold">GANA</h1>
-                <h2 className="text-2xl font-bold">CON </h2>
-                <h1 className="text-2xl font-bold">PASIÓN</h1>
+              <div className="-top-[6rem] absolute inset-0 flex items-center justify-center max-w-[30rem] p-4 m-auto z-10 text-orange-500 opacity-75 font-antonio">
+                <div className="grid items-center justify-center grid-cols-1 ">
+                  <div className="flex flex-row gap-1">
+                    {/* First text in horizontal */}
+                    <h2 className="flex flex-col text-xl font-bold leading-none lg:text-4xl">
+                      <span>C</span>
+                      <span>O</span>
+                      <span>N</span>
+                    </h2>
+
+                    {/* Second text in vertical */}
+                    <h1 className="text-6xl font-bold text-end lg:text-9xl">
+                      Gana
+                    </h1>
+                  </div>
+                  <div className="">
+                    {/* Third text in horizontal */}
+                    <h1 className="text-6xl font-bold text-start lg:text-9xl">
+                      Pasión
+                    </h1>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
         </div>
       </div>
 
-      <div className="hidden md:block absolute w-1/12 max-w-[10rem] rounded-tr-3xl left-0 bottom-[0%] md:bottom-[25%] bg-slate-800 md:h-80   rounded-r-3xl"></div>
-      <div className="hidden md:block  absolute w-1/12 max-w-[10rem] rounded-bl-3xl right-0 bottom-[0%] md:bottom-[25%] bg-slate-800  md:h-80 rounded-l-3xl"></div>
+      <div className="hidden md:block absolute w-1/12 max-w-[10rem]  left-0 bottom-[0%] md:bottom-[25%] bg-slate-800 md:h-80 rounded-r-3xl">
+        <div className="flex flex-col p-2 m-auto text-xl font-bold text-center text-orange-50">
+          <span>C</span>
+          <span>O</span>
+          <span>N</span>
+          <span>S</span>
+          <span>T</span>
+          <span>A</span>
+          <span>N</span>
+          <span>C</span>
+          <span>I</span>
+          <span>A</span>
+        </div>
+      </div>
+      <div className="hidden md:block  absolute w-1/12 max-w-[10rem] right-0 bottom-[0%] md:bottom-[25%] bg-slate-800  md:h-80 rounded-l-3xl">
+        <div className="flex flex-col p-2 m-auto text-xl font-bold text-center text-orange-50">
+          <span>D</span>
+          <span>I</span>
+          <span>S</span>
+          <span>C</span>
+          <span>I</span>
+          <span>P</span>
+          <span>L</span>
+          <span>I</span>
+          <span>N</span>
+          <span>A</span>
+        </div>
+      </div>
     </div>
   );
 };
