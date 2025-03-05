@@ -11,6 +11,7 @@ import GoodTrip from "./pages/GoodTrip/GoodTrip"; // GoodTrip Landing Page
 import CooktopiaShop from "./pages/CooktopiaShop/CooktopiaShop"; // CooktopiaShop Landing Page
 import DreamHouse from "./pages/DreamHouse/DreamHouse"; // DreamHouse Landing Page
 import WebCall from "./pages/WebCall/WebCall"; // WebCall Landing Page
+import WLP from "./pages/WLP/wbp"; // WLP Landing Page
 
 const App = () => {
   return (
@@ -37,6 +38,8 @@ const App = () => {
         <Route path="/DreamHouse" element={<DreamHouse />} />
         {/*WebCall Landing Page  */}
         <Route path="/WebCall" element={<WebCall />} />
+        {/*WLP Landing Page  */}
+        <Route path="/WLP" element={<WLP />} />
       </Routes>
     </Router>
   );

@@ -9,6 +9,7 @@ import BackgroundGoodTrip from "../../GoodTrip/img/GoodTrip.webp";
 import BackgroundCooktopiaShop from "../../CooktopiaShop/img/BackgroundCooktopiaShop.webp";
 import BackgroundDreamHouse from "../../DreamHouse/img/BackgroundDreamHouse.webp";
 import BackgroundWebCall from "../../WebCall/img/BackgroundWebCall.webp";
+import BackgroundWLP from "../../WLP/img/BackgroundWLP.webp";
 
 const LandingPageAd = () => {
   return (
@@ -148,16 +149,16 @@ const LandingPageAd = () => {
       </div>
 
       <div className="bg-gray-200 rounded-lg shadow-md dark:bg-neutral-800">
-        <img src={Landing} alt="Landing" className="w-full h-auto" />
+        <img src={BackgroundWLP} alt="BackgroundWLP" className="w-full h-60" />
         <div className="p-4">
           <h2 className="text-xl font-semibold dark:text-white">
-            Landing Page 9
+            W L P
           </h2>
           <p className="text-black dark:text-white">
-            Descripción de la landing page.
+            Landing Page sobre una academmia de lucha libre
           </p>
 
-          <a href="#">
+          <a href="/WLP">
             <ButtonLanding />
           </a>
         </div>
