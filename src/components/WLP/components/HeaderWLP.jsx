@@ -38,7 +38,7 @@ const HeaderWLP = () => {
                 className="m-auto w-full max-w-[20rem] h-auto object-con "
               />
 
-              <div className="text-cyan-400 absolute inset-0 flex flex-col items-center justify-center text-center max-w-[30rem] p-4 m-auto z-10">
+              <div className="text-cyan-400 font-antonio absolute inset-0 flex flex-col items-center justify-center text-center max-w-[30rem] p-4 m-auto z-10">
                 <h1 className="text-2xl font-bold">LUCHA</h1>
                 <h2 className="text-2xl font-bold">CON </h2>
                 <h1 className="text-2xl font-bold">HONOR</h1>
@@ -58,7 +58,7 @@ const HeaderWLP = () => {
                 className="m-auto max-w-[20rem] object-cover w-full h-auto "
               />
 
-              <div className="text-orange-400 absolute inset-0 flex flex-col items-center justify-center text-center max-w-[30rem] p-4 m-auto z-10">
+              <div className="text-orange-400 font-antonio absolute inset-0 flex flex-col items-center justify-center text-center max-w-[30rem] p-4 m-auto z-10">
               <h1 className="text-2xl font-bold">GANA</h1>
                 <h2 className="text-2xl font-bold">CON </h2>
                 <h1 className="text-2xl font-bold">PASIÓN</h1>
