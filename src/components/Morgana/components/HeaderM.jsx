@@ -63,7 +63,7 @@ const HeaderM = () => {
                 />
               </div>
 
-              <div className="flex flex-col">
+              <div className="flex flex-col bg-beige-50 text-beige-900 p-4">
                 <h1 className="font-bold text-start">text</h1>
                 <input
                   className="p-1"
