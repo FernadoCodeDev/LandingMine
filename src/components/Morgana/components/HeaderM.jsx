@@ -37,7 +37,9 @@ const HeaderM = () => {
         <div className="relative order-4 col-span-2 md:col-span-3 ">
           <div className="m-auto mb-4 grid grid-cols-1 md:grid-cols-2 max-w-[100rem] gap-2">
             <div className=" flex flex-col gap-2">
-              <h1 className="text-white font-bold text-3xl">Text Text Text</h1>
+              <h1 className="text-center text-white font-bold text-3xl md:text-6xl">
+              Maneja con confianza, maneja con Morgana.
+              </h1>
               <button className="rounded-full flex justify-center w-full md:w-1/4  p-2 transition-all duration-700 ease-out bg-beige-200 hover:bg-beige-400 ">
                 Ver Ahora
               </button>
@@ -60,10 +62,14 @@ const HeaderM = () => {
             <div className="grid grid-cols-1 md:col-start-3 justify-self-end">
               <div className="flex flex-col  max-w-[30rem]">
                 <p className=" text-amber-50 text-center">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Dolorum reprehenderit non asperiores rem facilis dolorem fuga
-                  veritatis illum enim saepe libero, deserunt eaque quos tenetur
-                  molestiae nobis eveniet nisi ipsa?
+                  Ya sea que busques comprar el auto de tus sueños o rentar uno
+                  para una ocasión especial, en Morgana encontrarás variedad,
+                  precios competitivos y un servicio excepcional. Nos apasiona
+                  ayudarte a encontrar el vehículo perfecto para cada etapa de
+                  tu vida.
+                </p>
+                <p className="font-bold text-amber-50 text-center">
+                Maneja con confianza, maneja con Morgana.
                 </p>
               </div>
             </div>
@@ -80,42 +86,44 @@ const HeaderM = () => {
             </div>
           </div>
 
-          <div className="m-auto w-full p-4 bg-white max-w-[70rem]">
+          <div className="hidden md:block m-auto w-full p-4 bg-white max-w-[70rem]">
             <div className="grid grid-cols-1 gap-2 md:grid-cols-5">
               <div className="flex flex-col md:items-center">
                 <h1 className="font-bold text-start md:text-center">
-                  Pick Up Address
+                  Dirección de recogida
                 </h1>
                 <input
                   className="p-1 md:items-center md:text-center"
                   type="text"
                   disabled
-                  placeholder="From: address, airport, hotel,.."
+                  placeholder="Desde: dirección, aeropuerto, hotel,"
                 />
               </div>
 
               <div className="flex flex-col md:items-center">
-                <h1 className="font-bold md:text-center">Drop off address</h1>
+                <h1 className="font-bold md:text-center">
+                  Dirección de entrega
+                </h1>
                 <input
                   className="p-1 md:items-center md:text-center"
                   type="text"
                   disabled
-                  placeholder="Distance, Hourly, Flat, Rate"
+                  placeholder="Distancia, Tarifa por hora, Tarifa fija"
                 />
               </div>
 
               <div className="flex flex-col md:items-center">
-                <h1 className="font-bold md:text-center">Pick Up date</h1>
+                <h1 className="font-bold md:text-center">Fecha de recogida</h1>
                 <input
                   className="p-1 md:items-center md:text-center"
                   type="text"
                   disabled
-                  placeholder="APR 19, 2025"
+                  placeholder="19 ABR 2025"
                 />
               </div>
 
               <div className="flex flex-col md:items-center">
-                <h1 className="font-bold md:text-center">Pick Up Time</h1>
+                <h1 className="font-bold md:text-center">Hora de recogida</h1>
                 <input
                   className="p-1 md:items-center md:text-center"
                   type="text"
