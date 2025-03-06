@@ -10,6 +10,8 @@ import BackgroundCooktopiaShop from "../../CooktopiaShop/img/BackgroundCooktopia
 import BackgroundDreamHouse from "../../DreamHouse/img/BackgroundDreamHouse.webp";
 import BackgroundWebCall from "../../WebCall/img/BackgroundWebCall.webp";
 import BackgroundWLP from "../../WLP/img/BackgroundWLP.webp";
+import BackgroundMorgana from "../../Morgana/img/BackgroundMorgana.webp";
+
 
 const LandingPageAd = () => {
   return (
@@ -165,16 +167,16 @@ const LandingPageAd = () => {
       </div>
 
       <div className="bg-gray-200 rounded-lg shadow-md dark:bg-neutral-800">
-        <img src={Landing} alt="Landing" className="w-full h-auto" />
+        <img src={BackgroundMorgana} alt="BackgroundMorgana" className="w-full h-60" />
         <div className="p-4">
           <h2 className="text-xl font-semibold dark:text-white">
-            Landing Page 10
+          Morgana
           </h2>
           <p className="text-black dark:text-white">
-            Descripción de la landing page.
+            Landing page sobre una con concesionaria de autos
           </p>
 
-          <a href="#">
+          <a href="/Morgana">
             <ButtonLanding />
           </a>
         </div>
