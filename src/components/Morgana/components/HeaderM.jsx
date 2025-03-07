@@ -36,40 +36,53 @@ const HeaderM = () => {
 
         <div className="relative order-4 col-span-2 md:col-span-3 ">
           <div className="m-auto mb-4 grid grid-cols-1 md:grid-cols-2 max-w-[100rem] gap-2">
-            <div className=" flex flex-col gap-2">
-              <h1 className="text-center text-white font-bold text-3xl md:text-6xl">
-              Maneja con confianza, maneja con Morgana.
+            <div className="flex flex-col gap-2 ">
+              <h1 className="text-3xl font-bold text-center text-white md:text-6xl">
+                Maneja con confianza, maneja con Morgana.
               </h1>
-              <button className="rounded-full flex justify-center w-full md:w-1/4  p-2 transition-all duration-700 ease-out bg-beige-200 hover:bg-beige-400 ">
+              <button className="flex justify-center w-full p-2 transition-all duration-700 ease-out rounded-full md:w-1/4 bg-beige-200 hover:bg-beige-400 ">
                 Ver Ahora
               </button>
             </div>
 
-            <div className="hidden md:flex ms-auto  flex-col gap-2 bg-white rounded-3xl w-auto p-4 max-w-[30rem]">
+            <div className="hidden md:flex ms-auto  flex-col gap-2 bg-white rounded-3xl w-auto p-4 max-w-[25rem]">
               <div className="flex flex-row justify-between ">
                 <h1 className="font-bold text-beige-900">$1600/day</h1>
 
-                <div className="flex flex-col items-center justify-center bg-slate-800 w-8 h-8 p-2 rounded-full">
-                  <p>2</p>
+                <div className="flex flex-col items-center justify-center w-8 h-8 p-2 rounded-full bg-slate-800">
+                  <svg
+                    class="w-6 h-6 transition-transform duration-500 group-hover:translate-x-1"
+                    data-slot="icon"
+                    aria-hidden="true"
+                    fill="#fff"
+                    viewBox="0 0 20 20"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      clip-rule="evenodd"
+                      d="M8.22 5.22a.75.75 0 0 1 1.06 0l4.25 4.25a.75.75 0 0 1 0 1.06l-4.25 4.25a.75.75 0 0 1-1.06-1.06L11.94 10 8.22 6.28a.75.75 0 0 1 0-1.06Z"
+                      fill-rule="evenodd"
+                    ></path>
+                  </svg>
                 </div>
               </div>
 
-              <img src={imgN1} alt="imgN1" className="m-auto w-full h-auto" />
+              <img src={imgN1} alt="imgN1" className="w-full h-auto m-auto" />
             </div>
           </div>
 
           <div className="m-auto max-w-[100rem] grid grid-cols-1 mb-2">
             <div className="grid grid-cols-1 md:col-start-3 justify-self-end">
               <div className="flex flex-col  max-w-[30rem]">
-                <p className=" text-amber-50 text-center">
+                <p className="text-center text-amber-50">
                   Ya sea que busques comprar el auto de tus sueños o rentar uno
                   para una ocasión especial, en Morgana encontrarás variedad,
                   precios competitivos y un servicio excepcional. Nos apasiona
                   ayudarte a encontrar el vehículo perfecto para cada etapa de
                   tu vida.
                 </p>
-                <p className="font-bold text-amber-50 text-center">
-                Maneja con confianza, maneja con Morgana.
+                <p className="font-bold text-center text-amber-50">
+                  Maneja con confianza, maneja con Morgana.
                 </p>
               </div>
             </div>
@@ -77,10 +90,10 @@ const HeaderM = () => {
 
           <div className="m-auto max-w-[70rem] grid grid-cols-1 md:grid-cols-2 mb-2">
             <div className="grid grid-cols-2 gap-2">
-              <button className="rounded-xl flex justify-center w-full p-2 transition-all duration-700 ease-out bg-beige-200 hover:bg-beige-400 ">
+              <button className="flex justify-center w-full p-2 transition-all duration-700 ease-out rounded-xl bg-beige-200 hover:bg-beige-500 ">
                 Comprar
               </button>
-              <button className="text-white rounded-xl flex justify-center w-full  p-2 transition-all duration-700 ease-out bg-neutral-900 hover:bg-black ">
+              <button className="flex justify-center w-full p-2 text-white transition-all duration-700 ease-out rounded-xl bg-neutral-900 hover:bg-black ">
                 Alquilar
               </button>
             </div>
