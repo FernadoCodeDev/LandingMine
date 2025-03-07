@@ -13,6 +13,8 @@ import DreamHouse from "./pages/DreamHouse/DreamHouse"; // DreamHouse Landing Pa
 import WebCall from "./pages/WebCall/WebCall"; // WebCall Landing Page
 import WLP from "./pages/WLP/wbp"; // WLP Landing Page
 import Morgana from "./pages/Morgana/Morgana"; // Morgana Landing Page
+import GoldTeeth from "./pages/GoldTeeth/GoldTeeth"; // GoldTeeth Landing Page
+
 
 const App = () => {
   return (
@@ -41,8 +43,10 @@ const App = () => {
         <Route path="/WebCall" element={<WebCall />} />
         {/*WLP Landing Page  */}
         <Route path="/WLP" element={<WLP />} />
-        {/*WLP Landing Page  */}
+        {/*Morgana Landing Page  */}
         <Route path="/Morgana" element={<Morgana />} />
+        {/*GoldTeeth Landing Page  */}
+        <Route path="/GoldTeeth" element={<GoldTeeth />} />
       </Routes>
     </Router>
   );
