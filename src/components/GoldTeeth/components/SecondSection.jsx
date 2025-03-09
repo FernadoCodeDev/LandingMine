@@ -5,7 +5,7 @@ import BracesSVG from "./SVGComponents/BracesSVG";
 
 const SecondSection = () => {
   return (
-    <div className="relative flex flex-col items-center justify-center w-full min-h-screen p-4 bg-rose-800 text-beige-100">
+    <div className="relative flex flex-col lg:text-xl items-center justify-center w-full min-h-screen p-4 bg-rose-800 text-beige-100">
       <div className="grid grid-cols-1 gap-4 md:gap-8 max-w-[80rem] m-auto">
         <h1 className="text-5xl font-bold text-center lg:text-8xl ">
           Una sonrisa saludable empieza aquí

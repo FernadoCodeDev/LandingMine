@@ -5,7 +5,7 @@ import imgN7 from "../img/imgN7.webp";
 
 const ThirdSection = () => {
   return (
-    <div className="relative flex flex-col items-center justify-center w-full min-h-screen p-4 text-black bg-beige-100 dark:bg-neutral-800 dark:text-white">
+    <div className="relative flex flex-col items-center justify-center w-full min-h-screen p-4 text-black lg:text-xl bg-beige-100 dark:bg-neutral-800 dark:text-white">
       <div className="grid grid-cols-1 gap-4 md:gap-8 max-w-[80rem] m-auto">
         <h1 className="text-5xl font-bold text-center lg:text-7xl text-rose-800 dark:text-beige-100">
           Reunirse con nuestros dentistas
