@@ -22,7 +22,7 @@ const FirstSection = () => {
 
           <div className="grid grid-cols-1 gap-2 md:grid-cols-2">
             <div className="grid grid-cols-1 gap-4 p-4 bg-beige-100">
-              <CampingTentSVG width="60" height="60"/>
+              <CampingTentSVG width="60" height="60" />
 
               <div>
                 <h1 className="text-2xl font-bold">TEXT</h1>
@@ -36,7 +36,7 @@ const FirstSection = () => {
             </div>
 
             <div className="grid grid-cols-1 gap-4 p-4 bg-beige-100">
-              <NatureSVG width="60" height="60"/>
+              <NatureSVG width="60" height="60" />
 
               <div>
                 <h1 className="text-2xl font-bold">TEXT</h1>
@@ -54,8 +54,6 @@ const FirstSection = () => {
         <div className="">
           <img src={imgN1} alt="imgN1" className="w-full h-auto rounded-2xl" />
         </div>
-
-
       </div>
     </div>
   );
