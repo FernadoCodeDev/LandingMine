@@ -11,7 +11,8 @@ import BackgroundDreamHouse from "../../DreamHouse/img/BackgroundDreamHouse.webp
 import BackgroundWebCall from "../../WebCall/img/BackgroundWebCall.webp";
 import BackgroundWLP from "../../WLP/img/BackgroundWLP.webp";
 import BackgroundMorgana from "../../Morgana/img/BackgroundMorgana.webp";
-import GoldTeeth from "../../GoldTeeth/img/BackgroundGoldTeeth.webp"
+import GoldTeeth from "../../GoldTeeth/img/BackgroundGoldTeeth.webp";
+import BackgroundCampingNight from "../../CampingNight/img/BackgroundCampingNight.webp";
 
 const LandingPageAd = () => {
   return (
@@ -135,13 +136,15 @@ const LandingPageAd = () => {
       </div>
 
       <div className="bg-gray-200 rounded-lg shadow-md dark:bg-neutral-800">
-        <img src={BackgroundWebCall} alt="BackgroundWebCall" className="w-full h-60" />
+        <img
+          src={BackgroundWebCall}
+          alt="BackgroundWebCall"
+          className="w-full h-60"
+        />
         <div className="p-4">
-          <h2 className="text-xl font-semibold dark:text-white">
-          WebCall
-          </h2>
+          <h2 className="text-xl font-semibold dark:text-white">WebCall</h2>
           <p className="text-black dark:text-white">
-          landing page sobre una plataforma de conferencias en linea
+            landing page sobre una plataforma de conferencias en linea
           </p>
 
           <a href="/WebCall">
@@ -153,9 +156,7 @@ const LandingPageAd = () => {
       <div className="bg-gray-200 rounded-lg shadow-md dark:bg-neutral-800">
         <img src={BackgroundWLP} alt="BackgroundWLP" className="w-full h-60" />
         <div className="p-4">
-          <h2 className="text-xl font-semibold dark:text-white">
-            W L P
-          </h2>
+          <h2 className="text-xl font-semibold dark:text-white">W L P</h2>
           <p className="text-black dark:text-white">
             Landing Page sobre una academmia de lucha libre
           </p>
@@ -167,11 +168,13 @@ const LandingPageAd = () => {
       </div>
 
       <div className="bg-gray-200 rounded-lg shadow-md dark:bg-neutral-800">
-        <img src={BackgroundMorgana} alt="BackgroundMorgana" className="w-full h-60" />
+        <img
+          src={BackgroundMorgana}
+          alt="BackgroundMorgana"
+          className="w-full h-60"
+        />
         <div className="p-4">
-          <h2 className="text-xl font-semibold dark:text-white">
-          Morgana
-          </h2>
+          <h2 className="text-xl font-semibold dark:text-white">Morgana</h2>
           <p className="text-black dark:text-white">
             Landing page sobre una con concesionaria de autos
           </p>
@@ -185,11 +188,9 @@ const LandingPageAd = () => {
       <div className="bg-gray-200 rounded-lg shadow-md dark:bg-neutral-800">
         <img src={GoldTeeth} alt="GoldTeeth" className="w-full h-60" />
         <div className="p-4">
-          <h2 className="text-xl font-semibold dark:text-white">
-          GoldTeeth
-          </h2>
+          <h2 className="text-xl font-semibold dark:text-white">GoldTeeth</h2>
           <p className="text-black dark:text-white">
-           Landing page sobre una clinica dentista.
+            Landing page sobre una clinica dentista.
           </p>
 
           <a href="/GoldTeeth">
@@ -199,16 +200,20 @@ const LandingPageAd = () => {
       </div>
 
       <div className="bg-gray-200 rounded-lg shadow-md dark:bg-neutral-800">
-        <img src={Landing} alt="Landing" className="w-full h-auto" />
+        <img
+          src={BackgroundCampingNight}
+          alt="BackgroundCampingNight"
+          className="w-full h-60"
+        />
         <div className="p-4">
           <h2 className="text-xl font-semibold dark:text-white">
-            Landing Page 12
+            Camping Night
           </h2>
           <p className="text-black dark:text-white">
-            Descripción de la landing page.
+            Landing page de un sitio para acampar
           </p>
 
-          <a href="#">
+          <a href="/CampingNight">
             <ButtonLanding />
           </a>
         </div>

@@ -14,7 +14,7 @@ import WebCall from "./pages/WebCall/WebCall"; // WebCall Landing Page
 import WLP from "./pages/WLP/wbp"; // WLP Landing Page
 import Morgana from "./pages/Morgana/Morgana"; // Morgana Landing Page
 import GoldTeeth from "./pages/GoldTeeth/GoldTeeth"; // GoldTeeth Landing Page
-
+import CampingNight from "./pages/CampingNight/CampingNight"; // CampingNight Landing Page
 
 const App = () => {
   return (
@@ -47,6 +47,8 @@ const App = () => {
         <Route path="/Morgana" element={<Morgana />} />
         {/*GoldTeeth Landing Page  */}
         <Route path="/GoldTeeth" element={<GoldTeeth />} />
+        {/*CampingNight Landing Page  */}
+        <Route path="/CampingNight" element={<CampingNight />} />
       </Routes>
     </Router>
   );
