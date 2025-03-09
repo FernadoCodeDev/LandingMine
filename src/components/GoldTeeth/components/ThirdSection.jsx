@@ -5,18 +5,20 @@ import imgN7 from "../img/imgN7.webp";
 
 const ThirdSection = () => {
   return (
-    <div className="relative flex flex-col items-center justify-center w-full min-h-screen p-4 text-black bg-beige-100 dark:text-white">
+    <div className="relative flex flex-col items-center justify-center w-full min-h-screen p-4 text-black bg-beige-100 dark:bg-neutral-800 dark:text-white">
       <div className="grid grid-cols-1 gap-4 md:gap-8 max-w-[80rem] m-auto">
-        <h1 className="text-5xl font-bold text-center lg:text-8xl text-rose-800 dark:text-beige-100">
-          Text text
+        <h1 className="text-5xl font-bold text-center lg:text-7xl text-rose-800 dark:text-beige-100">
+          Reunirse con nuestros dentistas
         </h1>
-        <p className="m-auto max-w-[50rem] text-center text-black dark:text-white ">
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repudiandae, sequi repellendus? Amet libero deleniti inventore. Delectus, deleniti. Eius cupiditate quos in repudiandae nisi ad cumque enim consectetur? Sed, dolores natus.
+        <p className="m-auto max-w-[50rem] text-center lg:text-xl text-black dark:text-white ">
+          Contamos con un servicio para contactar al médico en línea para una
+          consulta sobre tu salud dental o preguntar horarios de trabajo en la
+          clínica.{" "}
         </p>
       </div>
 
       <div className="grid grid-cols-1 gap-4 mt-8 md:grid-cols-3 max-w-[80rem] m-auto">
-        <div className="grid items-center justify-center grid-cols-1 gap-2 bg-beige-50 rounded-2xl">
+        <div className="grid items-center justify-center grid-cols-1 gap-2 bg-beige-50 dark:bg-neutral-700 rounded-2xl">
           <img
             src={imgN5}
             alt="imgN5"
@@ -26,18 +28,18 @@ const ThirdSection = () => {
           <div className="p-4">
             <h1 className="text-2xl font-bold text-start ">⭐(4.5)</h1>
 
-            <h1 className="text-3xl font-bold text-center text-rose-800">
-              NAME LAST NAME
+            <h1 className="text-3xl font-bold text-start text-rose-800 dark:text-beige-100">
+              Dr David Warner
             </h1>
 
-            <p className="text-center">Lorem ipsum dolor sit amet</p>
-            <p className="font-bold transition-all duration-700 ease-out cursor-pointer hover:w-auto text-beige-800 hover:text-rose-800 ">
+            <p className="text-start">Dermatólogo, DCRT (UK)</p>
+            <p className="font-bold transition-all duration-700 ease-out cursor-pointer hover:w-auto text-beige-800 dark:text-beige-100 hover:text-rose-800 dark:hover:text-rose-800">
               Ver Perfil
             </p>
           </div>
         </div>
 
-        <div className="grid items-center justify-center grid-cols-1 gap-2 bg-beige-50 rounded-2xl">
+        <div className="grid items-center justify-center grid-cols-1 gap-2 bg-beige-50 dark:bg-neutral-700 rounded-2xl">
           <img
             src={imgN6}
             alt="imgN6"
@@ -47,18 +49,18 @@ const ThirdSection = () => {
           <div className="p-4">
             <h1 className="text-2xl font-bold text-start ">⭐(4.5)</h1>
 
-            <h1 className="text-3xl font-bold text-center text-rose-800">
-              NAME LAST NAME
+            <h1 className="text-3xl font-bold text-start text-rose-800 dark:text-beige-100">
+              Dra. Sarah Taylor
             </h1>
 
-            <p className="text-center">Lorem ipsum dolor sit amet</p>
-            <p className="font-bold transition-all duration-700 ease-out cursor-pointer hover:w-auto text-beige-800 hover:text-rose-800 ">
+            <p className="text-start">Dermatóloga, DCRT (UK)</p>
+            <p className="font-bold transition-all duration-700 ease-out cursor-pointer hover:w-auto text-beige-800 dark:text-beige-100 hover:text-rose-800 dark:hover:text-rose-800">
               Ver Perfil
             </p>
           </div>
         </div>
 
-        <div className="grid items-center justify-center grid-cols-1 gap-2 bg-beige-50 rounded-2xl">
+        <div className="grid items-center justify-center grid-cols-1 gap-2 bg-beige-50 dark:bg-neutral-700 rounded-2xl">
           <img
             src={imgN7}
             alt="imgN7"
@@ -68,12 +70,12 @@ const ThirdSection = () => {
           <div className="p-4">
             <h1 className="text-2xl font-bold text-start ">⭐(4.5)</h1>
 
-            <h1 className="text-3xl font-bold text-center text-rose-800">
-              NAME LAST NAME
+            <h1 className="text-3xl font-bold text-start text-rose-800 dark:text-beige-100">
+              Dr Aaron Finch
             </h1>
 
-            <p className="text-center">Lorem ipsum dolor sit amet</p>
-            <p className="font-bold transition-all duration-700 ease-out cursor-pointer hover:w-auto text-beige-800 hover:text-rose-800 ">
+            <p className="text-start">Dermatólogo, DCRT (UK)</p>
+            <p className="font-bold transition-all duration-700 ease-out cursor-pointer hover:w-auto text-beige-800 dark:text-beige-100 hover:text-rose-800 dark:hover:text-rose-800">
               Ver Perfil
             </p>
           </div>
