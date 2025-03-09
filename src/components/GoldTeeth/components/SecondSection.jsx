@@ -5,16 +5,15 @@ import BracesSVG from "./SVGComponents/BracesSVG";
 
 const SecondSection = () => {
   return (
-    <div className="relative w-full min-h-screen p-4 bg-rose-800 text-beige-100">
+    <div className="relative flex flex-col items-center justify-center w-full min-h-screen p-4 bg-rose-800 text-beige-100">
       <div className="grid grid-cols-1 gap-4 md:gap-8 max-w-[80rem] m-auto">
         <h1 className="text-5xl font-bold text-center lg:text-8xl ">
-          A Healthy smile starts here
+          Una sonrisa saludable empieza aquí
         </h1>
         <p className="m-auto max-w-[50rem] text-center text-white ">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis,
-          inventore molestiae libero praesentium voluptate itaque aspernatur
-          sunt temporibus minus? Minima ullam aut fugit dignissimos assumenda,
-          quidem magnam delectus blanditiis facere?
+          Contamos con un servicio para contactar al médico en línea para una
+          consulta sobre tu salud dental o preguntar horarios de trabajo en la
+          clínica.
         </p>
       </div>
 
@@ -24,15 +23,14 @@ const SecondSection = () => {
             <Tooth2SVG />
           </div>
 
-          <h1 className="text-3xl font-bold text-center text-beige-100">
-            General Dentisty
+          <h1 className="text-3xl font-bold text-center md:text-5xl text-beige-100">
+            Odontología general
           </h1>
 
           <p className="text-center">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci
-            vero fuga alias est ipsum labore quas iure laboriosam unde saepe
-            sapiente necessitatibus nemo dignissimos nobis, deleniti dolorem, in
-            illo repellendus.
+            Desde exámenes dentales regulares y limpiezas hasta empastes y
+            extracciones, nuestros servicios de odontología general están
+            diseñados para mantener su salud bucal en óptimas condiciones.
           </p>
         </div>
 
@@ -41,15 +39,14 @@ const SecondSection = () => {
             <Tooth3SVG />
           </div>
 
-          <h1 className="text-3xl font-bold text-center text-rose-800">
-            General Dentisty
+          <h1 className="text-3xl font-bold text-center md:text-5xl text-rose-800">
+            Odontología cosmética
           </h1>
 
           <p className="text-center text-black">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci
-            vero fuga alias est ipsum labore quas iure laboriosam unde saepe
-            sapiente necessitatibus nemo dignissimos nobis, deleniti dolorem, in
-            illo repellendus.
+            Transforme su sonrisa con nuestra gama de tratamientos dentales
+            cosméticos, que incluyen blanqueamiento dental, carillas y cambios
+            de imagen de la sonrisa. Consiga una sonrisa deslumbrante
           </p>
         </div>
 
@@ -58,19 +55,16 @@ const SecondSection = () => {
             <BracesSVG />
           </div>
 
-          <h1 className="text-3xl font-bold text-center text-beige-100">
-            General Dentisty
+          <h1 className="text-3xl font-bold text-center md:text-5xl text-beige-100">
+            Odontología restauradora
           </h1>
 
           <p className="text-center">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci
-            vero fuga alias est ipsum labore quas iure laboriosam unde saepe
-            sapiente necessitatibus nemo dignissimos nobis, deleniti dolorem, in
-            illo repellendus.
+            Repare los dientes dañados o faltantes con nuestros tratamientos
+            restauradores, como implantes dentales, coronas, puentes y prótesis
+            dentales.
           </p>
         </div>
-
-
       </div>
     </div>
   );
