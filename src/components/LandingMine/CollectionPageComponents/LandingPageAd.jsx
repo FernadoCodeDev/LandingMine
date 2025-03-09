@@ -210,7 +210,7 @@ const LandingPageAd = () => {
             Camping Night
           </h2>
           <p className="text-black dark:text-white">
-            Landing page de un sitio para acampar
+            Landing page de una empresa de hacer camping
           </p>
 
           <a href="/CampingNight">
