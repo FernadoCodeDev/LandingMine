@@ -23,7 +23,7 @@ const SecondSection = () => {
             <Tooth2SVG />
           </div>
 
-          <h1 className="text-3xl font-bold text-center md:text-5xl text-beige-100">
+          <h1 className="text-3xl font-bold text-center lg:text-5xl text-beige-100">
             Odontología general
           </h1>
 
@@ -39,7 +39,7 @@ const SecondSection = () => {
             <Tooth3SVG />
           </div>
 
-          <h1 className="text-3xl font-bold text-center md:text-5xl text-rose-800">
+          <h1 className="text-3xl font-bold text-center lg:text-5xl text-rose-800">
             Odontología cosmética
           </h1>
 
@@ -55,7 +55,7 @@ const SecondSection = () => {
             <BracesSVG />
           </div>
 
-          <h1 className="text-3xl font-bold text-center md:text-5xl text-beige-100">
+          <h1 className="text-3xl font-bold text-center lg:text-5xl text-beige-100">
             Odontología restauradora
           </h1>
 

@@ -16,8 +16,8 @@ const HeaderDH = () => {
       ></div>
 
       {/*Design less than md  */}
-      <div className="md:hidden relative grid items-center  grid-cols-2 gap-2 ">
-        <div className=" order-3 col-span-2 mx-auto ">
+      <div className="relative grid items-center grid-cols-2 gap-2 md:hidden ">
+        <div className="order-3 col-span-2 mx-auto ">
           <MobileMenu
             textColor="text-gray-200 transition-all duration-700 ease-out"
             hoverColor="hover:text-white"
@@ -26,7 +26,7 @@ const HeaderDH = () => {
           />
         </div>
 
-        <div className="bg-beige-100 w-full flex flex-row justify-between my-2 col-span-2 p-2">
+        <div className="flex flex-row justify-between w-full col-span-2 p-2 my-2 bg-beige-100">
           <img
             src={GoldTeethLogo}
             alt="GoldTeethLogo"
@@ -42,7 +42,7 @@ const HeaderDH = () => {
       </div>
 
       {/*Design greater than md */}
-      <div className="hidden bg-beige-100 md:grid relative  items-center  gap-2 p-2 grid-cols-3 my-2">
+      <div className="relative items-center hidden grid-cols-3 gap-2 p-2 my-2 bg-beige-100 md:grid">
         <div className="order-2 w-auto m-auto">
           <MobileMenu
             textColor="text-beige-800 transition-all duration-700 ease-out"
@@ -65,27 +65,27 @@ const HeaderDH = () => {
 
       {/*Content */}
       <div className="relative order-4 col-span-2 text-center md:col-span-3 grid grid-cols-1 gap-4 md:grid-cols-2 p-2 m-auto max-w-[100rem]">
-        <div className="order-1 md:order-2 grid grid-cols-1 gap-3 items-center md:items-start justify-center">
+        <div className="grid items-center justify-center order-1 grid-cols-1 gap-3 md:order-2 md:items-start">
           <div className="m-auto">
-            <h1 className="text-beige-100 font-bold text-start text-5xl md:text-8xl">
+            <h1 className="text-5xl font-bold text-beige-100 text-start lg:text-8xl">
               Sonríe
             </h1>
-            <h1 className="text-beige-100 font-bold text-start text-5xl md:text-8xl">
+            <h1 className="text-5xl font-bold text-beige-100 text-start lg:text-8xl">
               mejor
             </h1>
-            <h1 className="text-beige-100 font-bold text-start text-5xl md:text-8xl">
+            <h1 className="text-5xl font-bold text-beige-100 text-start lg:text-8xl">
               con nosotros
             </h1>
           </div>
 
           <div className="flex flex-col gap-3">
-            <p className="text-beige-100  text-start md:text-2xl">
+            <p className="text-beige-100 text-start md:text-2xl">
               Nos dedicamos a brindarle a usted y a su familia atención dental
               de máxima calidad en un entorno cómodo y acogedor.
             </p>
 
-            <div className="grid grid-cols-1 items-center md:grid-cols-2 gap-2 text-white">
-              <button className="rounded-full  font-bold flex justify-center w-full h-auto p-2 transition-all duration-700 ease-out bg-rose-400  hover:bg-rose-600 ">
+            <div className="grid items-center grid-cols-1 gap-2 text-white md:grid-cols-2">
+              <button className="flex justify-center w-full h-auto p-2 font-bold transition-all duration-700 ease-out rounded-full bg-rose-400 hover:bg-rose-600 ">
                 Consultar Sonrisa
               </button>
               <div>
@@ -96,7 +96,7 @@ const HeaderDH = () => {
           </div>
         </div>
 
-        <div className="order-2 md:order-1 grid grid-cols-2 gap-4 items-center justify-center">
+        <div className="grid items-center justify-center order-2 grid-cols-2 gap-4 md:order-1">
           <div className="flex flex-col gap-4">
             <img
               src={imgN1}
