@@ -33,7 +33,7 @@ const BookOnlineSVG = (props) => {
           height={20}
           rx={2}
           style={{
-            fill: "transparent",
+            fill: "#ede7db",
           }}
         />
         <path
@@ -61,7 +61,7 @@ const BookOnlineSVG = (props) => {
           height={20}
           rx={2}
           style={{
-            fill: "transparent",
+            fill: "#ede7db",
           }}
         />
         <path
