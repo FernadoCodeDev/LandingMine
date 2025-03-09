@@ -19,11 +19,17 @@ const FirstSection = () => {
           possimus exercitationem necessitatibus doloribus perferendis.
         </p>
 
-        <img src={imgN4} alt="imgN4" className="w-full max-w-[30rem] h-auto rounded-t-full" />
+        <img
+          src={imgN4}
+          alt="imgN4"
+          className="w-full max-w-[30rem] h-auto rounded-t-full"
+        />
 
         <div className="grid items-center grid-cols-1 gap-2">
-          <div className="grid grid-cols-1">
-            <BookOnlineSVG width="40" height="40" />
+          <div className="grid grid-cols-1 ">
+            <div className="flex flex-col items-center justify-center w-12 h-12 p-2 rounded-full bg-beige-100 dark:bg-white">
+              <BookOnlineSVG width="40" height="40" />
+            </div>
             <h1 className="text-2xl font-bold">Book Online</h1>
 
             <p className="">
@@ -33,7 +39,10 @@ const FirstSection = () => {
           </div>
 
           <div className="grid grid-cols-1">
-            <VisitCliniCSVG width="40" height="40" />
+            <div className="flex flex-col items-center justify-center w-12 h-12 p-2 rounded-full bg-beige-100 dark:bg-white">
+              <VisitCliniCSVG width="40" height="40" />
+            </div>
+
             <h1 className="text-2xl font-bold">Book Online</h1>
 
             <p className="">
@@ -43,7 +52,10 @@ const FirstSection = () => {
           </div>
 
           <div className="grid grid-cols-1">
-            <Tooth1SVG width="40" height="40" />
+            <div className="flex flex-col items-center justify-center w-12 h-12 p-2 rounded-full bg-beige-100 dark:bg-white">
+              <Tooth1SVG width="40" height="40" />
+            </div>
+
             <h1 className="text-2xl font-bold">Book Online</h1>
 
             <p className="">
