@@ -2,16 +2,16 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <footer className="w-full p-6 text-white bg-neutral-900">
+    <footer className="w-full p-6 text-white bg-rose-800">
       <div className="max-w-6xl mx-auto">
         <p className="mb-4 text-lg leading-relaxed">
         <span className="font-bold">Gold Theeth</span> expresa su más sincero agradecimiento al talentoso diseñador
    {" "}
           <a
-            href="https://dribbble.com/MahmuduR"
-            className="ml-1 font-bold text-white transition duration-300 ease-in-out hover:text-rose-800"
+            href="https://dribbble.com/moskur_alam"
+            className="ml-1 font-bold transition duration-300 ease-in-out hover:text-beige-100"
           >
-            Mahmudur Rahman
+            Moskur Alam
           </a>{" "}
           cuya obra sirvió de inspiración para la creación de la landing page{" "}
           <span className="font-bold">Gold Theeth</span>. Utilicé su diseño como
@@ -21,7 +21,7 @@ const Footer = () => {
 
         <p className="mb-4 text-lg leading-relaxed">
           Cabe aclarar que <span className="font-bold">Gold Theeth</span> no es
-          una Agencia real y fue creado únicamente con fines de
+          una clinica real y fue creado únicamente con fines de
           desarrollo y diseño. Además, yo diseñé el logotipo de{" "}
           <span className="font-bold">Gold Theeth</span> y utilicé imágenes de
           uso libre en su construcción.
@@ -33,13 +33,13 @@ const Footer = () => {
         </p>
       </div>
 
-      <div className="mt-8 border-t-2 border-black opacity-50"></div>
+      <div className="mt-8 border-t-2 opacity-50 border-beige-100"></div>
 
       <p className="mt-6 text-sm text-center">
         © 2025 Gold Theeth.{" "}
         <a
           href="/"
-          className="ml-1 font-bold text-white transition duration-300 ease-in-out hover:text-rose-800"
+          className="ml-1 font-bold text-white transition duration-300 ease-in-out hover:text-beige-100"
         >
           Regresar a LandingMine
         </a>
