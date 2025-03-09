@@ -8,15 +8,13 @@ const FirstSection = () => {
   return (
     <div className="relative w-full min-h-screen p-4 text-black bg-beige-100 dark:text-white dark:bg-neutral-900">
       <div className="grid grid-cols-1 items-center justify-center gap-4 md:gap-12 md:grid-cols-2 m-auto max-w-[80rem]">
-        <h1 className="text-3xl font-bold text-rose-800">
-          Get pearl white teeth aesily
+        <h1 className="text-3xl font-bold text-center md:text5xl text-rose-800 dark:text-beige-100">
+          Consiga dientes blancos perlados fácilmente
         </h1>
 
         <p>
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sequi
-          aliquam molestiae commodi hic facilis, debitis explicabo odio
-          reprehenderit repudiandae. Ipsum illo deserunt minus dolorem, fugiat
-          possimus exercitationem necessitatibus doloribus perferendis.
+          Servicio de contacto online con el médico para realizar una consulta
+          sobre tu salud dental o solicitar horarios de trabajo en la clínica
         </p>
 
         <img
@@ -30,11 +28,11 @@ const FirstSection = () => {
             <div className="flex flex-col items-center justify-center w-12 h-12 p-2 rounded-full bg-beige-100 dark:bg-white">
               <BookOnlineSVG width="40" height="40" />
             </div>
-            <h1 className="text-2xl font-bold">Book Online</h1>
+            <h1 className="text-2xl font-bold">Reservar en línea</h1>
 
             <p className="">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus
-              mollitia et quae doloremque voluptatem ratione corrupti
+              consulta rápidamente cuándo estamos disponibles y reserva un
+              horario para toda la familia en menos de 5 minutos. Es muy fácil
             </p>
           </div>
 
@@ -43,11 +41,11 @@ const FirstSection = () => {
               <VisitCliniCSVG width="40" height="40" />
             </div>
 
-            <h1 className="text-2xl font-bold">Book Online</h1>
+            <h1 className="text-2xl font-bold">Visita la clínica</h1>
 
             <p className="">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus
-              mollitia et quae doloremque voluptatem ratione corrupti
+              Visita nuestra clínica. Los niños también tienen su propia zona de
+              juegos privada y una sala exclusiva para ellos.
             </p>
           </div>
 
@@ -56,11 +54,11 @@ const FirstSection = () => {
               <Tooth1SVG width="40" height="40" />
             </div>
 
-            <h1 className="text-2xl font-bold">Book Online</h1>
+            <h1 className="text-2xl font-bold">Obtenga tratamiento</h1>
 
             <p className="">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus
-              mollitia et quae doloremque voluptatem ratione corrupti
+              Consiga tratar sus dientes con una experiencia satisfactoria y un
+              servicio profesional de un médico experto.
             </p>
           </div>
         </div>
