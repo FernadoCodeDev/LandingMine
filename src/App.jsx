@@ -15,6 +15,7 @@ import WLP from "./pages/WLP/wbp"; // WLP Landing Page
 import Morgana from "./pages/Morgana/Morgana"; // Morgana Landing Page
 import GoldTeeth from "./pages/GoldTeeth/GoldTeeth"; // GoldTeeth Landing Page
 import CampingNight from "./pages/CampingNight/CampingNight"; // CampingNight Landing Page
+import Clover from "./pages/Clover/Clover"; // Clover Landing Page
 
 const App = () => {
   return (
@@ -24,7 +25,6 @@ const App = () => {
         <Route path="/" element={<Home />} />
         <Route path="/Collection" element={<Collection />} />
         <Route path="/AboutLandingMine" element={<AboutLandingMine />} />
-
         {/*PizzaUp Landing Page  */}
         <Route path="/PizzaUp" element={<PizzaUp />} />
         {/*Gym Landing Page  */}
@@ -49,6 +49,8 @@ const App = () => {
         <Route path="/GoldTeeth" element={<GoldTeeth />} />
         {/*CampingNight Landing Page  */}
         <Route path="/CampingNight" element={<CampingNight />} />
+        {/*Clover Landing Page  */}
+        <Route path="/Clover" element={<Clover />} />
       </Routes>
     </Router>
   );

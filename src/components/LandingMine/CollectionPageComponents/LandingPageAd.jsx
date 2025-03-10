@@ -13,6 +13,7 @@ import BackgroundWLP from "../../WLP/img/BackgroundWLP.webp";
 import BackgroundMorgana from "../../Morgana/img/BackgroundMorgana.webp";
 import GoldTeeth from "../../GoldTeeth/img/BackgroundGoldTeeth.webp";
 import BackgroundCampingNight from "../../CampingNight/img/BackgroundCampingNight.webp";
+import BackgroundClover from "../../Clover/img/BackgroundClover.webp"
 
 const LandingPageAd = () => {
   return (
@@ -21,7 +22,7 @@ const LandingPageAd = () => {
         <img
           src={BackgroundPizzaUp}
           alt="BackgroundPizzaUp"
-          className="w-full h-60"
+          className="w-full h-auto"
         />
         <div className="p-4">
           <h2 className="text-xl font-semibold dark:text-white">PizzaUp</h2>
@@ -36,7 +37,7 @@ const LandingPageAd = () => {
       </div>
 
       <div className="bg-gray-200 rounded-lg shadow-md dark:bg-neutral-800">
-        <img src={BackgroundGym} alt="BackgroundGym" className="w-full h-60" />
+        <img src={BackgroundGym} alt="BackgroundGym" className="w-full h-auto" />
         <div className="p-4">
           <h2 className="text-xl font-semibold dark:text-white">Gym</h2>
           <p className="text-black dark:text-white">
@@ -50,7 +51,7 @@ const LandingPageAd = () => {
       </div>
 
       <div className="bg-gray-200 rounded-lg shadow-md dark:bg-neutral-800">
-        <img src={BackgroundMA} alt="BackgroundMA" className="w-full h-60" />
+        <img src={BackgroundMA} alt="BackgroundMA" className="w-full h-auto" />
         <div className="p-4">
           <h2 className="text-xl font-semibold dark:text-white">
             Marketing Agency
@@ -66,7 +67,7 @@ const LandingPageAd = () => {
       </div>
 
       <div className="bg-gray-200 rounded-lg shadow-md dark:bg-neutral-800">
-        <img src={BackgroundPB} alt="BackgroundPB" className="w-full h-60" />
+        <img src={BackgroundPB} alt="BackgroundPB" className="w-full h-auto" />
         <div className="p-4">
           <h2 className="text-xl font-semibold dark:text-white">Pig Bank</h2>
           <p className="text-black dark:text-white">
@@ -83,7 +84,7 @@ const LandingPageAd = () => {
         <img
           src={BackgroundGoodTrip}
           alt="BackgroundGoodTrip"
-          className="w-full h-60"
+          className="w-full h-auto"
         />
         <div className="p-4">
           <h2 className="text-xl font-semibold dark:text-white">Good Trip</h2>
@@ -101,7 +102,7 @@ const LandingPageAd = () => {
         <img
           src={BackgroundCooktopiaShop}
           alt="BackgroundCooktopiaShop"
-          className="w-full h-60"
+          className="w-full h-auto"
         />
         <div className="p-4">
           <h2 className="text-xl font-semibold dark:text-white">
@@ -121,7 +122,7 @@ const LandingPageAd = () => {
         <img
           src={BackgroundDreamHouse}
           alt="BackgroundDreamHouse"
-          className="w-full h-60"
+          className="w-full h-auto"
         />
         <div className="p-4">
           <h2 className="text-xl font-semibold dark:text-white">Dream House</h2>
@@ -139,7 +140,7 @@ const LandingPageAd = () => {
         <img
           src={BackgroundWebCall}
           alt="BackgroundWebCall"
-          className="w-full h-60"
+          className="w-full h-auto"
         />
         <div className="p-4">
           <h2 className="text-xl font-semibold dark:text-white">WebCall</h2>
@@ -154,7 +155,7 @@ const LandingPageAd = () => {
       </div>
 
       <div className="bg-gray-200 rounded-lg shadow-md dark:bg-neutral-800">
-        <img src={BackgroundWLP} alt="BackgroundWLP" className="w-full h-60" />
+        <img src={BackgroundWLP} alt="BackgroundWLP" className="w-full h-auto" />
         <div className="p-4">
           <h2 className="text-xl font-semibold dark:text-white">W L P</h2>
           <p className="text-black dark:text-white">
@@ -171,7 +172,7 @@ const LandingPageAd = () => {
         <img
           src={BackgroundMorgana}
           alt="BackgroundMorgana"
-          className="w-full h-60"
+          className="w-full h-auto"
         />
         <div className="p-4">
           <h2 className="text-xl font-semibold dark:text-white">Morgana</h2>
@@ -186,7 +187,7 @@ const LandingPageAd = () => {
       </div>
 
       <div className="bg-gray-200 rounded-lg shadow-md dark:bg-neutral-800">
-        <img src={GoldTeeth} alt="GoldTeeth" className="w-full h-60" />
+        <img src={GoldTeeth} alt="GoldTeeth" className="w-full h-auto" />
         <div className="p-4">
           <h2 className="text-xl font-semibold dark:text-white">GoldTeeth</h2>
           <p className="text-black dark:text-white">
@@ -203,7 +204,7 @@ const LandingPageAd = () => {
         <img
           src={BackgroundCampingNight}
           alt="BackgroundCampingNight"
-          className="w-full h-60"
+          className="w-full h-auto"
         />
         <div className="p-4">
           <h2 className="text-xl font-semibold dark:text-white">
@@ -220,10 +221,10 @@ const LandingPageAd = () => {
       </div>
 
       <div className="bg-gray-200 rounded-lg shadow-md dark:bg-neutral-800">
-        <img src={Landing} alt="Landing" className="w-full h-auto" />
+        <img src={BackgroundClover} alt="BackgroundClover" className="w-full h-auto" />
         <div className="p-4">
           <h2 className="text-xl font-semibold dark:text-white">
-            Landing Page 13
+          Clover
           </h2>
           <p className="text-black dark:text-white">
             Descripción de la landing page.
