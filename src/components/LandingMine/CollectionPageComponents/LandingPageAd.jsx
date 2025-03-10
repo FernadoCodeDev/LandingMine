@@ -13,7 +13,7 @@ import BackgroundWLP from "../../WLP/img/BackgroundWLP.webp";
 import BackgroundMorgana from "../../Morgana/img/BackgroundMorgana.webp";
 import GoldTeeth from "../../GoldTeeth/img/BackgroundGoldTeeth.webp";
 import BackgroundCampingNight from "../../CampingNight/img/BackgroundCampingNight.webp";
-import BackgroundClover from "../../Clover/img/BackgroundClover.webp"
+import BackgroundClover from "../../Clover/img/BackgroundClover.webp";
 
 const LandingPageAd = () => {
   return (
@@ -37,7 +37,11 @@ const LandingPageAd = () => {
       </div>
 
       <div className="bg-gray-200 rounded-lg shadow-md dark:bg-neutral-800">
-        <img src={BackgroundGym} alt="BackgroundGym" className="w-full h-auto" />
+        <img
+          src={BackgroundGym}
+          alt="BackgroundGym"
+          className="w-full h-auto"
+        />
         <div className="p-4">
           <h2 className="text-xl font-semibold dark:text-white">Gym</h2>
           <p className="text-black dark:text-white">
@@ -155,7 +159,11 @@ const LandingPageAd = () => {
       </div>
 
       <div className="bg-gray-200 rounded-lg shadow-md dark:bg-neutral-800">
-        <img src={BackgroundWLP} alt="BackgroundWLP" className="w-full h-auto" />
+        <img
+          src={BackgroundWLP}
+          alt="BackgroundWLP"
+          className="w-full h-auto"
+        />
         <div className="p-4">
           <h2 className="text-xl font-semibold dark:text-white">W L P</h2>
           <p className="text-black dark:text-white">
@@ -221,16 +229,18 @@ const LandingPageAd = () => {
       </div>
 
       <div className="bg-gray-200 rounded-lg shadow-md dark:bg-neutral-800">
-        <img src={BackgroundClover} alt="BackgroundClover" className="w-full h-auto" />
+        <img
+          src={BackgroundClover}
+          alt="BackgroundClover"
+          className="w-full h-auto"
+        />
         <div className="p-4">
-          <h2 className="text-xl font-semibold dark:text-white">
-          Clover
-          </h2>
+          <h2 className="text-xl font-semibold dark:text-white">Clover</h2>
           <p className="text-black dark:text-white">
-            Descripción de la landing page.
+            Landing page sobre una tienda de paneles solares
           </p>
 
-          <a href="#">
+          <a href="/Clover">
             <ButtonLanding />
           </a>
         </div>

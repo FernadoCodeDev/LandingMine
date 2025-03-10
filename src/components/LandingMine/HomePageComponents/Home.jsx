@@ -67,7 +67,7 @@ const HomePage = () => {
                 <img
                   src={BackgroundPizzaUp}
                   alt="BackgroundPizzaUp"
-                  className="w-full h-60"
+                  className="w-full h-auto"
                 />
                 <div className="p-4">
                   <h2 className="text-xl font-semibold dark:text-white">
@@ -87,7 +87,7 @@ const HomePage = () => {
                 <img
                   src={BackgroundGym}
                   alt="BackgroundGym"
-                  className="w-full h-60"
+                  className="w-full h-auto"
                 />
                 <div className="p-4">
                   <h2 className="text-xl font-semibold dark:text-white">Gym</h2>
@@ -105,7 +105,7 @@ const HomePage = () => {
                 <img
                   src={BackgroundMA}
                   alt="BackgroundMA"
-                  className="w-full h-60"
+                  className="w-full h-auto"
                 />
                 <div className="p-4">
                   <h2 className="text-xl font-semibold dark:text-white">
@@ -125,7 +125,7 @@ const HomePage = () => {
                 <img
                   src={BackgroundPB}
                   alt="BackgroundPB"
-                  className="w-full h-60"
+                  className="w-full h-auto"
                 />
                 <div className="p-4">
                   <h2 className="text-xl font-semibold dark:text-white">
@@ -145,7 +145,7 @@ const HomePage = () => {
                 <img
                   src={BackgroundGoodTrip}
                   alt="BackgroundGoodTrip"
-                  className="w-full h-60"
+                  className="w-full h-auto"
                 />
                 <div className="p-4">
                   <h2 className="text-xl font-semibold dark:text-white">
@@ -165,7 +165,7 @@ const HomePage = () => {
                 <img
                   src={BackgroundCooktopiaShop}
                   alt="BackgroundCooktopiaShop"
-                  className="w-full h-60"
+                  className="w-full h-auto"
                 />
                 <div className="p-4">
                   <h2 className="text-xl font-semibold dark:text-white">
