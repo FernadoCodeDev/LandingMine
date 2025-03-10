@@ -28,42 +28,50 @@ const HeaderClover = () => {
 
       <div className="ms-auto grid grid-cols-1 gap-4 md:grid-cols-2 max-w-[100rem] relative order-4 col-span-2 md:col-span-3">
         <div className="p-4  flex flex-col items-center gap-3">
-          <h1 className="font-bold text-2xl lg:text-5xl">
-            Make green your favorite home &
-            <span className="font-bold text-lime-400"> Living better</span>
+          <h1 className="font-bold text-4xl lg:text-7xl">
+            Energía Solar para un Futuro
+            <span className="font-bold text-lime-400 text-5xl lg:text-8xl">
+              {" "}
+              Sostenible
+            </span>
           </h1>
 
           <p className="">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius,
-            sapiente? Nesciunt minima aspernatur voluptatibus, tempore molestias
-            itaque impedit eum quis aperiam atque eius. Facilis quas esse, animi
-            beatae quidem consequatur?
+            Descubre cómo reducir tu factura de luz y contribuir al medio
+            ambiente con nuestros paneles solares de alta eficiencia. Transforma
+            tu hogar o negocio con energía limpia y renovable.
           </p>
 
           <div className="grid grid-cols-2 gap-4">
             <button className="flex justify-center w-full p-2 font-bold text-white transition-all duration-700 ease-out bg-lime-500 hover:bg-lime-600">
-              Shop Now
+              Comprar Ahora
             </button>
 
             <button className="flex justify-center w-full p-2 font-bold text-white transition-all duration-700 ease-out bg-lime-500 hover:bg-lime-600">
-              Explore Now
+              Explorar Más
             </button>
           </div>
 
           <div className="grid grid-cols-3 gap-4">
             <div className="grid grid-cols-1 gap-2">
-              <h1 className="font-bold text-lime-400">250+</h1>
-              <p>Order Everyday</p>
+              <h1 className="font-bold text-lime-400 text-2xl lg:text-4xl">
+                250+
+              </h1>
+              <p>Hogares Energizados</p>
             </div>
 
             <div className="grid grid-cols-1 gap-2">
-              <h1 className="font-bold text-lime-400">250+</h1>
-              <p>Order Everyday</p>
+              <h1 className="font-bold text-lime-400 text-2xl lg:text-4xl">
+                100%
+              </h1>
+              <p>Energía Renovable</p>
             </div>
 
             <div className="grid grid-cols-1 gap-2">
-              <h1 className="font-bold text-lime-400">250+</h1>
-              <p>Order Everyday</p>
+              <h1 className="font-bold text-lime-400 text-2xl lg:text-4xl">
+                10 Años+
+              </h1>
+              <p>Garantía en Paneles</p>
             </div>
           </div>
         </div>
