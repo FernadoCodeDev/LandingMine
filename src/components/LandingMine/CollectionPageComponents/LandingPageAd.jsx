@@ -14,6 +14,8 @@ import BackgroundMorgana from "../../Morgana/img/BackgroundMorgana.webp";
 import GoldTeeth from "../../GoldTeeth/img/BackgroundGoldTeeth.webp";
 import BackgroundCampingNight from "../../CampingNight/img/BackgroundCampingNight.webp";
 import BackgroundClover from "../../Clover/img/BackgroundClover.webp";
+import BackgroundOrganicGold from "../../OrganicGold/img/BackgroundOrganicGold.webp";
+
 
 const LandingPageAd = () => {
   return (
@@ -247,16 +249,16 @@ const LandingPageAd = () => {
       </div>
 
       <div className="bg-gray-200 rounded-lg shadow-md dark:bg-neutral-800">
-        <img src={Landing} alt="Landing" className="w-full h-auto" />
+        <img src={BackgroundOrganicGold} alt="BackgroundOrganicGold" className="w-full h-auto" />
         <div className="p-4">
           <h2 className="text-xl font-semibold dark:text-white">
-            Landing Page 14
+          Organic Gold
           </h2>
           <p className="text-black dark:text-white">
-            Descripción de la landing page.
+            landing page de una tienda de Productos Orgánicos
           </p>
 
-          <a href="#">
+          <a href="/OrganicGold">
             <ButtonLanding />
           </a>
         </div>

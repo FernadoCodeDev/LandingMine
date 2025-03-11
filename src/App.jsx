@@ -16,6 +16,7 @@ import Morgana from "./pages/Morgana/Morgana"; // Morgana Landing Page
 import GoldTeeth from "./pages/GoldTeeth/GoldTeeth"; // GoldTeeth Landing Page
 import CampingNight from "./pages/CampingNight/CampingNight"; // CampingNight Landing Page
 import Clover from "./pages/Clover/Clover"; // Clover Landing Page
+import OrganicGold from "./pages/OrganicGold/OrganicGold" //OrganicGold Landing page
 
 const App = () => {
   return (
@@ -51,6 +52,8 @@ const App = () => {
         <Route path="/CampingNight" element={<CampingNight />} />
         {/*Clover Landing Page  */}
         <Route path="/Clover" element={<Clover />} />
+        {/*OrganicGold Landing Page  */}
+        <Route path="/OrganicGold" element={<OrganicGold />} />
       </Routes>
     </Router>
   );
