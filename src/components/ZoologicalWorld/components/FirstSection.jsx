@@ -94,15 +94,13 @@ const FirstSection = () => {
           </div>
         </div>
 
-
         {/* Content Greater than md*/ }
-
         <div className="items-center hidden grid-cols-1 gap-4 md:grid md:grid-cols-2 md:col-span-2 ">
           <div className="relative group">
             <img
               src={imgN1}
               alt="imgN1"
-              className="w-full h-auto transition-all duration-300 rounded-xl group-hover:opacity-60"
+              className="w-full h-auto transition-all duration-300 rounded-xl group-hover:opacity-70"
             />
 
             <div className="absolute w-full h-full bottom-0 left-0 flex flex-col items-center rounded-xl md:rounded-none md:rounded-tr-xl justify-center text-start gap-2 backdrop-blur-[1px] bg-black/60 p-4 m-auto text-white z-10 opacity-0 group-hover:opacity-100 transition-all duration-300">
@@ -123,7 +121,7 @@ const FirstSection = () => {
             <img
               src={imgN2}
               alt="imgN2"
-              className="w-full h-auto transition-all duration-300 rounded-xl group-hover:opacity-60"
+              className="w-full h-auto transition-all duration-300 rounded-xl group-hover:opacity-70"
             />
 
             <div className="absolute w-full h-full bottom-0 left-0 flex flex-col items-center rounded-xl md:rounded-none md:rounded-tr-xl justify-center text-start gap-2 backdrop-blur-[1px] bg-black/60 p-4 m-auto text-white z-10 opacity-0 group-hover:opacity-100 transition-all duration-300">
@@ -144,7 +142,7 @@ const FirstSection = () => {
             <img
               src={imgN3}
               alt="imgN3"
-              className="w-full h-auto transition-all duration-300 rounded-xl group-hover:opacity-60"
+              className="w-full h-auto transition-all duration-300 rounded-xl group-hover:opacity-70"
             />
 
             <div className="absolute w-full h-full bottom-0 left-0 flex flex-col items-center rounded-xl md:rounded-none md:rounded-tr-xl justify-center text-start gap-2 backdrop-blur-[1px] bg-black/60 p-4 m-auto text-white z-10 opacity-0 group-hover:opacity-100 transition-all duration-300">
@@ -166,7 +164,7 @@ const FirstSection = () => {
             <img
               src={imgN4}
               alt="imgN4"
-              className="w-full h-auto transition-all duration-300 rounded-xl group-hover:opacity-60"
+              className="w-full h-auto transition-all duration-300 rounded-xl group-hover:opacity-70"
             />
 
             <div className="absolute w-full h-full bottom-0 left-0 flex flex-col items-center rounded-xl md:rounded-none md:rounded-tr-xl justify-center text-start gap-2 backdrop-blur-[1px] bg-black/60 p-4 m-auto text-white z-10 opacity-0 group-hover:opacity-100 transition-all duration-300">
