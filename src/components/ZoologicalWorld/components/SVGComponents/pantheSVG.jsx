@@ -2,8 +2,6 @@ import React from "react";
 const pantheSVG = (props) => {
   return (
     <svg
-      height="200px"
-      width="200px"
       id="Layer_1"
       xmlns="http://www.w3.org/2000/svg"
       xmlnsXlink="http://www.w3.org/1999/xlink"
