@@ -6,8 +6,13 @@ import imgN7 from "../img/imgN7.webp";
 
 const ThirdSection = () => {
   return (
-    <div className="relative flex flex-col items-center w-full min-h-screen p-4 text-black bg-beige-100 dark:bg-neutral-900  md:text-2xl dark:text-white ">
-      
+    <div className="relative flex flex-col items-center w-full min-h-screen text-black bg-slate-950 md:text-2xl dark:text-white ">
+      <div
+        className="flex items-center justify-center w-full min-h-screen p-4 bg-beige-100 dark:bg-neutral-900"
+        style={{ clipPath: "ellipse(100% 100% at 50% 0%)" }}
+      ></div>
+
+
     </div>
   );
 };
