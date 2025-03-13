@@ -59,7 +59,7 @@ const SecondSection = () => {
           </div>
         </div>
 
-        <div className="relative bg-orange-600 border-4 border-orange-700">
+        <div className="relative p-2 bg-orange-600 border-4 border-orange-700">
           <RhinocerosSVG />
 
           <div className="absolute bottom-0 right-0 z-10 flex flex-col items-center justify-center w-full h-full gap-2 p-4 m-auto text-white rounded-xl md:rounded-none md:rounded-tl-3xl text-start">
@@ -77,7 +77,7 @@ const SecondSection = () => {
           </div>
         </div>
 
-        <div className="relative bg-purple-600 border-4 border-purple-800">
+        <div className="relative p-2 bg-purple-600 border-4 border-purple-800">
           <HippopotamusSVG />
 
           <div className="absolute bottom-0 left-0 z-10 flex flex-col items-center justify-center w-full h-full gap-2 p-4 m-auto text-white rounded-xl md:rounded-none md:rounded-tr-xl text-start">

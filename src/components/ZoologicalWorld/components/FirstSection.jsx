@@ -173,7 +173,7 @@ const FirstSection = () => {
               </h1>
 
               <p className="text-ms md:text-xl">
-                onoce a estos imponentes seres de la naturaleza y aprende por
+                Conoce a estos imponentes seres de la naturaleza y aprende por
                 qué están en peligro de extinción. Nuestro zoológico trabaja
                 incansablemente para promover su conservación y crear conciencia
                 sobre la importancia de proteger a los rinocerontes y otras
