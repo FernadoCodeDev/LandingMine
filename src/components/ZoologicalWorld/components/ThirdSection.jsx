@@ -12,13 +12,15 @@ const ThirdSection = () => {
       </h1>
       <div className=" max-w-[80rem] grid grid-cols-1 md:grid-cols-2 gap-8">
         <div className="flex flex-col items-center gap-4">
-          <TrayFoodSVG />
+          <TrayFoodSVG       height="150"
+      width="150"/>
           <h1 className="font-bold text-center">Text</h1>
           <p className="text-center">Text</p>
         </div>
 
         <div className="flex flex-col items-center gap-4">
-          <ParkingSVG />
+          <ParkingSVG  height="150"
+      width="150"/>
           <h1 className="font-bold text-center">Text</h1>
           <p className="text-center">Text</p>
         </div>
@@ -29,13 +31,15 @@ const ThirdSection = () => {
       </h1>
       <div className=" max-w-[80rem] grid grid-cols-1 md:grid-cols-2 gap-8">
         <div className="flex flex-col items-center gap-4">
-          <GateSVG />
+          <GateSVG  height="150"
+      width="150"/>
           <h1 className="font-bold text-center">Text</h1>
           <p className="text-center">Text</p>
         </div>
 
         <div className="flex flex-col items-center gap-4">
-          <OpenGateSVG />
+          <OpenGateSVG  height="150"
+      width="150"/>
           <h1 className="font-bold text-center">Text</h1>
           <p className="text-center">Text</p>
         </div>
