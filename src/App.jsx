@@ -18,6 +18,7 @@ import CampingNight from "./pages/CampingNight/CampingNight"; // CampingNight La
 import Clover from "./pages/Clover/Clover"; // Clover Landing Page
 import OrganicGold from "./pages/OrganicGold/OrganicGold" //OrganicGold Landing page
 import ZoologicalWorld from "./pages/ZoologicalWorld/ZoologicalWorld" //ZoologicalWorld Landing page
+import JRRoyal from "./pages/JRRoyal/JRRoyal" //JRRoyal Landing page
 
 const App = () => {
   return (
@@ -55,9 +56,11 @@ const App = () => {
         <Route path="/Clover" element={<Clover />} />
         {/*OrganicGold Landing Page  */}
         <Route path="/OrganicGold" element={<OrganicGold />} />
-
         {/*ZoologicalWorld Landing page */}
         <Route path="/ZoologicalWorld" element={<ZoologicalWorld />} />
+        
+        {/*JRRoyal Landing page */}
+        <Route path="/JRRoyal" element={<JRRoyal />} />
       </Routes>
     </Router>
   );
