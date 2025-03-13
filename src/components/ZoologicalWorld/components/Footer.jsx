@@ -8,10 +8,10 @@ const Footer = () => {
         <span className="font-bold">Zoological World</span> expresa su más sincero agradecimiento al talentoso diseñador
    {" "}
           <a
-            href="https://dribbble.com/01DigiCo"
-            className="ml-1 font-bold text-white transition duration-300 ease-in-out hover:text-lime-600"
+            href="https://dribbble.com/Aminuluiux"
+            className="ml-1 font-bold text-white transition duration-300 ease-in-out hover:text-orange-500"
           >
-            DigiCo
+            Aminul
           </a>{" "}
           cuya obra sirvió de inspiración para la creación de la landing page{" "}
           <span className="font-bold">Zoological World</span>. Utilicé su diseño como
@@ -39,7 +39,7 @@ const Footer = () => {
         © 2025 Zoological World.{" "}
         <a
           href="/"
-          className="ml-1 font-bold text-white transition duration-300 ease-in-out hover:text-lime-600"
+          className="ml-1 font-bold text-white transition duration-300 ease-in-out hover:text-orange-500"
         >
           Regresar a LandingMine
         </a>
