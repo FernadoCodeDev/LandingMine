@@ -6,9 +6,9 @@ import imgN7 from "../img/imgN7.webp";
 
 const ThirdSection = () => {
   return (
-    <div className="relative flex flex-col w-full min-h-screen text-black items-stra bg-slate-950 md:text-2xl dark:text-white ">
+    <div className="relative flex flex-col items-center w-full text-black min-h-auto bg-slate-950 md:text-2xl dark:text-white ">
       <div className="w-full bg-beige-100 dark:bg-neutral-900">
-        <div className="grid grid-cols-1 gap-4 p-2 m-auto md:grid-cols-2 max-w-">
+        <div className="max-w-[90rem] grid grid-cols-1 gap-4 p-2 m-auto md:grid-cols-2 max-w-">
           <div className="grid grid-cols-2 gap-1 ">
             <h1 className="col-span-2 font-serif text-xl font-bold text-center md:text-5xl">
               texttextt
@@ -81,8 +81,8 @@ const ThirdSection = () => {
       </div>
 
       <div
-        className="flex items-center justify-center w-full min-h-screen p-4 bg-beige-100 dark:bg-neutral-900"
-        style={{ clipPath: "ellipse(100% 40% at 50% 0%)" }}
+        className="flex items-center justify-center w-full min-h-[15rem] p-4 bg-beige-100 dark:bg-neutral-900"
+        style={{ clipPath: "ellipse(100% 100% at 50% 0%)" }}
       ></div>
     </div>
   );
