@@ -17,7 +17,7 @@ import BackgroundClover from "../../Clover/img/BackgroundClover.webp";
 import BackgroundOrganicGold from "../../OrganicGold/img/BackgroundOrganicGold.webp";
 import BackgroundZoologicalWorld from "../../ZoologicalWorld/img/BackgroundZoologicalWorld.webp";
 import BackgroundJRRoyal from "../../JRRoyal/img/BackgroundJRRoyal.webp";
-
+import BackgroundCastorBook from "../../CastorBook/img/BackgroundCastorBook.webp";
 
 const LandingPageAd = () => {
   return (
@@ -251,10 +251,14 @@ const LandingPageAd = () => {
       </div>
 
       <div className="bg-gray-200 rounded-lg shadow-md dark:bg-neutral-800">
-        <img src={BackgroundOrganicGold} alt="BackgroundOrganicGold" className="w-full h-auto" />
+        <img
+          src={BackgroundOrganicGold}
+          alt="BackgroundOrganicGold"
+          className="w-full h-auto"
+        />
         <div className="p-4">
           <h2 className="text-xl font-semibold dark:text-white">
-          Organic Gold
+            Organic Gold
           </h2>
           <p className="text-black dark:text-white">
             landing page de una tienda de Productos Orgánicos
@@ -267,13 +271,17 @@ const LandingPageAd = () => {
       </div>
 
       <div className="bg-gray-200 rounded-lg shadow-md dark:bg-neutral-800">
-        <img src={BackgroundZoologicalWorld} alt="BackgroundZoologicalWorld" className="w-full h-auto" />
+        <img
+          src={BackgroundZoologicalWorld}
+          alt="BackgroundZoologicalWorld"
+          className="w-full h-auto"
+        />
         <div className="p-4">
           <h2 className="text-xl font-semibold dark:text-white">
-          Zoological World
+            Zoological World
           </h2>
           <p className="text-black dark:text-white">
-           landing page de un Zoológico
+            landing page de un Zoológico
           </p>
 
           <a href="/ZoologicalWorld">
@@ -283,11 +291,13 @@ const LandingPageAd = () => {
       </div>
 
       <div className="bg-gray-200 rounded-lg shadow-md dark:bg-neutral-800">
-        <img src={BackgroundJRRoyal} alt="BackgroundJRRoyal" className="w-full h-auto" />
+        <img
+          src={BackgroundJRRoyal}
+          alt="BackgroundJRRoyal"
+          className="w-full h-auto"
+        />
         <div className="p-4">
-          <h2 className="text-xl font-semibold dark:text-white">
-          JR Royal
-          </h2>
+          <h2 className="text-xl font-semibold dark:text-white">JR Royal</h2>
           <p className="text-black dark:text-white">
             Landing page sobre un hotel
           </p>
@@ -299,16 +309,18 @@ const LandingPageAd = () => {
       </div>
 
       <div className="bg-gray-200 rounded-lg shadow-md dark:bg-neutral-800">
-        <img src={Landing} alt="Landing" className="w-full h-auto" />
+        <img
+          src={BackgroundCastorBook}
+          alt="BackgroundCastorBook"
+          className="w-full h-auto"
+        />
         <div className="p-4">
-          <h2 className="text-xl font-semibold dark:text-white">
-            Landing Page 17
-          </h2>
+          <h2 className="text-xl font-semibold dark:text-white">Castor Book</h2>
           <p className="text-black dark:text-white">
-            Descripción de la landing page.
+            Landing page sobre una librería y editorial.
           </p>
 
-          <a href="#">
+          <a href="/CastorBook">
             <ButtonLanding />
           </a>
         </div>
