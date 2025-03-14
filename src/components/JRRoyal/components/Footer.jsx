@@ -6,12 +6,12 @@ const Footer = () => {
       <div className="max-w-6xl mx-auto">
         <p className="mb-4 text-lg leading-relaxed">
           <span className="font-bold">JR Hotel</span> expresa su más
-          sincero agradecimiento al talentoso diseñador{" "}
+          sincero agradecimiento al talentoso diseñador
           <a
-            href="https://dribbble.com/nayonchandraroy123"
-            className="ml-1 font-bold transition duration-300 ease-in-out hover:text-beige-100"
+            href="https://dribbble.com/ronasit"
+            className="ml-1 font-bold transition duration-300 ease-in-out hover:text-beige-300"
           >
-            Nayon Roy
+            Ronas
           </a>{" "}
           cuya obra sirvió de inspiración para la creación de la landing page{" "}
           <span className="font-bold">JR Hotel</span>. Utilicé su diseño
@@ -33,13 +33,13 @@ const Footer = () => {
         </p>
       </div>
 
-      <div className="mt-8 border-t-2 opacity-50 border-beige-text-beige-100"></div>
+      <div className="mt-8 border-t-2 opacity-50 border-beige-100"></div>
 
       <p className="mt-6 text-sm text-center">
         © 2025 JR Hotel.{" "}
         <a
           href="/"
-          className="ml-1 transition duration-300 ease-in-out font-bol hover:text-beige-100"
+          className="ml-1 transition duration-300 ease-in-out font-bol hover:text-beige-300"
         >
           Regresar a LandingMine
         </a>
