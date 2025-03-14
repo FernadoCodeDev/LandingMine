@@ -29,7 +29,7 @@ const HeaderJR = () => {
 
         <div className="relative m-auto grid grid-cols-1 items-center text-center max-w-[100rem] order-4 col-span-2 md:col-span-3">
           <div className="grid items-end grid-cols-2 p-2 ">
-            <h1 className="font-serif text-3xl font-bold text-centermd:text-6xl lg:text-8xl ">
+            <h1 className="font-serif text-3xl font-bold text-center lg:text-6xl ">
               BIENVENIDO A
             </h1>
             <p className="text-sm text-start md:text-base lg:text-3xl">
