@@ -28,7 +28,9 @@ const ThirdSection = () => {
             <div className="shadow-xl">
               <img src={imgN4} alt="imgN4" className="w-full h-auto" />
               <div className="flex flex-col items-center justify-center gap-2 p-4 md:h-72 bg-beige-200 dark:bg-neutral-800">
-                <h1 className="font-bold text-center">HABITACIONES & SUITES ROYAL</h1>
+                <h1 className="font-bold text-center">
+                  HABITACIONES & SUITES ROYAL
+                </h1>
                 <p className="">
                   Desde acogedoras habitaciones hasta lujosas suites, cada
                   espacio ha sido diseñado para brindarte el máximo confort y
@@ -55,7 +57,9 @@ const ThirdSection = () => {
             <div className="shadow-xl">
               <img src={imgN6} alt="imgN6" className="w-full h-auto" />
               <div className="flex flex-col items-center justify-center gap-2 p-4 md:h-72 bg-beige-200 dark:bg-neutral-800">
-                <h1 className="font-bold text-center">DESAYUNO BUFFET CONTINENTAL</h1>
+                <h1 className="font-bold text-center">
+                  DESAYUNO BUFFET CONTINENTAL
+                </h1>
                 <p className="">
                   Empieza tu día con un desayuno variado y delicioso. Disfruta
                   de una selección de pan recién horneado, frutas frescas, café
@@ -67,7 +71,9 @@ const ThirdSection = () => {
             <div className="shadow-xl">
               <img src={imgN7} alt="imgN7" className="w-full h-auto" />
               <div className="flex flex-col items-center justify-center gap-2 p-4 md:h-72 bg-beige-200 dark:bg-neutral-800">
-                <h1 className="font-bold text-center">SAUNA PARA TU BIENESTAR</h1>
+                <h1 className="font-bold text-center">
+                  SAUNA PARA TU BIENESTAR
+                </h1>
                 <p className="">
                   Déjate envolver por la calidez y el confort de nuestro sauna,
                   el lugar perfecto para relajarte y revitalizar cuerpo y mente
@@ -79,6 +85,7 @@ const ThirdSection = () => {
         </div>
       </div>
 
+      {/*Round container similar to an ellipse shape width 100% 100% height, and at the top 50% and 100% (100% for top 0% for bottom) */}
       <div
         className="flex items-center justify-center w-full min-h-[15rem] p-4 bg-beige-100 dark:bg-neutral-900"
         style={{ clipPath: "ellipse(100% 100% at 50% 0%)" }}
