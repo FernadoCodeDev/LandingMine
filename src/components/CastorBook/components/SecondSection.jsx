@@ -14,25 +14,30 @@ const SecondSection = () => {
       </p>
 
       {/* Content less than lg */}
-      {/* On mobile devices, it wouldn't be possible to hover over images because you'd have to hold it down. */}
-
+      {/* On mobile devices, it wouldn't be possible to hover over the divs because you'd have to hold it down. */}
       <div className="grid items-center w-full grid-cols-1 gap-4 m-auto mt-12 md:grid-cols-2 lg:hidden ">
         <div className="p-2 border-4 bg-lime-800 border-lime-950 rounded-xl">
           <div className="bottom-0 left-0 z-10 flex flex-col items-center justify-center w-full h-full gap-2 p-4 m-auto text-white rounded-xl md:rounded-none md:rounded-tr-xl text-start">
             <h1 className="text-xl font-bold text-white ">ECONOMÍA</h1>
 
             <p className="text-base text-white ">
-            En Castor Book puedes encontrar los mejores libros de economía, desde fundamentos financieros hasta estrategias de inversión. ¡Aprende y crece con nosotros!
+              En Castor Book puedes encontrar los mejores libros de economía,
+              desde fundamentos financieros hasta estrategias de inversión.
+              ¡Aprende y crece con nosotros!
             </p>
           </div>
         </div>
 
         <div className="p-2 bg-blue-700 border-4 border-blue-950 rounded-xl">
           <div className="bottom-0 right-0 z-10 flex flex-col items-center justify-center w-full h-full gap-2 p-4 m-auto text-white rounded-xl md:rounded-none md:rounded-tl-3xl text-start">
-            <h1 className="col-span-2 text-xl font-bold text-white">FANTASÍA</h1>
+            <h1 className="col-span-2 text-xl font-bold text-white">
+              FANTASÍA
+            </h1>
 
             <h1 className="col-span-2 text-base text-white ">
-            En Castor Book la magia cobra vida. Encuentra historias épicas, mundos encantados y aventuras inolvidables en nuestros libros de fantasía.
+              En Castor Book la magia cobra vida. Encuentra historias épicas,
+              mundos encantados y aventuras inolvidables en nuestros libros de
+              fantasía.
             </h1>
           </div>
         </div>
@@ -41,7 +46,9 @@ const SecondSection = () => {
           <div className="bottom-0 right-0 z-10 flex flex-col items-center justify-center w-full h-full gap-2 p-4 m-auto text-white rounded-xl md:rounded-none md:rounded-tl-3xl text-start">
             <h1 className="text-xl font-bold text-white ">CIENICA</h1>
             <p className="text-base text-white ">
-            En Castor Book Explora los secretos del universo con nuestra selección de libros de ciencia. Desde física cuántica hasta biología, el conocimiento está a tu alcance.
+              En Castor Book Explora los secretos del universo con nuestra
+              selección de libros de ciencia. Desde física cuántica hasta
+              biología, el conocimiento está a tu alcance.
             </p>
           </div>
         </div>
@@ -50,16 +57,22 @@ const SecondSection = () => {
           <div className="bottom-0 left-0 z-10 flex flex-col items-center justify-center w-full h-full gap-2 p-4 m-auto text-white rounded-xl md:rounded-none md:rounded-tr-xl text-start">
             <h1 className="text-xl font-bold text-white">Romance</h1>
             <p className="text-base text-white">
-            En Castor Book Sumérgete en historias de amor inolvidables. Desde pasiones prohibidas hasta finales felices, vive cada emoción con nuestra colección de romance.
+              En Castor Book Sumérgete en historias de amor inolvidables. Desde
+              pasiones prohibidas hasta finales felices, vive cada emoción con
+              nuestra colección de romance.
             </p>
           </div>
         </div>
 
         <div className="p-2 bg-yellow-400 border-4 border-yellow-700 ">
           <div className="bottom-0 left-0 z-10 flex flex-col items-center justify-center w-full h-full gap-2 p-4 m-auto text-white rounded-xl md:rounded-none md:rounded-tr-xl text-start">
-            <h1 className="text-xl font-bold text-white">SUPERACIÓN PERSONAL</h1>
+            <h1 className="text-xl font-bold text-white">
+              SUPERACIÓN PERSONAL
+            </h1>
             <p className="text-base text-white">
-            En Castor Book puedes encontrar los mejores libros de economía, desde fundamentos financieros hasta estrategias de inversión. ¡Aprende y crece con nosotros!
+              En Castor Book puedes encontrar los mejores libros de economía,
+              desde fundamentos financieros hasta estrategias de inversión.
+              ¡Aprende y crece con nosotros!
             </p>
           </div>
         </div>
@@ -68,7 +81,7 @@ const SecondSection = () => {
           <div className="bottom-0 left-0 z-10 flex flex-col items-center justify-center w-full h-full gap-2 p-4 m-auto text-white rounded-xl md:rounded-none md:rounded-tr-xl text-start">
             <h1 className="text-xl font-bold text-white">Muchas más +</h1>
             <p className="text-base text-white">
-              Castor Book cuenta con gran variadad de libros 
+              Castor Book cuenta con gran variadad de libros
             </p>
           </div>
         </div>
@@ -77,7 +90,7 @@ const SecondSection = () => {
       {/* Content Greater than lg*/}
       <div className="mt-8 bg-beige-400 border-4 border-beige-600 hidden lg:flex p-2 max-w-[90rem] w-full h-auto">
         <div className="flex items-center justify-center flex-grow w-auto p-4 text-center transition-all duration-700 ease-out bg-lime-800 border-4 border-lime-950 hover:grow-[4] hover:max-w-full relative">
-          {/* Texto inicial */}
+          {/* Initial text*/}
           <div className="flex flex-col items-center justify-center w-full text-white transition-opacity duration-500 ease-in-out hover:opacity-0">
             <span className="font-bold">E</span>
             <span className="font-bold">C</span>
@@ -89,7 +102,7 @@ const SecondSection = () => {
             <span className="font-bold">A</span>
           </div>
 
-          {/* Texto al hacer hover */}
+          {/* Text on hover */}
           <div className="absolute inset-0 flex items-center justify-center p-4 text-white transition-opacity duration-500 ease-in-out opacity-0 bg-lime-800 hover:opacity-100">
             <p className="text-lg font-semibold text-center">
               En <span className="font-bold">Castor Book</span> puedes encontrar
@@ -100,7 +113,7 @@ const SecondSection = () => {
         </div>
 
         <div className="flex items-center justify-center flex-grow w-auto p-4 text-center transition-all duration-700 ease-out bg-blue-700  border-4 border-blue-950 hover:grow-[4] hover:max-w-full relative">
-          {/* Texto inicial */}
+          {/* Initial text*/}
           <div className="flex flex-col items-center justify-center w-full text-white transition-opacity duration-500 ease-in-out hover:opacity-0">
             <span className="font-bold">F</span>
             <span className="font-bold">A</span>
@@ -112,7 +125,7 @@ const SecondSection = () => {
             <span className="font-bold">A</span>
           </div>
 
-          {/* Texto al hacer hover */}
+          {/* Text on hover */}
           <div className="absolute inset-0 flex items-center justify-center p-4 text-white transition-opacity duration-500 ease-in-out bg-blue-700 opacity-0 hover:opacity-100">
             <p className="text-lg font-semibold text-center">
               En <span className="font-bold">Castor Book</span> la magia cobra
@@ -123,7 +136,7 @@ const SecondSection = () => {
         </div>
 
         <div className="flex items-center justify-center flex-grow w-auto p-4 text-center transition-all duration-700 ease-out bg-blue-600 border-4 border-blue-900 hover:grow-[4] hover:max-w-full relative">
-          {/* Texto inicial */}
+          {/* Initial text*/}
           <div className="flex flex-col items-center justify-center w-full text-white transition-opacity duration-500 ease-in-out hover:opacity-0">
             <span className="font-bold">C</span>
             <span className="font-bold">I</span>
@@ -134,7 +147,7 @@ const SecondSection = () => {
             <span className="font-bold">A</span>
           </div>
 
-          {/* Texto al hacer hover */}
+          {/* Text on hover */}
           <div className="absolute inset-0 flex items-center justify-center p-4 text-white transition-opacity duration-500 ease-in-out bg-blue-600 opacity-0 hover:opacity-100">
             <p className="text-lg font-semibold text-center">
               En <span className="font-bold">Castor Book</span> Explora los
@@ -146,7 +159,7 @@ const SecondSection = () => {
         </div>
 
         <div className="flex items-center justify-center flex-grow w-auto p-4 text-center transition-all duration-700 ease-out bg-rose-600 border-4 border-rose-900 hover:grow-[4] hover:max-w-full relative">
-          {/* Texto inicial */}
+          {/* Initial text*/}
           <div className="flex flex-col items-center justify-center w-full text-white transition-opacity duration-500 ease-in-out hover:opacity-0">
             <span className="font-bold">R</span>
             <span className="font-bold">O</span>
@@ -157,7 +170,7 @@ const SecondSection = () => {
             <span className="font-bold">E</span>
           </div>
 
-          {/* Texto al hacer hover */}
+          {/* Text on hover */}
           <div className="absolute inset-0 flex items-center justify-center p-4 text-white transition-opacity duration-500 ease-in-out opacity-0 bg-rose-600 hover:opacity-100">
             <p className="text-lg font-semibold text-center">
               En <span className="font-bold">Castor Book</span> Sumérgete en
@@ -169,7 +182,7 @@ const SecondSection = () => {
         </div>
 
         <div className="flex items-center justify-center flex-grow w-auto p-4 text-center transition-all duration-700 ease-out bg-yellow-400 border-4 border-yellow-700 hover:grow-[4] hover:max-w-full relative">
-          {/* Texto inicial */}
+          {/* Initial text*/}
           <div className="grid items-center justify-center w-full grid-cols-2 text-white transition-opacity duration-500 ease-in-out hover:opacity-0">
             <div className="flex flex-col">
               <span className="font-bold">S</span>
@@ -196,7 +209,7 @@ const SecondSection = () => {
             </div>
           </div>
 
-          {/* Texto al hacer hover */}
+          {/* Text on hover */}
           <div className="absolute inset-0 flex items-center justify-center p-4 text-white transition-opacity duration-500 ease-in-out bg-yellow-400 opacity-0 hover:opacity-100">
             <p className="text-lg font-semibold text-center">
               En <span className="font-bold">Castor Book</span> puedes encontrar
@@ -207,7 +220,7 @@ const SecondSection = () => {
         </div>
 
         <div className="flex items-center justify-center flex-grow w-auto p-4 text-center transition-all duration-700 ease-out bg-gray-700 border-4 border-gray-950 hover:grow-[4] hover:max-w-full relative">
-          {/* Texto inicial */}
+          {/* Initial text*/}
           <div className="flex flex-col items-center justify-center w-full text-white transition-opacity duration-500 ease-in-out hover:opacity-0">
             <span className="font-bold">M</span>
             <span className="font-bold">I</span>
@@ -219,7 +232,7 @@ const SecondSection = () => {
             <span className="font-bold">O</span>
           </div>
 
-          {/* Texto al hacer hover */}
+          {/* Text on hover */}
           <div className="absolute inset-0 flex items-center justify-center p-4 text-white transition-opacity duration-500 ease-in-out bg-gray-700 opacity-0 hover:opacity-100">
             <p className="text-lg font-semibold text-center">
               En <span className="font-bold">Castor Book</span> Sumérgete en
@@ -230,7 +243,7 @@ const SecondSection = () => {
         </div>
 
         <div className="flex items-center justify-center flex-grow w-auto p-4 text-center transition-all duration-700 ease-out bg-amber-500 border-4 border-amber-800 hover:grow-[4] hover:max-w-full relative">
-          {/* Texto inicial */}
+          {/* Initial text*/}
           <div className="flex flex-col items-center justify-center w-full text-white transition-opacity duration-500 ease-in-out hover:opacity-0">
             <span className="font-bold">H</span>
             <span className="font-bold">I</span>
@@ -242,7 +255,7 @@ const SecondSection = () => {
             <span className="font-bold">A</span>
           </div>
 
-          {/* Texto al hacer hover */}
+          {/* Text on hover */}
           <div className="absolute inset-0 flex items-center justify-center p-4 text-white transition-opacity duration-500 ease-in-out opacity-0 bg-amber-500 hover:opacity-100">
             <p className="text-lg font-semibold text-center">
               En <span className="font-bold">Castor Book</span> Viaja en el
@@ -254,7 +267,7 @@ const SecondSection = () => {
         </div>
 
         <div className="flex items-center justify-center flex-grow w-auto p-4 text-center transition-all duration-700 ease-out bg-pink-700 border-4 border-pink-950 hover:grow-[4] hover:max-w-full relative">
-          {/* Texto inicial */}
+          {/* Initial text*/}
           <div className="flex flex-col items-center justify-center w-full text-white transition-opacity duration-500 ease-in-out hover:opacity-0">
             <span className="font-bold">D</span>
             <span className="font-bold">R</span>
@@ -263,7 +276,7 @@ const SecondSection = () => {
             <span className="font-bold">A</span>
           </div>
 
-          {/* Texto al hacer hover */}
+          {/* Text on hover */}
           <div className="absolute inset-0 flex items-center justify-center p-4 text-white transition-opacity duration-500 ease-in-out bg-pink-700 opacity-0 hover:opacity-100">
             <p className="text-lg font-semibold text-center">
               En <span className="font-bold">Castor Book</span> Vive intensas
@@ -274,7 +287,7 @@ const SecondSection = () => {
         </div>
 
         <div className="flex items-center justify-center flex-grow w-auto p-4 text-center transition-all duration-700 ease-out bg-cyan-700 border-4 border-cyan-950 hover:grow-[4] hover:max-w-full relative">
-          {/* Texto inicial */}
+          {/* Initial text*/}
           <div className="flex flex-col items-center justify-center w-full text-white transition-opacity duration-500 ease-in-out hover:opacity-0">
             <span className="font-bold">F</span>
             <span className="font-bold">I</span>
@@ -285,7 +298,7 @@ const SecondSection = () => {
             <span className="font-bold">N</span>
           </div>
 
-          {/* Texto al hacer hover */}
+          {/* Text on hover */}
           <div className="absolute inset-0 flex items-center justify-center p-4 text-white transition-opacity duration-500 ease-in-out opacity-0 bg-cyan-700 hover:opacity-100">
             <p className="text-lg font-semibold text-center">
               En <span className="font-bold">Castor Book</span> Explora galaxias
@@ -298,7 +311,7 @@ const SecondSection = () => {
 
       <div className="bg-beige-400 border-4 border-beige-600 hidden lg:flex p-2 max-w-[90rem] w-full h-auto">
         <div className="flex items-center justify-center flex-grow w-auto p-4 text-center transition-all duration-700 ease-out bg-beige-700 border-4 border-stone-700 hover:grow-[4] hover:max-w-full relative">
-          {/* Texto inicial */}
+          {/* Initial text*/}
           <div className="flex flex-col items-center justify-center w-full text-white transition-opacity duration-500 ease-in-out hover:opacity-0">
             <span className="font-bold">C</span>
             <span className="font-bold">O</span>
@@ -308,7 +321,7 @@ const SecondSection = () => {
             <span className="font-bold">A</span>
           </div>
 
-          {/* Texto al hacer hover */}
+          {/* Text on hover */}
           <div className="absolute inset-0 flex items-center justify-center p-4 text-white transition-opacity duration-500 ease-in-out opacity-0 bg-beige-700 hover:opacity-100">
             <p className="text-lg font-semibold text-center">
               En <span className="font-bold">Castor Book</span> Explora recetas
@@ -319,7 +332,7 @@ const SecondSection = () => {
         </div>
 
         <div className="flex items-center justify-center flex-grow w-auto p-4 text-center transition-all duration-700 ease-out bg-green-700 border-4 border-green-950 hover:grow-[4] hover:max-w-full relative">
-          {/* Texto inicial */}
+          {/* Initial text*/}
           <div className="flex flex-col items-center justify-center w-full text-white transition-opacity duration-500 ease-in-out hover:opacity-0">
             <span className="font-bold">N</span>
             <span className="font-bold">A</span>
@@ -333,7 +346,7 @@ const SecondSection = () => {
             <span className="font-bold">A</span>
           </div>
 
-          {/* Texto al hacer hover */}
+          {/* Text on hover */}
           <div className="absolute inset-0 flex items-center justify-center p-4 text-white transition-opacity duration-500 ease-in-out bg-green-700 opacity-0 hover:opacity-100">
             <p className="text-lg font-semibold text-center">
               En <span className="font-bold">Castor Book</span> Conoce el
@@ -345,7 +358,7 @@ const SecondSection = () => {
         </div>
 
         <div className="flex items-center justify-center flex-grow w-auto p-4 text-center transition-all duration-700 ease-out bg-orange-500 border-4 border-orange-800 hover:grow-[4] hover:max-w-full relative">
-          {/* Texto inicial */}
+          {/* Initial text*/}
           <div className="flex flex-col items-center justify-center w-full text-white transition-opacity duration-500 ease-in-out hover:opacity-0">
             <span className="font-bold">A</span>
             <span className="font-bold">R</span>
@@ -353,7 +366,7 @@ const SecondSection = () => {
             <span className="font-bold">E</span>
           </div>
 
-          {/* Texto al hacer hover */}
+          {/* Text on hover */}
           <div className="absolute inset-0 flex items-center justify-center p-4 text-white transition-opacity duration-500 ease-in-out bg-orange-500 opacity-0 hover:opacity-100">
             <p className="text-lg font-semibold text-center">
               En <span className="font-bold">Castor Book</span> Descubre la
@@ -365,7 +378,7 @@ const SecondSection = () => {
         </div>
 
         <div className="flex items-center justify-center flex-grow w-auto p-4 text-center transition-all duration-700 ease-out bg-violet-700 border-4 border-violet-950 hover:grow-[4] hover:max-w-full relative">
-          {/* Texto inicial */}
+          {/* Initial text*/}
           <div className="flex flex-col items-center justify-center w-full text-white transition-opacity duration-500 ease-in-out hover:opacity-0">
             <span className="font-bold">P</span>
             <span className="font-bold">S</span>
@@ -378,7 +391,7 @@ const SecondSection = () => {
             <span className="font-bold">A</span>
           </div>
 
-          {/* Texto al hacer hover */}
+          {/* Text on hover */}
           <div className="absolute inset-0 flex items-center justify-center p-4 text-white transition-opacity duration-500 ease-in-out opacity-0 bg-violet-700 hover:opacity-100">
             <p className="text-lg font-semibold text-center">
               En <span className="font-bold">Castor Book</span> Entiende cómo
@@ -390,7 +403,7 @@ const SecondSection = () => {
         </div>
 
         <div className="flex items-center justify-center flex-grow w-auto p-4 text-center transition-all duration-700 ease-out bg-pink-950 border-4 border-rose-950 hover:grow-[4] hover:max-w-full relative">
-          {/* Texto inicial */}
+          {/* Initial text*/}
           <div className="flex flex-col items-center justify-center w-full text-white transition-opacity duration-500 ease-in-out hover:opacity-0">
             <span className="font-bold">L</span>
             <span className="font-bold">I</span>
@@ -404,7 +417,7 @@ const SecondSection = () => {
             <span className="font-bold">A</span>
           </div>
 
-          {/* Texto al hacer hover */}
+          {/* Text on hover */}
           <div className="absolute inset-0 flex items-center justify-center p-4 text-white transition-opacity duration-500 ease-in-out opacity-0 bg-pink-950 hover:opacity-100">
             <p className="text-lg font-semibold text-center">
               En <span className="font-bold">Castor Book</span> Sumérgete en los
@@ -416,7 +429,7 @@ const SecondSection = () => {
         </div>
 
         <div className="flex items-center justify-center flex-grow w-auto p-4 text-center transition-all duration-700 ease-out bg-emerald-700 border-4 border-emerald-950 hover:grow-[4] hover:max-w-full relative">
-          {/* Texto inicial */}
+          {/* Initial text*/}
           <div className="flex flex-col items-center justify-center w-full text-white transition-opacity duration-500 ease-in-out hover:opacity-0">
             <span className="font-bold">D</span>
             <span className="font-bold">E</span>
@@ -428,7 +441,7 @@ const SecondSection = () => {
             <span className="font-bold">S</span>
           </div>
 
-          {/* Texto al hacer hover */}
+          {/* Text on hover */}
           <div className="absolute inset-0 flex items-center justify-center p-4 text-white transition-opacity duration-500 ease-in-out opacity-0 bg-emerald-700 hover:opacity-100">
             <p className="text-lg font-semibold text-center">
               En <span className="font-bold">Castor Book</span> Disfruta de
@@ -440,7 +453,7 @@ const SecondSection = () => {
         </div>
 
         <div className="flex items-center justify-center flex-grow w-auto p-4 text-center transition-all duration-700 ease-out bg-teal-500 border-4 border-teal-800 hover:grow-[4] hover:max-w-full relative">
-          {/* Texto inicial */}
+          {/* Initial text*/}
           <div className="flex flex-col items-center justify-center w-full text-white transition-opacity duration-500 ease-in-out hover:opacity-0">
             <span className="font-bold">T</span>
             <span className="font-bold">E</span>
@@ -454,7 +467,7 @@ const SecondSection = () => {
             <span className="font-bold">A</span>
           </div>
 
-          {/* Texto al hacer hover */}
+          {/* Text on hover */}
           <div className="absolute inset-0 flex items-center justify-center p-4 text-white transition-opacity duration-500 ease-in-out bg-teal-500 opacity-0 hover:opacity-100">
             <p className="text-lg font-semibold text-center">
               En <span className="font-bold">Castor Book</span> Sumérgete en el
@@ -466,7 +479,7 @@ const SecondSection = () => {
         </div>
 
         <div className="flex items-center justify-center flex-grow w-auto p-4 text-center transition-all duration-700 ease-out bg-amber-700 border-4 border-orange-950 hover:grow-[4] hover:max-w-full relative">
-          {/* Texto inicial */}
+          {/* Initial text*/}
           <div className="flex flex-col items-center justify-center w-full text-white transition-opacity duration-500 ease-in-out hover:opacity-0">
             <span className="font-bold">C</span>
             <span className="font-bold">I</span>
@@ -474,7 +487,7 @@ const SecondSection = () => {
             <span className="font-bold">E</span>
           </div>
 
-          {/* Texto al hacer hover */}
+          {/* Text on hover */}
           <div className="absolute inset-0 flex items-center justify-center p-4 text-white transition-opacity duration-500 ease-in-out opacity-0 bg-amber-700 hover:opacity-100">
             <p className="text-lg font-semibold text-center">
               En <span className="font-bold">Castor Book</span> Explora libros
