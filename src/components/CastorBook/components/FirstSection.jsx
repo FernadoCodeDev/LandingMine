@@ -9,11 +9,11 @@ const FirstSection = () => {
     <div className="relative flex flex-col items-center w-full min-h-screen text-black bg-blue-200 lg:text-2xl dark:text-white dark:bg-neutral-900">
       <div className="w-full h-auto m-auto max-w-[90rem] grid grid-cols-1 md:grid-cols-3 items-center justify-center ">
         <div className="flex flex-col items-center justify-center gap-4 p-2 md:col-span-3">
-          <h1 className="text-xl font-bold md:text-3xl"> Top Trending Books</h1>
-          <h1 className="text-base md:xl">Most Popular reads of the year</h1>
+          <h1 className="text-xl font-bold md:text-3xl">Los libros más populares del año</h1>
+          <h1 className="text-center text-base md:xl max-w-[50rem]">Descubre las lecturas que están marcando tendencia. Estos son los títulos más vendidos y recomendados por lectores de todo el mundo. </h1>
           <div className="flex flex-row w-full gap-2 m-auto max-w-[40rem]">
-            <button className="w-full p-2 font-bold text-black transition-all duration-700 ease-out bg-transparent border-2 border-black dark:text-white dark:border-white dark:border-neutral-800 rounded-2xl hover:bg-white">
-              View All
+            <button className="w-full p-2 font-bold text-black transition-all duration-700 ease-out bg-transparent border-2 border-neutral-800 dark:text-white dark:hover:text-black dark:border-white rounded-2xl hover:bg-white">
+              Ver todos
             </button>
 
             <button className="flex items-center justify-center w-full p-2 font-bold text-black transition-all duration-700 ease-out bg-neutral-800 rounded-2xl hover:bg-black">
@@ -39,8 +39,8 @@ const FirstSection = () => {
           <div className="flex flex-col p-4 bg-orange-200 border-t-8 border-l-8 border-r-8 border-white dark:border-neutral-800 md:border-8 md:rounded-2xl">
             <div className="flex flex-row justify-between ">
               <div>
-                <h1 className="">System design</h1>
-                <h1 className="font-bold">$25</h1>
+                <h1 className="">El enigma del destino </h1>
+                <h1 className="font-bold">$19.99</h1>
               </div>
 
               <div className="w-12 h-12 p-2 text-center bg-white rounded-full">
@@ -54,8 +54,8 @@ const FirstSection = () => {
           <div className="flex flex-col p-4 border-t-8 border-l-8 border-r-8 border-white dark:border-neutral-800 md:border-l-0 md:border-r-0 md:border-t-8 md:border-b-8 md:my-8 bg-sky-200 ">
             <div className="flex flex-row justify-between ">
               <div>
-                <h1 className="">System design</h1>
-                <h1 className="font-bold">$25</h1>
+                <h1 className="">Crónicas de un mundo oculto </h1>
+                <h1 className="font-bold">$24.99</h1>
               </div>
 
               <div className="w-12 h-12 p-2 text-center bg-white rounded-full">
@@ -69,8 +69,8 @@ const FirstSection = () => {
           <div className="flex flex-col p-4 bg-green-200 border-8 border-t-8 border-l-8 border-r-8 border-white dark:border-neutral-800 md:rounded-2xl">
             <div className="flex flex-row justify-between">
               <div>
-                <h1 className="">System design</h1>
-                <h1 className="font-bold">$25</h1>
+                <h1 className="">El poder de empezar de nuevo </h1>
+                <h1 className="font-bold">$17.99</h1>
               </div>
 
               <div className="w-12 h-12 p-2 text-center bg-white rounded-full">
