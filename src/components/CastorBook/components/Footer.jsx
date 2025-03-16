@@ -8,10 +8,10 @@ const Footer = () => {
         <span className="font-bold">Castor Book</span> expresa su más sincero agradecimiento al talentoso diseñador
    {" "}
           <a
-            href="https://dribbble.com/skabuhena"
-            className="ml-1 font-bold text-white transition duration-300 ease-in-out hover:text-stone-200"
+            href="https://dribbble.com/yasirnoori"
+            className="ml-1 font-bold text-white transition duration-300 ease-in-out hover:text-blue-400"
           >
-            NAME
+            Yasir Ahmad Noori
           </a>{" "}
           cuya obra sirvió de inspiración para la creación de la landing page{" "}
           <span className="font-bold">Castor Book</span>. Utilicé su diseño como
@@ -39,7 +39,7 @@ const Footer = () => {
         © 2025 Castor Book.{" "}
         <a
           href="/"
-          className="ml-1 font-bold text-white transition duration-300 ease-in-out hover:text-stone-200"
+          className="ml-1 font-bold text-white transition duration-300 ease-in-out hover:text-blue-400"
         >
           Regresar a LandingMine
         </a>
