@@ -20,6 +20,7 @@ import OrganicGold from "./pages/OrganicGold/OrganicGold" //OrganicGold Landing 
 import ZoologicalWorld from "./pages/ZoologicalWorld/ZoologicalWorld" //ZoologicalWorld Landing page
 import JRRoyal from "./pages/JRRoyal/JRRoyal" //JRRoyal Landing page
 import CastorBook from "./pages/CastorBook/CastorBook" //CastorBook Landing page 
+import Strikers from "./pages/Strikers/Strikers" //Strikers Landing page
 
 const App = () => {
   return (
@@ -61,9 +62,10 @@ const App = () => {
         <Route path="/ZoologicalWorld" element={<ZoologicalWorld />} />
         {/*JRRoyal Landing page */}
         <Route path="/JRRoyal" element={<JRRoyal />} />
-        
         {/*CastorBook Landing page */}
         <Route path="/CastorBook" element={<CastorBook />} />
+        {/*Strikers Landing page */}
+        <Route path="/Strikers" element={<Strikers />} />
       </Routes>
     </Router>
   );
