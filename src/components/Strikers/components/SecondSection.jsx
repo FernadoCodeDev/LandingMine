@@ -11,11 +11,11 @@ import imgN8 from "../img/imgN8.webp";
 const SecondSection = () => {
   return (
     <div className="relative flex flex-col items-center w-full min-h-screen text-black bg-white border-t-2 border-orange-500 md:text-2xl dark:border-slate-950 dark:bg-slate-950 dark:text-white">
-      <div className="m-auto max-w-[90rem">
+      <div className="m-auto max-w-[90rem]">
         <Masonry
           breakpointCols={{ default: 3, 768: 3, 767: 2 }}
-          className="flex items-center justify-center gap-4 p-4 text-center"
-          columnClassName="flex flex-col gap-4"
+          className="flex items-center justify-center gap-2 p-4 text-center"
+          columnClassName="flex flex-col gap-2"
         >
           <img src={imgN2} alt="imgN2" className="w-full h-auto" />
           <img src={imgN3} alt="imgN3" className="w-full h-auto" />
