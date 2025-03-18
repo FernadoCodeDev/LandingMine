@@ -23,7 +23,7 @@ const SecondSection = () => {
           <img src={imgN5} alt="imgN5" className="w-full h-auto" />
           <img src={imgN6} alt="imgN6" className="w-full h-auto" />
 
-          <div className="p-2 bg-green-800">
+          <div className="p-2 bg-green-900">
             <img src={imgN7} alt="imgN7" className="w-full h-auto" />
           </div>
           <img src={imgN8} alt="imgN8" className="w-full h-auto" />
