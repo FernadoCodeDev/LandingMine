@@ -18,7 +18,7 @@ import BackgroundOrganicGold from "../../OrganicGold/img/BackgroundOrganicGold.w
 import BackgroundZoologicalWorld from "../../ZoologicalWorld/img/BackgroundZoologicalWorld.webp";
 import BackgroundJRRoyal from "../../JRRoyal/img/BackgroundJRRoyal.webp";
 import BackgroundCastorBook from "../../CastorBook/img/BackgroundCastorBook.webp";
-import BackgroundStrikes from "../../Strikers/img/BackgroundStrike's.webp";
+import BackgroundStrikes from "../../Strikes/img/BackgroundStrike's.webp";
 
 const LandingPageAd = () => {
   return (
@@ -331,13 +331,13 @@ const LandingPageAd = () => {
         <img src={BackgroundStrikes} alt="BackgroundStrikes" className="w-full h-auto" />
         <div className="p-4">
           <h2 className="text-xl font-semibold dark:text-white">
-          Strikers 
+          Strikes 
           </h2>
           <p className="text-black dark:text-white">
            Landing page sobre un establecimiento de boliche
           </p>
 
-          <a href="/Strikers">
+          <a href="/Strikes">
             <ButtonLanding />
           </a>
         </div>
