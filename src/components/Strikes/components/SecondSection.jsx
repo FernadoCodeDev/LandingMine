@@ -10,7 +10,7 @@ import imgN8 from "../img/imgN8.webp";
 
 const SecondSection = () => {
   return (
-    <div className="relative flex flex-col items-center w-full min-h-screen text-black bg-white border-t-2 border-orange-500 md:text-2xl dark:border-slate-950 dark:bg-slate-950 dark:text-white">
+    <div className="relative flex flex-col items-center w-full min-h-screen text-black bg-white md:text-2xl dark:border-slate-950 dark:bg-slate-950 dark:text-white">
       <div className="m-auto max-w-[90rem]">
         <Masonry
           breakpointCols={{ default: 3, 768: 3, 767: 2 }}
