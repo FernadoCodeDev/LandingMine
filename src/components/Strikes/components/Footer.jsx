@@ -8,10 +8,10 @@ const Footer = () => {
           <span className="font-bold">Strikes</span> expresa su más
           sincero agradecimiento al talentoso diseñador
           <a
-            href="https://dribbble.com/ronasit"
+            href="https://dribbble.com/wildanwari"
             className="ml-1 font-bold transition duration-300 ease-in-out hover:text-orange-500"
           >
-            Ronas
+            Wildan
           </a>{" "}
           cuya obra sirvió de inspiración para la creación de la landing page{" "}
           <span className="font-bold">Strikes</span>. Utilicé su diseño
