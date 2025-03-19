@@ -342,38 +342,6 @@ const LandingPageAd = () => {
           </a>
         </div>
       </div>
-
-      <div className="bg-gray-200 rounded-lg shadow-md dark:bg-neutral-800">
-        <img src={Landing} alt="Landing" className="w-full h-auto" />
-        <div className="p-4">
-          <h2 className="text-xl font-semibold dark:text-white">
-            Landing Page 19
-          </h2>
-          <p className="text-black dark:text-white">
-            Descripción de la landing page.
-          </p>
-
-          <a href="#">
-            <ButtonLanding />
-          </a>
-        </div>
-      </div>
-
-      <div className="bg-gray-200 rounded-lg shadow-md dark:bg-neutral-800">
-        <img src={Landing} alt="Landing" className="w-full h-auto" />
-        <div className="p-4">
-          <h2 className="text-xl font-semibold dark:text-white">
-            Landing Page 20
-          </h2>
-          <p className="text-black dark:text-white">
-            Descripción de la landing page.
-          </p>
-
-          <a href="#">
-            <ButtonLanding />
-          </a>
-        </div>
-      </div>
     </div>
   );
 };
