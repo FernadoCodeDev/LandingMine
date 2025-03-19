@@ -1,5 +1,5 @@
 import React from 'react';
-import HomePage from '../../components/MarketingAgency/HomeMarketingAgency';
+import HomePage from '../../LandingPages/MarketingAgency/HomeMarketingAgency';
 
 const MarketingAgency = () => {
   return (

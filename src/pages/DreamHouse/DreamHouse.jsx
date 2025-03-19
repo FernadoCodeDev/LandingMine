@@ -1,5 +1,5 @@
 import React from 'react';
-import HomePage from '../../components/DreamHouse/HomeDreamHouse';
+import HomePage from '../../LandingPages/DreamHouse/HomeDreamHouse';
 
 const HomeDreamHouse = () => {
   return (

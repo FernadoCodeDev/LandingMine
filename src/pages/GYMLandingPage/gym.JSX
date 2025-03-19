@@ -1,5 +1,5 @@
 import React from 'react';
-import GymHomePage from '../../components/GYM/HomeGym';
+import GymHomePage from '../../LandingPages/GYM/HomeGym';
 
 const gym = () => {
   return (

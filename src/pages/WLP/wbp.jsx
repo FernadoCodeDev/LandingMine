@@ -1,5 +1,5 @@
 import React from 'react';
-import HomePage from '../../components/WLP/HomeWLP';
+import HomePage from '../../LandingPages/WLP/HomeWLP';
 
 const HomeWLP = () => {
   return (

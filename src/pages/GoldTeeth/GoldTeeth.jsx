@@ -1,5 +1,5 @@
 import React from 'react';
-import HomePage from '../../components/GoldTeeth/HomeGoldTeeth';
+import HomePage from '../../LandingPages/GoldTeeth/HomeGoldTeeth';
 
 const HomeGoldTeeth = () => {
   return (

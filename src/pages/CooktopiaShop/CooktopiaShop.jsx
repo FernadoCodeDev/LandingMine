@@ -1,5 +1,5 @@
 import React from 'react';
-import HomePage from '../../components/CooktopiaShop/HomeCooktopiaShop';
+import HomePage from '../../LandingPages/CooktopiaShop/HomeCooktopiaShop';
 
 const HomeCooktopiaShop = () => {
   return (

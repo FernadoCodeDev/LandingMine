@@ -1,5 +1,5 @@
 import React from 'react';
-import HomePage from '../../components/WebCall/HomeWebCall';
+import HomePage from '../../LandingPages/WebCall/HomeWebCall';
 
 const HomeWebCall = () => {
   return (

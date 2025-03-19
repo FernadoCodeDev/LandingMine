@@ -1,5 +1,5 @@
 import React from 'react';
-import HomePage from '../../components/ZoologicalWorld/HomeZoologicalWorld';
+import HomePage from '../../LandingPages/ZoologicalWorld/HomeZoologicalWorld';
 
 const HomeZW = () => {
   return (

@@ -1,5 +1,5 @@
 import React from 'react';
-import HomePage from '../../components/CampingNight/HomeCampingNight';
+import HomePage from '../../LandingPages/CampingNight/HomeCampingNight';
 
 const HomeCampingNight = () => {
   return (

@@ -1,5 +1,5 @@
 import React from 'react';
-import HomePage from '../../components/GoodTrip/HomeGoodTrip';
+import HomePage from '../../LandingPages/GoodTrip/HomeGoodTrip';
 
 const HomeGoodTrip = () => {
   return (

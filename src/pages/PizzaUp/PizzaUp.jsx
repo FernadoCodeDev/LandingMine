@@ -1,5 +1,5 @@
 import React from 'react';
-import HomePage from '../../components/PizzaUp/HomePizzaUp';
+import HomePage from '../../LandingPages/PizzaUp/HomePizzaUp';
 
 const PizzaUp = () => {
   return (

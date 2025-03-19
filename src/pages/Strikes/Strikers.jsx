@@ -1,5 +1,5 @@
 import React from 'react';
-import HomePage from '../../components/Strikes/HomeStrikes';
+import HomePage from '../../LandingPages/Strikes/HomeStrikes';
 
 const HomeStrikes = () => {
   return (

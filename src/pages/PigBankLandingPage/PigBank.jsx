@@ -1,5 +1,5 @@
 import React from 'react';
-import HomePage from '../../components/PigBank/HomepigBank';
+import HomePage from '../../LandingPages/PigBank/HomepigBank';
 
 const PigBank = () => {
   return (

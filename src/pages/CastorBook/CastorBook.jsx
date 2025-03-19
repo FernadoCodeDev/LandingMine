@@ -1,5 +1,5 @@
 import React from 'react';
-import HomePage from '../../components/CastorBook/HomeCastorBook';
+import HomePage from '../../LandingPages/CastorBook/HomeCastorBook';
 
 const HomeCastorBook = () => {
   return (
