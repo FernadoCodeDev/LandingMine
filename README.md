@@ -61,7 +61,7 @@ Cada una de estas páginas permite experimentar con distintos enfoques de diseñ
 
 Para mantener un código limpio y estructurado, cada landing page en **LandingMine** sigue una organización bien definida dentro de la carpeta `src`.  
 
-### 📁 Estructura de archivos  
+## 📁 Estructura de archivos  
 
 Dentro de **src**, encontrarás la carpeta **LandingPage,** donde cada landing está organizada en su propia carpeta. Además, hay carpetas de **componentes globales** y **hooks**:  
 
@@ -73,7 +73,7 @@ Dentro de **src**, encontrarás la carpeta **LandingPage,** donde cada landing e
 
 Cada landing tiene su estructura específica para facilitar su mantenimiento y escalabilidad.  
 
-### 🏗 Estructura de una Landing Page  
+## 🏗 Estructura de una Landing Page  
 
 Tomemos como ejemplo la **Landing N°17 - CastorBook** 📚.  
 Al abrir su carpeta, encontrarás:  
@@ -102,7 +102,7 @@ Dentro de **src/**, hay una carpeta llamada **pages/** 📂 que se encarga de or
 
 ![imgN9](https://github.com/FernadoCodeDev/LandingMine/blob/main/ImageReadme/imgReadmeN9.webp)
 
-### 📌 ¿Cómo funciona la carpeta `pages`?  
+## 📌 ¿Cómo funciona la carpeta `pages`?  
 
 - **Cada landing page tiene su propio archivo dentro de `pages/`**, con el mismo nombre de la landing.  
 - **Su único propósito es importar y renderizar el contenido desde `LandingPages/`**, lo que mantiene el código limpio y modular.  
@@ -116,7 +116,7 @@ Si abrimos el archivo `CampingNight.jsx` dentro de `pages/`, veremos que simplem
 🔹 No contienen lógica ni estructura de la landing, solo la llaman desde LandingPages/.**
 
 
-### 📌 Conexión con App.js
+## 📌 Conexión con App.js
 El archivo `App.js` es el que maneja la navegación entre las landing pages.
 
 - **Cada landing está registrada con una ruta usando su nombre en la URL.**
@@ -130,11 +130,44 @@ El archivo `App.js` es el que maneja la navegación entre las landing pages.
 ![imgN7](https://github.com/FernadoCodeDev/LandingMine/blob/main/ImageReadme/imgReadmeN7.webp)
 
 
+#🌍 Componentes Globales
+Dentro de la carpeta LandingPages, hay una subcarpeta llamada GlobalComponents. Aquí se encuentran componentes que son utilizados en todas las landing pages del proyecto.
+
+Estos componentes tienen una lógica simple pero útil para mejorar la experiencia del usuario y la personalización del diseño en cada landing.
+
+### 🔆 DarkMode.jsx
+Este archivo contiene la lógica que permite cambiar entre el modo claro y oscuro en las landing pages. Con este componente, los usuarios pueden alternar entre ambos modos sin afectar la estructura del sitio.
+
 ![imgN8](https://github.com/FernadoCodeDev/LandingMine/blob/main/ImageReadme/imgReadmeN8.webp)
 
+### 📱 MobileMenu.jsx
+Este componente maneja el menú móvil, que aparece en pantallas menores a md (768px en Tailwind CSS). Sin embargo, dado que cada landing page tiene un diseño y una combinación de colores distinta, no se puede definir un color único para todos los menús.
 
+![imgN11](https://github.com/FernadoCodeDev/LandingMine/blob/main/ImageReadme/imgReadmeN11.png)
 
+Para solucionar esto, MobileMenu.jsx permite personalizar ciertos estilos a través de propiedades dinámicas. Cada landing puede ajustar estos valores para que el menú encaje perfectamente con su diseño.
 
-## 🔗 Links
-[![portfolio](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://katherineoelsner.com/)
-[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/)
+Por ejemplo, en la landing **CampingNight**, se llama al componente **MobileMenu** con propiedades específicas para modificar colores y efectos:
+
+![imgN12](https://github.com/FernadoCodeDev/LandingMine/blob/main/ImageReadme/imgReadmeN12.png)
+
+Estas propiedades permiten que el menú:
+- **✅ Tenga colores adaptados al diseño de cada landing.**
+- **✅ Mantenga una buena visibilidad sin importar el fondo de la página.**
+- **✅ Se integre de forma fluida con la experiencia del usuario.**
+
+Gracias a esta estructura, cada landing page tiene su propio estilo sin perder consistencia en la navegación y funcionalidad.
+
+## ⛏ Conclusión 
+
+Espero que este contenido te haya sido útil y que hayas podido ver el trabajo realizado en cada landing page y en la creación completa de **LandingMine**. Mi objetivo fue construir un conjunto de landing pages bien estructuradas, responsivas y con un diseño cuidado en cada detalle.  
+
+Si tienes alguna duda sobre el funcionamiento de **LandingMine**, no dudes en contactarme.  
+
+Puedes ver más de mi trabajo en mi portafolio o conectar conmigo en LinkedIn:  
+
+[![portfolio](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)](http://fercode.atwebpages.com/)  
+[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/fernando-mej%C3%ADa/)  
+
+¡Gracias por tu tiempo y por explorar **LandingMine**! 🚀✨  
+
