@@ -2,7 +2,7 @@ import React from "react";
 
 const FirstSection = () => {
   return (
-    <div className="relative w-full p-4 text-black bg-slate-100 dark:text-white min-h-auto dark:bg-neutral-900">
+    <div className="flex flex-col items-center justify-center relative w-full p-4 text-black bg-slate-100 dark:text-white min-h-auto dark:bg-neutral-900">
       <div className="grid grid-cols-2 md:grid-cols-4 items-center justify-center mx-auto max-w-[70rem]">
         <div className="flex-col justify-center text-center ">
           <h1 className="text-5xl font-bold">

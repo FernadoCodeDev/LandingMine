@@ -9,7 +9,7 @@ import imgN11 from "../img/imgN11.webp"; //Vertical
 
 const FourthSection = () => {
   return (
-    <div className="relative w-full min-h-screen p-4 text-black bg-white dark:text-white dark:bg-neutral-800">
+    <div className="flex flex-col items-center justify-center relative min-h-screen p-4 text-black bg-white dark:text-white dark:bg-neutral-800">
       <h1 className="text-4xl font-bold text-center">Encuentra tú nuevo Hogar</h1>
       <p className="text-2xl text-center my-9">
         ¿Se admiten mascotas en el apartamento?, ¿Cómo son las escuelas?, ¿Zonas

@@ -7,10 +7,10 @@ import GuaranteeSVG from "./SVGComponents/guaranteeSVG";
 
 const ThirdSection = () => {
   return (
-    <div className="relative w-full min-h-screen p-4 text-black bg-slate-100 dark:text-white dark:bg-neutral-900">
-      <h1 className="text-3xl font-bold text-center">Cómo funciona</h1>
+    <div className="flex flex-col items-center  gap-4 justify-center relative min-h-screen p-4 text-black bg-slate-100 dark:text-white dark:bg-neutral-900">
+      <h1 className="text-3xl md:text-6xl font-bold text-center">Cómo funciona</h1>
 
-      <div className="flex flex-col items-center justify-center mt-6">
+      <div className="flex flex-col items-center justify-center">
         {/* Desktop Layout */}
         <div className="relative items-start hidden space-x-8 md:flex">
           <div className="relative flex items-center">
@@ -72,7 +72,7 @@ const ThirdSection = () => {
         </div>
       </div>
 
-      <div className="relative m-auto max-w-[70rem] mt-6 overflow-hidden">
+      <div className="relative m-auto max-w-[70rem] overflow-hidden">
         <img
           src={imgN4}
           alt="imgN4"
