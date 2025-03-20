@@ -10,8 +10,8 @@ import SVGManage from "./svgcomponets/SVG-Manage";
 
 const SecondSection = () => {
   return (
-    <div className="relative w-full min-h-screen bg-red-500">
-      <div className="grid justify-between grid-cols-1 p-2 text-white md:grid-cols-2">
+    <div className="flex flex-col items-center justify-center relative w-full min-h-screen bg-red-500">
+      <div className="grid justify-between grid-cols-1 p-2 text-white md:grid-cols-2 m-auto max-w-[90rem]">
         <div className="flex flex-col justify-between">
           <div>
             <div className="w-1/3 p-2 text-center bg-red-400 rounded-lg">
