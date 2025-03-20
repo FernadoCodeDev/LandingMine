@@ -6,26 +6,26 @@ import ImageGym1 from "../img/ImageGym1.webp";
 
 const HeaderGym = () => {
   return (
-    <div className="relative flex flex-col w-full h-auto">
-      <div className="w-full h-full bg-fixed bg-center bg-no-repeat "
-      style={{ backgroundImage: `url(${Background})` }}
+    <div className="relative flex flex-col w-full min-h-screen">
+      <div
+        className="w-full min-h-screen bg-cover bg-center bg-no-repeat "
+        style={{ backgroundImage: `url(${Background})` }}
       >
 
-        <header className="z-10 grid items-center grid-cols-2 p-4 md:grid-cols-3">
-          <img
-            src={GYMLogo}
-            alt="GymLogo"
-            className="w-full h-auto col-span-1 m-4 cursor-pointer md:col-span-1 md:w-60"
-          />
+        <img
+          src={GYMLogo}
+          alt="GymLogo"
+          className="w-60 h-auto m-4 cursor-pointer "
+        />
 
-          <div className="flex items-center justify-center w-full col-span-2 p-2 m-auto">
-            <MobileMenu 
+        <div className="flex items-center justify-center w-full col-span-2 p-2 m-auto">
+          <MobileMenu
             textColor="text-white"
             hoverColor="hover:text-gray-300"
             bgColor="bg-transparent"
-            invertColor="invert-0"/>
-          </div>
-        </header>
+            invertColor="invert-0"
+          />
+        </div>
 
         <div className="grid items-center justify-center grid-cols-1 font-mono text-center text-white md:grid-cols-3">
           <div className="w-full p-4 md:col-span-2 md:top-40">
@@ -42,11 +42,11 @@ const HeaderGym = () => {
             </a>
           </div>
 
-          <div className="relative flex items-end justify-end w-full h-full">
+          <div className="hidden md:flex items-end justify-end w-full h-full absolute right-0 bottom-0">
             <img
               src={ImageGym1}
               alt="ImageGym1"
-              className="relative w-1/2 max-w-[10rem] md:max-w-[100rem] md:absolute md:right-0 md:bottom-0"
+              className="relative w-1/2 max-w-[10rem] md:max-w-[20rem] lg:max-w-[25rem] xl:max-w-[40rem]"
             />
           </div>
         </div>

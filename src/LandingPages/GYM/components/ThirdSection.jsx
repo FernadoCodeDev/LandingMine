@@ -5,14 +5,14 @@ import ImageTime3 from "../img/ImgTime3.webp";
 
 const ThirdSection = () => {
   return (
-    <div className="bg-neutral-800">
+    <div className="flex flex-col items-center justify-center min-h-screen bg-neutral-800">
       <div className="flex flex-col justify-center w-full h-20 text-center bg-yellow-300 ">
         <h1 className="font-mono font-bold text-[1rem] lg:text-[2rem]">
           VIVE LA EXPERIENCIA DE FITNESS DEFINITIVA
         </h1>
       </div>
 
-      <div className="grid justify-center grid-cols-3 m-auto py-4 w-full md:max-w-[100rem] md:p-4">
+      <div className="grid justify-center grid-cols-3 m-auto py-4 w-full md:max-w-[90rem] md:p-4">
         <div className="flex flex-col justify-center py-4 bg-transparent">
           <div className="w-full h-auto p-4 opacity-25 bg-neutral-200">
             <h1 className="font-bold text-center text-[1rem]">FLEXIBLE</h1>

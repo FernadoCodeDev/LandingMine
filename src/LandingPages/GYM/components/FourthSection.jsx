@@ -6,7 +6,7 @@ import SVG3 from "./SVGComponents/SVG3";
 
 const FourthSection = () => {
   return (
-    <div className="w-full bg-neutral-900 ">
+    <div className=" w-full bg-neutral-900 ">
       <div className="grid grid-cols-1 md:grid-cols-2 ">
         <div className="flex flex-col justify-center order-2 p-4 text-center md:order-1">
           <h1 className="font-mono font-bold text-white text-[rem]">

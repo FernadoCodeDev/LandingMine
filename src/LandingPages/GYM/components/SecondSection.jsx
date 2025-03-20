@@ -6,7 +6,9 @@ import ImageGym6 from "../img/ImageGym6.webp";
 
 const SecondSection = () => {
   return (
-    <div className="grid items-center grid-cols-2 gap-4 p-4 text-center text-white md:grid-cols-4 bg-neutral-800">
+    <div className=" flex flex-col items-center justify-center min-h-screen  text-white  bg-neutral-800">
+     <div className="grid items-center grid-cols-2 md:grid-cols-4 gap-4 p-4 text-center max-w-[90rem]">
+
       <h1 className="text-[2rem] col-span-2 font-mono font-bold md:col-span-4 ">
         Ofrecemos algo para <span className="text-yellow-300">todos</span>
       </h1>
@@ -37,6 +39,7 @@ const SecondSection = () => {
         <p className="font-mono font-bold text-white text-center text-[rem] lg:text-[2rem] p-4">
           ENTRENAMIENTO DE FUERZA
         </p>
+      </div>
       </div>
     </div>
   );
