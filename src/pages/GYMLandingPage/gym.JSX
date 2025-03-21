@@ -1,7 +1,7 @@
 import React from 'react';
 import GymHomePage from '../../LandingPages/GYM/HomeGym';
 
-const gym = () => {
+const Gym = () => {
   return (
    <div>
     <GymHomePage />
@@ -9,4 +9,4 @@ const gym = () => {
   );
 };
 
-export default gym;
+export default Gym;
