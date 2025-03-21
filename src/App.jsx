@@ -4,7 +4,7 @@ import Home from "./pages/LandingMinePage/Home"; // Home LandingMine Page
 import Collection from "./pages/LandingMinePage/Collection"; // Collection LandingMine Page
 import AboutLandingMine from "./pages/LandingMinePage/AboutLandigMine"; // Collection LandingMine Page
 import PizzaUp from "./pages/PizzaUp/PizzaUp"; // PizzaUp Landing Page
-import Gym from "./pages/GYMLandingPage/Gym"; // gym Landing Page
+import Gym from "./pages/GYM/Gym"; // Gym Landing Page
 import MarketingAgency from "./pages/MarketingAgency/MarketingAgency"; // MarketingAgency Landing Page
 import PigBank from "./pages/PigBankLandingPage/PigBank"; // PigBank Landing Page
 import GoodTrip from "./pages/GoodTrip/GoodTrip"; // GoodTrip Landing Page
