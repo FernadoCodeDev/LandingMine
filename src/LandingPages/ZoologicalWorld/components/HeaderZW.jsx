@@ -74,11 +74,11 @@ const HeaderZW = () => {
               />
 
               <div className="absolute inset-0 z-10 flex flex-col items-center justify-center gap-4 p-4 m-auto text-center text-white">
-                <h1 className="text-2xl font-bold">
+                <h1 className="text-xl md:text-2xl font-bold">
                   Sumérgete en la aventura de Zoological World
                 </h1>
 
-                <p className="text-start">
+                <p className="text-base md:text-xl text-start">
                   Conoce animales de todo el planeta y siente la emoción de la
                   vida salvaje más cerca que nunca
                 </p>

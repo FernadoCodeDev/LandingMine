@@ -36,7 +36,7 @@ const HeaderPB = () => {
         </div>
 
         <div className="order-4 col-span-2 text-center md:col-span-3 ">
-          <h1 className="font-serif text-white text-[2rem] md:text-[4rem]">
+          <h1 className="font-serif text-white text-base md:text-2xl">
             Embárcate en el viaje de tus sueños con nuestra experiencia y
             orientación
           </h1>
@@ -64,7 +64,7 @@ const HeaderPB = () => {
 
           {/* Content greater than 1000px start*/}
           {/* This happens because the content will not display correctly at sizes smaller than that because if it is smaller than 1000px, Hidden is used.*/}
-          <div className="justify-center hidden w-full grid-cols-1 gap-6 p-4 text-white lg:grid lg:absolute lg:bottom-0 lg:left-0 lg:grid-cols-3">
+          <div className="justify-center hidden w-full grid-cols-1 gap-6 p-4 text-white xl:grid lg:absolute lg:bottom-0 lg:left-0 lg:grid-cols-3">
             <div className="flex flex-col items-center text-center">
               <div className="flex items-center gap-1">
                 <div className="w-16 border-t-2 border-white opacity-50"></div>

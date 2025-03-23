@@ -11,7 +11,7 @@ const SecondSection = () => {
       <h1 className="text-2xl font-bold text-center text-orange-500 md:text-4xl">
         Aventura en Zoological World
       </h1>
-      <p className="text-xl text-center md:text-2xl">
+      <p className="text-xl text-center md:text-2xl max-w-[40rem]">
         Elige la mejor opción para tu aventura en Zoological World y vive
         momentos inolvidables con la naturaleza.
       </p>
@@ -23,7 +23,7 @@ const SecondSection = () => {
         <div className="relative p-2 bg-orange-500 border-4 border-orange-600 rounded-xl">
           <PantheSVG />
 
-          <div className="absolute bottom-0 left-0 z-10 flex flex-col items-center justify-center w-full h-full gap-2 p-4 m-auto text-white rounded-xl md:rounded-none md:rounded-tr-xl text-start">
+          <div className="absolute bottom-0 left-0 z-10 flex flex-col items-center justify-center w-full h-auto gap-2 p-4 m-auto text-white rounded-xl text-start">
             <h1 className="text-xl font-bold text-white ">Mundo Salvaje</h1>
 
             <p className="text-base text-white ">
@@ -31,15 +31,15 @@ const SecondSection = () => {
               conoce más de 500 animales de distintas especies. Una experiencia
               perfecta para toda la familia.
             </p>
-            <button className="text-2xl font-bold bg-transparent">
+            <button className="text-2xl font-bold bg-transparent ">
               Comprar
             </button>
           </div>
         </div>
 
-        <div className="relative p-2 bg-yellow-400 border-4 border-yellow-500 rounded-xl">
+        <div className="relative p-2 bg-yellow-400 border-4 border-yellow-500 ">
           <ElephantSVG />
-          <div className="absolute bottom-0 right-0 z-10 flex flex-col items-center justify-center w-full h-full gap-2 p-4 m-auto text-white rounded-xl md:rounded-none md:rounded-tl-3xl text-start">
+          <div className="absolute bottom-0 right-0 z-10 flex flex-col items-center justify-center w-full h-auto gap-2 p-4 m-auto text-white rounded-xl  text-start">
             <h1 className="col-span-2 text-xl font-bold text-white ">
               La Ruta de los Colosos
             </h1>
@@ -62,7 +62,7 @@ const SecondSection = () => {
         <div className="relative p-2 bg-orange-600 border-4 border-orange-700">
           <RhinocerosSVG />
 
-          <div className="absolute bottom-0 right-0 z-10 flex flex-col items-center justify-center w-full h-full gap-2 p-4 m-auto text-white rounded-xl md:rounded-none md:rounded-tl-3xl text-start">
+          <div className="absolute bottom-0 right-0 z-10 flex flex-col items-center justify-center w-full h-auto gap-2 p-4 m-auto text-white rounded-xl  text-start">
             <h1 className="text-xl font-bold text-white ">
               Alimentando a los Pequeños
             </h1>
@@ -80,7 +80,7 @@ const SecondSection = () => {
         <div className="relative p-2 bg-purple-600 border-4 border-purple-800">
           <HippopotamusSVG />
 
-          <div className="absolute bottom-0 left-0 z-10 flex flex-col items-center justify-center w-full h-full gap-2 p-4 m-auto text-white rounded-xl md:rounded-none md:rounded-tr-xl text-start">
+          <div className="absolute bottom-0 left-0 z-10 flex flex-col items-center justify-center w-full h-auto gap-2 p-4 m-auto text-white rounded-xl md:rounded-none md:rounded-tr-xl text-start">
             <h1 className="text-xl font-bold text-white">Guardián VIP</h1>
             <p className="text-base text-white">
               Vive la experiencia más exclusiva con acceso especial a áreas
@@ -96,7 +96,7 @@ const SecondSection = () => {
         <div className="relative p-2 bg-blue-500 border-4 border-blue-600 ">
           <DolphinSVG />
 
-          <div className="absolute bottom-0 left-0 z-10 flex flex-col items-center justify-center w-full h-full gap-2 p-4 m-auto text-white rounded-xl md:rounded-none md:rounded-tr-xl text-start">
+          <div className="absolute bottom-0 left-0 z-10 flex flex-col items-center justify-center w-full h-auto gap-2 p-4 m-auto text-white rounded-xl md:rounded-none md:rounded-tr-xl text-start">
             <h1 className="text-xl font-bold text-white">Aventura Acuática </h1>
             <p className="text-base text-white">
               Vive una experiencia completa con acceso al zoológico y al
@@ -111,7 +111,7 @@ const SecondSection = () => {
       </div>
 
       {/* Content Greater than lg*/}
-      <div className="top-40 hidden lg:flex p-2 m-auto max-w-[100rem] w-full h-auto box-border absolute transform ">
+      <div className=" hidden lg:flex p-2 m-auto max-w-[100rem] w-full h-auto box-border transform ">
         <div className="flex items-center justify-center flex-grow w-auto p-4 text-center transition-all duration-700 ease-out bg-orange-500 border-4 border-orange-600 hover:grow-[4] hover:max-w-full  ">
           <div className="flex flex-col items-center justify-center w-auto">
             <PantheSVG />
@@ -123,7 +123,7 @@ const SecondSection = () => {
               perfecta para toda la familia.
             </details>
 
-            <button className="text-2xl font-bold text-white bg-transparent">
+            <button className="text-2xl font-bold text-white bg-transparent transition-all duration-700 ease-out hover:text-orange-200">
               Comprar
             </button>
           </div>
@@ -143,7 +143,7 @@ const SecondSection = () => {
               especies.
             </details>
 
-            <button className="text-2xl font-bold text-white bg-transparent ">
+            <button className="text-2xl font-bold text-white bg-transparent transition-all duration-700 ease-out hover:text-amber-700">
               Comprar
             </button>
           </div>
@@ -162,7 +162,7 @@ const SecondSection = () => {
               rinocerontes y más. Una actividad educativa y emocionante.
             </details>
 
-            <button className="text-2xl font-bold text-white bg-transparent">
+            <button className="text-2xl font-bold text-white bg-transparent transition-all duration-700 ease-out hover:text-orange-300">
               Comprar
             </button>
           </div>
@@ -179,7 +179,7 @@ const SecondSection = () => {
               conocer de cerca la labor de conservación en Zoological World.
             </details>
 
-            <button className="text-2xl font-bold text-white bg-transparent">
+            <button className="text-2xl font-bold text-white bg-transparent transition-all duration-700 ease-out hover:text-purple-400">
               Comprar
             </button>
           </div>
@@ -195,7 +195,7 @@ const SecondSection = () => {
               acuario. Explora la vida terrestre y sumérgete en el asombroso
               mundo marino con especies exóticas e impresionantes.
             </details>
-            <button className="text-2xl font-bold text-white bg-transparent">
+            <button className="text-2xl font-bold text-white bg-transparent transition-all duration-700 ease-out hover:text-blue-800">
               Comprar
             </button>
           </div>
