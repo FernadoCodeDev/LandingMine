@@ -7,7 +7,7 @@ import imgN1 from "../img/imgN1.webp";
 const HeaderStrikes = () => {
   return (
     <div className="relative w-full min-h-screen text-black bg-white lg:text-2xl">
-      <div className="relative grid items-start h-screen grid-cols-2 gap-2 p-4 md:grid-cols-3">
+      <div className="relative grid items-start h-auto grid-cols-2 gap-2 p-4 md:grid-cols-3">
         <div className="items-center order-3 col-span-2 mx-auto md:col-span-1 md:order-1 md:w-auto ">
           <MobileMenu
             textColor="text-black transition-all duration-700 ease-out"
