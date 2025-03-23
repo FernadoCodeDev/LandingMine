@@ -130,7 +130,7 @@ El archivo `App.js` es el que maneja la navegación entre las landing pages.
 ![imgN7](https://github.com/FernadoCodeDev/LandingMine/blob/main/ImageReadme/imgReadmeN7.webp)
 
 
-#🌍 Componentes Globales
+### 🌍 Componentes Globales
 Dentro de la carpeta LandingPages, hay una subcarpeta llamada GlobalComponents. Aquí se encuentran componentes que son utilizados en todas las landing pages del proyecto.
 
 Estos componentes tienen una lógica simple pero útil para mejorar la experiencia del usuario y la personalización del diseño en cada landing.
