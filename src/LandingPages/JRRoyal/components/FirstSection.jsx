@@ -7,7 +7,7 @@ const FirstSection = () => {
       {/*Round container similar to an ellipse shape width 100% 100% height, and at the top 50% and 100% (100% for top 0% for bottom) */}
       <div
         className="flex items-center justify-center w-full min-h-screen p-4 bg-beige-100 dark:bg-neutral-900"
-        style={{ clipPath: "ellipse(100% 95% at 50% 100%)" }}
+        style={{ clipPath: "ellipse(180% 95% at 50% 100%)" }}
       >
         <div className=" grid grid-cols-1 gap-4 max-w-[80rem] p-2">
           <div className="grid grid-cols-2 gap-1 mt-40">

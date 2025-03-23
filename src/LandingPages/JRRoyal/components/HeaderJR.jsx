@@ -28,21 +28,21 @@ const HeaderJR = () => {
         </div>
 
         <div className="relative m-auto grid grid-cols-1 items-center text-center max-w-[100rem] order-4 col-span-2 md:col-span-3">
-          <div className="grid items-end grid-cols-2 p-2 ">
-            <h1 className="font-serif text-3xl font-bold text-center lg:text-6xl ">
+          <div className="grid items-end grid-cols-1 gap-2 md:grid-cols-2 p-2 ">
+            <h1 className="font-serif text-2xl font-bold text-center lg:text-5xl ">
               BIENVENIDO A
             </h1>
-            <p className="text-sm text-start md:text-base lg:text-3xl">
+            <p className="text-sm text-start md:text-base lg:text-2xl">
               Un oasis de comodidad y confort en cada detalle
             </p>
-            <h1 className="col-span-2 font-serif text-4xl font-bold text-center md:text-5xl lg:text-7xl ">
+            <h1 className="md:col-span-2 font-serif text-3xl font-bold text-center md:text-4xl lg:text-7xl ">
               JR ROYAL HOTEL
             </h1>
           </div>
 
           <div className="grid items-center grid-cols-1 gap-4 md:grid-cols-2">
-            <div className="flex flex-col items-center justify-center gap-4 md:items-end md:justify-end ">
-              <p className=" max-w-[25rem] text-start">
+            <div className="flex flex-col items-center justify-center  md:items-end md:justify-end ">
+              <p className="hidden md:block max-w-[25rem] text-start">
                 Disfruta de una experiencia única donde el lujo y la
                 hospitalidad se combinan para brindarte una estancia
                 inolvidable. Nuestras elegantes habitaciones, servicio de primer
