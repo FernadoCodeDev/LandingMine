@@ -25,7 +25,7 @@ const HeaderDH = () => {
         <img
           src={CampingNightLogo}
           alt="CampingNightLogo"
-          className="order-1 max-w-[15rem] h-auto mx-auto cursor-pointer md:order-1"
+          className="order-1 w-full md:max-w-[15rem] h-auto mx-auto cursor-pointer md:order-1"
         />
 
         <div className=" w-fit ms-auto order-2 md:order-3 backdrop-blur-[4px] bg-white/20 p-2 rounded-3xl">
