@@ -8,7 +8,7 @@ const HeaderCB = () => {
   return (
     <div className="relative w-full min-h-screen bg-beige-100">
       {/* Design less than 768px */}
-      <div className="relative grid items-start h-screen grid-cols-2 gap-2 p-4 md:hidden">
+      <div className="relative grid items-start h-auto grid-cols-2 gap-2 p-4 md:hidden">
         <div className="order-3 col-span-2 mx-auto">
           <MobileMenu
             textColor="text-beige-800 transition-all duration-700 ease-out"

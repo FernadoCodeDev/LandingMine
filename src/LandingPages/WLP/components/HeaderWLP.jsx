@@ -9,8 +9,8 @@ import RightPose from "../img/RightPose.webp";
 const HeaderWLP = () => {
   return (
     <div className="relative w-full min-h-screen bg-orange-50">
-      <div className="relative grid items-start h-screen grid-cols-2 gap-2 p-4 md:grid-cols-3">
-        <div className="order-3 col-span-2 mx-auto md:col-span-1 md:border-b-8 md:border-slate-800 md:order-1 md:w-auto ">
+      <div className="relative grid items-start h-auto grid-cols-2 gap-2 p-4 md:grid-cols-3">
+        <div className="z-40 order-3 col-span-2 mx-auto md:col-span-1 md:border-b-8 md:border-slate-800 md:order-1 md:w-auto ">
           <MobileMenu
             textColor="text-slate-800 transition-all duration-700 ease-out"
             hoverColor="hover:text-amber-950"
@@ -26,7 +26,7 @@ const HeaderWLP = () => {
           className="order-1 object-contain w-40 h-auto mx-auto cursor-pointer md:order-2"
         />
 
-        <div className=" w-fit ms-auto order-2 md:order-3 backdrop-blur-[4px] bg-black/20 p-2 rounded-3xl">
+        <div className="z-10 w-fit ms-auto order-2 md:order-3 backdrop-blur-[4px] bg-black/20 p-2 rounded-3xl">
           <DarkMode />
         </div>
 
