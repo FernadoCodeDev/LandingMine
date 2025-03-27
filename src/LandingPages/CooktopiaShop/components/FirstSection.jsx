@@ -7,12 +7,12 @@ import spatula from "../img/spatula.webp";
 
 const FirstSection = () => {
   return (
-    <div className="relative w-full p-4 bg-stone-300 text-stone-700 dark:text-slate-200 bg-bg-stone-300 dark:bg-neutral-800 min-h-auto ">
+    <div className="relative flex flex-col items-center justify-center w-full p-4 bg-stone-300 text-stone-700 dark:text-slate-200 bg-bg-stone-300 dark:bg-neutral-800">
       <h1 className="font-mono font-bold text-3xl md:text-5xl text-start mb-6 mx-auto max-w-[70rem]">
         DESCUBRE LA COLECCIÓN DURADERA
       </h1>
 
-      <div className="flex flex-col justify-between max-w-[70rem] m-auto p-2 md:flex-row dark:text-white md:col-span-3">
+      <div className="h-auto flex flex-col gap-2 justify-between max-w-[70rem] m-auto p-2 md:flex-row dark:text-white md:col-span-3">
         <button className="p-2 font-bold border-b-2 cursor-pointer text-stone-800 dark:text-slate-100 border-stone-800 dark:border-slate-100">
           LOS MÁS VENDIDOS
         </button>
@@ -85,7 +85,7 @@ const FirstSection = () => {
               <h1 className="font-bold text-stone-800">Cuchillo Media Luna</h1>
               <p className=" text-stone-800">
                 <span className="font-bold text-stone-800">$</span>
-                24.99
+                29.99
               </p>
             </div>
           </div>
@@ -151,7 +151,7 @@ const FirstSection = () => {
               <h1 className="font-bold text-stone-800">Espatula</h1>
               <p className=" text-stone-800">
                 <span className="font-bold text-stone-800">$</span>
-                24.99
+                9.99
               </p>
             </div>
           </div>
