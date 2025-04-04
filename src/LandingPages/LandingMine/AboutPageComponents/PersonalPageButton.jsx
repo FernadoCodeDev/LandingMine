@@ -18,16 +18,19 @@ const PersonalPage = () => {
             type="text"
             disabled
             class="w-full bg-white pl-2 text-base font-semibold outline-0"
-            placeholder="fercode.atwebpages.com"
+            placeholder="fercode.netlify.app/"
           />
-          <a href="http://fercode.atwebpages.com/">
-          <input
-            type="button"
-            value="Buscar"
-            class="bg-blue-500 p-2 rounded-tr-lg rounded-br-lg cursor-pointer text-white font-semibold hover:bg-blue-800 transition-colors"
-          />
+          <a
+            href="https://fercode.netlify.app/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <input
+              type="button"
+              value="Buscar"
+              class="bg-blue-500 p-2 rounded-tr-lg rounded-br-lg cursor-pointer text-white font-semibold hover:bg-blue-800 transition-colors"
+            />
           </a>
-          
         </div>
       </div>
     </div>
