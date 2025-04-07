@@ -1,7 +1,7 @@
 import React from "react";
 import Logo from "../../../img/LandingMineWeb.webp";
-import Navegation from "../TempladeComponents/Navegation";
-import Footer from "../TempladeComponents/Footer";
+import Navegation from "../ui/Navegation";
+import Footer from "../ui/Footer";
 import GitHub from "./GitHubButton";
 import PersonalPage from "./PersonalPageButton";
 

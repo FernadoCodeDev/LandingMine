@@ -10,7 +10,7 @@ const Navegation = () => {
 
   useEffect(() => {
     const handleResize = () => {
-      setIsMobile(window.innerWidth < 720);
+      setIsMobile(window.innerWidth < 768);
     };
 
     window.addEventListener("resize", handleResize);
