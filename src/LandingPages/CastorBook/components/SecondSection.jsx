@@ -44,7 +44,7 @@ const SecondSection = () => {
 
         <div className="p-2 bg-blue-600 border-4 border-blue-900 ">
           <div className="bottom-0 right-0 z-10 flex flex-col items-center justify-center w-full h-full gap-2 p-4 m-auto text-white rounded-xl md:rounded-none md:rounded-tl-3xl text-start">
-            <h1 className="text-xl font-bold text-white ">CIENICA</h1>
+            <h1 className="text-xl font-bold text-white ">CIENCIA</h1>
             <p className="text-base text-white ">
               En Castor Book Explora los secretos del universo con nuestra
               selección de libros de ciencia. Desde física cuántica hasta
