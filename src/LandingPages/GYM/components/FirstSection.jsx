@@ -39,7 +39,7 @@ const FirstSection = () => {
           </p>
         </div>
 
-        <button className="px-6 py-2 m-auto mt-4 font-semibold text-black transition-all duration-700 ease-out bg-yellow-300 rounded-tl-full rounded-br-full w-96 md:col-span-2 hover:bg-yellow-500">
+        <button className="w-full px-6 py-2 m-auto mt-4 font-semibold text-black transition-all duration-700 ease-out bg-yellow-300 rounded-tl-full rounded-br-full md:w-96 md:col-span-2 hover:bg-yellow-500">
           MÁS INFORMACIÓN
         </button>
       </div>
