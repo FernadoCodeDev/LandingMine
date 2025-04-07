@@ -24,62 +24,52 @@ const ThirdSection = () => {
             </button>
           </div>
 
-          <div className="grid grid-cols-1 gap-4 md:grid-cols-2 md:col-span-2">
-            <div className="shadow-xl">
+          <div className="grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-4 md:col-span-2">
+            <div className="flex flex-col items-center justify-center gap-2 p-4 shadow-xl bg-beige-200 dark:bg-neutral-800">
               <img src={imgN4} alt="imgN4" className="w-full h-auto" />
-              <div className="flex flex-col items-center justify-center gap-2 p-4 md:h-72 bg-beige-200 dark:bg-neutral-800">
-                <h1 className="font-bold text-center">
-                  HABITACIONES & SUITES ROYAL
-                </h1>
-                <p className="">
-                  Desde acogedoras habitaciones hasta lujosas suites, cada
-                  espacio ha sido diseñado para brindarte el máximo confort y
-                  elegancia. Descansa en camas premium y disfruta de un ambiente
-                  exclusivo.
-                </p>
-              </div>
+              <h1 className="font-bold text-center">
+                HABITACIONES & SUITES ROYAL
+              </h1>
+              <p className="">
+                Desde acogedoras habitaciones hasta lujosas suites, cada espacio
+                ha sido diseñado para brindarte el máximo confort y elegancia.
+                Descansa en camas premium y disfruta de un ambiente exclusivo.
+              </p>
             </div>
 
-            <div className="shadow-xl">
+            <div className="flex flex-col items-center justify-center gap-2 p-4 shadow-xl bg-beige-200 dark:bg-neutral-800">
               <img src={imgN5} alt="imgN5" className="w-full h-auto" />
-              <div className="flex flex-col items-center justify-center gap-2 p-4 md:h-72 bg-beige-200 dark:bg-neutral-800">
-                <h1 className="font-bold text-center">
-                  PISCINAS PARA RELAJARTE & DISFRUTAR
-                </h1>
-                <p className="">
-                  Sumérgete en nuestras refrescantes piscinas y disfruta de un
-                  ambiente tranquilo y sofisticado. Perfecto para relajarte bajo
-                  el sol o nadar a cualquier hora del día.
-                </p>
-              </div>
+              <h1 className="font-bold text-center">
+                PISCINAS PARA RELAJARTE & DISFRUTAR
+              </h1>
+              <p className="">
+                Sumérgete en nuestras refrescantes piscinas y disfruta de un
+                ambiente tranquilo y sofisticado. Perfecto para relajarte bajo
+                el sol o nadar a cualquier hora del día.
+              </p>
             </div>
 
-            <div className="shadow-xl">
+            <div className="flex flex-col items-center justify-center gap-2 p-4 shadow-xl bg-beige-200 dark:bg-neutral-800">
               <img src={imgN6} alt="imgN6" className="w-full h-auto" />
-              <div className="flex flex-col items-center justify-center gap-2 p-4 md:h-72 bg-beige-200 dark:bg-neutral-800">
-                <h1 className="font-bold text-center">
-                  DESAYUNO BUFFET CONTINENTAL
-                </h1>
-                <p className="">
-                  Empieza tu día con un desayuno variado y delicioso. Disfruta
-                  de una selección de pan recién horneado, frutas frescas, café
-                  de alta calidad y mucho más en nuestro exclusivo buffet.
-                </p>
-              </div>
+              <h1 className="font-bold text-center">
+                DESAYUNO BUFFET CONTINENTAL
+              </h1>
+              <p className="">
+                Empieza tu día con un desayuno variado y delicioso. Disfruta de
+                una selección de pan recién horneado, frutas frescas, café de
+                alta calidad y mucho más en nuestro exclusivo buffet.
+              </p>
             </div>
 
-            <div className="shadow-xl">
+            <div className="flex flex-col items-center justify-center gap-2 p-4 shadow-xl bg-beige-200 dark:bg-neutral-800">
               <img src={imgN7} alt="imgN7" className="w-full h-auto" />
-              <div className="flex flex-col items-center justify-center gap-2 p-4 md:h-72 bg-beige-200 dark:bg-neutral-800">
-                <h1 className="font-bold text-center">
-                  SAUNA PARA TU BIENESTAR
-                </h1>
-                <p className="">
-                  Déjate envolver por la calidez y el confort de nuestro sauna,
-                  el lugar perfecto para relajarte y revitalizar cuerpo y mente
-                  después de un día de exploración o negocios.
-                </p>
-              </div>
+
+              <h1 className="font-bold text-center">SAUNA PARA TU BIENESTAR</h1>
+              <p className="">
+                Déjate envolver por la calidez y el confort de nuestro sauna, el
+                lugar perfecto para relajarte y revitalizar cuerpo y mente
+                después de un día de exploración o negocios.
+              </p>
             </div>
           </div>
         </div>
