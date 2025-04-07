@@ -6,7 +6,7 @@ import DarkMode from "../../GlobalComponents/DarkMode";
 
 const HeaderClover = () => {
   return (
-    <div className="relative grid items-start w-full h-screen min-h-screen grid-cols-2 gap-2 text-white lg:text-2xl md:grid-cols-3 bg-sky-800">
+    <div className="relative grid items-start w-full min-h-screen grid-cols-2 gap-2 text-white lg:text-2xl md:grid-cols-3 bg-sky-800">
       <div className="mt-4 order-3 col-span-2 mx-auto md:col-span-1 md:order-2 md:w-auto md:h-20 md:bg-white/20 md:bg-backdrop-blur-[2px]">
         <MobileMenu
           textColor="text-white transition-all duration-700 ease-out"
