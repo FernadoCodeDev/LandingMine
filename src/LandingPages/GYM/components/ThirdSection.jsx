@@ -12,7 +12,43 @@ const ThirdSection = () => {
         </h1>
       </div>
 
-      <div className="grid justify-center grid-cols-3 m-auto py-4 w-full md:max-w-[90rem] md:p-4">
+      <div className="grid justify-center grid-cols-1 md:grid-cols-3 gap-2 m-auto py-4 w-full md:max-w-[90rem] md:p-4">
+        <div className="grid grid-cols-2 gap-4 m-auto md:col-span-3">
+          <div className="flex flex-col items-center justify-center w-8 h-8 p-1 transition-all duration-700 ease-out bg-transparent border border-yellow-400 rounded-full cursor-pointer hover:bg-yellow-400">
+            <svg
+              class="rotate-[270deg] md:rotate-180 w-8 h-8 transition-transform duration-500 group-hover:translate-x-1"
+              data-slot="icon"
+              aria-hidden="true"
+              fill="#fffbeb"
+              viewBox="0 0 20 20"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                clip-rule="evenodd"
+                d="M8.22 5.22a.75.75 0 0 1 1.06 0l4.25 4.25a.75.75 0 0 1 0 1.06l-4.25 4.25a.75.75 0 0 1-1.06-1.06L11.94 10 8.22 6.28a.75.75 0 0 1 0-1.06Z"
+                fill-rule="evenodd"
+              ></path>
+            </svg>
+          </div>
+
+          <div className="flex flex-col items-center justify-center w-8 h-8 p-1 transition-all duration-700 ease-out bg-transparent border border-yellow-400 rounded-full cursor-pointer hover:bg-yellow-400">
+            <svg
+              class="rotate-90 md:rotate-[5deg] w-8 h-8 transition-transform duration-500 group-hover:translate-x-1"
+              data-slot="icon"
+              aria-hidden="true"
+              fill="#fffbeb"
+              viewBox="0 0 20 20"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                clip-rule="evenodd"
+                d="M8.22 5.22a.75.75 0 0 1 1.06 0l4.25 4.25a.75.75 0 0 1 0 1.06l-4.25 4.25a.75.75 0 0 1-1.06-1.06L11.94 10 8.22 6.28a.75.75 0 0 1 0-1.06Z"
+                fill-rule="evenodd"
+              ></path>
+            </svg>
+          </div>
+        </div>
+
         <div className="flex flex-col justify-center py-4 bg-transparent">
           <div className="w-full h-auto p-4 opacity-25 bg-neutral-200">
             <h1 className="font-bold text-center text-[1rem]">FLEXIBLE</h1>

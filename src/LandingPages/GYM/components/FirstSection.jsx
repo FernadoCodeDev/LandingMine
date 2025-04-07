@@ -3,7 +3,7 @@ import ImageGym2 from "../img/ImageGym2.webp";
 
 const FirstSection = () => {
   return (
-    <div className="flex flex-col items-center justify-center relative min-h-screen bg-neutral-800">
+    <div className="relative flex flex-col items-center justify-center min-h-screen bg-neutral-800">
       <div className=" grid grid-cols-1 p-4 md:grid-cols-2 max-w-[90rem]">
         <div>
           <img src={ImageGym2} alt="ImageGym2" className="w-full h-auto" />
@@ -14,18 +14,21 @@ const FirstSection = () => {
             ¿QUIENES SOMOS?
           </h1>
 
-          <h1 className="font-mono font-bold text-start text-[2rem]">
+          <h1 className="font-mono text-3xl font-bold text-start">
             ¿QUIENES SOMOS?
           </h1>
-          <p className="text-start text-[1rem] lg:text-[1.4rem] p-1">
+
+          <p className="p-1 text-base text-start md:text-2xl">
             En Gym creemos que, independientemente de la forma y el tamaño,
             todos estamos en un viaje hacia nuestros mejores niveles personales
             de salud y estado físico. Un viaje que nos hace mejores como
             atletas, amigos y personas. Nuestras instalaciones son diferentes a
             cualquier otro gimnasio en el que hayas estado antes.
           </p>
+        </div>
 
-          <p className="text-start text-[1rem] lg:text-[1.4rem] p-1">
+        <div className="p-4 m-auto text-white md:col-span-2">
+          <p className="p-1 text-base text-start md:text-2xl max-w-[50rem]">
             Nos enorgullecemos no solo de brindar un entrenamiento de primera
             clase, sino que también creemos en crear un entorno motivador y
             dinámico. Somos la comunidad dedicada a tu evolución humana, un
@@ -36,9 +39,7 @@ const FirstSection = () => {
           </p>
         </div>
 
-        <div></div>
-
-        <button className="w-full px-6 py-2 mt-4 font-semibold text-black transition-all duration-700 ease-out bg-yellow-300 rounded-tl-full rounded-br-full hover:bg-yellow-500">
+        <button className="px-6 py-2 m-auto mt-4 font-semibold text-black transition-all duration-700 ease-out bg-yellow-300 rounded-tl-full rounded-br-full w-96 md:col-span-2 hover:bg-yellow-500">
           MÁS INFORMACIÓN
         </button>
       </div>
