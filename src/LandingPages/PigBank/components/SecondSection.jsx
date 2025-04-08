@@ -10,11 +10,11 @@ import SVGManage from "./svgcomponets/SVG-Manage";
 
 const SecondSection = () => {
   return (
-    <div className="flex flex-col items-center justify-center relative w-full min-h-screen bg-red-500">
+    <div className="relative flex flex-col items-center justify-center w-full h-auto bg-red-500">
       <div className="grid justify-between grid-cols-1 p-2 text-white md:grid-cols-2 m-auto max-w-[90rem]">
         <div className="flex flex-col justify-between">
           <div>
-            <div className="w-1/3 p-2 text-center bg-red-400 rounded-lg">
+            <div className="w-1/2 p-2 text-center bg-red-400 rounded-lg md:w-1/3">
               <h1>INTEGRACIÓN</h1>
             </div>
             <h1 className="m-2 text-3xl font-bold lg:text-8xl">
@@ -29,7 +29,7 @@ const SecondSection = () => {
               cualquier lugar.
             </p>
 
-            <button className="p-3 mt-2 font-bold text-black transition-all duration-700 ease-out bg-white rounded-full lg:text-3xl hover:bg-gray-200">
+            <button className="p-2 mt-2 font-bold text-black transition-all duration-700 ease-out bg-white rounded-2xl md:text-2xl hover:bg-gray-200">
               Explorar más
             </button>
           </div>

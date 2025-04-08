@@ -8,7 +8,7 @@ import SVG4 from "./svgcomponets/svg4";
 const FirstSection = () => {
   return (
     <div className="relative w-full p-4 pb-20 bg-gray-100 dark:bg-neutral-800">
-      <div className="grid grid-cols-1 md:grid-cols-2 ">
+      <div className="flex flex-col items-center justify-center text-center md:cols-span-2">
         <div>
           <h1 className="text-4xl font-bold text-black dark:text-white">
             La elección estratégica
@@ -20,7 +20,7 @@ const FirstSection = () => {
         </div>
       </div>
 
-      <div className="grid grid-cols-1 gap-4 mt-5 md:grid-cols-3 md:items-center">
+      <div className="m-auto max-w-[90rem] grid grid-cols-1 gap-4 mt-5 md:grid-cols-3 md:items-center">
         <div className="flex flex-col items-start gap-4 text-black dark:text-white">
           <div className="w-20 h-20 p-2 bg-red-400 rounded-full">
             <SVG1 />
