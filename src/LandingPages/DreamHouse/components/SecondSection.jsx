@@ -9,74 +9,74 @@ import CurrencySVG from "./SVGComponents/CurrencySVG";
 
 const SecondSection = () => {
   return (
-    <div className="flex flex-col items-center justify-center relative w-full min-h-screen p-4 text-black bg-white dark:text-white dark:bg-neutral-800">
-      <div className="grid grid-cols-1 mb-12 md:grid-cols-2 pb-6 border-b-2 border-slate-300 gap-2 m-auto max-w-[70rem]">
-        <h1 className="m-auto text-2xl font-bold md:text-6xl">
+    <div className="relative flex flex-col items-center justify-center w-full h-auto gap-4 p-4 text-black bg-white dark:text-white dark:bg-neutral-800">
+      <div className="grid grid-cols-1 md:grid-cols-2 border-b-2 pb-4 border-slate-300 gap-2 m-auto max-w-[80rem]">
+        <h1 className="text-2xl font-bold text-center md:text-6xl">
           Popular Property
         </h1>
 
-        <p className="text-start text-slate-800 md:text-2xl dark:text-gray-200">
+        <p className="text-start md:text-2xl ">
           brindamos un servicio completo para la venta, compra o alquiler de
           inmuebles, brindamos un brindamos un servicio completo para la venta.
         </p>
       </div>
 
-      <div className="grid grid-cols-1 mt-6 md:grid-cols-2 gap-2 m-auto max-w-[70rem]">
-        <div className="grid grid-cols-1 gap-2 md:grid-cols-3">
-          <button className="p-2 bg-blue-400">Residencial</button>
-          <button className="p-2 text-black transition-all duration-700 ease-out border border-gray-300 bg-slate-100 hover:bg-slate-300">
+      <div className="w-full grid grid-cols-1 gap-4  max-w-[80rem]">
+        <div className="grid grid-cols-1 gap-2 md:grid-cols-5">
+          <button className="w-full p-2 font-bold text-white bg-blue-400">Residencial</button>
+          <button className="w-full p-2 font-bold text-black transition-all duration-700 ease-out border border-gray-300 -2 bg-slate-100 hover:bg-slate-300">
             Residencial
           </button>
 
-          <button className="p-2 text-black transition-all duration-700 ease-out border border-gray-300 bg-slate-100 hover:bg-slate-300">
+          <button className="w-full p-2 font-bold text-black transition-all duration-700 ease-out border border-gray-300 bg-slate-100 hover:bg-slate-300">
             Departamentos
           </button>
-        </div>
-
-        <button className="w-full p-2 text-white transition-all duration-700 ease-out border md:ms-auto md:w-1/2 bg-neutral-900 hover:bg-black">
+        <button className="w-full p-2 font-bold text-white transition-all duration-700 ease-out md:col-span-2 bg-neutral-900 hover:bg-black">
           Comercios
         </button>
+        </div>
+        
       </div>
 
-      <div className="grid grid-cols-1 mt-6 m-auto max-w-[90rem] md:grid-cols-3 gap-4">
+      <div className="grid grid-cols-1 m-auto max-w-[80rem] md:grid-cols-3 gap-4">
         <div className="bg-white rounded-lg shadow-md dark:bg-neutral-800">
           <img src={imgN1} alt="imgN1" className="w-full h-auto" />
           <div className="p-4">
-            <h2 className="text-xl font-semibold md:text-2xl dark:text-white">
+            <h2 className="text-xl font-semibold md:text-2xl ">
               The Queen Inside - Type 1
             </h2>
-            <div className="flex flex-row gap-2 mt-4 text-black dark:text-white">
+            <div className="flex flex-row gap-2 mt-4 ">
               <Location width="20" />
-              <p className="text-slate-600 dark:text-slate-300">
+              <p className="">
                 Evergreen Chemists
               </p>
             </div>
 
-            <div className="flex flex-row justify-between gap-2 mt-4 text-black dark:text-white">
+            <div className="flex flex-row justify-between gap-2 mt-4 ">
               <div className="flex flex-row gap-2">
                 <Bed width="20" />
-                <p className="font-bold text-slate-600 dark:text-slate-300">
-                  2
+                <p className="font-bold ">
+                  5
                 </p>
               </div>
 
               <div className="flex flex-row gap-2">
                 <Bathtub width="20" />
-                <p className="font-bold text-slate-600 dark:text-slate-300">
-                  2
+                <p className="font-bold ">
+                  3.5
                 </p>
               </div>
 
               <div className="flex flex-row">
                 <CurrencySVG width="20" />
-                <p className="font-bold text-slate-600 dark:text-slate-300">
-                  7,720,000
+                <p className="font-bold ">
+                  800,000
                 </p>
               </div>
             </div>
 
             <button className="flex flex-row m-auto mt-4 font-bold text-blue-400 transition-all duration-700 ease-out hover:text-blue-600 ">
-              See Details{" "}
+              Ver detalles
               <svg
                 class="w-6 h-6 transition-transform duration-500 group-hover:translate-x-1"
                 data-slot="icon"
@@ -101,38 +101,38 @@ const SecondSection = () => {
             <h2 className="text-xl font-semibold md:text-2xl dark:text-white">
               The Queen Inside - Type 2
             </h2>
-            <div className="flex flex-row gap-2 mt-4 text-black dark:text-white">
+            <div className="flex flex-row gap-2 mt-4 ">
               <Location width="20" />
-              <p className="text-slate-600 dark:text-slate-300">
+              <p className="">
                 Evergreen Chemists
               </p>
             </div>
 
-            <div className="flex flex-row justify-between gap-2 mt-4 text-black dark:text-white">
+            <div className="flex flex-row justify-between gap-2 mt-4 ">
               <div className="flex flex-row gap-2">
                 <Bed width="20" />
-                <p className="font-bold text-slate-600 dark:text-slate-300">
-                  2
+                <p className="font-bold ">
+                  6
                 </p>
               </div>
 
               <div className="flex flex-row gap-2">
                 <Bathtub width="20" />
-                <p className="font-bold text-slate-600 dark:text-slate-300">
-                  2
+                <p className="font-bold ">
+                  3.5
                 </p>
               </div>
 
               <div className="flex flex-row">
                 <CurrencySVG width="20" />
-                <p className="font-bold text-slate-600 dark:text-slate-300">
-                  7,720,000
+                <p className="font-bold ">
+                  1,000,000
                 </p>
               </div>
             </div>
 
             <button className="flex flex-row m-auto mt-4 font-bold text-blue-400 transition-all duration-700 ease-out hover:text-blue-600 ">
-              See Details{" "}
+              Ver detalles
               <svg
                 class="w-6 h-6 transition-transform duration-500 group-hover:translate-x-1"
                 data-slot="icon"
@@ -157,38 +157,38 @@ const SecondSection = () => {
             <h2 className="text-xl font-semibold md:text-2xl dark:text-white">
               The Queen Inside - Type 3
             </h2>
-            <div className="flex flex-row gap-2 mt-4 text-black dark:text-white">
+            <div className="flex flex-row gap-2 mt-4 ">
               <Location width="20" />
-              <p className="text-slate-600 dark:text-slate-300">
+              <p className="">
                 Evergreen Chemists
               </p>
             </div>
 
-            <div className="flex flex-row justify-between gap-2 mt-4 text-black dark:text-white">
+            <div className="flex flex-row justify-between gap-2 mt-4 ">
               <div className="flex flex-row gap-2">
                 <Bed width="20" />
-                <p className="font-bold text-slate-600 dark:text-slate-300">
-                  2
+                <p className="font-bold ">
+                  4
                 </p>
               </div>
 
               <div className="flex flex-row gap-2">
                 <Bathtub width="20" />
-                <p className="font-bold text-slate-600 dark:text-slate-300">
+                <p className="font-bold ">
                   2
                 </p>
               </div>
 
               <div className="flex flex-row">
                 <CurrencySVG width="20" />
-                <p className="font-bold text-slate-600 dark:text-slate-300">
-                  7,720,000
+                <p className="font-bold ">
+                  500,000
                 </p>
               </div>
             </div>
 
             <button className="flex flex-row m-auto mt-4 font-bold text-blue-400 transition-all duration-700 ease-out hover:text-blue-600 ">
-              See Details{" "}
+              Ver detalles
               <svg
                 class="w-6 h-6 transition-transform duration-500 group-hover:translate-x-1"
                 data-slot="icon"
@@ -208,7 +208,7 @@ const SecondSection = () => {
         </div>
       </div>
 
-      <button className="flex flex-col text-center transition-all duration-700 ease-out bg-blue-400 hover:bg-blue-600 text-white md:w-1/2 dark:bg-neutral-900 dark:hover:bg-black my-12 p-2 w-full max-w-[70rem] m-auto">
+      <button className="flex flex-col font-bold  text-center transition-all duration-700 ease-out bg-blue-400 hover:bg-blue-600 text-white md:w-1/2 dark:bg-neutral-900 dark:hover:bg-black my-12 p-2 w-full max-w-[70rem] m-auto">
         Ver todas
       </button>
     </div>

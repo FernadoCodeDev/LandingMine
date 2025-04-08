@@ -7,8 +7,8 @@ import GuaranteeSVG from "./SVGComponents/guaranteeSVG";
 
 const ThirdSection = () => {
   return (
-    <div className="flex flex-col items-center  gap-4 justify-center relative min-h-screen p-4 text-black bg-slate-100 dark:text-white dark:bg-neutral-900">
-      <h1 className="text-3xl md:text-6xl font-bold text-center">Cómo funciona</h1>
+    <div className="relative flex flex-col items-center justify-center h-auto gap-4 p-4 text-black bg-slate-100 dark:text-white dark:bg-neutral-900">
+      <h1 className="text-3xl font-bold text-center md:text-6xl">Cómo funciona</h1>
 
       <div className="flex flex-col items-center justify-center">
         {/* Desktop Layout */}
@@ -87,17 +87,12 @@ const ThirdSection = () => {
             vistazo a las que aún no han salido al mercado.
           </p>
 
-          <div className="grid items-center grid-cols-3 gap-2">
-            <div className="p-2 font-bold text-center text-white border border-gray-100 md:text-neutral-700">
-              <p>1/4</p>
-            </div>
-            <div className="p-2 font-bold text-center text-white border border-gray-100 md:text-neutral-700">
+          <div className="grid items-center grid-cols-1 gap-2">
+           
+            <button className="p-2 font-bold text-center text-white transition-all duration-700 ease-out bg-transparent border border-gray-100 md:hover:bg-blue-500 md:hover:text-white md:text-black hover:bg-white hover:text-black ">
               <p>Descubre tú nuevo Hogar</p>
-            </div>
-
-            <button className="flex flex-col font-bold text-center text-white transition-all duration-700 ease-out md:text-neutral-700 md:hover:text-black hover:text-slate-300 ">
-              Next
             </button>
+
           </div>
         </div>
       </div>
