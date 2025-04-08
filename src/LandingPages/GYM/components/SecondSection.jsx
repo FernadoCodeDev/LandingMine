@@ -6,7 +6,7 @@ import ImageGym6 from "../img/ImageGym6.webp";
 
 const SecondSection = () => {
   return (
-    <div className=" flex flex-col items-center justify-center min-h-screen  text-white  bg-neutral-800">
+    <div className=" flex flex-col items-center justify-center h-auto  text-white  bg-neutral-800">
      <div className="grid items-center grid-cols-2 md:grid-cols-4 gap-4 p-4 text-center max-w-[90rem]">
 
       <h1 className="text-[2rem] col-span-2 font-mono font-bold md:col-span-4 ">

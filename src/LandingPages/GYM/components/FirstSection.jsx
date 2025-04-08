@@ -3,7 +3,7 @@ import ImageGym2 from "../img/ImageGym2.webp";
 
 const FirstSection = () => {
   return (
-    <div className="relative flex flex-col items-center justify-center min-h-screen bg-neutral-800">
+    <div className="relative flex flex-col items-center justify-center h-auto bg-neutral-800">
       <div className=" grid grid-cols-1 p-4 md:grid-cols-2 max-w-[90rem]">
         <div>
           <img src={ImageGym2} alt="ImageGym2" className="w-full h-auto" />
