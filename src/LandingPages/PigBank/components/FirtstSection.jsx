@@ -10,10 +10,10 @@ const FirstSection = () => {
     <div className="relative w-full p-4 pb-20 bg-gray-100 dark:bg-neutral-800">
       <div className="flex flex-col items-center justify-center text-center md:cols-span-2">
         <div>
-          <h1 className="text-4xl font-bold text-black dark:text-white">
+          <h1 className="text-2xl font-bold text-black md:text-4xl dark:text-white">
             La elección estratégica
           </h1>
-          <p className="text-black text-l dark:text-white text-start">
+          <p className="text-base text-black md:text-xl dark:text-white text-start">
             Nuestra misión es brindar transparencia a las finanzas y mostrarle
             todo de antemano.
           </p>
@@ -21,20 +21,20 @@ const FirstSection = () => {
       </div>
 
       <div className="m-auto max-w-[90rem] grid grid-cols-1 gap-4 mt-5 md:grid-cols-3 md:items-center">
-        <div className="flex flex-col items-start gap-4 text-black dark:text-white">
+        <div className="flex flex-col items-center justify-center gap-4 text-center text-black dark:text-white">
           <div className="w-20 h-20 p-2 bg-red-400 rounded-full">
             <SVG1 />
           </div>
-          <h1 className="text-3xl font-bold md:text-5xl">Autenticación</h1>
-          <p>Tu cuenta está protegida mediante un proceso de autenticación.</p>
+          <h1 className="text-2xl font-bold md:text-4xl">Autenticación</h1>
+          <p className="text-base md:text-1xl">Tu cuenta está protegida mediante un proceso de autenticación.</p>
 
           <div className="w-20 h-20 p-2 bg-red-400 rounded-full">
             <SVG2 />
           </div>
-          <h1 className="text-3xl font-bold md:text-5xl">
+          <h1 className="text-2xl font-bold md:text-4xl">
             Equipos de seguridad
           </h1>
-          <p>
+          <p className="text-base md:text-1xl">
             Nuestro equipo de seguridad trabajan para mantener
             su dinero seguro
           </p>
@@ -48,18 +48,18 @@ const FirstSection = () => {
           />
         </div>
 
-        <div className="flex flex-col items-start gap-4 text-black dark:text-white">
+        <div className="flex flex-col items-center justify-center gap-4 text-center text-black dark:text-white">
           <div className="w-20 h-20 p-2 bg-red-400 rounded-full">
             <SVG3 />
           </div>
-          <h1 className="text-3xl font-bold md:text-5xl">Centro de Cuentas</h1>
-          <p>Guarda todas tus cuentas en un solo lugar.</p>
+          <h1 className="text-2xl font-bold md:text-4xl">Centro de Cuentas</h1>
+          <p className="text-base md:text-1xl">Guarda todas tus cuentas en un solo lugar.</p>
 
           <div className="w-20 h-20 p-2 bg-red-400 rounded-full">
             <SVG4 />
           </div>
-          <h1 className="text-3xl font-bold md:text-5xl">Fondos de seguridad</h1>
-          <p>Guarde su dinero en instituciones financieras establecidas</p>
+          <h1 className="text-2xl font-bold md:text-4xl">Fondos de seguridad</h1>
+          <p className="text-base md:text-1xl">Guarde su dinero en instituciones financieras establecidas</p>
         </div>
       </div>
     </div>

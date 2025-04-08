@@ -8,7 +8,7 @@ import DarkMode from "../../GlobalComponents/DarkMode";
 const HeaderPB = () => {
   return (
     <div className="relative w-full min-h-screen">
-      <div className="grid items-center justify-between grid-cols-2 p-4 md:grid-cols-3">
+      <div className="grid items-center justify-between grid-cols-2 p-4 m-auto md:grid-cols-3">
         <div className="order-1 m-auto">
           <img
             src={PigBankLogo}
@@ -71,7 +71,7 @@ const HeaderPB = () => {
             Mover dinero nunca debería requerir más que unos simples clicks.
           </p>
 
-          <button className="p-3 mt-4 font-bold text-center text-white transition-all duration-700 ease-out bg-red-500 rounded-full hover:bg-red-600 ">
+          <button className="p-3 mt-4 mb-4 font-bold text-center text-white transition-all duration-700 ease-out bg-red-500 rounded-full hover:bg-red-600 ">
             Envía dinero ahora
           </button>
         </div>

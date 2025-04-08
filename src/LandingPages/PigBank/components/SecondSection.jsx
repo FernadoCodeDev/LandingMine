@@ -17,12 +17,12 @@ const SecondSection = () => {
             <div className="w-1/2 p-2 text-center bg-red-400 rounded-lg md:w-1/3">
               <h1>INTEGRACIÓN</h1>
             </div>
-            <h1 className="m-2 text-3xl font-bold lg:text-8xl">
+            <h1 className="m-2 text-3xl font-bold md:text-8xl">
               Compra en cualquier lugar
             </h1>
           </div>
           <div>
-            <p className="p-2 text-start lg:text-3xl max-w-[40rem]">
+            <p className="p-2 text-start text-base md:text-2xl max-w-[40rem]">
               Ahora es mucho más fácil pagar a alguien. Todo lo que necesitas es
               una dirección de correo electrónico para enviar pagos comerciales
               transfronterizos en más de 25 divisas a casi cualquier persona, en
