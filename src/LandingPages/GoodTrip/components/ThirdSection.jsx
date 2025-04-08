@@ -6,17 +6,16 @@ import imageN7 from "../img/imageN7.webp";
 
 const ThirdSection = () => {
   return (
-    <div className="relative w-full min-h-screen">
-      <div className="relative w-full min-h-screen p-2 pt-20 text-black border-b-2 border-gray-300 dark:text-white min-h-auto bg-yellow-50 dark:bg-neutral-800">
-        <div className="w-1/3 p-2 mx-auto mb-4 text-center border-2 border-black rounded-full dark:border-white md:w-1/6">
+      <div className="relative flex flex-col items-center justify-center w-full h-auto gap-4 p-4 text-black border-gray-300 dark:text-white min-h-auto bg-yellow-50 dark:bg-neutral-800">
+        <div className="w-1/3 p-2 mx-auto text-center border-2 border-black rounded-full dark:border-white md:w-1/6">
           <h1>Nuestro paquete</h1>
         </div>
 
-        <h1 className="font-serif text-3xl md:text-6xl text-center mb-6 mx-auto max-w-[70rem]">
+        <h1 className="font-serif text-2xl md:text-4xl text-center  max-w-[70rem]">
           Explora nuestros exquisitos paquetes de viaje
         </h1>
 
-        <p className="m-auto text-start max-w-[50rem] text-1xl md:text-2xl pb-20">
+        <p className="text-center max-w-[50rem] text-base md:text-2xl ">
           Seleccionamos una colección de paquetes de viajes excepcionales que
           están diseñados para satisfacer los diversos intereses y preferencias
           de nuestros exigentes clientes.
@@ -106,7 +105,6 @@ const ThirdSection = () => {
           </div>
         </div>
       </div>
-    </div>
   );
 };
 
