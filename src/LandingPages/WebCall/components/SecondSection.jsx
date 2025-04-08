@@ -6,8 +6,8 @@ import PersonN4 from "../img/PersonN4.webp";
 
 const SecondSection = () => {
   return (
-    <div className="relative w-full min-h-screen p-2 text-gray-900 bg-purple-300">
-      <div className="pt-20 md:pt-32 m-auto flex flex-col md:flex-row justify-between w-full border-b-2 my-2 border-gray-900 p-2 max-w-[100rem]">
+    <div className="relative w-full h-auto p-2 text-gray-900 bg-purple-300">
+      <div className="m-auto flex flex-col md:flex-row justify-between w-full border-b-2 my-2 border-gray-900 p-2 max-w-[80rem]">
         <p className="text-5xl font-fantasy ">HORARIO</p>
 
         <div className="flex flex-row items-end justify-end gap-2 ]">

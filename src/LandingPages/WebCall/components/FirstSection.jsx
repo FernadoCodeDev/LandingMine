@@ -10,8 +10,8 @@ import imgN8 from "../img/imgN8.webp";
 
 const FirstSection = () => {
   return (
-    <div className="relative w-full min-h-screen p-2 bg-gray-900 text-amber-50">
-      <div className="pt-20 md:pt-32 m-auto flex flex-col md:flex-row  justify-between w-full border-b-2 my-2 border-amber-50 p-2 max-w-[100rem]">
+    <div className="relative flex flex-col w-full h-auto gap-4 p-2 bg-gray-900 text-amber-50">
+      <div className="m-auto flex flex-col md:flex-row  justify-between w-full border-b-2  border-amber-50 p-2 max-w-[80rem]">
         <p className="md:text-3xl font-fantasy ">PATROCINADORES Y SOCIOS</p>
 
         <div className="flex flex-row items-end justify-end gap-2">
@@ -35,7 +35,7 @@ const FirstSection = () => {
         </div>
       </div>
 
-      <div className="m-auto max-w-[100rem] grid grid-cols-2 pt-4 md:grid-cols-4 gap-3">
+      <div className="m-auto max-w-[80rem] grid grid-cols-3 md:grid-cols-4  gap-4">
         <div className="flex flex-col items-center justify-center p-4 bg-amber-50">
           <img src={imgN1} alt="imgN1" className="w-full h-auto " />
         </div>

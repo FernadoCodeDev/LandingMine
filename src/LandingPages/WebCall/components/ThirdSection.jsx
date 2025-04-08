@@ -3,15 +3,15 @@ import CheckSVG from "./SVGComponents/CheckSVG";
 
 const ThirdSection = () => {
   return (
-    <div className="flex flex-col items-center justify-center relative w-full min-h-screen p-2 text-black bg-gray-900">
-      <div className="pt-20 md:pt-32 m-auto flex flex-col md:flex-row justify-between w-full border-b-2 my-2 border-amber-50 p-2 max-w-[100rem]">
+    <div className="relative flex flex-col items-center justify-center w-full h-auto gap-4 p-2 text-black bg-gray-900">
+      <div className="m-auto flex flex-col md:flex-row justify-between w-full border-b-2 my-2 border-amber-50 p-2 max-w-[80rem]">
         <p className="text-2xl md:text-5xl font-fantasy text-amber-50">
           CONSIGUE TUS ENTRADAS
         </p>
 
         <div className="flex flex-row items-end justify-end gap-2">
           <p className="text-base md:text-1xl text-amber-50">CONSIGUE TUS ENTRADAS</p>
-          <div className="flex flex-col items-center justify-center w-8 h-8 p-1 bg-transparent border border-purple-400 rounded-full cursor-pointer transition-all duration-700 ease-out hover:bg-purple-400">
+          <div className="flex flex-col items-center justify-center w-8 h-8 p-1 transition-all duration-700 ease-out bg-transparent border border-purple-400 rounded-full cursor-pointer hover:bg-purple-400">
             <svg
               class="w-8 h-8 transition-transform duration-500 group-hover:translate-x-1"
               data-slot="icon"
@@ -30,9 +30,9 @@ const ThirdSection = () => {
         </div>
       </div>
 
-      <div className="grid justify-center grid-cols-1 gap-4 md:gap-0 md:grid-cols-3 m-auto py-4 w-full md:max-w-[100rem] md:p-4">
-        <div className="m-auto grid grid-cols-2 gap-4 md:hidden">
-        <div className="flex flex-col items-center justify-center w-8 h-8 p-1 bg-transparent border border-purple-400 rounded-full cursor-pointer transition-all duration-700 ease-out hover:bg-purple-400">
+      <div className="grid justify-center w-full grid-cols-1 gap-2 py-4 m-auto md:grid-cols-3 md:p-4">
+        <div className="grid grid-cols-2 gap-4 m-auto md:hidden">
+        <div className="flex flex-col items-center justify-center w-8 h-8 p-1 transition-all duration-700 ease-out bg-transparent border border-purple-400 rounded-full cursor-pointer hover:bg-purple-400">
             <svg
               class="rotate-180 w-8 h-8 transition-transform duration-500 group-hover:translate-x-1"
               data-slot="icon"
@@ -49,7 +49,7 @@ const ThirdSection = () => {
             </svg>
           </div>
 
-          <div className="flex flex-col items-center justify-center w-8 h-8 p-1 bg-transparent border border-purple-400 rounded-full cursor-pointer transition-all duration-700 ease-out hover:bg-purple-400">
+          <div className="flex flex-col items-center justify-center w-8 h-8 p-1 transition-all duration-700 ease-out bg-transparent border border-purple-400 rounded-full cursor-pointer hover:bg-purple-400">
             <svg
               class="w-8 h-8 transition-transform duration-500 group-hover:translate-x-1"
               data-slot="icon"
@@ -68,7 +68,7 @@ const ThirdSection = () => {
 
         </div>
         
-        <div className="hidden md:flex flex-col justify-center py-4 bg-transparent">
+        <div className="flex-col justify-center hidden py-4 bg-transparent md:flex">
           <div className="w-full h-auto p-4 opacity-25 bg-amber-50">
             <div className="py-1 border-b border-indigo-500 ">
               <p>Regular</p>
@@ -124,7 +124,7 @@ const ThirdSection = () => {
           </button>
         </div>
 
-        <div className="hidden md:flex flex-col justify-center py-4 bg-transparent">
+        <div className="flex-col justify-center hidden py-4 bg-transparent md:flex">
           <div className="w-full h-full p-4 opacity-25 bg-amber-50">
             <div className="py-1 border-b border-indigo-500 ">
               <p>VIP</p>
