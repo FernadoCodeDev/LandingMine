@@ -7,8 +7,8 @@ import spatula from "../img/spatula.webp";
 
 const FirstSection = () => {
   return (
-    <div className="relative flex flex-col items-center justify-center w-full p-4 bg-stone-300 text-stone-700 dark:text-slate-200 bg-bg-stone-300 dark:bg-neutral-800">
-      <h1 className="font-mono font-bold text-3xl md:text-5xl text-start mb-6 mx-auto max-w-[70rem]">
+    <div className="relative flex flex-col items-center justify-center w-full gap-4 p-4 bg-stone-300 text-stone-700 dark:text-slate-200 bg-bg-stone-300 dark:bg-neutral-800">
+      <h1 className="font-mono font-bold text-2xl md:text-4xl text-center max-w-[70rem]">
         DESCUBRE LA COLECCIÓN DURADERA
       </h1>
 
@@ -27,8 +27,8 @@ const FirstSection = () => {
         </button>
       </div>
 
-      <div className="grid grid-cols-2 gap-2 md:grid-cols-4 max-w-[70rem] mt-6  m-auto">
-        <div className="relative grid items-center justify-center w-full grid-cols-1 p-2 h-80 bg-stone-800">
+      <div className="grid grid-cols-2 gap-2 md:grid-cols-4 max-w-[80rem] m-auto">
+        <div className="relative grid items-center justify-center w-full h-auto grid-cols-1 p-2 bg-stone-800">
           {/* T background */}
           <div className="absolute top-0 left-0 w-full h-[50%] bg-stone-800"></div>
 
@@ -45,7 +45,7 @@ const FirstSection = () => {
             <img
               src={UtensilSet}
               alt="UtensilSet"
-              className="w-full max-w-[140px] h-auto drop-shadow-2xl"
+              className="w-full h-auto drop-shadow-2xl"
             />
 
             <div className="flex flex-row justify-between w-full p-2 ">
@@ -61,7 +61,7 @@ const FirstSection = () => {
           <div className="absolute bottom-0 left-0 w-full h-[50%] bg-stone-200"></div>
         </div>
 
-        <div className="relative grid items-center justify-center w-full grid-cols-1 p-2 h-80 bg-stone-800">
+        <div className="relative grid items-center justify-center w-full grid-cols-1 p-2 bg-stone-800">
           {/* T background */}
           <div className="absolute top-0 left-0 w-full h-[50%] bg-stone-800"></div>
 
@@ -78,7 +78,7 @@ const FirstSection = () => {
             <img
               src={HalfMoonKnife}
               alt="HalfMoonKnife"
-              className="w-full max-w-[150px] h-auto drop-shadow-2xl"
+              className="w-full h-auto drop-shadow-2xl"
             />
 
             <div className="flex flex-row justify-between w-full p-2 ">
@@ -94,7 +94,7 @@ const FirstSection = () => {
           <div className="absolute bottom-0 left-0 w-full h-[50%] bg-stone-200"></div>
         </div>
 
-        <div className="relative grid items-center justify-center w-full grid-cols-1 p-2 h-80 bg-stone-800">
+        <div className="relative grid items-center justify-center w-full h-auto grid-cols-1 p-2 bg-stone-800">
           {/* T background */}
           <div className="absolute top-0 left-0 w-full h-[50%] bg-stone-800"></div>
 
@@ -111,7 +111,7 @@ const FirstSection = () => {
             <img
               src={KnifeSet}
               alt="KnifeSet"
-              className="w-full max-w-[150px] h-auto drop-shadow-2xl"
+              className="w-full h-auto drop-shadow-2xl"
             />
 
             <div className="flex flex-row justify-between w-full p-2 ">
@@ -127,7 +127,7 @@ const FirstSection = () => {
           <div className="absolute bottom-0 left-0 w-full h-[50%] bg-stone-200"></div>
         </div>
 
-        <div className="relative grid items-center justify-center w-full grid-cols-1 p-2 h-80 bg-stone-800">
+        <div className="relative grid items-center justify-center w-full h-auto grid-cols-1 p-2 bg-stone-800">
           {/* T background */}
           <div className="absolute top-0 left-0 w-full h-[50%] bg-stone-800"></div>
 
@@ -144,7 +144,7 @@ const FirstSection = () => {
             <img
               src={spatula}
               alt="spatula"
-              className="w-full max-w-[130px] h-auto drop-shadow-2xl"
+              className="w-full h-auto drop-shadow-2xl"
             />
 
             <div className="flex flex-row justify-between w-full p-2 ">

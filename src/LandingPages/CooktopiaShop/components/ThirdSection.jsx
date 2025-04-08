@@ -6,8 +6,8 @@ import ImgN4 from "../img/ImgN4.webp";
 
 const ThirdSection = () => {
   return (
-    <div className="relative flex flex-col items-center justify-center w-full  p-4 bg-stone-300 text-stone-700 dark:text-slate-200 bg-bg-stone-300 dark:bg-neutral-800 min-h-auto ">
-      <h1 className="font-mono font-bold text-2xl md:text-5xl text-start mb-6 mx-auto max-w-[70rem]">
+    <div className="relative flex flex-col items-center justify-center w-full gap-4 p-4 bg-stone-300 text-stone-700 dark:text-slate-200 bg-bg-stone-300 dark:bg-neutral-800 min-h-auto ">
+      <h1 className="font-mono font-bold text-2xl md:text-4xl text-center max-w-[70rem]">
         CONSIGUE TODO EN UN SOLO LUGAR
       </h1>
 
