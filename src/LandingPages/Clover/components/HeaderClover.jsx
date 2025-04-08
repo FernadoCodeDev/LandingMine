@@ -7,7 +7,7 @@ import DarkMode from "../../GlobalComponents/DarkMode";
 const HeaderClover = () => {
   return (
     <div className="relative grid items-start w-full min-h-screen grid-cols-2 gap-2 text-white lg:text-2xl md:grid-cols-3 bg-sky-800">
-      <div className="mt-4 order-3 col-span-2 mx-auto md:col-span-1 md:order-2 md:w-auto md:h-20 md:bg-white/20 md:bg-backdrop-blur-[2px]">
+      <div className="mt-4 order-3 col-span-2 mx-auto md:col-span-1 md:order-2 md:w-auto md:bg-white/20 md:bg-backdrop-blur-[2px]">
         <MobileMenu
           textColor="text-white transition-all duration-700 ease-out"
           hoverColor="hover:text-lime-400"
@@ -22,7 +22,7 @@ const HeaderClover = () => {
         className="p-4  order-1 max-w-[15rem] h-auto mx-auto cursor-pointer md:order-1"
       />
 
-      <div className="order-2 p-4 w-fit ms-auto md:order-3">
+      <div className="order-2 p-4 mx-auto w-fit md:order-3">
         <DarkMode />
       </div>
 
@@ -81,7 +81,7 @@ const HeaderClover = () => {
             src={imgN1}
             alt="imgN1"
             className="ms-auto max-w-[30rem] h-auto rounded-tl-full"
-            style={{ maskImage: "linear-gradient(black 90%, transparent)" }}
+            style={{ maskImage: "linear-gradient(black 95%, transparent)" }}
           />
         </div>
       </div>

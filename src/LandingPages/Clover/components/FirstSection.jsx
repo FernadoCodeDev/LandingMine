@@ -5,7 +5,7 @@ import imgN4 from "../img/imgN4.webp";
 
 const FirstSection = () => {
   return (
-    <div className="relative flex flex-col gap-8 items-center min-h-screen p-4 text-black lg:text-2xl bg-white dark:text-white dark:bg-neutral-900">
+    <div className="relative flex flex-col gap-4 items-center h-auto p-4 text-black lg:text-2xl bg-white dark:text-white dark:bg-neutral-900">
       <div className="m-auto flex flex-col gap-4 max-w-[80rem]">
         <h1 className="text-center text-3xl lg:text-6xl text-sky-800 dark:text-lime-400 font-bold">
           Aprovecha cada rayo de sol
