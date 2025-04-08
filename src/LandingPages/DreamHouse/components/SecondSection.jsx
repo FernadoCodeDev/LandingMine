@@ -38,7 +38,7 @@ const SecondSection = () => {
         </button>
       </div>
 
-      <div className="grid grid-cols-1 mt-6 m-auto max-w-[70rem] md:grid-cols-3 gap-4">
+      <div className="grid grid-cols-1 mt-6 m-auto max-w-[90rem] md:grid-cols-3 gap-4">
         <div className="bg-white rounded-lg shadow-md dark:bg-neutral-800">
           <img src={imgN1} alt="imgN1" className="w-full h-auto" />
           <div className="p-4">

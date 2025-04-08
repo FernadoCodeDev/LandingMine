@@ -9,14 +9,14 @@ import imgN11 from "../img/imgN11.webp"; //Vertical
 
 const FourthSection = () => {
   return (
-    <div className="flex flex-col items-center justify-center relative min-h-screen p-4 text-black bg-white dark:text-white dark:bg-neutral-800">
+    <div className="relative flex flex-col items-center justify-center min-h-screen p-4 text-black bg-white dark:text-white dark:bg-neutral-800">
       <h1 className="text-4xl font-bold text-center">Encuentra tú nuevo Hogar</h1>
       <p className="text-2xl text-center my-9">
         ¿Se admiten mascotas en el apartamento?, ¿Cómo son las escuelas?, ¿Zonas
         Verdes?
       </p>
 
-      <div className="grid grid-cols-2 gap-2 md:grid-cols-5 lg:grid-rows-1">
+      <div className="grid grid-cols-2 gap-2 md:grid-cols-5 lg:grid-rows-1 max-w-[90rem]">
         {/* Vertical image, occupies two spaces*/}
         <div className="relative row-span-2 md:row-span-2">
           <img src={imgN5} alt="imgN5" className="object-cover w-full h-full " />
