@@ -1,9 +1,9 @@
 import React from "react";
-import Logo from "../../../img/LandingMineWeb.webp";
-import Navegation from "../ui/Navegation";
-import Footer from "../ui/Footer";
-import GitHub from "./GitHubButton";
-import PersonalPage from "./PersonalPageButton";
+import Logo from "../assets/img/LandingMineWeb.webp";
+import Navegation from "../components/ui/Navegation";
+import Footer from "../components/ui/Footer";
+import GitHub from "../components/ui/GitHubButton";
+import PersonalPage from "../components/ui/PersonalPageButton";
 
 const AboutPage = () => {
   return (

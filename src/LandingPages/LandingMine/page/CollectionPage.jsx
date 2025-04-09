@@ -1,8 +1,8 @@
 import React from "react";
-import Logo from "../../../img/LandingMineWeb.webp";
-import Navegation from "../ui/Navegation";
-import Footer from "../ui/Footer";
-import LandingPageAd from "./LandingPageAd";
+import Logo from "../assets/img/LandingMineWeb.webp";
+import Navegation from "../components/ui/Navegation";
+import Footer from "../components/ui/Footer";
+import LandingPageAd from "../components/sections/LandingPageAd";
 
 const CollectionPage = () => {
   return (

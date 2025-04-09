@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
-import DarkModeIcon from "../../../img/DarkMode.webp";
-import MobileMenu from "../../../img/MobileMenu.webp";
-import CloseMenuIcon from "../../../img/CloseMenuIcon.webp";
+import DarkModeIcon from "../../assets/img/DarkMode.webp";
+import MobileMenu from "../../assets/img/MobileMenu.webp";
+import CloseMenuIcon from "../../assets/img/CloseMenuIcon.webp";
 
 const Navegation = () => {
   const [darkMode, setDarkMode] = useState(false);
@@ -103,23 +103,23 @@ const Navegation = () => {
             />
           </div>
           <div className="flex flex-col justify-between m-2">
-            <a href="/" className="px-4 py-2 rounded hover:bg-gray-600">
+            <a href="/" className="px-4 py-2 rounded hover:bg-blue-800">
               Home
             </a>
             <a
               href="/Collection"
-              className="px-4 py-2 rounded hover:bg-gray-600"
+              className="px-4 py-2 rounded hover:bg-blue-800"
             >
               Colletion
             </a>
-            <a href="/AboutLandingMine" className="px-4 py-2 rounded hover:bg-gray-600">
+            <a href="/AboutLandingMine" className="px-4 py-2 rounded hover:bg-blue-800">
               LandigMine
             </a>
             </div>
         </nav>
       )}
 
-      {/* Button to open menu on screens smaller than 720 px */}
+      {/* Button to open menu on screens smaller than 768 px */}
       {/* menuOpen makes sure that when the menu is opened the image is hidden */}
       {isMobile && !menuOpen && (
         <img

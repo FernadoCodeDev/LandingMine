@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import DarkModeIcon from "../../img/DarkModeIconForLandingPages.webp";
+import DarkModeIcon from "./img/DarkModeIconForLandingPages.webp";
 
 const DarkMode = () => {
   const [darkMode, setDarkMode] = useState(false);

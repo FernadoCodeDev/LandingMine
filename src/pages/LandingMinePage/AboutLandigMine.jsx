@@ -1,5 +1,5 @@
 import React from 'react';
-import AboutPage from '../../LandingPages/LandingMine/AboutPageComponents/About';
+import AboutPage from '../../LandingPages/LandingMine/page/About';
 
 const About = () => {
   return (

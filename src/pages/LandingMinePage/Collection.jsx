@@ -1,5 +1,5 @@
 import React from 'react';
-import CollectionPage from '../../LandingPages/LandingMine/CollectionPageComponents/CollectionPage';
+import CollectionPage from '../../LandingPages/LandingMine/page/CollectionPage';
 
 const Collection = () => {
   return (
