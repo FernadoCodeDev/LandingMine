@@ -1,7 +1,7 @@
 import React from "react";
-import ImageTime1 from "../img/ImgTime1.webp";
-import ImageTime2 from "../img/ImgTime2.webp";
-import ImageTime3 from "../img/ImgTime3.webp";
+import ImageTime1 from "../../assets/img/ImgTime1.webp";
+import ImageTime2 from "../../assets/img/ImgTime2.webp";
+import ImageTime3 from "../../assets/img/ImgTime3.webp";
 
 const ThirdSection = () => {
   return (

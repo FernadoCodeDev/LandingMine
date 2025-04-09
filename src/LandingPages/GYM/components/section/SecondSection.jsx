@@ -1,8 +1,8 @@
 import React from "react";
-import ImageGym3 from "../img/ImageGym3.webp";
-import ImageGym4 from "../img/ImageGym4.webp";
-import ImageGym5 from "../img/ImageGym5.webp";
-import ImageGym6 from "../img/ImageGym6.webp";
+import ImageGym3 from "../../assets/img/ImageGym3.webp";
+import ImageGym4 from "../../assets/img/ImageGym4.webp";
+import ImageGym5 from "../../assets/img/ImageGym5.webp";
+import ImageGym6 from "../../assets/img/ImageGym6.webp";
 
 const SecondSection = () => {
   return (

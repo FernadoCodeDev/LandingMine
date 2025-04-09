@@ -1,21 +1,21 @@
 import React from "react";
-import MobileMenu from "../../GlobalComponents/MobileMenu";
-import GYMLogo from "../img/GYMLogo.webp";
-import Background from "../img/Background.webp";
-import ImageGym1 from "../img/ImageGym1.webp";
+import MobileMenu from "../../../GlobalComponents/MobileMenu";
+import GYMLogo from "../../assets/img/GYMLogo.webp";
+import Background from "../../assets/img/Background.webp";
+import ImageGym1 from "../../assets/img/ImageGym1.webp";
 
 const HeaderGym = () => {
   return (
     <div className="relative flex flex-col w-full min-h-screen">
       <div
-        className="w-full min-h-screen bg-cover bg-center bg-no-repeat "
+        className="w-full min-h-screen bg-center bg-no-repeat bg-cover "
         style={{ backgroundImage: `url(${Background})` }}
       >
 
         <img
           src={GYMLogo}
           alt="GymLogo"
-          className="w-60 h-auto m-4 cursor-pointer "
+          className="h-auto m-4 cursor-pointer w-60 "
         />
 
         <div className="flex items-center justify-center w-full col-span-2 p-2 m-auto">
@@ -42,7 +42,7 @@ const HeaderGym = () => {
             </a>
           </div>
 
-          <div className="hidden md:flex items-end justify-end w-full h-full absolute right-0 bottom-0">
+          <div className="absolute bottom-0 right-0 items-end justify-end hidden w-full h-full md:flex">
             <img
               src={ImageGym1}
               alt="ImageGym1"

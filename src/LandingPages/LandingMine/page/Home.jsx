@@ -5,7 +5,7 @@ import Footer from "../components/ui/Footer";
 import Button from "../components/ui/Button";
 import ButtonLanding from "../components/ui/ButtonLanding";
 import BackgroundPizzaUp from "../../PizzaUp/assets/img/BackgroundPizzaUp.webp";
-import BackgroundGym from "../../GYM/img/BackgroundGym.webp";
+import BackgroundGym from "../../GYM/assets/img/BackgroundGym.webp";
 import BackgroundMA from "../../MarketingAgency/img/MarketingAgency.webp";
 import BackgroundPB from "../../PigBank/img/PigBankBG.webp";
 import BackgroundGoodTrip from "../../GoodTrip/img/GoodTrip.webp";

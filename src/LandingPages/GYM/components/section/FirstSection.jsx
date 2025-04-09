@@ -1,5 +1,5 @@
 import React from "react";
-import ImageGym2 from "../img/ImageGym2.webp";
+import ImageGym2 from "../../assets/img/ImageGym2.webp";
 
 const FirstSection = () => {
   return (
