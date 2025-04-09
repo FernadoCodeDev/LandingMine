@@ -1,12 +1,12 @@
 import React from "react";
 import Masonry from "react-masonry-css";
-import SVGemailing from "./svgcomponets/SVG-emailing";
-import SVGvoicemail from "./svgcomponets/SVG-voicemail";
-import SVGtexting from "./svgcomponets/SVG-texting ";
-import SVGstorage from "./svgcomponets/SVG-storage";
-import SVGbilling from "./svgcomponets/SVG-billing";
-import SVGmarketing from "./svgcomponets/SVG-marketing";
-import SVGManage from "./svgcomponets/SVG-Manage";
+import SVGemailing from "../../assets/svg/SVG-emailing";
+import SVGvoicemail from "../../assets/svg/SVG-voicemail";
+import SVGtexting from "../../assets/svg/SVG-texting ";
+import SVGstorage from "../../assets/svg/SVG-storage";
+import SVGbilling from "../../assets/svg/SVG-billing";
+import SVGmarketing from "../../assets/svg/SVG-marketing";
+import SVGManage from "../../assets/svg/SVG-Manage";
 
 const SecondSection = () => {
   return (

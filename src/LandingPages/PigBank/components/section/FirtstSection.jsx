@@ -1,9 +1,9 @@
 import React from "react";
-import PingBankCard from "../img/PingBankCard.webp";
-import SVG1 from "./svgcomponets/svg1";
-import SVG2 from "./svgcomponets/svg2";
-import SVG3 from "./svgcomponets/svg3";
-import SVG4 from "./svgcomponets/svg4";
+import PingBankCard from "../../assets/img/PingBankCard.webp";
+import SVG1 from "../../assets/svg/svg1";
+import SVG2 from "../../assets/svg/svg2";
+import SVG3 from "../../assets/svg/svg3";
+import SVG4 from "../../assets/svg/svg4";
 
 const FirstSection = () => {
   return (

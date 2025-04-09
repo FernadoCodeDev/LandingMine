@@ -1,9 +1,9 @@
 import React from "react";
-import PigBankLogo from "../img/PigBankLogoNo1.webp";
-import PigBank from "../img/PigBankLogoNo.2.webp";
-import PingBankCard from "../img/PingBankCard.webp";
-import MobileMenu from "../../GlobalComponents/MobileMenu";
-import DarkMode from "../../GlobalComponents/DarkMode";
+import PigBankLogo from "../../assets/img/PigBankLogoNo1.webp";
+import PigBank from "../../assets/img/PigBankLogoNo.2.webp";
+import PingBankCard from "../../assets/img/PingBankCard.webp";
+import MobileMenu from "../../../GlobalComponents/MobileMenu";
+import DarkMode from "../../../GlobalComponents/DarkMode";
 
 const HeaderPB = () => {
   return (
