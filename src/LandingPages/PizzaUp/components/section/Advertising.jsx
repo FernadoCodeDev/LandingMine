@@ -1,6 +1,6 @@
 import React from "react";
-import ImgHeader from "../img/ImgHeader.webp";
-import Separation from "../img/Separation.webp";
+import ImgHeader from "../../assets/img/ImgHeader.webp";
+import Separation from "../../assets/img/Separation.webp";
 
 const Advertising = () => {
   return (

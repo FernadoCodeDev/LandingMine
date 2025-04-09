@@ -1,10 +1,10 @@
 import React from "react";
-import Pizza1 from "../img/Pizza1.webp";
-import Pizza2 from "../img/Pizza2.webp";
-import Pizza3 from "../img/Pizza3.webp";
-import Pizza4 from "../img/Pizza4.webp";
-import Pizza5 from "../img/Pizza5.webp";
-import Pizza6 from "../img/Pizza6.webp";
+import Pizza1 from "../../assets/img/Pizza1.webp";
+import Pizza2 from "../../assets/img/Pizza2.webp";
+import Pizza3 from "../../assets/img/Pizza3.webp";
+import Pizza4 from "../../assets/img/Pizza4.webp";
+import Pizza5 from "../../assets/img/Pizza5.webp";
+import Pizza6 from "../../assets/img/Pizza6.webp";
 
 const Content = () => {
   return (

@@ -1,7 +1,7 @@
 import React from "react";
-import Advertising from "./Advertising";
-import SearchBar from "./SearchBar";
-import Content from "./Content";
+import Advertising from "../section/Advertising";
+import SearchBar from "../section/SearchBar";
+import Content from "../section/Content";
 
 
 const Main = () => {
@@ -10,7 +10,6 @@ const Main = () => {
         <Advertising />
         <SearchBar />
         <Content />
-
     </main>
   );
 };

@@ -1,7 +1,7 @@
 import React from "react";
-import DarkMode from "../../GlobalComponents/DarkMode";
-import MobileMenu from "../../GlobalComponents/MobileMenu";
-import PizzaUp from "../img/PizzaUp.webp";
+import DarkMode from "../../../GlobalComponents/DarkMode";
+import MobileMenu from "../../../GlobalComponents/MobileMenu";
+import PizzaUp from "../../assets/img/PizzaUp.webp";
 
 const HeaderPizzaUp = () => {
   return (

@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Home from "./LandingPages/LandingMine/page/Home"; // Home LandingMine Page
 import Collection from "./LandingPages/LandingMine/page/Collection"; // Collection LandingMine Page
 import About from "./LandingPages/LandingMine/page/About"; // Collection LandingMine Page
-import PizzaUp from "./pages/PizzaUp/PizzaUp"; // PizzaUp Landing Page
+import PizzaUp from "./LandingPages/PizzaUp/page/PizzaUp"; // PizzaUp Landing Page
 import Gym from "./pages/GYM/Gym"; // Gym Landing Page
 import MarketingAgency from "./pages/MarketingAgency/MarketingAgency"; // MarketingAgency Landing Page
 import PigBank from "./pages/PigBankLandingPage/PigBank"; // PigBank Landing Page

@@ -1,6 +1,6 @@
 import React from "react";
 import ButtonLanding from "../ui/ButtonLanding";
-import BackgroundPizzaUp from "../../../PizzaUp/img/BackgroundPizzaUp.webp";
+import BackgroundPizzaUp from "../../../PizzaUp/assets/img/BackgroundPizzaUp.webp";
 import BackgroundGym from "../../../GYM/img/BackgroundGym.webp";
 import BackgroundMA from "../../../MarketingAgency/img/MarketingAgency.webp";
 import BackgroundPB from "../../../PigBank/img/PigBankBG.webp";
