@@ -2,7 +2,7 @@ import React from "react";
 
 const SecondSection = () => {
   return (
-    <div className="relative flex flex-col items-center w-full min-h-screen p-4 text-black bg-white lg:text-2xl dark:text-white dark:bg-neutral-900">
+    <div className="relative flex flex-col items-center w-full h-auto gap-4 p-4 text-black bg-white lg:text-2xl dark:text-white dark:bg-neutral-900">
       <h1 className="text-2xl font-bold text-center text-orange-500 md:text-4xl">
         Encuentra el libro perfecto para ti
       </h1>
