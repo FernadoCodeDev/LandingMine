@@ -4,7 +4,7 @@ import Navegation from "../components/ui/Navegation";
 import Footer from "../components/ui/Footer";
 import LandingPageAd from "../components/sections/LandingPageAd";
 
-const CollectionPage = () => {
+const Collection = () => {
   return (
     <div className="flex flex-row min-h-screen">
       <Navegation />
@@ -60,4 +60,4 @@ const CollectionPage = () => {
   );
 };
 
-export default CollectionPage;
+export default Collection;

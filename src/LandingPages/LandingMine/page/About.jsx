@@ -5,7 +5,7 @@ import Footer from "../components/ui/Footer";
 import GitHub from "../components/ui/GitHubButton";
 import PersonalPage from "../components/ui/PersonalPageButton";
 
-const AboutPage = () => {
+const About = () => {
   return (
     <div className="flex flex-row">
       <Navegation />
@@ -123,4 +123,4 @@ const AboutPage = () => {
   );
 };
 
-export default AboutPage;
+export default About;
