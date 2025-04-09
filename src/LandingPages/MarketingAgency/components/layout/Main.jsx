@@ -1,6 +1,6 @@
 import React from "react";
-import FirstSection from "./FirtstSection";
-import SecondSection from "./SecondSection";
+import FirstSection from "../section/FirtstSection";
+import SecondSection from "../section/SecondSection";
 
 const HeaderMA = () => {
   return (

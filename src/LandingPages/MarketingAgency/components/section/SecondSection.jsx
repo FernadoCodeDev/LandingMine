@@ -1,12 +1,12 @@
 import React from "react";
-import useScrollAnimation from "../../hooks/ScrollAnimation";
-import laptop from "../img/laptop.webp";
-import KeysHome from "../img/KeysHome.webp";
-import CosmicPizza from "../img/CosmicPizza.webp";
-import LandingMine from "../img/LandingMine.webp";
-import PizzaPizza from "../img/PizzaPizza.webp";
-import GYMLogo from "../img/GYMLogo.webp";
-import Pig from "../img/Pig Bank.webp";
+import useScrollAnimation from "../hook/ScrollAnimation";
+import laptop from "../../assets/img/laptop.webp";
+import KeysHome from "../../assets/img/KeysHome.webp";
+import CosmicPizza from "../../assets/img/CosmicPizza.webp";
+import LandingMine from "../../assets/img/LandingMine.webp";
+import PizzaPizza from "../../assets/img/PizzaPizza.webp";
+import GYMLogo from "../../assets/img/GYMLogo.webp";
+import Pig from "../../assets/img/Pig Bank.webp";
 
 const SecondSection = () => {
   const isVisible = useScrollAnimation("second-section");

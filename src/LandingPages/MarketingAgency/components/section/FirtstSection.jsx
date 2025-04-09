@@ -1,11 +1,11 @@
 import React from "react";
-import BackgroundSection from "../img/BackgroundSection.webp";
-import SVG1 from "./SVGcomponents/SVG1";
-import SVG2 from "./SVGcomponents/SVG2";
-import SVG3 from "./SVGcomponents/SVG3";
-import SVG4 from "./SVGcomponents/SVG4";
-import SVG5 from "./SVGcomponents/SVG5";
-import SVG6 from "./SVGcomponents/SVG6";
+import BackgroundSection from "../../assets/img/BackgroundSection.webp";
+import SVG1 from "../../assets/svg/SVG1";
+import SVG2 from "../../assets/svg/SVG2";
+import SVG3 from "../../assets/svg/SVG3";
+import SVG4 from "../../assets/svg/SVG4";
+import SVG5 from "../../assets/svg/SVG5";
+import SVG6 from "../../assets/svg/SVG6";
 
 const FirstSection = () => {
   return (

@@ -2,7 +2,7 @@ import React from "react";
 import ButtonLanding from "../ui/ButtonLanding";
 import BackgroundPizzaUp from "../../../PizzaUp/assets/img/BackgroundPizzaUp.webp";
 import BackgroundGym from "../../../GYM/assets/img/BackgroundGym.webp";
-import BackgroundMA from "../../../MarketingAgency/img/MarketingAgency.webp";
+import BackgroundMA from "../../../MarketingAgency/assets/img/MarketingAgency.webp";
 import BackgroundPB from "../../../PigBank/img/PigBankBG.webp";
 import BackgroundGoodTrip from "../../../GoodTrip/img/GoodTrip.webp";
 import BackgroundCooktopiaShop from "../../../CooktopiaShop/img/BackgroundCooktopiaShop.webp";

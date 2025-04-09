@@ -1,17 +1,17 @@
 import React from "react";
-import Background from "../img/HeaderBackground.webp";
-import MALogo from "../img/MarketingAgencyLogo.webp";
-import MobileMenu from "../../GlobalComponents/MobileMenu";
+import MobileMenu from "../../../GlobalComponents/MobileMenu";
+import Background from "../../assets/img/HeaderBackground.webp";
+import MALogo from "../../assets/img/MarketingAgencyLogo.webp";
 
 const HeaderMA = () => {
   return (
     <div className="relative w-full min-h-screen">
       <div
-        className="absolute inset-0 w-full min-h-screen bg-cover bg-center bg-fixed"
+        className="absolute inset-0 w-full min-h-screen bg-fixed bg-center bg-cover"
         style={{ backgroundImage: `url(${Background})` }}
       ></div>
 
-      <div className="relative flex flex-col justify-start items-center gap-2 h-screen p-4 md:flex-row md:justify-between md:items-start">
+      <div className="relative flex flex-col items-center justify-start h-screen gap-2 p-4 md:flex-row md:justify-between md:items-start">
         <div className="order-2 md:order-1 md:w-auto md:h-20 md:backdrop-blur-[4px] md:bg-white/20">
           <MobileMenu
             textColor="text-white transition-all duration-700 ease-out md:hover:text-black"
@@ -23,7 +23,7 @@ const HeaderMA = () => {
         <img
           src={MALogo}
           alt="MALogo"
-          className="w-40 h-auto object-contain order-1 md:order-2 cursor-pointer"
+          className="order-1 object-contain w-40 h-auto cursor-pointer md:order-2"
         />
 
         <div className="relative order-3 text-center md:absolute md:top-[50%] md:left-[50%] md:translate-x-[-50%] md:translate-y-[-50%]">
