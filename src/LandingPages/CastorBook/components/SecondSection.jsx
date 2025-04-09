@@ -10,7 +10,7 @@ const SecondSection = () => {
         En <span className="text-orange-500">Castor Book</span> , tenemos algo
         para todos. Desde novelas apasionantes y bestsellers hasta libros de
         ciencia, arte y desarrollo personal. No importa qué género te guste,
-        aquí encontrarás tu próxima gran lectura.
+        aquí encontrarás tu próxima gran lectura
       </p>
 
       {/* Content less than lg */}
@@ -37,7 +37,7 @@ const SecondSection = () => {
             <h1 className="col-span-2 text-base text-white ">
               En Castor Book la magia cobra vida. Encuentra historias épicas,
               mundos encantados y aventuras inolvidables en nuestros libros de
-              fantasía.
+              fantasía
             </h1>
           </div>
         </div>
@@ -48,7 +48,7 @@ const SecondSection = () => {
             <p className="text-base text-white ">
               En Castor Book Explora los secretos del universo con nuestra
               selección de libros de ciencia. Desde física cuántica hasta
-              biología, el conocimiento está a tu alcance.
+              biología, el conocimiento está a tu alcance
             </p>
           </div>
         </div>
@@ -59,7 +59,7 @@ const SecondSection = () => {
             <p className="text-base text-white">
               En Castor Book Sumérgete en historias de amor inolvidables. Desde
               pasiones prohibidas hasta finales felices, vive cada emoción con
-              nuestra colección de romance.
+              nuestra colección de romance
             </p>
           </div>
         </div>
@@ -130,7 +130,7 @@ const SecondSection = () => {
             <p className="text-lg font-semibold text-center">
               En <span className="font-bold">Castor Book</span> la magia cobra
               vida. Encuentra historias épicas, mundos encantados y aventuras
-              inolvidables en nuestros libros de fantasía.
+              inolvidables en nuestros libros de fantasía
             </p>
           </div>
         </div>
@@ -153,7 +153,7 @@ const SecondSection = () => {
               En <span className="font-bold">Castor Book</span> Explora los
               secretos del universo con nuestra selección de libros de ciencia.
               Desde física cuántica hasta biología, el conocimiento está a tu
-              alcance.
+              alcance
             </p>
           </div>
         </div>
@@ -176,7 +176,7 @@ const SecondSection = () => {
               En <span className="font-bold">Castor Book</span> Sumérgete en
               historias de amor inolvidables. Desde pasiones prohibidas hasta
               finales felices, vive cada emoción con nuestra colección de
-              romance.
+              romance
             </p>
           </div>
         </div>
@@ -261,7 +261,7 @@ const SecondSection = () => {
               En <span className="font-bold">Castor Book</span> Viaja en el
               tiempo y descubre los eventos que moldearon el mundo. Desde
               civilizaciones antiguas hasta relatos de guerra, la historia te
-              espera.
+              espera
             </p>
           </div>
         </div>
@@ -281,7 +281,7 @@ const SecondSection = () => {
             <p className="text-lg font-semibold text-center">
               En <span className="font-bold">Castor Book</span> Vive intensas
               emociones con nuestras historias llenas de pasión, conflictos y
-              personajes inolvidables. Sumérgete en el arte del drama.
+              personajes inolvidables. Sumérgete en el arte del drama
             </p>
           </div>
         </div>
@@ -303,7 +303,7 @@ const SecondSection = () => {
             <p className="text-lg font-semibold text-center">
               En <span className="font-bold">Castor Book</span> Explora galaxias
               lejanas, futuros distópicos y tecnología avanzada. La imaginación
-              no tiene límites en nuestra colección de ciencia ficción.
+              no tiene límites en nuestra colección de ciencia ficción
             </p>
           </div>
         </div>
@@ -352,7 +352,7 @@ const SecondSection = () => {
               En <span className="font-bold">Castor Book</span> Conoce el
               maravilloso mundo natural. Desde la fauna y flora hasta el
               ecoturismo, sumérgete en la belleza de la naturaleza con nuestros
-              libros.
+              libros
             </p>
           </div>
         </div>
@@ -372,7 +372,7 @@ const SecondSection = () => {
               En <span className="font-bold">Castor Book</span> Descubre la
               creatividad sin límites. Ya sea pintura, escultura o diseño
               gráfico, nuestros libros te inspirarán a ver el arte de una nueva
-              manera.
+              manera
             </p>
           </div>
         </div>
@@ -397,7 +397,7 @@ const SecondSection = () => {
               En <span className="font-bold">Castor Book</span> Entiende cómo
               funciona la mente humana. Con nuestros libros de psicología,
               explora temas de comportamiento, emociones y relaciones
-              interpersonales.
+              interpersonales
             </p>
           </div>
         </div>
@@ -423,7 +423,7 @@ const SecondSection = () => {
               En <span className="font-bold">Castor Book</span> Sumérgete en los
               grandes clásicos de la literatura mundial. Desde Shakespeare hasta
               Dostoyevski, vive las historias que han marcado la historia de la
-              humanidad. libros.
+              humanidad. libros
             </p>
           </div>
         </div>
@@ -447,7 +447,7 @@ const SecondSection = () => {
               En <span className="font-bold">Castor Book</span> Disfruta de
               libros sobre tus deportes favoritos. Desde estrategias hasta
               biografías de íconos deportivos, encuentra todo lo que necesitas
-              para ser un experto. libros.
+              para ser un experto. libros
             </p>
           </div>
         </div>
@@ -473,7 +473,7 @@ const SecondSection = () => {
               En <span className="font-bold">Castor Book</span> Sumérgete en el
               futuro con libros sobre tecnología. Descubre las últimas
               innovaciones, la inteligencia artificial y todo lo que está
-              cambiando el mundo digital.
+              cambiando el mundo digital
             </p>
           </div>
         </div>

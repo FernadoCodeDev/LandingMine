@@ -6,7 +6,7 @@ import ArrowSVG from "./SVGComponents/ArrowSVG";
 
 const FirstSection = () => {
   return (
-    <div className="relative flex flex-col items-center w-full h-auto text-black bg-blue-200 lg:text-2xl dark:text-white dark:bg-neutral-900">
+    <div className="relative flex flex-col items-center w-full min-h-screen text-black bg-blue-200 lg:text-2xl dark:text-white dark:bg-neutral-900">
       <div className="w-full h-auto m-auto max-w-[90rem] grid grid-cols-1 md:grid-cols-3 items-center justify-center ">
         <div className="flex flex-col items-center justify-center gap-4 p-2 md:col-span-3">
           <h1 className="text-2xl font-bold md:text-4xl">Los libros más populares del año</h1>
