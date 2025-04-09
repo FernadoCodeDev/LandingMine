@@ -3,14 +3,14 @@ import imgN3 from "../img/imgN3.webp";
 
 const SecondSection = () => {
   return (
-    <div className="relative flex flex-col items-center w-full min-h-screen p-4 text-black bg-beige-100 dark:bg-neutral-900 md:text-2xl dark:text-white">
-      <div className="m-auto max-w-[90rem] grid grid-cols-1 gap-4 md:gap-16 md:grid-cols-2">
+    <div className="relative flex flex-col items-center w-full h-auto p-4 text-black bg-beige-100 dark:bg-neutral-900 md:text-2xl dark:text-white">
+      <div className="m-auto max-w-[80rem] grid grid-cols-1 gap-4 md:gap-16 md:grid-cols-2">
         <div className="grid grid-cols-2 gap-1 ">
           <h1 className="col-span-2 font-serif text-xl font-bold text-center lg:text-3xl xl:5xl">
             UN ESPACIO EXCLUSIVO
           </h1>
           <h1 className="col-start-2 font-serif text-xl font-bold text-center lg:text-3xl xl:5xl">
-            AL AIRE LIBRE{" "}
+            AL AIRE LIBRE
           </h1>
         </div>
 

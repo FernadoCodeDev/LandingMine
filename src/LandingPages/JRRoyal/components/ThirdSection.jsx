@@ -6,15 +6,15 @@ import imgN7 from "../img/imgN7.webp";
 
 const ThirdSection = () => {
   return (
-    <div className="relative flex flex-col items-center w-full text-black min-h-auto bg-slate-950 md:text-2xl dark:text-white ">
+    <div className="relative flex flex-col items-center w-full h-auto text-black bg-slate-950 md:text-2xl dark:text-white ">
       <div className="w-full bg-beige-100 dark:bg-neutral-900">
-        <div className="max-w-[90rem] grid grid-cols-1 gap-4 p-2 m-auto md:grid-cols-2 max-w-">
+        <div className="max-w-[80rem] grid grid-cols-1 gap-4 p-2 m-auto md:grid-cols-2">
           <div className="grid grid-cols-2 gap-1 ">
             <h1 className="col-span-2 font-serif text-xl font-bold text-center md:text-2xl lg:text-3xl">
               EXPERIENCIAS DE LUJO
             </h1>
             <h1 className="col-start-2 font-serif text-xl font-bold text-center md:text-2xl lg:text-3xl">
-              A TU ALCANCE{" "}
+              A TU ALCANCE
             </h1>
           </div>
 
@@ -77,7 +77,7 @@ const ThirdSection = () => {
 
       {/*Round container similar to an ellipse shape width 100% 100% height, and at the top 50% and 100% (100% for top 0% for bottom) */}
       <div
-        className="flex items-center justify-center w-full min-h-[15rem] p-4 bg-beige-100 dark:bg-neutral-900"
+        className="flex items-center justify-center w-full h-[8rem] p-4 bg-beige-100 dark:bg-neutral-900"
         style={{ clipPath: "ellipse(100% 100% at 50% 0%)" }}
       ></div>
     </div>

@@ -3,10 +3,10 @@ import imgN2 from "../img/imgN2.webp";
 
 const FirstSection = () => {
   return (
-    <div className="relative flex flex-col items-center w-full min-h-screen text-black bg-blue-900 md:text-2xl dark:text-white">
+    <div className="relative flex flex-col items-center w-full h-auto text-black bg-blue-900 md:text-2xl dark:text-white">
       {/*Round container similar to an ellipse shape width 100% 100% height, and at the top 50% and 100% (100% for top 0% for bottom) */}
       <div
-        className="flex items-center justify-center w-full min-h-screen p-4 bg-beige-100 dark:bg-neutral-900"
+        className="flex items-center justify-center w-full h-auto p-4 bg-beige-100 dark:bg-neutral-900"
         style={{ clipPath: "ellipse(180% 95% at 50% 100%)" }}
       >
         <div className=" grid grid-cols-1 gap-4 max-w-[80rem] p-2">
