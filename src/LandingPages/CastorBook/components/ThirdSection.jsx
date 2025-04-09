@@ -26,12 +26,12 @@ const ThirdSection = () => {
               Magia del Sabor
             </h1>
 
-            <div className="grid items-center w-full grid-cols-1 gap-2 md:grid-cols-2 ">
-              <button className="order-2 w-20 h-20 p-2 text-4xl font-bold text-white transition-all duration-700 ease-out bg-blue-300 md:order-1 hover:bg-blue-500 dark:bg-orange-300 dark:hover:bg-orange-500">
+            <div className="grid items-center w-full grid-cols-1 gap-2 text-center md:grid-cols-2 ">
+              <button className="order-2 w-full h-auto p-2 text-4xl font-bold text-white transition-all duration-700 ease-out bg-blue-300 md:w-20 md:h-20 md:order-1 hover:bg-blue-500 dark:bg-orange-300 dark:hover:bg-orange-500">
                 +
               </button>
 
-              <p className="order-1 text-2xl font-bold md:order-2">$12.99</p>
+              <p className="order-1 text-lg md:order-2">$12.99</p>
             </div>
           </div>
         </div>
@@ -43,12 +43,12 @@ const ThirdSection = () => {
               Corazón del Misterio
             </h1>
 
-            <div className="grid items-center w-full grid-cols-1 gap-2 md:grid-cols-2 ">
-              <button className="order-2 w-20 h-20 p-2 text-4xl font-bold text-white transition-all duration-700 ease-out bg-blue-300 md:order-1 hover:bg-blue-500 dark:bg-orange-300 dark:hover:bg-orange-500">
+            <div className="grid items-center w-full grid-cols-1 gap-2 text-center md:grid-cols-2 ">
+              <button className="order-2 w-full h-auto p-2 text-4xl font-bold text-white transition-all duration-700 ease-out bg-blue-300 md:w-20 md:h-20 md:order-1 hover:bg-blue-500 dark:bg-orange-300 dark:hover:bg-orange-500">
                 +
               </button>
 
-              <p className="order-1 text-2xl font-bold md:order-2">$14.50</p>
+              <p className="order-1 text-lg md:order-2">$14.50</p>
             </div>
           </div>
         </div>
@@ -60,12 +60,12 @@ const ThirdSection = () => {
               Viaje al Pasado
             </h1>
 
-            <div className="grid items-center w-full grid-cols-1 gap-2 md:grid-cols-2 ">
-              <button className="order-2 w-20 h-20 p-2 text-4xl font-bold text-white transition-all duration-700 ease-out bg-blue-300 md:order-1 hover:bg-blue-500 dark:bg-orange-300 dark:hover:bg-orange-500">
+            <div className="grid items-center w-full grid-cols-1 gap-2 text-center md:grid-cols-2 ">
+              <button className="order-2 w-full h-auto p-2 text-4xl font-bold text-white transition-all duration-700 ease-out bg-blue-300 md:w-20 md:h-20 md:order-1 hover:bg-blue-500 dark:bg-orange-300 dark:hover:bg-orange-500">
                 +
               </button>
 
-              <p className="order-1 text-2xl font-bold md:order-2">$16.00</p>
+              <p className="order-1 text-lg md:order-2">$16.00</p>
             </div>
           </div>
         </div>
@@ -77,12 +77,12 @@ const ThirdSection = () => {
               Cielo Estrellado
             </h1>
 
-            <div className="grid items-center w-full grid-cols-1 gap-2 md:grid-cols-2 ">
-              <button className="order-2 w-20 h-20 p-2 text-4xl font-bold text-white transition-all duration-700 ease-out bg-blue-300 md:order-1 hover:bg-blue-500 dark:bg-orange-300 dark:hover:bg-orange-500">
+            <div className="grid items-center w-full grid-cols-1 gap-2 text-center md:grid-cols-2 ">
+              <button className="order-2 w-full h-auto p-2 text-4xl font-bold text-white transition-all duration-700 ease-out bg-blue-300 md:w-20 md:h-20 md:order-1 hover:bg-blue-500 dark:bg-orange-300 dark:hover:bg-orange-500">
                 +
               </button>
 
-              <p className="order-1 text-2xl font-bold md:order-2">$18.75</p>
+              <p className="order-1 text-lg md:order-2">$18.75</p>
             </div>
           </div>
         </div>
@@ -94,12 +94,12 @@ const ThirdSection = () => {
               El Arte de Crear
             </h1>
 
-            <div className="grid items-center w-full grid-cols-1 gap-2 md:grid-cols-2 ">
-              <button className="order-2 w-20 h-20 p-2 text-4xl font-bold text-white transition-all duration-700 ease-out bg-blue-300 md:order-1 hover:bg-blue-500 dark:bg-orange-300 dark:hover:bg-orange-500">
+            <div className="grid items-center w-full grid-cols-1 gap-2 text-center md:grid-cols-2 ">
+              <button className="order-2 w-full h-auto p-2 text-4xl font-bold text-white transition-all duration-700 ease-out bg-blue-300 md:w-20 md:h-20 md:order-1 hover:bg-blue-500 dark:bg-orange-300 dark:hover:bg-orange-500">
                 +
               </button>
 
-              <p className="order-1 text-2xl font-bold md:order-2">$20.00</p>
+              <p className="order-1 text-lg md:order-2">$20.00</p>
             </div>
           </div>
         </div>
@@ -111,12 +111,12 @@ const ThirdSection = () => {
               Estrategias del Éxito
             </h1>
 
-            <div className="grid items-center w-full grid-cols-1 gap-2 md:grid-cols-2 ">
-              <button className="order-2 w-20 h-20 p-2 text-4xl font-bold text-white transition-all duration-700 ease-out bg-blue-300 md:order-1 hover:bg-blue-500 dark:bg-orange-300 dark:hover:bg-orange-500">
+            <div className="grid items-center w-full grid-cols-1 gap-2 text-center md:grid-cols-2 ">
+              <button className="order-2 w-full h-auto p-2 text-4xl font-bold text-white transition-all duration-700 ease-out bg-blue-300 md:w-20 md:h-20 md:order-1 hover:bg-blue-500 dark:bg-orange-300 dark:hover:bg-orange-500">
                 +
               </button>
 
-              <p className="order-1 text-2xl font-bold md:order-2">$22.99</p>
+              <p className="order-1 text-lg md:order-2">$22.99</p>
             </div>
           </div>
         </div>
@@ -128,12 +128,12 @@ const ThirdSection = () => {
               Corazón del Alma
             </h1>
 
-            <div className="grid items-center w-full grid-cols-1 gap-2 md:grid-cols-2 ">
-              <button className="order-2 w-20 h-20 p-2 text-4xl font-bold text-white transition-all duration-700 ease-out bg-blue-300 md:order-1 hover:bg-blue-500 dark:bg-orange-300 dark:hover:bg-orange-500">
+            <div className="grid items-center w-full grid-cols-1 gap-2 text-center md:grid-cols-2 ">
+              <button className="order-2 w-full h-auto p-2 text-4xl font-bold text-white transition-all duration-700 ease-out bg-blue-300 md:w-20 md:h-20 md:order-1 hover:bg-blue-500 dark:bg-orange-300 dark:hover:bg-orange-500">
                 +
               </button>
 
-              <p className="order-1 text-2xl font-bold md:order-2">$15.50</p>
+              <p className="order-1 text-lg md:order-2">$15.50</p>
             </div>
           </div>
         </div>
