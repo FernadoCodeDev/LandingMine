@@ -8,8 +8,8 @@ import Pizza6 from "../../assets/img/Pizza6.webp";
 
 const Content = () => {
   return (
-    <div className="p-2 grid items-center grid-cols-1 md:grid-cols-2 max-w-[80rem] m-auto gap-2 bg-gray-200 dark:bg-neutral-900 lg:grid-cols-3">
-      <div className="flex flex-col justify-between p-2 text-center text-black md:flex-row md:col-span-2 dark:text-white lg:col-span-3">
+    <div className="p-2 grid items-center grid-cols-2 max-w-[80rem] m-auto gap-2 bg-gray-200 text-black dark:text-white dark:bg-neutral-900 md:grid-cols-3">
+      <div className="flex flex-col justify-between col-span-2 p-2 text-center md:flex-row md:col-span-3">
         <botton className="p-2 font-bold bg-gray-300 border-b-2 border-red-600 cursor-pointer dark:bg-neutral-800">
           Pizza
         </botton>
@@ -24,15 +24,15 @@ const Content = () => {
         </botton>
       </div>
 
-      <div className="w-full h-full bg-white dark:bg-neutral-800">
+      <div className="flex flex-col h-full bg-white dark:bg-neutral-800">
         <img
           src={Pizza1}
           alt="Mediterranean Pizza"
           className="w-full h-auto p-4 bg-yellow-100 dark:bg-neutral-700"
         />
 
-        <div className="flex flex-col justify-center text-black dark:text-white">
-          <h2 className="col-span-2 text-center font-bold text-[2rem]">
+        <div className="">
+          <h2 className="text-2xl font-bold text-center">
           Mediterranean Pizza
           </h2>
 
@@ -58,15 +58,15 @@ const Content = () => {
         </div>
       </div>
 
-      <div className="w-full h-full bg-white dark:bg-neutral-800">
+      <div className="flex flex-col h-full bg-white dark:bg-neutral-800">
         <img
           src={Pizza2}
           alt="Country Pizza"
           className="w-full h-auto p-4 bg-yellow-100 dark:bg-neutral-700"
         />
 
-        <div className="flex flex-col justify-center text-black dark:text-white">
-          <h2 className="col-span-2 text-center font-bold text-[2rem]">
+        <div className="">
+          <h2 className="text-2xl font-bold text-center">
           Country Pizza
           </h2>
 
@@ -92,15 +92,15 @@ const Content = () => {
         </div>
       </div>
 
-      <div className="w-full h-full bg-white dark:bg-neutral-800">
+      <div className="flex flex-col h-full bg-white dark:bg-neutral-800">
         <img
           src={Pizza3}
           alt="Margherita pizza"
           className="w-full h-auto p-4 bg-yellow-100 dark:bg-neutral-700"
         />
 
-        <div className="flex flex-col justify-center text-black dark:text-white">
-          <h2 className="col-span-2 text-center font-bold text-[2rem]">
+        <div className="">
+          <h2 className="text-2xl font-bold text-center">
           Margherita pizza
           </h2>
 
@@ -126,15 +126,15 @@ const Content = () => {
         </div>
       </div>
 
-      <div className="w-full h-full bg-white dark:bg-neutral-800">
+      <div className="flex flex-col h-full bg-white dark:bg-neutral-800">
         <img
           src={Pizza4}
           alt="pizza cheeseburger"
           className="w-full h-auto p-4 bg-yellow-100 dark:bg-neutral-700"
         />
 
-        <div className="flex flex-col justify-center text-black dark:text-white">
-          <h2 className="col-span-2 text-center font-bold text-[2rem]">
+        <div className="">
+          <h2 className="text-2xl font-bold text-center">
           pizza cheeseburger
           </h2>
 
@@ -160,15 +160,15 @@ const Content = () => {
         </div>
       </div>
 
-      <div className="w-full h-full bg-white dark:bg-neutral-800">
+      <div className="flex flex-col h-full bg-white dark:bg-neutral-800">
         <img
           src={Pizza5}
           alt="Double Pepperoni Pizza"
           className="w-full h-auto p-4 bg-yellow-100 dark:bg-neutral-700"
         />
 
-        <div className="flex flex-col justify-center text-black dark:text-white">
-          <h2 className="col-span-2 text-center font-bold text-[2rem]">
+        <div className="">
+          <h2 className="text-2xl font-bold text-center">
           Double Pepperoni Pizza
           </h2>
 
@@ -194,15 +194,15 @@ const Content = () => {
         </div>
       </div>
 
-      <div className="w-full h-full bg-white dark:bg-neutral-800">
+      <div className="flex flex-col h-full bg-white dark:bg-neutral-800">
         <img
           src={Pizza6}
           alt="Four Cheese Pizza"
           className="w-full h-auto p-4 bg-yellow-100 dark:bg-neutral-700"
         />
 
-        <div className="flex flex-col justify-center text-black dark:text-white">
-          <h2 className="col-span-2 text-center font-bold text-[2rem]">
+        <div className="">
+          <h2 className="text-2xl font-bold text-center">
           Four Cheese Pizza
           </h2>
 
