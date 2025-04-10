@@ -1,15 +1,14 @@
 import React from "react";
-import Advertising from "../section/Advertising";
-import SearchBar from "../section/SearchBar";
-import Content from "../section/Content";
-
+import FirstSection from "../section/FirstSection";
+import SecondSection from "../section/SecondSection";
 
 const Main = () => {
   return (
-    <main className="w-full h-full bg-gray-200 dark:bg-neutral-900">
-        <Advertising />
-        <SearchBar />
-        <Content />
+    <main>
+      <section>
+        <FirstSection />
+        <SecondSection />
+      </section>
     </main>
   );
 };

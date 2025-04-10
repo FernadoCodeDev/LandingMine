@@ -2,9 +2,9 @@ import React from "react";
 import ImgHeader from "../../assets/img/ImgHeader.webp";
 import Separation from "../../assets/img/Separation.webp";
 
-const Advertising = () => {
+const FirstSection = () => {
   return (
-    <div className="flex flex-col justify-center w-full h-auto max-w-[80rem] bg-red-600 p-0 my-2 m-auto relative">
+    <div className="flex flex-col justify-center w-full h-auto max-w-[80rem] bg-red-600 m-auto relative">
       <div className="relative grid grid-cols-2 p-0 m-0 md:grid-cols-3">
         <div className="relative z-10 flex flex-col justify-center col-span-1 p-0 text-center text-white md:col-span-2">
           <h1 className="font-bold md:text-[2rem] lg:text[2.5rem]">
@@ -49,4 +49,4 @@ const Advertising = () => {
   );
 };
 
-export default Advertising;
+export default FirstSection;
