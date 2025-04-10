@@ -1,5 +1,5 @@
 import React from "react";
-import CheckSVG from "./SVGComponents/CheckSVG";
+import CheckSVG from "../../assets/svg/CheckSVG";
 
 const ThirdSection = () => {
   return (

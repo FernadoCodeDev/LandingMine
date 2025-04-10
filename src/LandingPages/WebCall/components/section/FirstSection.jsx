@@ -1,12 +1,12 @@
 import React from "react";
-import imgN1 from "../img/imgN1.webp";
-import imgN2 from "../img/imgN2.webp";
-import imgN3 from "../img/imgN3.webp";
-import imgN4 from "../img/imgN4.webp";
-import imgN5 from "../img/imgN5.webp";
-import imgN6 from "../img/imgN6.webp";
-import imgN7 from "../img/imgN7.webp";
-import imgN8 from "../img/imgN8.webp";
+import imgN1 from "../../assets/img/imgN1.webp";
+import imgN2 from "../../assets/img/imgN2.webp";
+import imgN3 from "../../assets/img/imgN3.webp";
+import imgN4 from "../../assets/img/imgN4.webp";
+import imgN5 from "../../assets/img/imgN5.webp";
+import imgN6 from "../../assets/img/imgN6.webp";
+import imgN7 from "../../assets/img/imgN7.webp";
+import imgN8 from "../../assets/img/imgN8.webp";
 
 const FirstSection = () => {
   return (

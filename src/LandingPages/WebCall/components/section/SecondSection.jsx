@@ -1,8 +1,8 @@
 import React from "react";
-import PersonN1 from "../img/PersonN1.webp";
-import PersonN2 from "../img/PersonN2.webp";
-import PersonN3 from "../img/PersonN3.webp";
-import PersonN4 from "../img/PersonN4.webp";
+import PersonN1 from "../../assets/img/PersonN1.webp";
+import PersonN2 from "../../assets/img/PersonN2.webp";
+import PersonN3 from "../../assets/img/PersonN3.webp";
+import PersonN4 from "../../assets/img/PersonN4.webp";
 
 const SecondSection = () => {
   return (

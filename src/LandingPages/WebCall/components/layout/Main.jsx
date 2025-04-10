@@ -1,7 +1,7 @@
 import React from "react";
-import FirstSection from "./FirstSection";
-import SecondSection from "./SecondSection";
-import ThirdSection from "./ThirdSection";
+import FirstSection from "../section/FirstSection";
+import SecondSection from "../section/SecondSection";
+import ThirdSection from "../section/ThirdSection";
 
 const MainWC = () => {
   return (

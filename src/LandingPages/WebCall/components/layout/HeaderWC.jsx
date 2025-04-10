@@ -1,7 +1,7 @@
 import React from "react";
-import WebCallLogo from "../img/WebCallLogo.webp";
-import MobileMenu from "../../GlobalComponents/MobileMenu";
-import Background from "../img/Background.webp";
+import MobileMenu from "../../../GlobalComponents/MobileMenu";
+import WebCallLogo from "../../assets/img/WebCallLogo.webp";
+import Background from "../../assets/img/Background.webp";
 
 const HeaderWC = () => {
   return (
