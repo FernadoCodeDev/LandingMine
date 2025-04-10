@@ -1,8 +1,8 @@
 import React from "react";
-import FirstSection from "./FirstSection";
-import SecondSection from "./SecondSection";
-import ThirdSection from "./ThirdSection";
-import FourthSection from "./FourthSection";
+import FirstSection from "../sections/FirstSection";
+import SecondSection from "../sections/SecondSection";
+import ThirdSection from "../sections/ThirdSection";
+import FourthSection from "../sections/FourthSection";
 
 const MainDH = () => {
   return (

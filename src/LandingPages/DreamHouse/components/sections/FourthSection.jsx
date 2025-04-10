@@ -1,11 +1,11 @@
 import React from "react";
-import imgN5 from "../img/imgN5.webp"; //Vertical
-import imgN6 from "../img/imgN6.webp";
-import imgN7 from "../img/imgN7.webp";
-import imgN8 from "../img/imgN8.webp"; //Vertical
-import imgN9 from "../img/imgN9.webp";
-import imgN10 from "../img/imgN10.webp";
-import imgN11 from "../img/imgN11.webp"; //Vertical
+import imgN5 from "../../assets/img/imgN5.webp"; //Vertical
+import imgN6 from "../../assets/img/imgN6.webp";
+import imgN7 from "../../assets/img/imgN7.webp";
+import imgN8 from "../../assets/img/imgN8.webp"; //Vertical
+import imgN9 from "../../assets/img/imgN9.webp";
+import imgN10 from "../../assets/img/imgN10.webp";
+import imgN11 from "../../assets/img/imgN11.webp"; //Vertical
 
 const FourthSection = () => {
   return (

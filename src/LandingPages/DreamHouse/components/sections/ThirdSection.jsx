@@ -1,9 +1,9 @@
 import React from "react";
-import imgN4 from "../img/imgN4.webp";
-import HouseSVG from "./SVGComponents/HouseSVG";
-import DateSVG from "./SVGComponents/DateSVG";
-import PurchaseSVG from "./SVGComponents/PurchaseSVG";
-import GuaranteeSVG from "./SVGComponents/guaranteeSVG";
+import imgN4 from "../../assets/img/imgN4.webp";
+import HouseSVG from "../../assets/svg/HouseSVG";
+import DateSVG from "../../assets/svg/DateSVG";
+import PurchaseSVG from "../../assets/svg/PurchaseSVG";
+import GuaranteeSVG from "../../assets/svg/guaranteeSVG";
 
 const ThirdSection = () => {
   return (

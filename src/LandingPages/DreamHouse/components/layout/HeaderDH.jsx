@@ -1,9 +1,9 @@
 import React from "react";
-import Background from "../img/Background.webp";
-import DreamHouseLogo from "../img/DreamHouseLogo.webp";
-import MobileMenu from "../../GlobalComponents/MobileMenu";
-import DarkMode from "../../GlobalComponents/DarkMode";
-import SearchSVG from "./SVGComponents/SearchSVG";
+import Background from "../../assets/img/Background.webp";
+import DreamHouseLogo from "../../assets/img/DreamHouseLogo.webp";
+import MobileMenu from "../../../GlobalComponents/MobileMenu";
+import DarkMode from "../../../GlobalComponents/DarkMode";
+import SearchSVG from "../../assets/svg/SearchSVG";
 
 const HeaderDH = () => {
   return (
