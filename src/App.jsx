@@ -12,15 +12,15 @@ import CooktopiaShop from "./LandingPages/CooktopiaShop/page/CooktopiaShop"; // 
 import DreamHouse from "./LandingPages/DreamHouse/page/DreamHouse"; // DreamHouse Landing Page
 import WebCall from "./LandingPages/WebCall/page/WebCall"; // WebCall Landing Page
 import WLP from "./LandingPages/WLP/page/WLP"; // WLP Landing Page
-import Morgana from "./pages/Morgana/Morgana"; // Morgana Landing Page
-import GoldTeeth from "./pages/GoldTeeth/GoldTeeth"; // GoldTeeth Landing Page
-import CampingNight from "./pages/CampingNight/CampingNight"; // CampingNight Landing Page
-import Clover from "./pages/Clover/Clover"; // Clover Landing Page
-import OrganicGold from "./pages/OrganicGold/OrganicGold" //OrganicGold Landing page
-import ZoologicalWorld from "./pages/ZoologicalWorld/ZoologicalWorld" //ZoologicalWorld Landing page
-import JRRoyal from "./pages/JRRoyal/JRRoyal" //JRRoyal Landing page
-import CastorBook from "./pages/CastorBook/CastorBook" //CastorBook Landing page 
-import Strikes from "./pages/Strikes/Strikers" //Strikes Landing page
+import Morgana from "./LandingPages/Morgana/page/Morgana"; // Morgana Landing Page
+import GoldTeeth from "./LandingPages/GoldTeeth/page/GoldTeeth"; // GoldTeeth Landing Page
+import CampingNight from "./LandingPages/CampingNight/page/CampingNight"; // CampingNight Landing Page
+import Clover from "./LandingPages/Clover/page/Clover"; // Clover Landing Page
+import OrganicGold from "./LandingPages/OrganicGold/page/OrganicGold" //OrganicGold Landing page
+import ZoologicalWorld from "./LandingPages/ZoologicalWorld/page/ZoologicalWorld" //ZoologicalWorld Landing page
+import JRRoyal from "./LandingPages/JRRoyal/page/JRRoyal" //JRRoyal Landing page
+import CastorBook from "./LandingPages/CastorBook/page/CastorBook" //CastorBook Landing page 
+import Strikes from "./LandingPages/Strikes/page/Strikes" //Strikes Landing page
 
 const App = () => {
   return (

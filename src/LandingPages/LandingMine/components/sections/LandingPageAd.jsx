@@ -9,15 +9,15 @@ import BackgroundCooktopiaShop from "../../../CooktopiaShop/assets/img/Backgroun
 import BackgroundDreamHouse from "../../../DreamHouse/assets/img/BackgroundDreamHouse.webp";
 import BackgroundWebCall from "../../../WebCall/assets/img/BackgroundWebCall.webp";
 import BackgroundWLP from "../../../WLP/assets/img/BackgroundWLP.webp";
-import BackgroundMorgana from "../../../Morgana/img/BackgroundMorgana.webp";
-import GoldTeeth from "../../../GoldTeeth/img/BackgroundGoldTeeth.webp";
-import BackgroundCampingNight from "../../../CampingNight/img/BackgroundCampingNight.webp";
-import BackgroundClover from "../../../Clover/img/BackgroundClover.webp";
-import BackgroundOrganicGold from "../../../OrganicGold/img/BackgroundOrganicGold.webp";
-import BackgroundZoologicalWorld from "../../../ZoologicalWorld/img/BackgroundZoologicalWorld.webp";
-import BackgroundJRRoyal from "../../../JRRoyal/img/BackgroundJRRoyal.webp";
-import BackgroundCastorBook from "../../../CastorBook/img/BackgroundCastorBook.webp";
-import BackgroundStrikes from "../../../Strikes/img/BackgroundStrike's.webp";
+import BackgroundMorgana from "../../../Morgana/assets/img/BackgroundMorgana.webp";
+import GoldTeeth from "../../../GoldTeeth/assets/img/BackgroundGoldTeeth.webp";
+import BackgroundCampingNight from "../../../CampingNight/assets/img/BackgroundCampingNight.webp";
+import BackgroundClover from "../../../Clover/assets/img/BackgroundClover.webp";
+import BackgroundOrganicGold from "../../../OrganicGold/assets/img/BackgroundOrganicGold.webp";
+import BackgroundZoologicalWorld from "../../../ZoologicalWorld/assets/img/BackgroundZoologicalWorld.webp";
+import BackgroundJRRoyal from "../../../JRRoyal/assets/img/BackgroundJRRoyal.webp";
+import BackgroundCastorBook from "../../../CastorBook/assets/img/BackgroundCastorBook.webp";
+import BackgroundStrikes from "../../../Strikes/assets/img/BackgroundStrike's.webp";
 
 const LandingPageAd = () => {
   return (
