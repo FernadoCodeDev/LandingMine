@@ -19,9 +19,9 @@ const ThirdSection = () => {
         la lectura!
       </p>
       <div className="max-w-[90rem] grid grid-cols-2 items-center gap-4 m-auto md:grid-cols-3 lg:grid-cols-4">
-        <div className="border-2 border-beige-50 dark:border-neutral-800">
+        <div className="flex flex-col h-full border-2 border-beige-50 dark:border-neutral-800">
           <img src={imgN6} alt="imgN6" className="w-full h-auto" />
-          <div className="flex flex-col items-center justify-center h-auto gap-2 shadow-xl bg-beige-50 dark:bg-neutral-800">
+          <div className="flex flex-col items-center justify-center h-full gap-2 shadow-xl bg-beige-50 dark:bg-neutral-800">
             <h1 className="p-2 text-2xl font-bold text-center ">
               Magia del Sabor
             </h1>
@@ -36,9 +36,9 @@ const ThirdSection = () => {
           </div>
         </div>
 
-        <div className="border-2 border-beige-50 dark:border-neutral-800">
+        <div className="flex flex-col h-full border-2 border-beige-50 dark:border-neutral-800">
           <img src={imgN7} alt="imgN7" className="w-full h-auto " />
-          <div className="flex flex-col items-center justify-center h-auto gap-2 shadow-xl bg-beige-50 dark:bg-neutral-800">
+          <div className="flex flex-col items-center justify-center h-full gap-2 shadow-xl bg-beige-50 dark:bg-neutral-800">
             <h1 className="p-2 text-2xl font-bold text-center ">
               Corazón del Misterio
             </h1>
@@ -53,9 +53,9 @@ const ThirdSection = () => {
           </div>
         </div>
 
-        <div className="border-2 border-beige-50 dark:border-neutral-800">
+        <div className="flex flex-col h-full border-2 border-beige-50 dark:border-neutral-800">
           <img src={imgN8} alt="imgN8" className="w-full h-auto " />
-          <div className="flex flex-col items-center justify-center h-auto gap-2 shadow-xl bg-beige-50 dark:bg-neutral-800">
+          <div className="flex flex-col items-center justify-center h-full gap-2 shadow-xl bg-beige-50 dark:bg-neutral-800">
             <h1 className="p-2 text-2xl font-bold text-center ">
               Viaje al Pasado
             </h1>
@@ -70,9 +70,9 @@ const ThirdSection = () => {
           </div>
         </div>
 
-        <div className="border-2 border-beige-50 dark:border-neutral-800">
+        <div className="flex flex-col h-full border-2 border-beige-50 dark:border-neutral-800">
           <img src={imgN9} alt="imgN9" className="w-full h-auto " />
-          <div className="flex flex-col items-center justify-center h-auto gap-2 shadow-xl bg-beige-50 dark:bg-neutral-800">
+          <div className="flex flex-col items-center justify-center h-full gap-2 shadow-xl bg-beige-50 dark:bg-neutral-800">
             <h1 className="p-2 text-2xl font-bold text-center ">
               Cielo Estrellado
             </h1>
@@ -87,9 +87,9 @@ const ThirdSection = () => {
           </div>
         </div>
 
-        <div className="border-2 border-beige-50 dark:border-neutral-800">
+        <div className="flex flex-col h-full border-2 border-beige-50 dark:border-neutral-800">
           <img src={imgN10} alt="imgN10" className="w-full h-auto " />
-          <div className="flex flex-col items-center justify-center h-auto gap-2 shadow-xl bg-beige-50 dark:bg-neutral-800">
+          <div className="flex flex-col items-center justify-center h-full gap-2 shadow-xl bg-beige-50 dark:bg-neutral-800">
             <h1 className="p-2 text-2xl font-bold text-center ">
               El Arte de Crear
             </h1>
@@ -104,9 +104,9 @@ const ThirdSection = () => {
           </div>
         </div>
 
-        <div className="border-2 border-beige-50 dark:border-neutral-800">
+        <div className="flex flex-col h-full border-2 border-beige-50 dark:border-neutral-800">
           <img src={imgN11} alt="imgN11" className="w-full h-auto " />
-          <div className="flex flex-col items-center justify-center h-auto gap-2 shadow-xl bg-beige-50 dark:bg-neutral-800">
+          <div className="flex flex-col items-center justify-center h-full gap-2 shadow-xl bg-beige-50 dark:bg-neutral-800">
             <h1 className="p-2 text-2xl font-bold text-center ">
               Estrategias del Éxito
             </h1>
@@ -121,9 +121,9 @@ const ThirdSection = () => {
           </div>
         </div>
 
-        <div className="border-2 border-beige-50 dark:border-neutral-800">
+        <div className="flex flex-col h-full border-2 border-beige-50 dark:border-neutral-800">
           <img src={imgN12} alt="imgN12" className="w-full h-auto " />
-          <div className="flex flex-col items-center justify-center h-auto gap-2 shadow-xl bg-beige-50 dark:bg-neutral-800">
+          <div className="flex flex-col items-center justify-center h-full gap-2 shadow-xl bg-beige-50 dark:bg-neutral-800">
             <h1 className="p-2 text-2xl font-bold text-center">
               Corazón del Alma
             </h1>
