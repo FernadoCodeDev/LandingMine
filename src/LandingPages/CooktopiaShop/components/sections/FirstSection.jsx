@@ -1,9 +1,9 @@
 import React from "react";
-import ArrowSVG from "./SVGComponets/ArrowSVG";
-import UtensilSet from "../img/UtensilSet.webp";
-import HalfMoonKnife from "../img/HalfMoonKnife.webp";
-import KnifeSet from "../img/KnifeSet.webp";
-import spatula from "../img/spatula.webp";
+import ArrowSVG from "../../assets/svg/ArrowSVG";
+import UtensilSet from "../../assets/img/UtensilSet.webp";
+import HalfMoonKnife from "../../assets/img/HalfMoonKnife.webp";
+import KnifeSet from "../../assets/img/KnifeSet.webp";
+import spatula from "../../assets/img/spatula.webp";
 
 const FirstSection = () => {
   return (

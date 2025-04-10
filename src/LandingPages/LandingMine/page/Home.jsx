@@ -9,7 +9,7 @@ import BackgroundGym from "../../GYM/assets/img/BackgroundGym.webp";
 import BackgroundMA from "../../MarketingAgency/assets/img/MarketingAgency.webp";
 import BackgroundPB from "../../PigBank/assets/img/PigBankBG.webp";
 import BackgroundGoodTrip from "../../GoodTrip/assets/img/GoodTrip.webp";
-import BackgroundCooktopiaShop from "../../CooktopiaShop/img/BackgroundCooktopiaShop.webp";
+import BackgroundCooktopiaShop from "../../CooktopiaShop/assets/img/BackgroundCooktopiaShop.webp";
 
 const HomePage = () => {
   return (

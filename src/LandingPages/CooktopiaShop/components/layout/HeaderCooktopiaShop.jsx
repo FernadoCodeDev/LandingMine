@@ -1,8 +1,8 @@
 import React from "react";
-import CooktopiaShopLogo from "../img/CooktopiaShop Logo.webp";
-import CooktopiaShopBG from "../img/CooktopiaShopBG.webp";
-import MobileMenu from "../../GlobalComponents/MobileMenu";
-import DarkMode from "../../GlobalComponents/DarkMode";
+import CooktopiaShopLogo from "../../assets/img/CooktopiaShop Logo.webp";
+import CooktopiaShopBG from "../../assets/img/CooktopiaShopBG.webp";
+import MobileMenu from "../../../GlobalComponents/MobileMenu";
+import DarkMode from "../../../GlobalComponents/DarkMode";
 
 const HeaderCS = () => {
   return (

@@ -1,7 +1,7 @@
 import React from "react";
-import CustomerServiceSVG from "./SVGComponets/CustomerServiceSVG";
-import PremiumSVG from "./SVGComponets/PremiumSVG";
-import IdeaSVG from "./SVGComponets/IdeaSVG";
+import CustomerServiceSVG from "../../assets/svg/CustomerServiceSVG";
+import PremiumSVG from "../../assets/svg/PremiumSVG";
+import IdeaSVG from "../../assets/svg/IdeaSVG";
 
 const SecondSection = () => {
   return (
