@@ -28,15 +28,15 @@ const Content = () => {
         <img
           src={Pizza1}
           alt="Mediterranean Pizza"
-          className="w-full h-auto p-4 bg-yellow-100 dark:bg-neutral-700"
+          className="w-full h-auto bg-yellow-100 dark:bg-neutral-700"
         />
 
-        <div className="">
+        <div className="py-4">
           <h2 className="text-2xl font-bold text-center">
           Mediterranean Pizza
           </h2>
 
-          <div className="flex items-center justify-center gap-4 p-2 text-center">
+          <div className="flex items-center justify-center gap-4 py-4 text-center">
             <p className="flex items-center text-[1rem]">
               <span className="p-0 m-0 font-bold">$</span>10
             </p>
@@ -62,15 +62,15 @@ const Content = () => {
         <img
           src={Pizza2}
           alt="Country Pizza"
-          className="w-full h-auto p-4 bg-yellow-100 dark:bg-neutral-700"
+          className="w-full h-auto bg-yellow-100 dark:bg-neutral-700"
         />
 
-        <div className="">
+        <div className="py-4">
           <h2 className="text-2xl font-bold text-center">
           Country Pizza
           </h2>
 
-          <div className="flex items-center justify-center gap-4 p-2 text-center">
+          <div className="flex items-center justify-center gap-4 py-4 text-center">
             <p className="flex items-center text-[1rem]">
               <span className="p-0 m-0 font-bold">$</span>10
             </p>
@@ -96,15 +96,15 @@ const Content = () => {
         <img
           src={Pizza3}
           alt="Margherita pizza"
-          className="w-full h-auto p-4 bg-yellow-100 dark:bg-neutral-700"
+          className="w-full h-auto bg-yellow-100 dark:bg-neutral-700"
         />
 
-        <div className="">
+        <div className="py-4">
           <h2 className="text-2xl font-bold text-center">
           Margherita pizza
           </h2>
 
-          <div className="flex items-center justify-center gap-4 p-2 text-center">
+          <div className="flex items-center justify-center gap-4 py-4 text-center">
             <p className="flex items-center text-[1rem]">
               <span className="p-0 m-0 font-bold">$</span>10
             </p>
@@ -130,15 +130,15 @@ const Content = () => {
         <img
           src={Pizza4}
           alt="pizza cheeseburger"
-          className="w-full h-auto p-4 bg-yellow-100 dark:bg-neutral-700"
+          className="w-full h-auto bg-yellow-100 dark:bg-neutral-700"
         />
 
-        <div className="">
+        <div className="py-4">
           <h2 className="text-2xl font-bold text-center">
-          pizza cheeseburger
+          cheeseburger
           </h2>
 
-          <div className="flex items-center justify-center gap-4 p-2 text-center">
+          <div className="flex items-center justify-center gap-4 py-4 text-center">
             <p className="flex items-center text-[1rem]">
               <span className="p-0 m-0 font-bold">$</span>10
             </p>
@@ -164,15 +164,15 @@ const Content = () => {
         <img
           src={Pizza5}
           alt="Double Pepperoni Pizza"
-          className="w-full h-auto p-4 bg-yellow-100 dark:bg-neutral-700"
+          className="w-full h-auto bg-yellow-100 dark:bg-neutral-700"
         />
 
-        <div className="">
+        <div className="py-4">
           <h2 className="text-2xl font-bold text-center">
           Double Pepperoni Pizza
           </h2>
 
-          <div className="flex items-center justify-center gap-4 p-2 text-center">
+          <div className="flex items-center justify-center gap-4 py-4 text-center">
             <p className="flex items-center text-[1rem]">
               <span className="p-0 m-0 font-bold">$</span>10
             </p>
@@ -198,15 +198,15 @@ const Content = () => {
         <img
           src={Pizza6}
           alt="Four Cheese Pizza"
-          className="w-full h-auto p-4 bg-yellow-100 dark:bg-neutral-700"
+          className="w-full h-auto bg-yellow-100 dark:bg-neutral-700"
         />
 
-        <div className="">
+        <div className="py-4">
           <h2 className="text-2xl font-bold text-center">
           Four Cheese Pizza
           </h2>
 
-          <div className="flex items-center justify-center gap-4 p-2 text-center">
+          <div className="flex items-center justify-center gap-4 py-4 text-center">
             <p className="flex items-center text-[1rem]">
               <span className="p-0 m-0 font-bold">$</span>10
             </p>
