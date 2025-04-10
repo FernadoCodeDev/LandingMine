@@ -1,12 +1,12 @@
 import React from "react";
-import BackgroundGT from "../img/BackgroundGT.webp";
-import GoodTripLogo from "../img/GoodTripLogo.webp";
-import MobileMenu from "../../GlobalComponents/MobileMenu";
-import DarkMode from "../../GlobalComponents/DarkMode";
-import SearchSVG from "./SVGComponets/SearchSVG";
-import DateSVG from "./SVGComponets/DateSVG";
-import ArrowSVG from "./SVGComponets/ArrowSVG";
-import Location from "./SVGComponets/Location";
+import BackgroundGT from "../../assets/img/BackgroundGT.webp";
+import GoodTripLogo from "../../assets/img/GoodTripLogo.webp";
+import MobileMenu from "../../../GlobalComponents/MobileMenu";
+import DarkMode from "../../../GlobalComponents/DarkMode";
+import SearchSVG from "../../assets/svg/SearchSVG";
+import DateSVG from "../../assets/svg/DateSVG";
+import ArrowSVG from "../../assets/svg/ArrowSVG";
+import Location from "../../assets/svg/Location";
 
 const HeaderPB = () => {
   return (

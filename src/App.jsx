@@ -7,7 +7,7 @@ import PizzaUp from "./LandingPages/PizzaUp/page/PizzaUp"; // PizzaUp Landing Pa
 import Gym from "./LandingPages/GYM/page/Gym"; // Gym Landing Page
 import MarketingAgency from "./LandingPages/MarketingAgency/page/MarketingAgency"; // MarketingAgency Landing Page
 import PigBank from "./LandingPages/PigBank/page/pigBank"; // PigBank Landing Page
-import GoodTrip from "./pages/GoodTrip/GoodTrip"; // GoodTrip Landing Page
+import GoodTrip from "./LandingPages/GoodTrip/page/GoodTrip"; // GoodTrip Landing Page
 import CooktopiaShop from "./pages/CooktopiaShop/CooktopiaShop"; // CooktopiaShop Landing Page
 import DreamHouse from "./pages/DreamHouse/DreamHouse"; // DreamHouse Landing Page
 import WebCall from "./pages/WebCall/WebCall"; // WebCall Landing Page

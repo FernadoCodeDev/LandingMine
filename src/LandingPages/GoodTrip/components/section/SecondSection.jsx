@@ -1,7 +1,7 @@
 import React from "react";
-import imageN1 from "../img/imageN1.webp";
-import imageN2 from "../img/imageN2.webp";
-import imageN3 from "../img/imageN3.webp";
+import imageN1 from "../../assets/img/imageN1.webp";
+import imageN2 from "../../assets/img/imageN2.webp";
+import imageN3 from "../../assets/img/imageN3.webp";
 
 const SecondSection = () => {
   return (

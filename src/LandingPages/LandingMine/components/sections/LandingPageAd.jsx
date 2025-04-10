@@ -4,7 +4,7 @@ import BackgroundPizzaUp from "../../../PizzaUp/assets/img/BackgroundPizzaUp.web
 import BackgroundGym from "../../../GYM/assets/img/BackgroundGym.webp";
 import BackgroundMA from "../../../MarketingAgency/assets/img/MarketingAgency.webp";
 import BackgroundPB from "../../../PigBank/assets/img/PigBankBG.webp";
-import BackgroundGoodTrip from "../../../GoodTrip/img/GoodTrip.webp";
+import BackgroundGoodTrip from "../../../GoodTrip/assets/img/GoodTrip.webp";
 import BackgroundCooktopiaShop from "../../../CooktopiaShop/img/BackgroundCooktopiaShop.webp";
 import BackgroundDreamHouse from "../../../DreamHouse/img/BackgroundDreamHouse.webp";
 import BackgroundWebCall from "../../../WebCall/img/BackgroundWebCall.webp";

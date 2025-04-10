@@ -1,8 +1,8 @@
 import React from "react";
-import imageN4 from "../img/imageN4.webp";
-import imageN5 from "../img/imageN5.webp";
-import imageN6 from "../img/imageN6.webp";
-import imageN7 from "../img/imageN7.webp";
+import imageN4 from "../../assets/img/imageN4.webp";
+import imageN5 from "../../assets/img/imageN5.webp";
+import imageN6 from "../../assets/img/imageN6.webp";
+import imageN7 from "../../assets/img/imageN7.webp";
 
 const ThirdSection = () => {
   return (
