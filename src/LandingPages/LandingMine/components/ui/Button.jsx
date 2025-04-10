@@ -2,7 +2,7 @@ import React from "react";
 
 const Button = () => {
   return (
-    <div className="w-full md:col-span-2 lg:col-span-3">
+    <div className="w-full col-span-2 lg:col-span-3 xl:col-span-4">
       <a href="/Collection">
         <button class="overflow-hidden relative w-full p-2 h-12 bg-orange-500 text-white border-none rounded-md text-xl font-bold cursor-pointer relative z-10 group">
           Explorar
