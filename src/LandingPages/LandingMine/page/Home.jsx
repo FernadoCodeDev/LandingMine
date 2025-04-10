@@ -10,6 +10,8 @@ import BackgroundMA from "../../MarketingAgency/assets/img/MarketingAgency.webp"
 import BackgroundPB from "../../PigBank/assets/img/PigBankBG.webp";
 import BackgroundGoodTrip from "../../GoodTrip/assets/img/GoodTrip.webp";
 import BackgroundCooktopiaShop from "../../CooktopiaShop/assets/img/BackgroundCooktopiaShop.webp";
+import BackgroundDreamHouse from "../../DreamHouse/assets/img/BackgroundDreamHouse.webp";
+import BackgroundWebCall from "../../WebCall/assets/img/BackgroundWebCall.webp";
 
 const HomePage = () => {
   return (
@@ -61,7 +63,7 @@ const HomePage = () => {
               y<span className="font-bold text-sky-400"> Tailwind CSS.</span>
             </p>
 
-            <div className="grid grid-cols-1 gap-8 px-4 mx-auto md:grid-cols-2 lg:grid-cols-3">
+            <div className="grid grid-cols-2 gap-4 p-4 m-auto md:grid-cols-3 xl:grid-cols-4 ">
               <div className="bg-gray-300 rounded-lg shadow-md dark:bg-neutral-800">
                 <img
                   src={BackgroundPizzaUp}
@@ -179,6 +181,42 @@ const HomePage = () => {
                   </a>
                 </div>
               </div>
+
+              <div className="bg-gray-200 rounded-lg shadow-md dark:bg-neutral-800">
+                      <img
+                        src={BackgroundDreamHouse}
+                        alt="BackgroundDreamHouse"
+                        className="w-full h-auto"
+                      />
+                      <div className="p-4">
+                        <h2 className="text-xl font-semibold dark:text-white">Dream House</h2>
+                        <p className="text-black dark:text-white">
+                          landing page sobre un Agencia de Bienes Raíces
+                        </p>
+              
+                        <a href="/DreamHouse">
+                          <ButtonLanding />
+                        </a>
+                      </div>
+                    </div>
+              
+                    <div className="bg-gray-200 rounded-lg shadow-md dark:bg-neutral-800">
+                      <img
+                        src={BackgroundWebCall}
+                        alt="BackgroundWebCall"
+                        className="w-full h-auto"
+                      />
+                      <div className="p-4">
+                        <h2 className="text-xl font-semibold dark:text-white">WebCall</h2>
+                        <p className="text-black dark:text-white">
+                          landing page sobre una plataforma de conferencias en linea
+                        </p>
+              
+                        <a href="/WebCall">
+                          <ButtonLanding />
+                        </a>
+                      </div>
+                    </div>
 
               <Button />
             </div>
