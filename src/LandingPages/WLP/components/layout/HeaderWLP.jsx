@@ -1,10 +1,9 @@
 import React from "react";
-
-import WLPLogo from "../img/WLPLogo.webp";
-import MobileMenu from "../../GlobalComponents/MobileMenu";
-import DarkMode from "../../GlobalComponents/DarkMode";
-import LeftPose from "../img/LeftPose.webp";
-import RightPose from "../img/RightPose.webp";
+import DarkMode from "../../../GlobalComponents/DarkMode";
+import MobileMenu from "../../../GlobalComponents/MobileMenu";
+import WLPLogo from "../../assets/img/WLPLogo.webp";
+import LeftPose from "../../assets/img/LeftPose.webp";
+import RightPose from "../../assets/img/RightPose.webp";
 
 const HeaderWLP = () => {
   return (

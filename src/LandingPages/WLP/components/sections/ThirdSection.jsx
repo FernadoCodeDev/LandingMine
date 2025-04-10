@@ -1,5 +1,5 @@
 import React from "react";
-import imgN2 from "../img/imgN2.webp";
+import imgN2 from "../../assets/img/imgN2.webp";
 
 const ThirdSection = () => {
   return (

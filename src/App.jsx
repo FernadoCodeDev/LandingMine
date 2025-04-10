@@ -11,7 +11,7 @@ import GoodTrip from "./LandingPages/GoodTrip/page/GoodTrip"; // GoodTrip Landin
 import CooktopiaShop from "./LandingPages/CooktopiaShop/page/CooktopiaShop"; // CooktopiaShop Landing Page
 import DreamHouse from "./LandingPages/DreamHouse/page/DreamHouse"; // DreamHouse Landing Page
 import WebCall from "./LandingPages/WebCall/page/WebCall"; // WebCall Landing Page
-import WLP from "./pages/WLP/wbp"; // WLP Landing Page
+import WLP from "./LandingPages/WLP/page/WLP"; // WLP Landing Page
 import Morgana from "./pages/Morgana/Morgana"; // Morgana Landing Page
 import GoldTeeth from "./pages/GoldTeeth/GoldTeeth"; // GoldTeeth Landing Page
 import CampingNight from "./pages/CampingNight/CampingNight"; // CampingNight Landing Page

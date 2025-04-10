@@ -8,7 +8,7 @@ import BackgroundGoodTrip from "../../../GoodTrip/assets/img/GoodTrip.webp";
 import BackgroundCooktopiaShop from "../../../CooktopiaShop/assets/img/BackgroundCooktopiaShop.webp";
 import BackgroundDreamHouse from "../../../DreamHouse/assets/img/BackgroundDreamHouse.webp";
 import BackgroundWebCall from "../../../WebCall/assets/img/BackgroundWebCall.webp";
-import BackgroundWLP from "../../../WLP/img/BackgroundWLP.webp";
+import BackgroundWLP from "../../../WLP/assets/img/BackgroundWLP.webp";
 import BackgroundMorgana from "../../../Morgana/img/BackgroundMorgana.webp";
 import GoldTeeth from "../../../GoldTeeth/img/BackgroundGoldTeeth.webp";
 import BackgroundCampingNight from "../../../CampingNight/img/BackgroundCampingNight.webp";
