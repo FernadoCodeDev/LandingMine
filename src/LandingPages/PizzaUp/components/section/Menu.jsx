@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import Modal from "../ui/Modal";
 import { pizzas } from "../ui/Modal";
 
@@ -10,6 +10,14 @@ function Menu() {
     setSelectedPizza(pizza);
     setIsOpen(true);
   };
+
+  useEffect(() => {
+    if (isOpen) {
+      document.body.classList.add("overflow-hidden");
+    } else {
+      document.body.classList.remove("overflow-hidden");
+    }
+  }, [isOpen]);
 
   return (
     <div className="grid grid-cols-2 gap-4 p-2 md:grid-cols-3 xl:grid-cols-4">
@@ -24,12 +32,10 @@ function Menu() {
             alt={pizza.name}
             className="w-full h-auto bg-yellow-100 dark:bg-neutral-700"
           />
-
           <div className="flex flex-col gap-4 px-2 py-4">
-            <h2 className="text-2xl font-bold text-center">{pizza.name}</h2>
-
+            <h2 className="text-lg font-bold text-center sm:text-2xl">{pizza.name}</h2>
             <div className="p-2 rounded-2xl bg-slate-300 dark:bg-neutral-600">
-              <h2 className="text-xl font-bold text-center text-neutral-600 dark:text-slate-300">
+              <h2 className="text-lg font-bold text-center sm:text-xl text-neutral-600 dark:text-slate-300">
                 ${pizza.price}
               </h2>
             </div>

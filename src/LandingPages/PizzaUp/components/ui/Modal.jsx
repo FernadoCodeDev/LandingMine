@@ -5,6 +5,11 @@ import Pizza3 from "../../assets/img/Pizza3.webp";
 import Pizza4 from "../../assets/img/Pizza4.webp";
 import Pizza5 from "../../assets/img/Pizza5.webp";
 import Pizza6 from "../../assets/img/Pizza6.webp";
+import Close from "../../assets/svg/close";
+import LeftHaf from "../../assets/svg/LeftHaf";
+import Circle from "../../assets/svg/Circle";
+import RightHalf from "../../assets/svg/RightHalf";
+import Check from "../../assets/svg/Check";
 
 export const pizzas = [
   {
@@ -53,21 +58,96 @@ export default function Modal({ isOpen, onClose, pizza }) {
   if (!isOpen || !pizza) return null;
 
   return (
-    <div className="fixed inset-0 z-50 flex items-center justify-center bg-black bg-opacity-60">
-      <div className="bg-white p-2 rounded-xl w-[90%] max-w-md relative">
+    <div className="fixed inset-0 z-50 flex items-center justify-center text-center text-black bg-black bg-opacity-60">
+      <div className="relative w-full max-w-[60rem] p-2 bg-white rounded-xl">
         <button
           onClick={onClose}
-          className="absolute text-gray-500 top-2 right-2 hover:text-black"
+          className="absolute w-20 h-auto top-2 right-2 h"
         >
-          x
+          <Close />
         </button>
 
-        <img src={pizza.image} alt={pizza.name} className="mb-4 rounded" />
-        <h2 className="mb-2 text-2xl font-bold">{pizza.name}</h2>
-        <p className="mb-4 text-lg">${pizza.price}</p>
+        <div className="grid w-full grid-cols-2 gap-2">
+          <div className="">
+            <img src={pizza.image} alt={pizza.name} className="rounded" />
+            <h2 className="mb-2 text-xl font-bold md:text-2xl">{pizza.name}</h2>
+            <p className="text-lg">${pizza.price}</p>
 
-        {/* data*/}
-        <p className="text-sm text-gray-600">Opcion 1</p>
+            <div className="grid items-center justify-center grid-cols-1 md:grid-cols-3">
+              <botton className="p-2 font-bold transition duration-700 ease-out cursor-pointer hover:bg-gray-300 ">
+                Pequeña
+              </botton>
+              <botton className="p-2 font-bold bg-gray-300 border-b-2 border-red-600 cursor-pointer ">
+                Mediana
+              </botton>
+              <botton className="p-2 font-bold transition duration-700 ease-out cursor-pointer hover:bg-gray-300 ">
+                Grande
+              </botton>
+            </div>
+          </div>
+
+          <div className="grid items-center justify-center grid-cols-1 gap-4 mt-24">
+            <h1 className="text-xl font-bold md:text-2xl">
+              Agregar ingredientes
+            </h1>
+
+            <div className="grid grid-cols-2 gap-2 ">
+              <div>
+                <p className="font-bold text-red-600 text-start">pepperoni</p>
+              </div>
+
+              <div className="grid grid-cols-3">
+                <LeftHaf width="25" height="25" />
+                <Circle width="25" height="25" />
+                <RightHalf width="25" height="25" />
+              </div>
+
+              <div>
+                <p className="font-bold text-red-600 text-start">Jamón</p>
+              </div>
+
+              <div className="grid grid-cols-3">
+                <LeftHaf width="25" height="25" />
+                <Circle width="25" height="25" />
+                <RightHalf width="25" height="25" />
+              </div>
+
+              <div>
+                <p className="font-bold text-red-600 text-start">Tocino</p>
+              </div>
+
+              <div className="grid grid-cols-3">
+                <LeftHaf width="25" height="25" />
+                <Circle width="25" height="25" />
+                <RightHalf width="25" height="25" />
+              </div>
+
+              <div>
+                <p className="font-bold text-red-600 text-start">Extra Queso</p>
+              </div>
+
+              <div className="grid grid-cols-3">
+                <LeftHaf width="25" height="25" />
+                <Check width="25" height="25" />
+                <RightHalf width="25" height="25" />
+              </div>
+
+              <div>
+                <p className="font-bold text-red-600 text-start">Piña</p>
+              </div>
+
+              <div className="grid grid-cols-3">
+                <LeftHaf width="25" height="25" />
+                <Circle width="25" height="25" />
+                <RightHalf width="25" height="25" />
+              </div>
+            </div>
+
+            <botton className="p-2 font-bold transition duration-700 ease-out cursor-pointer bg-lime-400 hover:text-white hover:bg-lime-600">
+              Agregar
+            </botton>
+          </div>
+        </div>
       </div>
     </div>
   );
