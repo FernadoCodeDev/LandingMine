@@ -63,7 +63,7 @@ const HomePage = () => {
               y<span className="font-bold text-sky-400"> Tailwind CSS.</span>
             </p>
 
-            <div className="grid grid-cols-1 gap-4 p-4 m-auto ms:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 ">
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4 p-4 m-auto ">
               <div className="bg-gray-300 rounded-lg shadow-md dark:bg-neutral-800">
                 <img
                   src={BackgroundPizzaUp}

@@ -21,7 +21,7 @@ import BackgroundStrikes from "../../../Strikes/assets/img/BackgroundStrike's.we
 
 const LandingPageAd = () => {
   return (
-    <div className="grid grid-cols-1 ms:grid-cols-2 gap-4 px-4 m-auto md:grid-cols-3 xl:grid-cols-4">
+    <div className="grid grid-cols-1 gap-4 p-4 m-auto sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
       <div className="bg-gray-300 rounded-lg shadow-md dark:bg-neutral-800">
         <img
           src={BackgroundPizzaUp}
