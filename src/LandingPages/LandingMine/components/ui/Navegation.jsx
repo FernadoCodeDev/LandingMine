@@ -74,16 +74,16 @@ const Navegation = () => {
               />
             </div>
             <div className="flex flex-col justify-between m-2">
-            <a href="/" className="px-4 py-2 rounded hover:bg-gray-600">
+            <a href="/" className="px-4 py-2 rounded hover:bg-blue-800">
               Home
             </a>
             <a
               href="/Collection"
-              className="px-4 py-2 rounded hover:bg-gray-600"
+              className="px-4 py-2 rounded hover:bg-blue-800"
             >
               Colletion
             </a>
-            <a href="/About" className="px-4 py-2 rounded hover:bg-gray-600">
+            <a href="/About" className="px-4 py-2 rounded hover:bg-blue-800">
               LandigMine
             </a>
             </div>
