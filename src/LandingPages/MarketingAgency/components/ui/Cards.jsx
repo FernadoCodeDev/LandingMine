@@ -46,12 +46,12 @@ export default function Cards({ isOpen, onClose, Customer }) {
       <div className="relative w-full max-w-[60rem] p-2 bg-white rounded-xl">
         <button
           onClick={onClose}
-          className="absolute w-20 h-auto top-2 right-2 h"
+          className="absolute w-20 h-auto top-2 right-2 "
         >
           <Close />
         </button>
 
-        <div className="flex flex-col items-center justify-center w-full mt-12">
+        <div className="flex flex-col items-center justify-center w-full mt-20">
           <div className="">
             <img
               src={Customer.image}
