@@ -20,7 +20,7 @@ const FirstSection = () => {
         </div>
       </div>
 
-      <div className="m-auto max-w-[90rem] grid grid-cols-1 gap-4 mt-5 md:grid-cols-3 md:items-center">
+      <div className="m-auto max-w-[80rem] grid grid-cols-1 gap-4 mt-5 md:grid-cols-3 md:items-center">
         <div className="flex flex-col items-center justify-center gap-4 text-center text-black dark:text-white">
           <div className="w-20 h-20 p-2 bg-red-400 rounded-full">
             <SVG1 />
