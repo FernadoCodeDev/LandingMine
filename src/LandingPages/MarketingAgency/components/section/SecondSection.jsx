@@ -1,7 +1,6 @@
 import React from "react";
 import useScrollAnimation from "../hook/ScrollAnimation";
 import laptop from "../../assets/img/laptop.webp";
-import Customers from "./Customers"
 
 const SecondSection = () => {
   const isVisible = useScrollAnimation("second-section");
@@ -14,7 +13,9 @@ const SecondSection = () => {
         }`}
       >
         <div className="order-2 p-4 md:order-1">
-          <h1 className="font-bold text-[2rem] lg:text-[3rem]">Elegance Jewelry</h1>
+          <h1 className="font-bold text-[2rem] lg:text-[3rem]">
+            Elegance Jewelry
+          </h1>
           <p className="text-[1rem] ">
             El objetivo de este proyecto era crear una presentación digital de
             alto impacto para Elegance Jewelry, una tienda especializada en
@@ -39,10 +40,6 @@ const SecondSection = () => {
           <img src={laptop} alt="laptop" className="drop-shadow-2xl" />
         </div>
       </div>
-
-      <Customers />
-
-      
     </div>
   );
 };
