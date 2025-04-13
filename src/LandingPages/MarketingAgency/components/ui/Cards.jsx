@@ -3,38 +3,44 @@ import Cooktopia from "../../assets/img/Cooktopia.webp";
 import DreamHouse from "../../assets/img/DreamHouse.webp";
 import GoldTeeth from "../../assets/img/GoldTeeth.webp";
 import PizzaUp from "../../assets/img/PizzaUp.webp";
-import GYM from "../../assets/img/GYMLogo.webp";
-import Pig from "../../assets/img/Pig Bank.webp";
+import GYM from "../../assets/img/GYM.webp";
+import Pig from "../../assets/img/PigBank.webp";
 import Close from "../../assets/svg/Close";
 
 export const Customers = [
   {
     id: 1,
     image: Cooktopia,
+    text: "Gracias a Marketing Agency, Cooktopia Shop logró llevar su catálogo de artículos de cocina al mundo digital. Creamos una tienda online visualmente atractiva y fácil de usar, que permitió a sus clientes explorar y comprar productos desde cualquier lugar.",
   },
   {
     id: 2,
     image: DreamHouse,
+    text: "Marketing Agency ayudó a Dream House a destacar en el mercado inmobiliario con una página web moderna, donde sus propiedades se muestran de manera clara, atractiva y profesional, facilitando el contacto directo con posibles compradores.",
   },
 
   {
     id: 3,
     image: GoldTeeth,
+    text: "Para Gold Teeth, diseñamos un sitio web confiable y accesible, donde sus servicios odontológicos, citas y testimonios de pacientes se presentan de forma clara, generando confianza y profesionalismo en cada visita digital.",
   },
 
   {
     id: 4,
     image: PizzaUp,
+    text: "Marketing Agency impulsó a Pizza Up creando una página interactiva con menú online, pedidos rápidos y diseño atractivo. Gracias a esto, la pizzería duplicó su alcance digital y mejoró la experiencia de sus clientes.",
   },
 
   {
     id: 5,
     image: GYM,
+    text: "Convertimos el GYM en una experiencia digital motivadora, con una web dinámica donde los usuarios pueden ver horarios, rutinas, entrenadores y registrarse fácilmente. Marketing Agency lo ayudó a captar nuevos socios a través de su presencia online.",
   },
 
   {
     id: 6,
     image: Pig,
+    text: "Con Pig Bank, desarrollamos una plataforma clara y segura para mostrar sus servicios financieros. Una web pensada para inspirar confianza y facilitar el acceso a información clave para sus clientes.",
   },
 ];
 
@@ -51,16 +57,13 @@ export default function Cards({ isOpen, onClose, Customer }) {
           <Close />
         </button>
 
-        <div className="flex flex-col items-center justify-center w-full mt-20">
-          <div className="">
-            <img
-              src={Customer.image}
-              alt={Customer.image}
-              className="rounded"
-            />
 
-            <div className="grid items-center justify-center grid-cols-1 md:grid-cols-3"></div>
-          </div>
+        <div className="flex flex-col items-center justify-center w-full gap-4 py-4">
+          <img src={Customer.image} alt={Customer.image} className="object-contain rounded w-80 h-80" />
+
+        <div className="w-[80%] h-2 border-t-2 border-gray-800 "></div>
+
+          <p className="text-lg md:text-xl max-w-[50rem]">{Customer.text}</p>
         </div>
       </div>
     </div>
