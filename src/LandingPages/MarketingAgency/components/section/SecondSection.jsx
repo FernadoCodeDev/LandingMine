@@ -1,12 +1,7 @@
 import React from "react";
 import useScrollAnimation from "../hook/ScrollAnimation";
 import laptop from "../../assets/img/laptop.webp";
-import KeysHome from "../../assets/img/KeysHome.webp";
-import CosmicPizza from "../../assets/img/CosmicPizza.webp";
-import LandingMine from "../../assets/img/LandingMine.webp";
-import PizzaPizza from "../../assets/img/PizzaPizza.webp";
-import GYMLogo from "../../assets/img/GYMLogo.webp";
-import Pig from "../../assets/img/Pig Bank.webp";
+import Customers from "./Customers"
 
 const SecondSection = () => {
   const isVisible = useScrollAnimation("second-section");
@@ -45,27 +40,9 @@ const SecondSection = () => {
         </div>
       </div>
 
-      <div className="grid grid-cols-2 gap-2 md:grid-cols-3 m-auto p-4 max-w-[90rem]">
-        {[CosmicPizza, KeysHome, LandingMine, PizzaPizza, GYMLogo, Pig].map(
-          (image, index) => (
-            <div
-              key={index}
-              className={`p-2 bg-white rounded-xl transition-all duration-700 ease-in-out ${
-                isVisible
-                  ? "opacity-100 translate-y-0"
-                  : "opacity-0 translate-y-10"
-              }`}
-              style={{ transitionDelay: `${index * 100}ms` }}
-            >
-              <img
-                src={image}
-                alt="Project"
-                className="object-contain w-40 h-40 m-auto"
-              />
-            </div>
-          )
-        )}
-      </div>
+      <Customers />
+
+      
     </div>
   );
 };
