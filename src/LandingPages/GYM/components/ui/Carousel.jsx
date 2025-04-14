@@ -143,7 +143,7 @@ export default function Slider() {
                     `}
                 disabled={position !== "center"}
               >
-                MÁS INFORMACIÓN
+                Inscribirse
               </button>
             </div>
           );
