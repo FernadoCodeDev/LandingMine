@@ -2,27 +2,38 @@ import React, { useState } from "react";
 import CardGreen from "../../assets/img/CardGreen.webp";
 import CardPink from "../../assets/img/CardPink.webp";
 import CardBlack from "../../assets/img/CardBlack.webp";
+import Modal from "./Modal";
 
 const packages = [
   {
     id: 1,
     title: "Pig Start",
     image: CardGreen,
+    text: "Tu primer paso al mundo financiero. Ideal para quienes inician, con límites moderados y control total desde la app. Perfecta para aprender a manejar una tarjeta sin complicaciones.",
+    Cashback: "3%",
+    Profitability: "3%",
   },
   {
     id: 2,
     title: "Pig Clásica",
     image: CardPink,
+    text: "Una tarjeta para tu día a día. Más beneficios, más libertad y la confianza de tener una compañera segura y versátil para tus compras personales.",
+    Cashback: "5%",
+    Profitability: "5%",
   },
   {
     id: 3,
     title: "Pig Pro",
     image: CardBlack,
+    text: "Hecha para emprendedores. Disfruta de un mayor límite de crédito, herramientas para gestionar tus gastos y una rentabilidad especial pensada para impulsar tus proyectos.",
+    Cashback: "10%",
+    Profitability: "10%",
   },
 ];
 
 export default function Slider() {
   const [currentIndex, setCurrentIndex] = useState(0);
+  const [selectedPackage, setSelectedPackage] = useState(null);
 
   const handleLeft = () => {
     setCurrentIndex((prev) => (prev - 1 + packages.length) % packages.length);
@@ -40,7 +51,6 @@ export default function Slider() {
 
   return (
     <div className="w-full py-6 mx-auto">
-     
       <div className="p-4 grid grid-cols-2 m-auto items-center justify-center mb-4 max-w-[40rem]">
         <button
           onClick={handleLeft}
@@ -77,17 +87,13 @@ export default function Slider() {
           </svg>
         </button>
       </div>
+
       <div className="flex items-center justify-center gap-4">
         {getVisiblePackages().map((pkg, i) => {
-          let positionClass = "";
-
-          if (i === 1) {
-         
-            positionClass = "scale-100 opacity-100 z-10";
-          } else {
-    
-            positionClass = "scale-90 opacity-50 z-0 hidden md:block";
-          }
+          const isSelected = i === 1;
+          const positionClass = isSelected
+            ? "scale-100 opacity-100 z-10"
+            : "scale-90 opacity-50 z-0 hidden md:block";
 
           return (
             <div
@@ -102,14 +108,15 @@ export default function Slider() {
                 alt={pkg.title}
                 className="w-full h-auto py-8 mx-auto"
               />
+
               <button
-                className={`transition-all duration-700 ease-out w-full font-semibold text-lg lg:text-xl p-2 text-black bg-red-400 rounded-2xl
-                  ${
-                    i === 1
-                      ? "hover:bg-red-600 cursor-pointer"
-                      : "cursor-default"
-                  }`}
-                disabled={i !== 1}
+                className={`transition-all duration-700 ease-out w-full font-semibold text-lg lg:text-xl p-2 text-black bg-red-400 rounded-2xl ${
+                  isSelected
+                    ? "hover:bg-red-600 cursor-pointer"
+                    : "cursor-default"
+                }`}
+                disabled={!isSelected}
+                onClick={() => isSelected && setSelectedPackage(pkg)}
               >
                 MÁS INFORMACIÓN
               </button>
@@ -117,6 +124,13 @@ export default function Slider() {
           );
         })}
       </div>
+
+      {selectedPackage && (
+        <Modal
+          data={selectedPackage}
+          onClose={() => setSelectedPackage(null)}
+        />
+      )}
     </div>
   );
 }
