@@ -1,4 +1,14 @@
 import React from "react";
+import Acapulco from "../../assets/img/Acapulco.webp";
+import Durban from "../../assets/img/Durban.webp";
+import Japan from "../../assets/img/Japan.webp";
+import LasVegas from "../../assets/img/Las Vegas.webp";
+import Lyon from "../../assets/img/Lyon.webp";
+import Pekín from "../../assets/img/Pekín.webp";
+import Rabat from "../../assets/img/Rabat.webp";
+import Sídney from "../../assets/img/Sídney.webp";
+import Tasiilaq from "../../assets/img/Tasiilaq.webp";
+import BuenosAires from "../../assets/img/buenos Aires.webp";
 
 export default function InteractiveMap() {
   return (
@@ -23,6 +33,8 @@ export default function InteractiveMap() {
           left="19%"
           title="Estado Unidos"
           desc="New York, Las vegas, Orlando"
+          img={LasVegas}
+          
         />
 
         {/* Mexico */}
@@ -31,6 +43,7 @@ export default function InteractiveMap() {
           left="20%"
           title="México"
           desc="Cancún, Ciudad de México, Acapulco"
+          img={Acapulco}
         />
 
         {/* France */}
@@ -39,6 +52,7 @@ export default function InteractiveMap() {
           left="48%"
           title="Francia"
           desc="París, Marsella, Lyon"
+          img={Lyon}
         />
 
         {/* China */}
@@ -47,6 +61,7 @@ export default function InteractiveMap() {
           left="73%"
           title="China"
           desc="Shanghái, Pekín, Beijing"
+          img={Pekín}
         />
 
          {/* Greenland */}
@@ -55,6 +70,7 @@ export default function InteractiveMap() {
           left="35%"
           title="Groenlandia"
           desc="Nuuk, Ilulissat, Tasiilaq"
+          img={Tasiilaq}
         />
 
          {/* Morocco */}
@@ -63,6 +79,7 @@ export default function InteractiveMap() {
           left="44%"
           title="Marruecos"
           desc="Fez, Chaouen, Rabat"
+          img={Rabat}
         />
 
         {/* South Africa */}
@@ -70,7 +87,8 @@ export default function InteractiveMap() {
           top="80%"
           left="54%"
           title="sudáfrica"
-          desc="Ciudad del cabo, Durba, Johannesburgo"
+          desc="Ciudad del cabo, Durban, Johannesburgo"
+          img={Durban}
         />
 
         {/* Argentina */}
@@ -79,6 +97,7 @@ export default function InteractiveMap() {
           left="30%"
           title="Argentina"
           desc="Buenos Aires, Córdoba, Mendoza"
+          img={BuenosAires}
         />
 
         {/* Japan */}
@@ -87,6 +106,7 @@ export default function InteractiveMap() {
           left="85%"
           title="Japón"
           desc="Tokio, Kyoto, Nara"
+          img={Japan}
         />
 
         {/* Australia */}
@@ -95,21 +115,23 @@ export default function InteractiveMap() {
           left="85%"
           title="Australia"
           desc="Sídney, Brisbane, Gold Coast"
+          img={Sídney}
         />
       </div>
     </div>
   );
 }
 
-function MapPoint({ top, left, title, desc }) {
+function MapPoint({ top, left, title, desc, img }) {
   return (
     <button
-      className="absolute w-8 h-8 transition-all duration-700 ease-in-out border-4 rounded-full group bg-neutral-800/85 border-cyan-700 opacity-80 hover:z-10 focus:z-10 focus:rounded-2xl focus:opacity-100 md:w-10 md:h-10 focus:w-40 focus:h-40 md:focus:w-60 md:focus:h-60"
+      className="absolute w-8 h-8 transition-all duration-700 ease-in-out border-4 rounded-full group bg-neutral-800/85 border-cyan-700 opacity-80 hover:z-10 focus:z-10 focus:rounded-2xl focus:opacity-100 md:w-10 md:h-10 focus:w-40 focus:h-auto md:focus:w-60 md:focus:h-auto"
       style={{ top, left, transform: "translate(-50%, -50%)" }}
     >
-      <div className="w-full h-full p-2 text-center text-white transition-opacity duration-700 opacity-0 group-focus:opacity-100">
+      <div className="flex flex-col items-center justify-center w-full h-full gap-2 p-2 text-center text-white transition-opacity duration-700 opacity-0 group-focus:opacity-100">
         <h2 className="text-xl font-bold">{title}</h2>
         <p className="text-base">{desc}</p>
+        <img src={img} alt={title} className="w-full h-auto" />
       </div>
     </button>
   );
