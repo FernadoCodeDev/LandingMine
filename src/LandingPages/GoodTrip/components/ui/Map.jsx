@@ -13,7 +13,7 @@ import BuenosAires from "../../assets/img/buenos Aires.webp";
 export default function InteractiveMap() {
   return (
     <div className="w-full m-auto text-center max-w-[80rem]">
-      <h1 className="mb-5 text-2xl uppercase md:text-4xl">¿Listo para tu próxima aventura?</h1>
+      <h1 className="mb-5 font-serif text-2xl font-bold uppercase md:text-4xl">¿Listo para tu próxima aventura?</h1>
       <p className="max-w-[50rem] m-auto mb-8 text-base md:text-xl">
       En <span className="font-bold">Good Trip</span> convertimos tus sueños de viaje en experiencias inolvidables. Ya sea que busques playas paradisíacas, ciudades vibrantes o paisajes naturales impresionantes, estamos aquí para ayudarte a planear el viaje perfecto.
       </p>
