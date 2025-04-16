@@ -22,20 +22,26 @@ const SecondSection = () => {
       </div>
 
       <div className="w-full grid grid-cols-1 gap-4 md:grid-cols-4  max-w-[80rem]">
-          <button className="w-full p-2 font-bold text-white bg-blue-400">
-            Residencias
-          </button>
-          <button className="w-full p-2 font-bold text-black transition-all duration-700 ease-out border border-gray-300 bg-slate-100 hover:bg-slate-300">
-            Departamentos
-          </button>
-          <button className="w-full p-2 font-bold text-white transition-all duration-700 ease-out md:col-span-2 bg-neutral-900 hover:bg-black">
-            Comercios
-          </button>
+        <button className="w-full p-2 font-bold text-white bg-blue-400">
+          Residencias
+        </button>
+        <button className="w-full p-2 font-bold text-black transition-all duration-700 ease-out border border-gray-300 bg-slate-100 hover:bg-slate-300">
+          Departamentos
+        </button>
+        <button className="w-full p-2 font-bold text-black transition-all duration-700 ease-out border border-gray-300 bg-slate-100 hover:bg-slate-300">
+          Edificios
+        </button>
+        <button className="w-full p-2 font-bold text-black transition-all duration-700 ease-out border border-gray-300 bg-slate-100 hover:bg-slate-300">
+          Comercios
+        </button>
       </div>
 
       <div className="grid grid-cols-1 m-auto max-w-[80rem] md:grid-cols-3 gap-4">
-        <div className="bg-white rounded-lg shadow-md dark:bg-neutral-800">
-          <img src={imgN1} alt="imgN1" className="w-full h-auto" />
+        <div className="relative rounded-lg shadow-md bg-slate-50 dark:bg-neutral-900">
+          <img src={imgN1} alt="imgN1" className="w-full h-auto " />
+          <div className="absolute top-0 left-0 z-10 p-2 bg-blue-400 rounded-br-lg">
+            <h2 className="text-base font-bold text-white md:text-xl">Venta</h2>
+          </div>
           <div className="p-4">
             <h2 className="text-xl font-semibold md:text-2xl ">
               The Queen Inside - Type 1
@@ -82,8 +88,11 @@ const SecondSection = () => {
           </div>
         </div>
 
-        <div className="bg-white rounded-lg shadow-md dark:bg-neutral-800">
+        <div className="relative rounded-lg shadow-md bg-slate-50 dark:bg-neutral-900">
           <img src={imgN2} alt="imgN2" className="w-full h-auto" />
+          <div className="absolute top-0 left-0 z-10 p-2 bg-blue-400 rounded-br-lg">
+            <h2 className="text-base font-bold text-white md:text-xl">Venta</h2>
+          </div>
           <div className="p-4">
             <h2 className="text-xl font-semibold md:text-2xl dark:text-white">
               The Queen Inside - Type 2
@@ -130,8 +139,11 @@ const SecondSection = () => {
           </div>
         </div>
 
-        <div className="bg-white rounded-lg shadow-md dark:bg-neutral-800">
+        <div className="relative rounded-lg shadow-md bg-slate-50 dark:bg-neutral-900">
           <img src={imgN3} alt="imgN3" className="w-full h-auto" />
+          <div className="absolute top-0 left-0 z-10 p-2 bg-blue-400 rounded-br-lg">
+            <h2 className="text-base font-bold text-white md:text-xl">Venta</h2>
+          </div>
           <div className="p-4">
             <h2 className="text-xl font-semibold md:text-2xl dark:text-white">
               The Queen Inside - Type 3
