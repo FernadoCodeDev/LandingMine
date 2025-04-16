@@ -2,6 +2,7 @@ import React from "react";
 import MobileMenu from "../../../GlobalComponents/MobileMenu";
 import WebCallLogo from "../../assets/img/WebCallLogo.webp";
 import Background from "../../assets/img/Background.webp";
+import EventTime from "../ui/EventTime";
 
 const HeaderWC = () => {
   return (
@@ -31,26 +32,7 @@ const HeaderWC = () => {
         <div className="col-span-2">
           <img src={Background} alt="Background" className="w-full h-auto" />
         </div>
-
-        <div className="grid grid-cols-2 gap-2 md:grid-cols-1">
-          <div className="flex flex-col items-center justify-center col-span-2 p-2 bg-purple-400 md:col-span-1">
-            <p className="text-center font-fantasy md:text-3xl ">
-              24-25 DE MARZO DE 2025
-            </p>
-          </div>
-          <div className="flex flex-col items-center justify-center p-2 border border-amber-50">
-            <p className=" font-fantasy md:text-3xl">04</p>
-            <span className="font-mono md:text-3xl ">DÍAZ</span>
-          </div>
-          <div className="flex flex-col items-center justify-center p-2 border border-amber-50">
-            <p className=" font-fantasy md:text-3xl">03</p>
-            <span className="font-mono md:text-3xl ">HORAS</span>
-          </div>
-          <div className="flex flex-col items-center justify-center col-span-2 p-2 border md:col-span-1 border-amber-50">
-            <p className=" font-fantasy md:text-3xl">05</p>
-            <span className="font-mono md:text-3xl ">MINUTOS</span>
-          </div>
-        </div>
+        <EventTime />
       </div>
 
       <div className="m-auto flex flex-row justify-center w-full border-y-2 my-2 border-amber-50 p-2 max-w-[100rem]">

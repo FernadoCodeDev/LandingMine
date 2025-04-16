@@ -3,6 +3,7 @@ import PersonN1 from "../../assets/img/PersonN1.webp";
 import PersonN2 from "../../assets/img/PersonN2.webp";
 import PersonN3 from "../../assets/img/PersonN3.webp";
 import PersonN4 from "../../assets/img/PersonN4.webp";
+import EventDate from "../ui/EventDate";
 
 const SecondSection = () => {
   return (
@@ -31,24 +32,7 @@ const SecondSection = () => {
         </div>
       </div>
 
-      <div className="m-auto max-w-[100rem] grid grid-cols-1 md:grid-cols-3">
-        <div className="grid grid-cols-3 md:col-start-3 justify-self-end">
-          <div className="flex flex-col p-2 bg-amber-50">
-            <h1 className="text-purple-300 font-fantasy md:text-3xl">DÍA 01</h1>
-            <p className="text-purple-300 ">12 de marzo - jueves</p>
-          </div>
-
-          <div className="flex flex-col p-2 border border-amber-50">
-            <h1 className="text-amber-50 font-fantasy md:text-3xl">DÍA 02</h1>
-            <p className="text-amber-50 ">14 de marzo - sábado</p>
-          </div>
-
-          <div className="flex flex-col p-2 border border-amber-50">
-            <h1 className="text-amber-50 font-fantasy md:text-3xl">DÍA 01</h1>
-            <p className="text-amber-50 ">16 de marzo - domingo</p>
-          </div>
-        </div>
-      </div>
+      <EventDate />
 
       <div className="m-auto max-w-[100rem] mt-4 grid grid-cols-1 gap-2">
         <div className="flex flex-row justify-start gap-4 p-4 bg-gray-900">
