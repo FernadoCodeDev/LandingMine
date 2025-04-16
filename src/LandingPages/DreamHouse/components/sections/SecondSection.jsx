@@ -21,22 +21,16 @@ const SecondSection = () => {
         </p>
       </div>
 
-      <div className="w-full grid grid-cols-1 gap-4  max-w-[80rem]">
-        <div className="grid grid-cols-1 gap-2 md:grid-cols-5">
+      <div className="w-full grid grid-cols-1 gap-4 md:grid-cols-4  max-w-[80rem]">
           <button className="w-full p-2 font-bold text-white bg-blue-400">
-            Residencial
+            Residencias
           </button>
-          <button className="w-full p-2 font-bold text-black transition-all duration-700 ease-out border border-gray-300 -2 bg-slate-100 hover:bg-slate-300">
-            Residencial
-          </button>
-
           <button className="w-full p-2 font-bold text-black transition-all duration-700 ease-out border border-gray-300 bg-slate-100 hover:bg-slate-300">
             Departamentos
           </button>
           <button className="w-full p-2 font-bold text-white transition-all duration-700 ease-out md:col-span-2 bg-neutral-900 hover:bg-black">
             Comercios
           </button>
-        </div>
       </div>
 
       <div className="grid grid-cols-1 m-auto max-w-[80rem] md:grid-cols-3 gap-4">
