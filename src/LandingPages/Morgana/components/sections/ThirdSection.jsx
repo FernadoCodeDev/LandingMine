@@ -1,7 +1,5 @@
 import React from "react";
-import imgN5 from "../../assets/img/imgN5.webp";
-import imgN6 from "../../assets/img/imgN6.webp";
-import imgN7 from "../../assets/img/imgN7.webp";
+import Cars from "./Cars";
 
 const ThirdSection = () => {
   return (
@@ -33,7 +31,7 @@ const ThirdSection = () => {
                 {" "}
                 <path
                   d="M6 12H18M6 12L11 7M6 12L11 17"
-                  stroke="#fff"
+                  stroke="currentcolor"
                   stroke-width="2"
                   stroke-linecap="round"
                   stroke-linejoin="round"
@@ -42,7 +40,7 @@ const ThirdSection = () => {
             </svg>
           </button>
 
-          <button className="flex flex-row items-center justify-center w-full p-1 font-bold text-white transition-all duration-700 ease-out border-2 md:w-12 md:h-12 rounded-xl md:rounded-full border-beige-700 hover:bg-beige-700">
+          <button className="flex flex-row items-center justify-center w-full p-1 font-bold text-black transition-all duration-700 ease-out border-2 dark:text-white md:w-12 md:h-12 rounded-xl md:rounded-full border-beige-700 hover:bg-beige-700">
             <svg
               viewBox="0 0 24 24"
               fill="none"
@@ -60,7 +58,7 @@ const ThirdSection = () => {
                 {" "}
                 <path
                   d="M6 12H18M18 12L13 7M18 12L13 17"
-                  stroke="#000000"
+                  stroke="currentcolor"
                   stroke-width="2"
                   stroke-linecap="round"
                   stroke-linejoin="round"
@@ -70,37 +68,7 @@ const ThirdSection = () => {
           </button>
         </div>
 
-        <div className="grid grid-cols-1 gap-3 md:grid-cols-3 md:col-span-2">
-          <div className="flex flex-col items-start justify-center gap-4 p-4 pb-8 bg-white rounded-xl">
-            <div>
-              <h1 className="font-bold text-start">Coupe Negro</h1>
-              <p className="text-gray-400 text-start">
-                <span className="font-bold text-black">$500</span>/day
-              </p>
-            </div>
-            <img src={imgN5} alt="imgN5" className="w-full h-auto" />
-          </div>
-
-          <div className="flex flex-col items-start justify-center gap-4 p-4 pb-8 bg-white rounded-xl">
-            <div>
-              <h1 className="font-bold text-start">CHEVROLET BOLT EUV</h1>
-              <p className="text-gray-400 text-start">
-                <span className="font-bold text-black">$600</span>/day
-              </p>
-            </div>
-            <img src={imgN6} alt="imgN5" className="w-full h-auto" />
-          </div>
-
-          <div className="flex flex-col items-start justify-center gap-4 p-4 pb-8 bg-white rounded-xl">
-            <div>
-              <h1 className="font-bold text-start">Nyobolt EV</h1>
-              <p className="text-gray-400 text-start">
-                <span className="font-bold text-black">$1,000</span>/day
-              </p>
-            </div>
-            <img src={imgN7} alt="imgN5" className="w-full h-auto" />
-          </div>
-        </div>
+        <Cars />
       </div>
     </div>
   );
