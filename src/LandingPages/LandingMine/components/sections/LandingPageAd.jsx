@@ -171,7 +171,7 @@ const LandingPageAd = () => {
         <div className="p-4">
           <h2 className="text-xl font-semibold dark:text-white">W L P</h2>
           <p className="text-black dark:text-white">
-            Landing Page sobre una academmia de lucha libre
+            Landing Page sobre una academia de lucha libre
           </p>
 
           <a href="/WLP">
