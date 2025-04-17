@@ -9,6 +9,8 @@ const Footer = () => {
           diseñador{" "}
           <a
             href="https://dribbble.com/hello1usman"
+            target="_blank"
+            rel="noopener noreferrer"
             className="ml-1 font-bold text-white transition duration-300 ease-in-out hover:text-yellow-400"
           >
             Usman A

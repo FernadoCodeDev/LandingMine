@@ -5,26 +5,28 @@ const Footer = () => {
     <footer className="w-full p-6 text-white bg-stone-700">
       <div className="max-w-6xl mx-auto">
         <p className="mb-4 text-lg leading-relaxed">
-        <span className="font-bold">Cooktopia Shop</span> expresa su más sincero agradecimiento al talentoso diseñador
-   {" "}
+          <span className="font-bold">Cooktopia Shop</span> expresa su más
+          sincero agradecimiento al talentoso diseñador{" "}
           <a
             href="https://dribbble.com/skabuhena"
+            target="_blank"
+            rel="noopener noreferrer"
             className="ml-1 font-bold text-white transition duration-300 ease-in-out hover:text-stone-200"
           >
             Mostafa Kamal
           </a>{" "}
           cuya obra sirvió de inspiración para la creación de la landing page{" "}
-          <span className="font-bold">Cooktopia Shop</span>. Utilicé su diseño como
-          referencia para desarrollar esta interpretación propia, respetando
-          siempre su estilo.
+          <span className="font-bold">Cooktopia Shop</span>. Utilicé su diseño
+          como referencia para desarrollar esta interpretación propia,
+          respetando siempre su estilo.
         </p>
 
         <p className="mb-4 text-lg leading-relaxed">
-          Cabe aclarar que <span className="font-bold">Cooktopia Shop</span> no es
-          una tienda real y fue creado únicamente con fines de
-          desarrollo y diseño. Además, yo diseñé el logotipo de{" "}
-          <span className="font-bold">Cooktopia Shop</span> y utilicé imágenes de
-          uso libre en su construcción.
+          Cabe aclarar que <span className="font-bold">Cooktopia Shop</span> no
+          es una tienda real y fue creado únicamente con fines de desarrollo y
+          diseño. Además, yo diseñé el logotipo de{" "}
+          <span className="font-bold">Cooktopia Shop</span> y utilicé imágenes
+          de uso libre en su construcción.
         </p>
 
         <p className="mb-4 text-lg leading-relaxed">

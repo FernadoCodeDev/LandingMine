@@ -5,13 +5,15 @@ const Footer = () => {
     <footer className="w-full p-6 text-white bg-black">
       <div className="max-w-6xl mx-auto">
         <p className="mb-4 text-lg leading-relaxed">
-        <span className="font-bold">WLP</span> expresa su más sincero agradecimiento al talentoso diseñador
-   {" "}
+          <span className="font-bold">WLP</span> expresa su más sincero
+          agradecimiento al talentoso diseñador{" "}
           <a
             href="https://dribbble.com/Adhiari_is"
+            target="_blank"
+            rel="noopener noreferrer"
             className="ml-1 font-bold transition duration-300 ease-in-out dark:hover:text-orange-100"
           >
-           Adhiari Subekti
+            Adhiari Subekti
           </a>{" "}
           cuya obra sirvió de inspiración para la creación de la landing page{" "}
           <span className="font-bold">WLP</span>. Utilicé su diseño como
@@ -20,11 +22,11 @@ const Footer = () => {
         </p>
 
         <p className="mb-4 text-lg leading-relaxed">
-          Cabe aclarar que <span className="font-bold">WLP</span> no es
-          una Escuela real y fue creado únicamente con fines de
-          desarrollo y diseño. Además, yo diseñé el logotipo de{" "}
-          <span className="font-bold">WLP</span> y utilicé imágenes de
-          uso libre en su construcción.
+          Cabe aclarar que <span className="font-bold">WLP</span> no es una
+          Escuela real y fue creado únicamente con fines de desarrollo y diseño.
+          Además, yo diseñé el logotipo de{" "}
+          <span className="font-bold">WLP</span> y utilicé imágenes de uso libre
+          en su construcción.
         </p>
 
         <p className="mb-4 text-lg leading-relaxed">

@@ -8,6 +8,8 @@ const Footer = () => {
           Pig Bank expresa su más sincero agradecimiento a{" "}
           <a
             href="https://dribbble.com/dipauix"
+            target="_blank"
+            rel="noopener noreferrer"
             className="ml-1 font-bold text-white transition duration-300 ease-in-out dark:hover:text-red-500 hover:text-red-500"
           >
             Dipa UI/UX
