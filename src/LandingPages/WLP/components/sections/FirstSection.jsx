@@ -43,7 +43,7 @@ const FirstSection = () => {
         </div>
 
         <div className="order-1 md:order-2 ">
-          <img src={imgN1} alt="imgN1" className="h-auto m-auto max-w-96" />
+          <img src={imgN1} alt="imgN1" className="w-full h-auto m-auto md:max-w-96" />
         </div>
 
         <div className="flex flex-col items-center order-2 gap-4 md:order-3 md:col-span-2">
