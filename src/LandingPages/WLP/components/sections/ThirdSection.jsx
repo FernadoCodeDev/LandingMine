@@ -13,7 +13,7 @@ const ThirdSection = () => {
           <h1 className="text-2xl font-bold text-center md:text-4xl">
             CONSTANCIA
           </h1>
-          <img src={imgN2} alt="imgN2" className="h-auto m-auto max-w-96" />
+          <img src={imgN2} alt="imgN2" className="w-full h-auto m-auto md:max-w-96" />
           <h1 className="pb-2 text-2xl font-bold text-center border-b-2 border-cyan-950 dark:border-orange-50 md:text-4xl">
             PASIÓN
           </h1>
@@ -76,7 +76,7 @@ const ThirdSection = () => {
             </h1>
           </div>
 
-          <button className="flex justify-center rounded-xl w-full p-2 font-bold text-white transition-all duration-700 ease-out dark:text-black bg-sky-700 hover:bg-sky-900 dark:bg-orange-50 hover:dark:bg-orange-200 md:text-2xl ">
+          <button className="flex justify-center w-full p-2 font-bold text-white transition-all duration-700 ease-out rounded-xl dark:text-black bg-sky-700 hover:bg-sky-900 dark:bg-orange-50 hover:dark:bg-orange-200 md:text-2xl ">
             Subir al Ring
           </button>
         </div>
