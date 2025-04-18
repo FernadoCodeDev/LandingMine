@@ -118,7 +118,7 @@ export default function Slider() {
                   <CheckSVG width="12" height="12" /> {pkg.li3}
                 </li>
                 <li className="flex items-center gap-2 md:text-2xl">
-                  <CheckSVG width="12" height="12" /> {pkg.li3}
+                  <CheckSVG width="12" height="12" /> {pkg.li4}
                 </li>
               </ul>
 
