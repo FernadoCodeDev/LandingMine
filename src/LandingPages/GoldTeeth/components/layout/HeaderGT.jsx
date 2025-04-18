@@ -6,6 +6,7 @@ import GoldTeethLogo from "../../assets/img/GoldTeethLogo.webp";
 import imgN1 from "../../assets/img/imgN1.webp";
 import imgN2 from "../../assets/img/imgN2.webp";
 import imgN3 from "../../assets/img/imgN3.webp";
+import Modal from "../ui/Modal";
 
 const HeaderDH = () => {
   return (
@@ -85,11 +86,10 @@ const HeaderDH = () => {
             </p>
 
             <div className="grid items-center grid-cols-1 gap-2 text-white md:grid-cols-2">
-              <button className="flex justify-center w-full h-auto p-2 font-bold transition-all duration-700 ease-out rounded-full bg-rose-400 hover:bg-rose-600 ">
-                Consultar Sonrisa
-              </button>
+              <Modal />
+
               <div>
-                <p className="font-bold">⭐⭐⭐⭐⭐(4.2)</p>
+                <p className="font-bold">⭐⭐⭐⭐⭐(4.8)</p>
                 <p className="">30K+Calificaciones en Google</p>
               </div>
             </div>
