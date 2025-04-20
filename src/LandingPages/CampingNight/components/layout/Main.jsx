@@ -2,6 +2,7 @@ import React from "react";
 import FirstSection from "../sections/FirstSection";
 import SecondSection from "../sections/SecondSection";
 import ThirdSection from "../sections/ThirdSection";
+import FourthSection from "../sections/FourthSection"
 
 const MainCN = () => {
   return (
@@ -10,6 +11,7 @@ const MainCN = () => {
         <FirstSection/>
         <SecondSection />
         <ThirdSection />
+        <FourthSection />
       </section>
     </main>
   );
