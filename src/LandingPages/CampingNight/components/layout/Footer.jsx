@@ -2,7 +2,7 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <footer className="w-full p-6 text-black dark:text-white bg-beige-200 dark:bg-black">
+    <footer className="w-full p-6 text-white bg-black">
       <div className="max-w-6xl mx-auto">
         <p className="mb-4 text-lg leading-relaxed">
           <span className="font-bold">Camping Night</span> expresa su más
@@ -35,7 +35,7 @@ const Footer = () => {
         </p>
       </div>
 
-      <div className="mt-8 border-t-2 border-black opacity-50 dark:border-white"></div>
+      <div className="mt-8 border-t-2 border-white opacity-50"></div>
 
       <p className="mt-6 text-sm text-center">
         © 2025 Camping Night.{" "}

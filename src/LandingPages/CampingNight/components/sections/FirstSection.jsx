@@ -11,7 +11,7 @@ const FirstSection = () => {
           <h1 className="text-2xl font-bold md:text-4xl">
             Descubre la magia de acampar con Camping Night
           </h1>
-          <p className="text-base md:text-2xl">
+          <p className="text-base md:text-xl">
             Escapa de la rutina y sumérgete en la tranquilidad de la naturaleza.
             En Camping Night, te ofrecemos un refugio perfecto para
             desconectarte, disfrutar de la aventura y relajarte bajo un cielo
@@ -36,7 +36,7 @@ const FirstSection = () => {
               <h1 className="text-2xl font-bold md:text-4xl">
                 Tu espacio bajo las estrellas
               </h1>
-              <p className="text-base md:text-2xl">
+              <p className="text-base md:text-xl">
                 Acampa en un entorno natural y seguro con vistas impresionantes.
                 Contamos con espacios diseñados para que disfrutes al máximo de
                 la experiencia, ya sea con tu propia tienda o eligiendo una de
@@ -49,10 +49,10 @@ const FirstSection = () => {
             <NatureSVG width="60" height="60" />
 
             <div>
-              <h1 className="text-2xl font-bold md:text-4xl">
+              <h1 className="text-2xl font-bold md:text-xl">
                 Naturaleza y tranquilidad
               </h1>
-              <p className="text-base md:text-2xl">
+              <p className="text-base md:text-xl">
                 Conéctate con la naturaleza en su máxima expresión. Disfruta de
                 senderos, ríos y paisajes únicos que te permitirán relajarte y
                 vivir momentos inolvidables en un ambiente de paz y armonía.

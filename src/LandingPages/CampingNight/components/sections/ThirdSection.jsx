@@ -7,26 +7,26 @@ const ThirdSection = () => {
       <h1 className="text-center font-bold text-2xl md:text-4xl max-w-[70rem]">Un lugar ideal para acampar</h1>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4 m-auto max-w-[80rem]">
         <div className="grid grid-cols-1 gap-2">
-          <details className="p-2 text-base md:text-2xl bg-beige-100 dark:bg-neutral-800">
-            <summary className="text-2xl font-bold md:text-4xl">Zona de Inscripción</summary>
+          <details className="p-2 text-base md:text-xl bg-beige-100 dark:bg-neutral-800">
+            <summary className="text-2xl font-bold">Zona de Inscripción</summary>
             Regístrate fácilmente en nuestra acogedora cabaña de inscripción.
             Nuestro equipo te guiará para que disfrutes al máximo tu aventura.
           </details>
 
-          <details className="p-2 text-base md:text-2xl bg-beige-100 dark:bg-neutral-800">
-            <summary className="text-2xl font-bold md:text-4xl">Renta de Equipo</summary>
+          <details className="p-2 text-base md:text-xl bg-beige-100 dark:bg-neutral-800">
+            <summary className="text-2xl font-bold">Renta de Equipo</summary>
             ¿No tienes equipo de camping? No te preocupes, ofrecemos tiendas de
             campaña, sacos de dormir y más para tu comodidad.
           </details>
 
-          <details className="p-2 text-base md:text-2xl bg-beige-100 dark:bg-neutral-800">
-            <summary className="text-2xl font-bold md:text-4xl">Baños y Duchas</summary>
+          <details className="p-2 text-base md:text-xl bg-beige-100 dark:bg-neutral-800">
+            <summary className="text-2xl font-bold">Baños y Duchas</summary>
             Contamos con instalaciones limpias y cómodas, incluyendo sanitarios
             y duchas con agua caliente para tu comodidad.
           </details>
 
-          <details className="p-2 text-base md:text-2xl bg-beige-100 dark:bg-neutral-800">
-            <summary className="text-2xl font-bold md:text-4xl">Actividades Guiadas</summary>
+          <details className="p-2 text-base md:text-xl bg-beige-100 dark:bg-neutral-800">
+            <summary className="text-2xl font-bold">Actividades Guiadas</summary>
             Disfruta de senderismo nocturno, fogatas grupales y exploraciones
             con guías expertos que harán tu experiencia inolvidable.
           </details>

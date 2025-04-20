@@ -11,7 +11,7 @@ const SecondSection = () => {
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4 m-auto max-w-[80rem]">
         <div className="grid items-center justify-center order-1 grid-cols-1 gap-2 md:order-2">
           <h1 className="text-2xl font-bold md:text-4xl">Descubre la magia de acampar</h1>
-          <p className="text-base md:text-2xl">
+          <p className="text-base md:text-xl">
             En Camping Night, cada experiencia de campamento es única. Ya sea
             que busques aventuras en la naturaleza, un momento de paz bajo las
             estrellas o compartir historias alrededor de una fogata con amigos,
@@ -31,7 +31,7 @@ const SecondSection = () => {
         <div className="grid order-2 grid-cols-2 gap-2 md:order-3 md:col-span-2 ">
             <div className="grid grid-cols-1 gap-4 p-2">
               <LandscapeSVG width="60" height="60" />
-              <p className="text-base md:text-2xl">
+              <p className="text-base md:text-xl">
                 Explora senderos, escala montañas y sumérgete en la belleza
                 natural. Cada rincón de Camping Night está diseñado para que te
                 conectes con la naturaleza y vivas momentos inolvidables.
@@ -40,7 +40,7 @@ const SecondSection = () => {
 
             <div className="grid grid-cols-1 gap-4 p-2">
               <PeaceSVG width="60" height="60" />
-              <p className="text-base md:text-2xl">
+              <p className="text-base md:text-xl">
                 Nuestras zonas de camping están alejadas del ruido de la ciudad,
                 permitiéndote disfrutar del sonido del viento entre los árboles,
                 el canto de los pájaros y la paz que solo la naturaleza puede
@@ -50,7 +50,7 @@ const SecondSection = () => {
 
             <div className="grid grid-cols-1 gap-4 p-2">
               <ExperienceSVG width="60" height="60" />
-              <p className="text-base md:text-2xl">
+              <p className="text-base md:text-xl">
                 Con dos décadas ofreciendo las mejores zonas de campamento, en
                 Camping Night sabemos lo que necesitas para una experiencia
                 segura, cómoda y auténtica.{" "}
@@ -59,7 +59,7 @@ const SecondSection = () => {
 
             <div className="grid grid-cols-1 gap-4 p-2">
               <MarshmallowSVG width="60" height="60" />
-              <p className="text-base md:text-2xl">
+              <p className="text-base md:text-xl">
                 Nada como terminar el día asando malvaviscos y preparando
                 deliciosos s’mores junto a la fogata. ¡La mejor forma de
                 compartir y crear recuerdos inolvidables!{" "}
