@@ -21,6 +21,14 @@ export default function InteractiveMap() {
         />
 
         {/* Interactive points */}
+        <MapPoint
+          top="45%"
+          left="35%"
+          title="¿Olvidaste algo? ¡No te preocupes!"
+          desc="Dentro de la cabaña encontrarás nuestra pequeña tienda con todo lo esencial para acampar: linternas, snacks, carbón, repelente y mucho más. Todo lo necesario para que no te falte nada durante tu estadía."
+          img={Store}
+        />
+
 
         <MapPoint
           top="70%"
@@ -30,13 +38,6 @@ export default function InteractiveMap() {
           img={InteriorCabin}
         />
 
-        <MapPoint
-          top="45%"
-          left="35%"
-          title="¿Olvidaste algo? ¡No te preocupes!"
-          desc="Dentro de la cabaña encontrarás nuestra pequeña tienda con todo lo esencial para acampar: linternas, snacks, carbón, repelente y mucho más. Todo lo necesario para que no te falte nada durante tu estadía."
-          img={Store}
-        />
 
         <MapPoint
           top="70%"
@@ -72,7 +73,7 @@ function MapPoint({ top, left, title, desc, img }) {
       className="absolute w-8 h-8 transition-all duration-700 ease-in-out border-4 rounded-full group bg-beige-800/85 border-beige-950 opacity-80 hover:z-10 focus:z-10 focus:rounded-2xl focus:opacity-100 md:w-10 md:h-10 focus:w-60 focus:h-auto md:focus:w-96 md:focus:h-auto"
       style={{ top, left, transform: "translate(-50%, -50%)" }}
     >
-      <div className="flex flex-col items-center justify-center w-full h-full gap-2 p-2 text-center text-white transition-opacity duration-700 opacity-0 group-focus:opacity-100">
+      <div className="flex-col items-center justify-center hidden w-full h-full gap-2 p-2 text-center text-white transition-opacity duration-700 group-focus:block">
         <h2 className="text-xl font-bold">{title}</h2>
         <p className="text-base">{desc}</p>
         <img src={img} alt={title} className="w-full h-auto" />
