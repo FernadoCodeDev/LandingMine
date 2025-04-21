@@ -1,7 +1,7 @@
-import React, { useState } from 'react';
+import React, { useState } from "react";
 
 const SavingsSimulator = () => {
-  const [CostOfElectricity, setCostOfElectricity] = useState('');
+  const [CostOfElectricity, setCostOfElectricity] = useState("");
   const [Result, setResult] = useState(null);
 
   const calculateSavings = () => {
@@ -16,9 +16,13 @@ const SavingsSimulator = () => {
 
   return (
     <div className="w-full p-6 mx-auto bg-white shadow-lg rounded-xl">
-      <h2 className="mb-4 text-2xl font-bold text-center text-lime-700">¿Cuanto ahorrarás con los paneles de Clover?</h2>
-      
-      <label className="block mb-2 font-medium text-black">¿Cuánto pagas de luz mensualmente?</label>
+      <h2 className="mb-4 text-2xl font-bold text-center text-lime-700">
+        ¿Cuanto ahorrarás con los paneles de Clover?
+      </h2>
+
+      <label className="block mb-2 font-medium text-black">
+        ¿Cuánto pagas de luz mensualmente?
+      </label>
       <input
         type="number"
         placeholder="Coloca una cantidad"
