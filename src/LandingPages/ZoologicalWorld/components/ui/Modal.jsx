@@ -88,12 +88,12 @@ export default function Modal({ isOpen, onClose, Package }) {
 
         <button
           onClick={onClose}
-          className="absolute z-20 w-10 h-10 top-4 right-4"
+          className="absolute z-20 w-16 h-auto top-4 right-4"
         >
           <Close />
         </button>
 
-        <div className="relative z-20 flex flex-col items-center justify-center w-full gap-4 p-4 mt-12 text-white">
+        <div className="relative z-20 flex flex-col items-center justify-center w-full gap-4 p-4 mt-20 text-white">
           <h1 className="text-xl font-bold md:text-2xl">{Package.name}</h1>
           <h3 className="text-lg md:text-xl">{Package.text}</h3>
 
