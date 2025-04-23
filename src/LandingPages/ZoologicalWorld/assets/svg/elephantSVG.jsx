@@ -4,10 +4,9 @@ const elephantSVG = (props) => {
     <svg
       id="Layer_1"
       xmlns="http://www.w3.org/2000/svg"
-      xmlnsXlink="http://www.w3.org/1999/xlink"
       viewBox="0 0 512 512"
       xmlSpace="preserve"
-      fill="#f9cf00"
+      fill="#ffdf20"
       {...props}
     >
       <g id="SVGRepo_bgCarrier" strokeWidth={0} />
@@ -34,7 +33,7 @@ const elephantSVG = (props) => {
         />
         <path
           style={{
-            fill: "#f9cf00",
+            fill: "#ffdf20",
           }}
           d="M133.287,110.543c-54.94,0-99.896,44.956-99.896,99.896h128.38v35.178 c0,37.154-15.797,70.607-41.026,94.047h98.958v-229.12H133.287z"
         />
@@ -71,7 +70,7 @@ const elephantSVG = (props) => {
           x={248.754}
           y={357.81}
           style={{
-            fill: "#f9cf00",
+            fill: "#ffdf20",
           }}
           width={33.391}
           height={33.391}
@@ -84,7 +83,7 @@ const elephantSVG = (props) => {
         />
         <path
           style={{
-            fill: "#f9cf00",
+            fill: "#ffdf20",
           }}
           d="M33.391,324.461C14.949,324.461,0,339.411,0,357.852v44.522c18.441,0,33.391-14.949,33.391-33.391 l14.47-23.383L33.391,324.461z"
         />
@@ -99,14 +98,14 @@ const elephantSVG = (props) => {
             x={62.442}
             y={357.81}
             style={{
-              fill: "#f9cf00",
+              fill: "#ffdf20",
             }}
             width={33.391}
             height={33.391}
           />
           <path
             style={{
-              fill: "#f9cf00",
+              fill: "#ffdf20",
             }}
             d="M378.435,259.03V72.162h-86.985c-21.197,0-38.381,17.183-38.381,38.381v106.685L378.435,259.03z"
           />
