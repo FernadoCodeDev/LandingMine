@@ -21,6 +21,8 @@ export const Packages = [
     color: {
       base: "bg-orange-500",
       border: "border-orange-600",
+      hover: "bg-orange-600",
+      Hoverborder: "border-orange-700",
     },
   },
   {
@@ -32,6 +34,8 @@ export const Packages = [
     color: {
       base: "bg-yellow-400",
       border: "border-yellow-500",
+      hover: "bg-yellow-500",
+      Hoverborder: "border-yellow-600",
     },
   },
   {
@@ -43,6 +47,8 @@ export const Packages = [
     color: {
       base: "bg-purple-600",
       border: "border-purple-800",
+      hover: "bg-purple-700",
+      Hoverborder: "border-purple-900",
     },
   },
   {
@@ -54,6 +60,8 @@ export const Packages = [
     color: {
       base: "bg-orange-600",
       border: "border-orange-700",
+      hover: "bg-orange-700",
+      Hoverborder: "border-orange-800",
     },
   },
   {
@@ -65,6 +73,8 @@ export const Packages = [
     color: {
       base: "bg-blue-500",
       border: "border-blue-600",
+      hover: "bg-blue-600",
+      Hoverborder: "border-blue-700",
     },
   },
 ];
@@ -82,9 +92,7 @@ export default function Modal({ isOpen, onClose, Package }) {
           backgroundPosition: "center",
         }}
       >
-    
         <div className="absolute inset-0 z-10 bg-black/40" />
-
 
         <button
           onClick={onClose}
@@ -98,7 +106,7 @@ export default function Modal({ isOpen, onClose, Package }) {
           <h3 className="text-lg md:text-xl">{Package.text}</h3>
 
           <button
-            className={`px-4 py-2 mt-4 text-white transition  ${Package.color.base} border-2 ${Package.color.border} rounded-lg`}
+            className={`px-4 py-2 mt-4 text-white transition  ${Package.color.base} border-2 ${Package.color.border} hover:${Package.color.hover} hover:${Package.color.Hoverborder} rounded-lg`}
           >
             COMPRAR
           </button>
