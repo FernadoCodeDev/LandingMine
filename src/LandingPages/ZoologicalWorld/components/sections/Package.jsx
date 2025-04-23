@@ -23,14 +23,14 @@ function PackagesCard() {
     <div className="w-full">
       {/* Content less than lg */}
       {/* On mobile devices, it wouldn't be possible to hover over images because you'd have to hold it down. */}
-      <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:hidden">
+      <div className="grid grid-cols-1 gap-2 sm:grid-cols-2 lg:hidden">
         {Packages.map((pkg) => (
           <div
             key={pkg.id}
-            className={`flex flex-col items-center justify-center p-4 ${pkg.color.base} border-4 ${pkg.color.border} rounded-xl`}
+            className={`flex flex-col items-center justify-center p-4 ${pkg.color.base} border-4 ${pkg.color.border}`}
             onClick={() => handleClick(pkg)}
           >
-            <pkg.svg width="80" height="auto" />
+            <pkg.svg width="130" height="auto" />
           </div>
         ))}
         <Modal
@@ -49,7 +49,7 @@ function PackagesCard() {
             onClick={() => handleClick(pkg)}
           >
             <div className="flex flex-col items-center">
-              <pkg.svg width="80" height="auto" />
+              <pkg.svg width="130" height="auto" />
             </div>
           </div>
         ))}
