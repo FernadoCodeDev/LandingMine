@@ -6,7 +6,7 @@ import imgN4 from "../../assets/img/imgN4.webp";
 
 const FirstSection = () => {
   return (
-    <div className="relative flex flex-col items-center w-full min-h-screen p-4 text-black bg-white dark:bg-neutral-900 md:mt-[40%] xl:mt-[33%] md:text-2xl dark:text-white ">
+    <div className="relative flex flex-col items-center w-full h-auto p-4 text-black bg-white dark:bg-neutral-900 md:mt-[40%] xl:mt-[15%] md:text-2xl dark:text-white ">
       <div className="m-auto max-w-[70rem] grid grid-cols-1 items-center gap-4 md:grid-cols-2">
         <div className="flex flex-col gap-4">
           <h1 className="text-2xl font-bold text-orange-500 md:text-4xl">

@@ -6,7 +6,7 @@ import OpenGateSVG from "../../assets/svg/OpenGateSVG";
 
 const ThirdSection = () => {
   return (
-    <div className="relative flex flex-col items-center w-full min-h-screen gap-4 p-4 text-black bg-white md:text-2xl dark:text-white dark:bg-neutral-900">
+    <div className="relative flex flex-col items-center w-full h-auto gap-4 p-4 text-black bg-white md:text-2xl dark:text-white dark:bg-neutral-900">
       <h1 className="text-2xl font-bold text-center text-orange-500 md:text-4xl">
         Instalaciones de Zoological World
       </h1>

@@ -7,11 +7,11 @@ import DolphinSVG from "../../assets/svg/dolphinSVG";
 
 const SecondSection = () => {
   return (
-    <div className="relative flex-col items-center w-full min-h-screen p-4 text-black bg-white md:flex md:text-2xl dark:text-white dark:bg-neutral-900">
+    <div className="relative flex-col items-center w-full h-auto p-4 text-black bg-white md:flex md:text-2xl dark:text-white dark:bg-neutral-900">
       <h1 className="text-2xl font-bold text-center text-orange-500 md:text-4xl">
         Aventura en Zoological World
       </h1>
-      <p className="text-xl text-center md:text-2xl max-w-[40rem]">
+      <p className="text-base text-center md:text-xl max-w-[40rem]">
         Elige la mejor opción para tu aventura en Zoological World y vive
         momentos inolvidables con la naturaleza.
       </p>
@@ -47,12 +47,12 @@ const SecondSection = () => {
             <h1 className="text-xl font-bold text-white ">
               Encuentro con los Gigantes
             </h1>
-            <h1 className="col-span-2 text-base text-white ">
+            <p className="col-span-2 text-base text-white ">
               Adéntrate en una experiencia especial donde aprenderás sobre
               elefantes, rinocerontes e hipopótamos. Descubre sus hábitos,
               alimentación y el esfuerzo de conservación para proteger a estas
               especies.
-            </h1>
+            </p>
             <button className="text-2xl font-bold bg-transparent">
               Comprar
             </button>
