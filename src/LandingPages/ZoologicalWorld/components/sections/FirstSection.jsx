@@ -27,75 +27,7 @@ const FirstSection = () => {
           </h1>
         </div>
 
-        {/* Content less than md */}
-        {/* On mobile devices, it wouldn't be possible to hover over images because you'd have to hold it down. */}
-
-        <div className="grid items-center grid-cols-1 gap-4 md:hidden md:grid-cols-2 md:col-span-2 ">
-          <div className="relative">
-            <img src={imgN1} alt="imgN1" className="w-full h-auto rounded-xl" />
-
-            <div className="absolute w-full h-full bottom-0 left-0 flex flex-col items-center rounded-xl md:rounded-none md:rounded-tr-xl justify-center text-start gap-2 md:backdrop-blur-[1px] bg-black/60 p-4 m-auto text-white z-10">
-              <h1 className="text-xl font-bold ">Un Encuentro Único</h1>
-
-              <p className="text-ms md:text-xl">
-                Sumérgete en la serenidad de la sabana africana. Aquí, puedes
-                interactuar con algunas de las especies más majestuosas, como
-                jirafas y cebras. Un lugar donde la tranquilidad de estos
-                animales te permite sentirte más cerca de la naturaleza.
-              </p>
-            </div>
-          </div>
-
-          <div className="relative">
-            <img src={imgN2} alt="imgN2" className="w-full h-auto rounded-xl" />
-
-            <div className="absolute w-full h-full bottom-0 right-0 flex flex-col items-center rounded-xl md:rounded-none md:rounded-tl-3xl justify-center text-start gap-2 md:backdrop-blur-[1px] bg-black/60 p-4 m-auto text-white z-10">
-              <h1 className="text-xl font-bold ">Un Mundo Bajo el Agua</h1>
-
-              <p className="text-ms md:text-xl">
-                ¡Explora las profundidades del océano! En nuestro acuario,
-                podrás observar especies marinas sorprendentes y aprender sobre
-                los ecosistemas acuáticos. Vive la magia de la vida marina en su
-                hábitat natural, a solo unos pasos de ti.
-              </p>
-            </div>
-          </div>
-
-          <div className="relative">
-            <img src={imgN3} alt="imgN3" className="w-full h-auto rounded-xl" />
-
-            <div className="absolute w-full h-full bottom-0 right-0 flex flex-col items-center rounded-xl md:rounded-none md:rounded-tl-3xl justify-center text-start gap-2 md:backdrop-blur-[1px] bg-black/60 p-4 m-auto text-white z-10">
-              <h1 className="text-xl font-bold ">los Reyes de la Selva</h1>
-
-              <p className="text-ms md:text-xl">
-                Adéntrate en el reino de los leones y descubre la majestuosidad
-                de estos imponentes felinos. En Zoological World, podrás
-                observar a los reyes de la selva en su hábitat, respetando su
-                espacio, mientras aprendes sobre su comportamiento y
-                conservación.
-              </p>
-            </div>
-          </div>
-
-          <div className="relative">
-            <img src={imgN4} alt="imgN4" className="w-full h-auto rounded-xl" />
-
-            <div className="absolute w-full h-full bottom-0 left-0 flex flex-col items-center rounded-xl md:rounded-none md:rounded-tr-xl justify-center text-start gap-2 md:backdrop-blur-[1px] bg-black/60 p-4 m-auto text-white z-10">
-              <h1 className="text-xl font-bold ">Gigantes en Peligro</h1>
-
-              <p className="text-ms md:text-xl">
-                Conoce a estos imponentes seres de la naturaleza y aprende por
-                qué están en peligro de extinción. Nuestro zoológico trabaja
-                incansablemente para promover su conservación y crear conciencia
-                sobre la importancia de proteger a los rinocerontes y otras
-                especies vulnerables.
-              </p>
-            </div>
-          </div>
-        </div>
-
-        {/* Content Greater than md*/ }
-        <div className="items-center hidden grid-cols-1 gap-4 md:grid md:grid-cols-2 md:col-span-2 ">
+        <div className="grid items-center grid-cols-1 gap-4 md:grid-cols-2 md:col-span-2 ">
           <div className="relative group">
             <img
               src={imgN1}
@@ -108,7 +40,7 @@ const FirstSection = () => {
                 Un Encuentro Único
               </h1>
 
-              <p className="text-ms md:text-xl">
+              <p className="text-base md:text-xl">
                 Sumérgete en la serenidad de la sabana africana. Aquí, puedes
                 interactuar con algunas de las especies más majestuosas, como
                 jirafas y cebras. Un lugar donde la tranquilidad de estos
@@ -129,7 +61,7 @@ const FirstSection = () => {
                 Un Mundo Bajo el Agua
               </h1>
 
-              <p className="text-ms md:text-xl">
+              <p className="text-base md:text-xl">
                 ¡Explora las profundidades del océano! En nuestro acuario,
                 podrás observar especies marinas sorprendentes y aprender sobre
                 los ecosistemas acuáticos. Vive la magia de la vida marina en su
@@ -150,7 +82,7 @@ const FirstSection = () => {
                 Reyes de la Selva
               </h1>
 
-              <p className="text-ms md:text-xl">
+              <p className="text-base md:text-xl">
                 Adéntrate en el reino de los leones y descubre la majestuosidad
                 de estos imponentes felinos. En Zoological World, podrás
                 observar a los reyes de la selva en su hábitat, respetando su
@@ -172,7 +104,7 @@ const FirstSection = () => {
                 Gigantes en Peligro
               </h1>
 
-              <p className="text-ms md:text-xl">
+              <p className="text-base md:text-xl">
                 Conoce a estos imponentes seres de la naturaleza y aprende por
                 qué están en peligro de extinción. Nuestro zoológico trabaja
                 incansablemente para promover su conservación y crear conciencia
