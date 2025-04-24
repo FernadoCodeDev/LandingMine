@@ -40,7 +40,7 @@ export const Services = [
     svg2: RoomService,
     svg3: Wifi,
     textSVG1: "Hasta 5 camas por habitación",
-    textSVG2: "Room Service",
+    textSVG2: "Room Services",
     textSVG3: "Wifi",
   },
   {
