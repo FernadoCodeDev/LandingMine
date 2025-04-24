@@ -24,52 +24,49 @@ const ThirdSection = () => {
             </button>
           </div>
 
-          <div className="grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-4 md:col-span-2">
-            <div className="flex flex-col items-center justify-center gap-2 p-4 shadow-xl bg-beige-200 dark:bg-neutral-800">
-              <img src={imgN4} alt="imgN4" className="w-full h-auto" />
-              <h1 className="font-bold text-center">
-                HABITACIONES & SUITES ROYAL
-              </h1>
-              <p className="">
-                Desde acogedoras habitaciones hasta lujosas suites, cada espacio
-                ha sido diseñado para brindarte el máximo confort y elegancia.
-                Descansa en camas premium y disfruta de un ambiente exclusivo.
-              </p>
+          <div className="grid grid-cols-1 gap-4 md:grid-cols-2 md:col-span-2">
+            <div className="flex flex-col items-center w-full gap-2">
+              <img
+                src={imgN4}
+                alt="imgN4"
+                className="w-full h-auto rounded-xl"
+              />
+
+              <div className="flex flex-col w-full gap-2 px-2">
+                <h1 className="font-serif text-start">Lorem</h1>
+                <div className="flex flex-row gap-2">
+                  <div className="pr-2 border-r-2 border-gray-500">SVG</div>
+                  <div className="pr-2 border-r-2 border-gray-500">SVG</div>
+                  <div className="">SVG</div>
+                </div>
+                <button className="w-full p-2 font-serif text-xl font-bold text-blue-900 transition-all duration-700 ease-out bg-transparent border-2 border-blue-900 md:w-1/3 dark:text-beige-100 hover:dark:dark:text-blue-900 rounded-xl hover:bg-blue-900 hover:text-beige-100 dark:border-beige-100 dark:hover:bg-beige-100 ">
+                  Lorem
+                </button>
+              </div>
             </div>
 
-            <div className="flex flex-col items-center justify-center gap-2 p-4 shadow-xl bg-beige-200 dark:bg-neutral-800">
-              <img src={imgN5} alt="imgN5" className="w-full h-auto" />
-              <h1 className="font-bold text-center">
-                PISCINAS PARA RELAJARTE & DISFRUTAR
-              </h1>
-              <p className="">
-                Sumérgete en nuestras refrescantes piscinas y disfruta de un
-                ambiente tranquilo y sofisticado. Perfecto para relajarte bajo
-                el sol o nadar a cualquier hora del día.
-              </p>
+            <div className="flex flex-col items-center ">
+              <img
+                src={imgN5}
+                alt="imgN5"
+                className="w-full h-auto rounded-xl"
+              />
             </div>
 
-            <div className="flex flex-col items-center justify-center gap-2 p-4 shadow-xl bg-beige-200 dark:bg-neutral-800">
-              <img src={imgN6} alt="imgN6" className="w-full h-auto" />
-              <h1 className="font-bold text-center">
-                DESAYUNO BUFFET CONTINENTAL
-              </h1>
-              <p className="">
-                Empieza tu día con un desayuno variado y delicioso. Disfruta de
-                una selección de pan recién horneado, frutas frescas, café de
-                alta calidad y mucho más en nuestro exclusivo buffet.
-              </p>
+            <div className="flex flex-col items-center ">
+              <img
+                src={imgN6}
+                alt="imgN6"
+                className="w-full h-auto rounded-xl"
+              />
             </div>
 
-            <div className="flex flex-col items-center justify-center gap-2 p-4 shadow-xl bg-beige-200 dark:bg-neutral-800">
-              <img src={imgN7} alt="imgN7" className="w-full h-auto" />
-
-              <h1 className="font-bold text-center">SAUNA PARA TU BIENESTAR</h1>
-              <p className="">
-                Déjate envolver por la calidez y el confort de nuestro sauna, el
-                lugar perfecto para relajarte y revitalizar cuerpo y mente
-                después de un día de exploración o negocios.
-              </p>
+            <div className="flex flex-col items-center">
+              <img
+                src={imgN7}
+                alt="imgN7"
+                className="w-full h-auto rounded-xl"
+              />
             </div>
           </div>
         </div>
