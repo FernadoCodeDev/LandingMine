@@ -1,8 +1,5 @@
 import React from "react";
-import imgN4 from "../../assets/img/imgN4.webp";
-import imgN5 from "../../assets/img/imgN5.webp";
-import imgN6 from "../../assets/img/imgN6.webp";
-import imgN7 from "../../assets/img/imgN7.webp";
+import Services from "./Services";
 
 const ThirdSection = () => {
   return (
@@ -24,51 +21,7 @@ const ThirdSection = () => {
             </button>
           </div>
 
-          <div className="grid grid-cols-1 gap-4 md:grid-cols-2 md:col-span-2">
-            <div className="flex flex-col items-center w-full gap-2">
-              <img
-                src={imgN4}
-                alt="imgN4"
-                className="w-full h-auto rounded-xl"
-              />
-
-              <div className="flex flex-col w-full gap-2 px-2">
-                <h1 className="font-serif text-start">Lorem</h1>
-                <div className="flex flex-row gap-2">
-                  <div className="pr-2 border-r-2 border-gray-500">SVG</div>
-                  <div className="pr-2 border-r-2 border-gray-500">SVG</div>
-                  <div className="">SVG</div>
-                </div>
-                <button className="w-full p-2 font-serif text-xl font-bold text-blue-900 transition-all duration-700 ease-out bg-transparent border-2 border-blue-900 md:w-1/3 dark:text-beige-100 hover:dark:dark:text-blue-900 rounded-xl hover:bg-blue-900 hover:text-beige-100 dark:border-beige-100 dark:hover:bg-beige-100 ">
-                  Lorem
-                </button>
-              </div>
-            </div>
-
-            <div className="flex flex-col items-center ">
-              <img
-                src={imgN5}
-                alt="imgN5"
-                className="w-full h-auto rounded-xl"
-              />
-            </div>
-
-            <div className="flex flex-col items-center ">
-              <img
-                src={imgN6}
-                alt="imgN6"
-                className="w-full h-auto rounded-xl"
-              />
-            </div>
-
-            <div className="flex flex-col items-center">
-              <img
-                src={imgN7}
-                alt="imgN7"
-                className="w-full h-auto rounded-xl"
-              />
-            </div>
-          </div>
+        <Services />
         </div>
       </div>
 
