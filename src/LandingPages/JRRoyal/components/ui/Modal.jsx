@@ -1,4 +1,5 @@
 import React from "react";
+import { useEffect, useState } from "react";
 import Close from "../../assets/svg/Close";
 import imgN4 from "../../assets/img/imgN4.webp";
 import Room2 from "../../assets/img/Room2.webp";
@@ -90,12 +91,29 @@ export const Services = [
 export default function Modal({ isOpen, onClose, Service }) {
   if (!isOpen || !Service) return null;
 
+  const [bgIndex, setBgIndex] = useState(0);
+  const bgImages = [Service.image1, Service.image2, Service.image3];
+
+  useEffect(() => {
+    bgImages.forEach((src) => {
+      const img = new Image();
+      img.src = src;
+    });
+  }, [Service]);
+
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setBgIndex((prev) => (prev + 1) % bgImages.length);
+    }, 7000);
+    return () => clearInterval(interval);
+  }, [bgImages]);
+
   return (
     <div className="fixed inset-0 z-50 flex items-center justify-center text-center text-white bg-black bg-opacity-60">
       <div
-        className="relative p-2 m-auto overflow-hidden max-w-[70rem] rounded-2xl"
+        className="relative p-2 m-auto overflow-hidden max-w-[70rem] rounded-2xl transition-all duration-1000 ease-in-out"
         style={{
-          backgroundImage: `url(${Service.image1})`,
+          backgroundImage: `url(${bgImages[bgIndex]})`,
           backgroundSize: "cover",
           backgroundPosition: "center",
         }}
@@ -110,7 +128,6 @@ export default function Modal({ isOpen, onClose, Service }) {
 
         <div className="relative z-20 grid grid-cols-1 gap-4 p-4 mt-16 ">
           <div className="grid items-center grid-cols-1 gap-4 ">
-
             <div className="grid items-center w-full grid-cols-3 gap-2">
               <div className="flex flex-col items-center gap-2">
                 <div className="w-12 h-auto">
@@ -138,7 +155,9 @@ export default function Modal({ isOpen, onClose, Service }) {
             <h1 className="font-serif text-xl font-bold md:text-2xl">
               {Service.name}
             </h1>
-            <p className="text-base md:text-xl m-auto max-w-[40rem]">{Service.text}</p>
+            <p className="text-base md:text-xl m-auto max-w-[40rem]">
+              {Service.text}
+            </p>
             <button className="w-full p-2 font-serif text-xl font-bold transition-all duration-700 ease-out bg-transparent border-2 border-white rounded-xl hover:bg-white hover:text-blue-900">
               Registarse
             </button>
