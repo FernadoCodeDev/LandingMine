@@ -33,7 +33,7 @@ const ThirdSection = () => {
             <Heart  width="20" height="20"/>
           </div>
           <img src={imgN6} alt="imgN6" className="w-full h-auto " />
-          <div className="opacity-0 group-hover:opacity-100 transition-all duration-700 flex flex-col gap-2 p-2 absolute bottom-0 left-0 w-full h-[33%] rounded-2xl bg-black/40 backdrop-blur-[3px]">
+          <div className="opacity-0 group-hover:opacity-100 transition-all duration-700 flex flex-col gap-2 p-2 absolute bottom-0 left-0 w-full h-[50%] sm:h-[33%] rounded-2xl bg-black/40 backdrop-blur-[3px]">
             <h1 className="text-lg font-bold text-white md:text-2xl">
               La Magia del Sabor
             </h1>
@@ -49,7 +49,7 @@ const ThirdSection = () => {
             <Heart  width="20" height="20"/>
           </div>
           <img src={imgN7} alt="imgN7" className="w-full h-auto " />
-          <div className="opacity-0 group-hover:opacity-100 transition-all duration-700 flex flex-col gap-2 p-2 absolute bottom-0 left-0 w-full h-[33%] rounded-2xl bg-black/40 backdrop-blur-[3px]">
+          <div className="opacity-0 group-hover:opacity-100 transition-all duration-700 flex flex-col gap-2 p-2 absolute bottom-0 left-0 w-full h-[50%] sm:h-[33%] rounded-2xl bg-black/40 backdrop-blur-[3px]">
             <h1 className="text-lg font-bold text-white md:text-2xl">
               El Corazón del Misterio
             </h1>
@@ -65,7 +65,7 @@ const ThirdSection = () => {
             <Heart  width="20" height="20"/>
           </div>
           <img src={imgN8} alt="imgN8" className="w-full h-auto " />
-          <div className="opacity-0 group-hover:opacity-100 transition-all duration-700 flex flex-col gap-2 p-2 absolute bottom-0 left-0 w-full h-[33%] rounded-2xl bg-black/40 backdrop-blur-[3px]">
+          <div className="opacity-0 group-hover:opacity-100 transition-all duration-700 flex flex-col gap-2 p-2 absolute bottom-0 left-0 w-full h-[50%] sm:h-[33%] rounded-2xl bg-black/40 backdrop-blur-[3px]">
             <h1 className="text-lg font-bold text-white md:text-2xl">
               Viaje al pasado
             </h1>
@@ -81,7 +81,7 @@ const ThirdSection = () => {
             <Heart  width="20" height="20"/>
           </div>
           <img src={imgN9} alt="imgN9" className="w-full h-auto " />
-          <div className="opacity-0 group-hover:opacity-100 transition-all duration-700 flex flex-col gap-2 p-2 absolute bottom-0 left-0 w-full h-[33%] rounded-2xl bg-black/40 backdrop-blur-[3px]">
+          <div className="opacity-0 group-hover:opacity-100 transition-all duration-700 flex flex-col gap-2 p-2 absolute bottom-0 left-0 w-full h-[50%] sm:h-[33%] rounded-2xl bg-black/40 backdrop-blur-[3px]">
             <h1 className="text-lg font-bold text-white md:text-2xl">
               Cielo Estrellado
             </h1>
@@ -97,7 +97,7 @@ const ThirdSection = () => {
             <Heart  width="20" height="20"/>
           </div>
           <img src={imgN10} alt="imgN10" className="w-full h-auto " />
-          <div className="opacity-0 group-hover:opacity-100 transition-all duration-700 flex flex-col gap-2 p-2 absolute bottom-0 left-0 w-full h-[33%] rounded-2xl bg-black/40 backdrop-blur-[3px]">
+          <div className="opacity-0 group-hover:opacity-100 transition-all duration-700 flex flex-col gap-2 p-2 absolute bottom-0 left-0 w-full h-[50%] sm:h-[33%] rounded-2xl bg-black/40 backdrop-blur-[3px]">
             <h1 className="text-lg font-bold text-white md:text-2xl">
               El arte de crear
             </h1>
@@ -113,7 +113,7 @@ const ThirdSection = () => {
             <Heart  width="20" height="20"/>
           </div>
           <img src={imgN11} alt="imgN11" className="w-full h-auto " />
-          <div className="opacity-0 group-hover:opacity-100 transition-all duration-700 flex flex-col gap-2 p-2 absolute bottom-0 left-0 w-full h-[33%] rounded-2xl bg-black/40 backdrop-blur-[3px]">
+          <div className="opacity-0 group-hover:opacity-100 transition-all duration-700 flex flex-col gap-2 p-2 absolute bottom-0 left-0 w-full h-[50%] sm:h-[33%] rounded-2xl bg-black/40 backdrop-blur-[3px]">
             <h1 className="text-lg font-bold text-white md:text-2xl">
               Estrategias del Éxito
             </h1>
@@ -129,7 +129,7 @@ const ThirdSection = () => {
             <Heart  width="20" height="20"/>
           </div>
           <img src={imgN12} alt="imgN12" className="w-full h-auto " />
-          <div className="opacity-0 group-hover:opacity-100 transition-all duration-700 flex flex-col gap-2 p-2 absolute bottom-0 left-0 w-full h-[33%] rounded-2xl bg-black/40 backdrop-blur-[3px]">
+          <div className="opacity-0 group-hover:opacity-100 transition-all duration-700 flex flex-col gap-2 p-2 absolute bottom-0 left-0 w-full h-[50%] sm:h-[33%] rounded-2xl bg-black/40 backdrop-blur-[3px]">
             <h1 className="text-lg font-bold text-white md:text-2xl">
               Corazón de un Alma
             </h1>
@@ -146,7 +146,7 @@ const ThirdSection = () => {
               <Heart  width="20" height="20"/>
             </div>
             <img src={imgN8} alt="imgN8" className="w-full h-auto " />
-            <div className="opacity-0 group-hover:opacity-100 transition-all duration-700 flex flex-col gap-2 p-2 absolute bottom-0 left-0 w-full h-[33%] rounded-2xl bg-black/40 backdrop-blur-[3px]">
+            <div className="opacity-0 group-hover:opacity-100 transition-all duration-700 flex flex-col gap-2 p-2 absolute bottom-0 left-0 w-full h-[50%] sm:h-[33%] rounded-2xl bg-black/40 backdrop-blur-[3px]">
               <h1 className="text-lg font-bold text-white md:text-2xl">
                 Viaje al pasado
               </h1>
@@ -162,7 +162,7 @@ const ThirdSection = () => {
               <Heart  width="20" height="20"/>
             </div>
             <img src={imgN9} alt="imgN9" className="w-full h-auto " />
-            <div className="opacity-0 group-hover:opacity-100 transition-all duration-700 flex flex-col gap-2 p-2 absolute bottom-0 left-0 w-full h-[33%] rounded-2xl bg-black/40 backdrop-blur-[3px]">
+            <div className="opacity-0 group-hover:opacity-100 transition-all duration-700 flex flex-col gap-2 p-2 absolute bottom-0 left-0 w-full h-[50%] sm:h-[33%] rounded-2xl bg-black/40 backdrop-blur-[3px]">
               <h1 className="text-lg font-bold text-white md:text-2xl">
                 Cielo Estrellado
               </h1>
@@ -178,7 +178,7 @@ const ThirdSection = () => {
               <Heart  width="20" height="20"/>
             </div>
             <img src={imgN10} alt="imgN10" className="w-full h-auto " />
-            <div className="opacity-0 group-hover:opacity-100 transition-all duration-700 flex flex-col gap-2 p-2 absolute bottom-0 left-0 w-full h-[33%] rounded-2xl bg-black/40 backdrop-blur-[3px]">
+            <div className="opacity-0 group-hover:opacity-100 transition-all duration-700 flex flex-col gap-2 p-2 absolute bottom-0 left-0 w-full h-[50%] sm:h-[33%] rounded-2xl bg-black/40 backdrop-blur-[3px]">
               <h1 className="text-lg font-bold text-white md:text-2xl">
                 El arte de crear
               </h1>
@@ -196,7 +196,7 @@ const ThirdSection = () => {
               <Heart  width="20" height="20"/>
             </div>
             <img src={imgN6} alt="imgN6" className="w-full h-auto " />
-            <div className="opacity-0 group-hover:opacity-100 transition-all duration-700 flex flex-col gap-2 p-2 absolute bottom-0 left-0 w-full h-[33%] rounded-2xl bg-black/40 backdrop-blur-[3px]">
+            <div className="opacity-0 group-hover:opacity-100 transition-all duration-700 flex flex-col gap-2 p-2 absolute bottom-0 left-0 w-full h-[50%] sm:h-[33%] rounded-2xl bg-black/40 backdrop-blur-[3px]">
               <h1 className="text-lg font-bold text-white md:text-2xl">
                 La Magia del Sabor
               </h1>
@@ -212,7 +212,7 @@ const ThirdSection = () => {
               <Heart  width="20" height="20"/>
             </div>
             <img src={imgN7} alt="imgN7" className="w-full h-auto " />
-            <div className="opacity-0 group-hover:opacity-100 transition-all duration-700 flex flex-col gap-2 p-2 absolute bottom-0 left-0 w-full h-[33%] rounded-2xl bg-black/40 backdrop-blur-[3px]">
+            <div className="opacity-0 group-hover:opacity-100 transition-all duration-700 flex flex-col gap-2 p-2 absolute bottom-0 left-0 w-full h-[50%] sm:h-[33%] rounded-2xl bg-black/40 backdrop-blur-[3px]">
               <h1 className="text-lg font-bold text-white md:text-2xl">
                 El Corazón del Misterio
               </h1>
@@ -230,7 +230,7 @@ const ThirdSection = () => {
               <Heart  width="20" height="20"/>
             </div>
             <img src={imgN11} alt="imgN11" className="w-full h-auto " />
-            <div className="opacity-0 group-hover:opacity-100 transition-all duration-700 flex flex-col gap-2 p-2 absolute bottom-0 left-0 w-full h-[33%] rounded-2xl bg-black/40 backdrop-blur-[3px]">
+            <div className="opacity-0 group-hover:opacity-100 transition-all duration-700 flex flex-col gap-2 p-2 absolute bottom-0 left-0 w-full h-[50%] sm:h-[33%] rounded-2xl bg-black/40 backdrop-blur-[3px]">
               <h1 className="text-lg font-bold text-white md:text-2xl">
                 Estrategias del Éxito
               </h1>
@@ -247,7 +247,7 @@ const ThirdSection = () => {
             </div>
 
             <img src={imgN12} alt="imgN12" className="w-full h-auto " />
-            <div className="opacity-0 group-hover:opacity-100 transition-all duration-700 flex flex-col gap-2 p-2 absolute bottom-0 left-0 w-full h-[33%] rounded-2xl bg-black/40 backdrop-blur-[3px]">
+            <div className="opacity-0 group-hover:opacity-100 transition-all duration-700 flex flex-col gap-2 p-2 absolute bottom-0 left-0 w-full h-[50%] sm:h-[33%] rounded-2xl bg-black/40 backdrop-blur-[3px]">
               <h1 className="text-lg font-bold text-white md:text-2xl">
                 Corazón de un Alma
               </h1>
