@@ -12,7 +12,7 @@ const FirstSection = () => {
           <h1 className="text-2xl font-bold md:text-4xl">Los libros más populares del año</h1>
           <p className="text-center text-base md:text-2xl max-w-[50rem]">Descubre las lecturas que están marcando tendencia. Estos son los títulos más vendidos y recomendados por lectores de todo el mundo </p>
           <div className="flex flex-row w-full gap-2 m-auto max-w-[40rem]">
-            <button className="w-full p-2 font-bold text-black transition-all duration-700 ease-out bg-transparent border-2 border-neutral-800 dark:text-white dark:hover:text-black dark:border-white rounded-2xl hover:bg-white">
+            <button className="w-full p-2 font-bold text-black transition-all duration-700 ease-out bg-transparent border-2 border-blue-400 dark:text-white hover:bg-blue-300 dark:hover:text-black dark:border-white rounded-2xl dark:hover:bg-white">
               Ver todos
             </button>
 
