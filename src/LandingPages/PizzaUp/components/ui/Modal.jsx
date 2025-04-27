@@ -69,7 +69,7 @@ export default function Modal({ isOpen, onClose, pizza }) {
 
         <div className="grid w-full grid-cols-2 gap-2">
           <div className="">
-            <img src={pizza.image} alt={pizza.name} className="rounded" />
+            <img src={pizza.image} alt={pizza.name} className="h-auto max-w-96" />
             <h2 className="mb-2 text-xl font-bold md:text-2xl">{pizza.name}</h2>
             <p className="text-lg">${pizza.price}</p>
 
