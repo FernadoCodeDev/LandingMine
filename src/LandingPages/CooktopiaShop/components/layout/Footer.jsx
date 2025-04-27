@@ -2,7 +2,7 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <footer className="w-full p-6 text-white bg-stone-700">
+    <footer className="w-full p-6 text-white bg-black">
       <div className="max-w-6xl mx-auto">
         <p className="mb-4 text-lg leading-relaxed">
           <span className="font-bold">Cooktopia Shop</span> expresa su más
@@ -11,7 +11,7 @@ const Footer = () => {
             href="https://dribbble.com/skabuhena"
             target="_blank"
             rel="noopener noreferrer"
-            className="ml-1 font-bold text-white transition duration-300 ease-in-out hover:text-stone-200"
+            className="ml-1 font-bold transition duration-300 ease-in-out hover:text-stone-400"
           >
             Mostafa Kamal
           </a>{" "}
@@ -35,13 +35,13 @@ const Footer = () => {
         </p>
       </div>
 
-      <div className="mt-8 border-t-2 border-black opacity-50"></div>
+      <div className="mt-8 border-t-2 border-white opacity-50"></div>
 
       <p className="mt-6 text-sm text-center">
         © 2025 Cooktopia Shop.{" "}
         <a
           href="/"
-          className="ml-1 font-bold text-white transition duration-300 ease-in-out hover:text-stone-200"
+          className="ml-1 font-bold transition duration-300 ease-in-out hover:text-stone-400"
         >
           Regresar a LandingMine
         </a>
