@@ -43,8 +43,8 @@ const HeaderStrikes = () => {
                 mejor ambiente de boliche con música, comida y grandes momentos!
               </p>
 
-              <div className="hidden grid-cols-3 gap-2 md:grid">
-                <div className="flex flex-col items-center p-2 border-r-2 border-orange-500">
+              <div className="grid grid-cols-1 gap-2 xl:grid-cols-3">
+                <div className="flex flex-col items-center p-2 border-b-2 border-orange-500 xl:border-b-0 xl:border-r-2">
                   <h1 className="font-bold text-orange-500">+10,000 clientes felices</h1>
                   <p className="">
                     Desde familias hasta jugadores profesionales, cada visitante
@@ -52,7 +52,7 @@ const HeaderStrikes = () => {
                   </p>
                 </div>
 
-                <div className="flex flex-col items-center p-2 border-r-2 border-orange-500">
+                <div className="flex flex-col items-center p-2 border-b-2 border-orange-500 xl:border-b-0 xl:border-r-2">
                   <h1 className="font-bold text-orange-500"> Torneos y eventos exclusivos</h1>
                   <p className="">
                     Organizamos competencias, eventos temáticos y noches
