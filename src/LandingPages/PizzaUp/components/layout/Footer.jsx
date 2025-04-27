@@ -2,7 +2,7 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <footer className="w-full p-6 mt-8 text-white bg-red-600">
+    <footer className="w-full p-6 mt-8 text-white bg-black">
       <div className="max-w-6xl mx-auto">
         <p className="mb-4 text-lg leading-relaxed">
           PizzaUp expresa su más sincero agradecimiento a la talentosa
