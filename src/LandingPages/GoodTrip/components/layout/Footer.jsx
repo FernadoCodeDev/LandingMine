@@ -2,7 +2,7 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <footer className="w-full p-6 text-black bg-orange-300">
+    <footer className="w-full p-6 text-white bg-black">
       <div className="max-w-6xl mx-auto">
         <p className="mb-4 text-lg leading-relaxed">
           Good Trip expresa su más sincero agradecimiento al talentoso diseñador{" "}
@@ -10,7 +10,7 @@ const Footer = () => {
             href="https://dribbble.com/dhiradanuarta"
             target="_blank"
             rel="noopener noreferrer"
-            className="ml-1 font-bold text-black transition duration-300 ease-in-out hover:text-white"
+            className="ml-1 font-bold transition duration-300 ease-in-out hover:text-orange-300"
           >
             Dhira Danuarta
           </a>{" "}
@@ -34,13 +34,13 @@ const Footer = () => {
         </p>
       </div>
 
-      <div className="mt-8 border-t-2 border-black opacity-50"></div>
+      <div className="mt-8 border-t-2 border-white opacity-50"></div>
 
       <p className="mt-6 text-sm text-center">
         © 2025 Good Trip.{" "}
         <a
           href="/"
-          className="ml-1 font-bold text-black transition duration-300 ease-in-out hover:text-white"
+          className="ml-1 font-bold transition duration-300 ease-in-out hover:text-orange-300"
         >
           Regresar a LandingMine
         </a>
