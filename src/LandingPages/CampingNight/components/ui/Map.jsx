@@ -41,7 +41,7 @@ export default function InteractiveMap() {
 
         <MapPoint
           top="70%"
-          left="17%"
+          left="21%"
           title="Comodidad y limpieza, siempre cerca"
           desc="Nuestros baños están dentro de la cabaña principal, mantenidos con altos estándares de higiene. Sabemos lo importante que es sentirse cómodo en medio de la naturaleza, por eso te ofrecemos instalaciones limpias y bien cuidadas."
           img={Bathroom}
