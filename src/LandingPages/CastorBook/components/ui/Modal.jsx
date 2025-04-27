@@ -12,7 +12,7 @@ export const Books = [
   {
     id: 1,
     name: "La Magia del Sabor",
-    text: "Lorem",
+    text: "Descubre recetas irresistibles para cada ocasión. Desde platos rápidos hasta menús gourmet, este libro transformará tu cocina en un verdadero santuario culinario.",
     image: imgN6,
     price: "$14.99",
     start: "4.9",
@@ -23,7 +23,7 @@ export const Books = [
   {
     id: 2,
     name: "El Corazón del Misterio",
-    text: "Lorem",
+    text: "Un thriller apasionante que te mantendrá al borde de tu asiento. Un detective debe resolver el misterio de una desaparición en la ciudad, pero la verdad es más oscura de lo que imagina.",
     image: imgN7,
     price: "$14.99",
     start: "4.9",
@@ -34,7 +34,7 @@ export const Books = [
   {
     id: 3,
     name: "Viaje al pasado",
-    text: "Lorem",
+    text: "Una historia épica que te lleva a los momentos cruciales de la historia humana. Viaja en el tiempo y vive las grandes civilizaciones de la antigüedad.",
     image: imgN8,
     price: "$14.99",
     start: "4.9",
@@ -45,7 +45,7 @@ export const Books = [
   {
     id: 4,
     name: "Cielo Estrellado",
-    text: "Lorem",
+    text: "Un relato de ciencia ficción que combina el misterio del universo con las relaciones humanas. Un astronauta perdido en el espacio descubrirá secretos que podrían cambiar el destino de la humanidad.",
     image: imgN9,
     price: "$14.99",
     start: "4.9",
@@ -56,7 +56,7 @@ export const Books = [
   {
     id: 5,
     name: "El arte de crear",
-    text: "Lorem",
+    text: "na guía imprescindible para artistas de todas las disciplinas. Aprende técnicas, inspira tu creatividad y descubre nuevas forma de expresión artística.",
     image: imgN10,
     price: "$14.99",
     start: "4.9",
@@ -67,7 +67,7 @@ export const Books = [
   {
     id: 6,
     name: "Estrategias del Éxito",
-    text: "Lorem",
+    text: "Un enfoque revolucionario sobre cómo alcanzar tus metas. Con consejos de expertos, este libro te guiará paso a paso para construir el éxito en tu vida personal y profesional.",
     image: imgN11,
     price: "$14.99",
     start: "4.9",
@@ -78,7 +78,7 @@ export const Books = [
   {
     id: 7,
     name: "Corazón de un Alma",
-    text: "Lorem",
+    text: "Una colección de relatos conmovedores sobre el amor, la pérdida y la redención. Perfecto para quienes disfrutan de historias que tocan el alma.",
     image: imgN12,
     price: "$14.99",
     start: "4.9",
@@ -94,7 +94,7 @@ export default function Modal({ isOpen, onClose, Book }) {
   return (
     <div className="fixed inset-0 z-50 flex items-center justify-center text-center text-black bg-black bg-opacity-60">
       <div
-        className={`${Book.color.base}  p-2 m-auto overflow-hidden w-full md:w-1/2 xl:w-1/3 relative flex flex-col my-2 group rounded-2xl`}
+        className={`${Book.color.base}  p-2 m-auto overflow-hidden w-full md:w-1/2 relative flex flex-col my-2 group rounded-2xl`}
       >
         <button
           onClick={onClose}
@@ -103,27 +103,36 @@ export default function Modal({ isOpen, onClose, Book }) {
           <Close />
         </button>
 
-        <div className="z-20 flex flex-col items-center justify-center w-full gap-4 p-4 mt-20 text-">
-          <div className="flex flex-row items-center justify-between w-full p-4 ">
-            <h1 className="font-bold text-black">⭐{Book.start}</h1>
-            <Heart width="20" height="20" />
+        <div className="z-20 grid items-center justify-center w-full grid-cols-1 gap-2 p-4 mt-20 md:grid-cols-2 ">
+          <div className="flex flex-col items-center justify-center gap-2">
+            <div className="flex flex-row items-center justify-between w-full ">
+              <h1 className="font-bold text-black">⭐{Book.start}</h1>
+              <Heart width="20" height="20" />
+            </div>
+            <img
+              src={Book.image}
+              alt="img"
+              className="hidden w-full h-auto md:block"
+            />
           </div>
 
-          <img src={Book.image} alt="img" className="w-full h-auto " />
-          <h1 className="text-lg font-bold md:text-2xl">
-            {Book.name}
-          </h1>
+          <div className="flex flex-col items-center justify-center gap-2">
+            <img
+              src={Book.image}
+              alt="img"
+              className="w-full h-auto md:hidden"
+            />
+            <h1 className="text-lg font-bold md:text-2xl">{Book.name}</h1>
 
-          <p className="text-base md:text-lg">{Book.text}</p>
-          <h1 className="text-base font-bold md:text-lg">
-            {Book.price}
-          </h1>
+            <p className="text-base md:text-lg">{Book.text}</p>
+            <h1 className="text-base font-bold md:text-lg">{Book.price}</h1>
 
-          <button
-            className={`p-2 text-white transition duration-700 ease-out bg-blue-400  border-2 border-blue-600 hover:bg-blue-600 hover:border-blue-800  rounded-lg`}
-          >
-            COMPRAR
-          </button>
+            <button
+              className={`p-2 w-full text-white transition duration-700 ease-out bg-blue-400  border-2 border-blue-600 hover:bg-blue-600 hover:border-blue-800  rounded-lg`}
+            >
+              COMPRAR
+            </button>
+          </div>
         </div>
       </div>
     </div>
