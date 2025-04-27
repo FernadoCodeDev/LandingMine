@@ -2,7 +2,7 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <footer className="w-full p-6 text-white bg-neutral-800">
+    <footer className="w-full p-6 text-white bg-black">
       <div className="max-w-6xl mx-auto">
         <p className="mb-4 text-lg leading-relaxed">
           GYM expresa su más sincero agradecimiento a la talentosa diseñadora{" "}
