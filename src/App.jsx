@@ -16,11 +16,12 @@ import Morgana from "./LandingPages/Morgana/page/Morgana"; // Morgana Landing Pa
 import GoldTeeth from "./LandingPages/GoldTeeth/page/GoldTeeth"; // GoldTeeth Landing Page
 import CampingNight from "./LandingPages/CampingNight/page/CampingNight"; // CampingNight Landing Page
 import Clover from "./LandingPages/Clover/page/Clover"; // Clover Landing Page
-import OrganicGold from "./LandingPages/OrganicGold/page/OrganicGold" //OrganicGold Landing page
-import ZoologicalWorld from "./LandingPages/ZoologicalWorld/page/ZoologicalWorld" //ZoologicalWorld Landing page
-import JRRoyal from "./LandingPages/JRRoyal/page/JRRoyal" //JRRoyal Landing page
-import CastorBook from "./LandingPages/CastorBook/page/CastorBook" //CastorBook Landing page 
-import Strikes from "./LandingPages/Strikes/page/Strikes" //Strikes Landing page
+import OrganicGold from "./LandingPages/OrganicGold/page/OrganicGold"; //OrganicGold Landing page
+import ZoologicalWorld from "./LandingPages/ZoologicalWorld/page/ZoologicalWorld"; //ZoologicalWorld Landing page
+import JRRoyal from "./LandingPages/JRRoyal/page/JRRoyal"; //JRRoyal Landing page
+import CastorBook from "./LandingPages/CastorBook/page/CastorBook"; //CastorBook Landing page
+import Strikes from "./LandingPages/Strikes/page/Strikes"; //Strikes Landing page
+import ChatWithBot from "./LandingPages/ChatWithBot/page/ChatWithBot"; //ChatWithBot Landing page
 
 const App = () => {
   return (
@@ -66,6 +67,8 @@ const App = () => {
         <Route path="/CastorBook" element={<CastorBook />} />
         {/*Strikes Landing page */}
         <Route path="/Strikes" element={<Strikes />} />
+        {/* ChatWithBot Landing page */}
+        <Route path="/ChatWithBot" element={<ChatWithBot />} />
       </Routes>
     </Router>
   );
