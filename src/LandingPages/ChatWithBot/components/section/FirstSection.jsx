@@ -1,4 +1,5 @@
 import React from "react";
+import Icons from "../ui/icons"
 
 const FirstSection = () => {
   return (
@@ -12,6 +13,8 @@ const FirstSection = () => {
           className="w-full p-2 mr-2 bg-transparent flex-grow-1 border-2-emerald-800"
           placeholder="Pregunta lo que quieras"
         />
+
+        <Icons />
       </div>
     </div>
   );
