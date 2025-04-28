@@ -1,23 +1,51 @@
 import React from "react";
-import Icons from "../ui/icons"
+import { useChatBot } from "../hook/useChatBot";
+import { ChatList } from "../ui/ChatList";
 
-const FirstSection = () => {
+function FirstSection() {
+  const {
+    messages,
+    inputValue,
+    setInputValue,
+    isLoading,
+    infoText,
+    handleSubmit
+  } = useChatBot();
+
   return (
-    <div className="relative flex flex-col items-center justify-center w-full min-h-screen gap-4 p-4 text-black bg-white dark:text-white dark:bg-neutral-900">
-      <h1 className="text-2xl font-bold text-center md:text-4xl">
-        Hola ¿En qué puedo ayudarte?
-      </h1>
-
-      <div className="mx-auto max-w-[80rem] rounded-2xl flex flex-col w-full gap-2 p-2 mb-4 border bg-slate-100 dark:bg-neutral-800 border-emerald-800 focus:outline-none focus:ring focus:ring-emerald-800">
-        <input
-          className="w-full p-2 mr-2 bg-transparent flex-grow-1 border-2-emerald-800"
-          placeholder="Pregunta lo que quieras"
-        />
-
-        <Icons />
+    <div className="flex flex-col min-h-screen p-4 text-black bg-white dark:text-white dark:bg-neutral-900">
+      <div className="max-w-[80rem] mx-auto">
+        {isLoading ? (
+          <div className="text-center loading">
+            <i className="block mb-2 animate-spin">⏳</i>
+            <h4>Cargando...</h4>
+            <h5>{infoText || "Esto puede tardar un poco. Paciencia."}</h5>
+          </div>
+        ) : (
+          <ChatList messages={messages} />
+        )}
       </div>
+
+      <form onSubmit={handleSubmit} className=" w-full max-w-[80rem] mx-auto flex gap-2 mt-4">
+        <input
+          className="flex-1 p-2 border rounded"
+          placeholder="Escribe tu mensaje aquí..."
+          value={inputValue}
+          onChange={(e) => setInputValue(e.target.value)}
+          disabled={isLoading}
+        />
+        <button
+          type="submit"
+          className="p-2 text-white rounded bg-emerald-800"
+          disabled={isLoading}
+        >
+          Enviar
+        </button>
+      </form>
+
+      <small className="block mt-2 text-center text-gray-400">{infoText}</small>
     </div>
   );
-};
+}
 
 export default FirstSection;
