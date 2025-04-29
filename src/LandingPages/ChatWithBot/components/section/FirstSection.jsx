@@ -1,6 +1,8 @@
 import React from "react";
 import { useChatBot } from "../hook/useChatBot";
 import { ChatList } from "../ui/ChatList";
+import Icons from "../ui/icons";
+import Arrow from "../../assets/svg/Arrow";
 
 function FirstSection() {
   const {
@@ -9,12 +11,13 @@ function FirstSection() {
     setInputValue,
     isLoading,
     infoText,
-    handleSubmit
+    handleSubmit,
   } = useChatBot();
 
   return (
     <div className="flex flex-col min-h-screen p-4 text-black bg-white dark:text-white dark:bg-neutral-900">
-      <div className="max-w-[80rem] mx-auto">
+      <div className="flex flex-col gap-4 w-full max-w-[80rem] m-auto">
+      <div className="">
         {isLoading ? (
           <div className="text-center loading">
             <i className="block mb-2 animate-spin">⏳</i>
@@ -26,10 +29,13 @@ function FirstSection() {
         )}
       </div>
 
-      <form onSubmit={handleSubmit} className=" w-full max-w-[80rem] mx-auto flex gap-2 mt-4">
+      <form
+        onSubmit={handleSubmit}
+        className=" max-w-[80rem] rounded-2xl grid grid-cols-4 w-full gap-2 p-2 mb-4 border bg-slate-100 dark:bg-neutral-800 border-emerald-800 focus:outline-none focus:ring focus:ring-emerald-800"
+      >
         <input
-          className="flex-1 p-2 border rounded"
-          placeholder="Escribe tu mensaje aquí..."
+          className="flex-1 col-span-3 p-2 border rounded"
+          placeholder="Pregunta lo que quieras"
           value={inputValue}
           onChange={(e) => setInputValue(e.target.value)}
           disabled={isLoading}
@@ -39,11 +45,16 @@ function FirstSection() {
           className="p-2 text-white rounded bg-emerald-800"
           disabled={isLoading}
         >
-          Enviar
+          <Arrow className="w-4 h-auto m-auto"/>
         </button>
+        <div className="col-span-4">
+
+        <Icons />
+        </div>
       </form>
 
-      <small className="block mt-2 text-center text-gray-400">{infoText}</small>
+      </div>
+      
     </div>
   );
 }
