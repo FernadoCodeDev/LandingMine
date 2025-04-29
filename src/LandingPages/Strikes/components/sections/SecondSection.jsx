@@ -1,4 +1,5 @@
 import React from "react";
+import BowlingBallSlider from "../ui/Slider";
 import Masonry from "react-masonry-css";
 import imgN2 from "../../assets/img/imgN2.webp";
 import imgN3 from "../../assets/img/imgN3.webp";
@@ -11,7 +12,11 @@ import imgN8 from "../../assets/img/imgN8.webp";
 const SecondSection = () => {
   return (
     <div className="relative flex flex-col items-center w-full min-h-screen text-black bg-white md:text-2xl dark:border-slate-950 dark:bg-slate-950 dark:text-white">
-      <div className="m-auto max-w-[90rem]">
+      <div className="w-full h-auto mx-auto ">
+        <BowlingBallSlider />
+      </div>
+
+      <div className="m-auto max-w-[80rem]">
         <Masonry
           breakpointCols={{ default: 3, 768: 3, 767: 2 }}
           className="flex items-center justify-center gap-2 p-4 text-center"

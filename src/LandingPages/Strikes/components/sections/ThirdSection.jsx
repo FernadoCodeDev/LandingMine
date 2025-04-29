@@ -14,8 +14,8 @@ const ThirdSection = () => {
         </p>
       </div>
 
-      <div className="grid grid-cols-1 max-w-[90rem] m-auto  ">
-        <div className="grid grid-cols-1 gap-4 p-4 border-b-2 md:grid-cols-3 border-beige-200 dark:border-slate-800">
+      <div className="grid grid-cols-1 items-center justify-center max-w-[90rem] m-auto  ">
+        <div className="grid items-center justify-center grid-cols-1 gap-4 p-4 border-b-2 md:grid-cols-3 border-beige-200 dark:border-slate-800">
           <h1 className="text-2xl font-bold text-center text-orange-500 md:text-4xl">
             Primera Ronda
           </h1>
@@ -30,7 +30,7 @@ const ThirdSection = () => {
           </p>
         </div>
 
-        <div className="grid grid-cols-1 gap-4 p-4 border-b-2 md:grid-cols-3 border-beige-200 dark:border-slate-800">
+        <div className="grid items-center justify-center grid-cols-1 gap-4 p-4 border-b-2 md:grid-cols-3 border-beige-200 dark:border-slate-800">
           <h1 className="text-2xl font-bold text-center text-orange-500 md:text-4xl">
             Ronda Spare
           </h1>
@@ -45,7 +45,7 @@ const ThirdSection = () => {
           </p>
         </div>
 
-        <div className="grid grid-cols-1 gap-4 p-4 md:grid-cols-3">
+        <div className="grid items-center justify-center grid-cols-1 gap-4 p-4 md:grid-cols-3">
           <h1 className="text-2xl font-bold text-center text-orange-500 md:text-4xl">
             Ronda Strike
           </h1>
