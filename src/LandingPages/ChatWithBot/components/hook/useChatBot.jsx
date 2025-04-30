@@ -1,6 +1,6 @@
 import React from "react";
 import { useEffect, useState } from "react";
-//import { CreateWebWorkerMLCEngine } from "https://cdn.jsdelivr.net/npm/@mlc-ai/web-llm@0.2.46/+esm";
+import { CreateWebWorkerMLCEngine } from "https://cdn.jsdelivr.net/npm/@mlc-ai/web-llm@0.2.46/+esm";
 
 const SELECTED_MODEL = "Llama-3-8B-Instruct-q4f32_1-MLC-1k";
 
