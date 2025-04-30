@@ -19,10 +19,10 @@ export const Packages = [
     image: WildWorld,
     svg: PantheSVG,
     color: {
-      base: "bg-orange-500",
+      base: "bg-orange-400",
       border: "border-orange-600",
-      hover: "bg-orange-600",
-      Hoverborder: "border-orange-700",
+      baseHover: "bg-orange-700",
+      borderHover: "border-orange-800",
     },
   },
   {
@@ -33,35 +33,35 @@ export const Packages = [
     svg: ElephantSVG,
     color: {
       base: "bg-yellow-400",
-      border: "border-yellow-500",
-      hover: "bg-yellow-500",
-      Hoverborder: "border-yellow-600",
+      border: "border-yellow-600",
+      baseHover: "bg-yellow-700",
+      borderHover: "border-yellow-800",
     },
   },
   {
     id: 3,
-    name: "Alimentando a los Pequeños",
-    text: "Sé parte de una experiencia única en la que podrás alimentar y aprender sobre crías de animales herbívoros como jirafas, rinocerontes y más. Una actividad educativa y emocionante.",
-    image: FeedingtheLittleOnes,
-    svg: HippopotamusSVG,
-    color: {
-      base: "bg-purple-600",
-      border: "border-purple-800",
-      hover: "bg-purple-700",
-      Hoverborder: "border-purple-900",
-    },
-  },
-  {
-    id: 4,
     name: "Guardián VIP",
     text: "Vive la experiencia más exclusiva con acceso especial a áreas restringidas, interacción con cuidadores y una visita guiada para conocer de cerca la labor de conservación en Zoological World.",
     image: VIPGuardian,
     svg: RhinocerosSVG,
     color: {
-      base: "bg-orange-600",
-      border: "border-orange-700",
-      hover: "bg-orange-700",
-      Hoverborder: "border-orange-800",
+      base: "bg-emerald-400",
+      border: "border-emerald-600",
+      baseHover: "bg-emerald-700",
+      borderHover: "border-emerald-800",
+    },
+  },
+  {
+    id: 4,
+    name: "Alimentando a los Pequeños",
+    text: "Sé parte de una experiencia única en la que podrás alimentar y aprender sobre crías de animales herbívoros como jirafas, rinocerontes y más. Una actividad educativa y emocionante.",
+    image: FeedingtheLittleOnes,
+    svg: HippopotamusSVG,
+    color: {
+      base: "bg-purple-400",
+      border: "border-purple-600",
+      baseHover: "bg-purple-700",
+      borderHover: "border-purple-800",
     },
   },
   {
@@ -71,16 +71,22 @@ export const Packages = [
     image: AquaticAdventure,
     svg: DolphinSVG,
     color: {
-      base: "bg-blue-500",
+      base: "bg-blue-400",
       border: "border-blue-600",
-      hover: "bg-blue-600",
-      Hoverborder: "border-blue-700",
+      baseHover: "bg-blue-700",
+      borderHover: "border-blue-800",
     },
   },
 ];
 
 export default function Modal({ isOpen, onClose, Package }) {
   if (!isOpen || !Package) return null;
+
+  function getButtonClasses(color) {
+    return `px-4 py-2 mt-4 text-white transition border-2 rounded-lg 
+            ${color.base} ${color.border} 
+            hover:${color.baseHover} hover:${color.borderHover}`;
+  }
 
   return (
     <div className="fixed inset-0 z-50 flex items-center justify-center text-center text-black bg-black bg-opacity-60">
@@ -105,11 +111,7 @@ export default function Modal({ isOpen, onClose, Package }) {
           <h1 className="text-xl font-bold md:text-2xl">{Package.name}</h1>
           <h3 className="text-lg md:text-xl">{Package.text}</h3>
 
-          <button
-            className={`px-4 py-2 mt-4 text-white transition  ${Package.color.base} border-2 ${Package.color.border} hover:${Package.color.hover} hover:${Package.color.Hoverborder} rounded-lg`}
-          >
-            COMPRAR
-          </button>
+          <button className={getButtonClasses(Package.color)}>COMPRAR</button>
         </div>
       </div>
     </div>

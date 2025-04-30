@@ -14,11 +14,13 @@ const ThirdSection = () => {
         En Zoological World, nos aseguramos de que tu experiencia sea cómoda y
         memorable, con servicios y facilidades para todos los visitantes.
       </p>
-      <div className=" max-w-[80rem] grid grid-cols-1 md:grid-cols-2 gap-8">
+      <div className=" max-w-[80rem] m-auto grid grid-cols-2 gap-8">
         <div className="flex flex-col items-center gap-4">
-          <TrayFoodSVG height="150" width="150" />
-          <h1 className="font-bold text-center">Sabores de la Sabana</h1>
-          <p className="text-center">
+          <TrayFoodSVG height="50" width="50" />
+          <h1 className="text-lg font-bold text-center md:text-xl">
+            Sabores de la Sabana
+          </h1>
+          <p className="text-base text-center md:text-lg">
             Disfruta de una variedad de opciones gastronómicas que te harán
             sentir como si estuvieras en la sabana. Desde platos rápidos hasta
             opciones gourmet, tenemos algo para todos los gustos.
@@ -26,27 +28,27 @@ const ThirdSection = () => {
         </div>
 
         <div className="flex flex-col items-center gap-4">
-          <ParkingSVG height="150" width="150" />
-          <h1 className="font-bold text-center">
+          <ParkingSVG height="50" width="50" />
+          <h1 className="text-lg font-bold text-center md:text-xl">
             Tu comodidad, nuestra prioridad
           </h1>
-          <p className="text-center">
+          <p className="text-base text-center md:text-lg">
             Contamos con un amplio estacionamiento para que puedas disfrutar de
             tu visita sin preocupaciones. ¡Estaciona cómodamente y adéntrate en
             la aventura!
           </p>
         </div>
-      </div>
 
-      <h1 className="text-2xl font-bold text-center text-orange-500 md:text-4xl">
-        Horarios
-      </h1>
+        <h1 className="col-span-2 text-2xl font-bold text-center text-orange-500 md:text-4xl">
+          Horarios
+        </h1>
 
-      <div className=" max-w-[80rem] grid grid-cols-1 md:grid-cols-2 gap-8">
         <div className="flex flex-col items-center gap-4">
-          <GateSVG height="150" width="150" />
-          <h1 className="font-bold text-center">Cerrado los lunes</h1>
-          <p className="text-center">
+          <GateSVG height="50" width="50" />
+          <h1 className="text-lg font-bold text-center md:text-xl">
+            Cerrado los lunes
+          </h1>
+          <p className="text-base text-center md:text-lg">
             Nuestro zoológico estará cerrado los lunes para mantenimiento y
             cuidado de los animales. Te esperamos con los brazos abiertos el
             resto de la semana.
@@ -54,9 +56,11 @@ const ThirdSection = () => {
         </div>
 
         <div className="flex flex-col items-center gap-4">
-          <OpenGateSVG height="150" width="150" />
-          <h1 className="font-bold text-center">Abierto de martes a domingo</h1>
-          <p className="text-center">
+          <OpenGateSVG height="50" width="50" />
+          <h1 className="text-lg font-bold text-center md:text-xl">
+            Abierto de martes a domingo
+          </h1>
+          <p className="text-base text-center md:text-lg">
             Desde martes hasta domingo, nuestras puertas están abiertas para que
             disfrutes de un día lleno de aventuras y aprendizaje. ¡No te lo
             pierdas!
