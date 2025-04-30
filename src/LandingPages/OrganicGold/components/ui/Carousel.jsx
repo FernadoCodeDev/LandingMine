@@ -1,12 +1,12 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import imgN3 from "../../assets/img/imgN3.webp";
 import imgN4 from "../../assets/img/imgN4.webp";
 import Tomato from "../../assets/img/Tomato.webp";
 import Eggplant from "../../assets/img/Eggplant.webp";
 import Pumpkin from "../../assets/img/Pumpkin.webp";
-import BlackberriesgN4 from "../../assets/img/Blackberries.webp";
+import Blackberries from "../../assets/img/Blackberries.webp";
 
-const packages = [
+const Products = [
   {
     id: 1,
     title: "Cerezas Dulces y Jugosas",
@@ -41,25 +41,35 @@ const packages = [
     id: 6,
     title: "Moras Frescas y Ricas en Antioxidantes",
     text: "Nuestras moras orgánicas son pequeñas pero poderosas, cargadas de antioxidantes que benefician tu salud. Perfectas para disfrutar solas, en batidos o como complemento en tus postres favoritos, siempre frescas y deliciosas.",
-    img: BlackberriesgN4,
+    img: Blackberries,
   },
 ];
 
 export default function Slider() {
+
+  useEffect(() => {
+    Products.forEach(({ img }) => {
+      const image = new Image();
+      image.src = img;
+    });
+  }, []);
+  
+
+
   const [currentIndex, setCurrentIndex] = useState(0);
 
   const handleLeft = () => {
-    setCurrentIndex((prev) => (prev - 1 + packages.length) % packages.length);
+    setCurrentIndex((prev) => (prev - 1 + Products.length) % Products.length);
   };
 
   const handleRight = () => {
-    setCurrentIndex((prev) => (prev + 1) % packages.length);
+    setCurrentIndex((prev) => (prev + 1) % Products.length);
   };
 
-  const getVisiblePackages = () => {
-    const prevIndex = (currentIndex - 1 + packages.length) % packages.length;
-    const nextIndex = (currentIndex + 1) % packages.length;
-    return [packages[prevIndex], packages[currentIndex]];
+  const getVisibleProducts = () => {
+    const prevIndex = (currentIndex - 1 + Products.length) % Products.length;
+    const nextIndex = (currentIndex + 1) % Products.length;
+    return [Products[prevIndex], Products[currentIndex]];
   };
 
   return (
@@ -102,7 +112,7 @@ export default function Slider() {
       </div>
 
       <div className="grid items-center justify-center grid-cols-1 gap-4 md:grid-cols-2 ">
-        {getVisiblePackages().map((pkg, i) => {
+        {getVisibleProducts().map((pkg, i) => {
           const isSelected = i === 1;
           const positionClass = isSelected ? "" : " hidden md:block";
 
