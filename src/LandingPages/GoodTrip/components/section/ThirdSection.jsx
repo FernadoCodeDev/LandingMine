@@ -7,7 +7,7 @@ import imageN7 from "../../assets/img/imageN7.webp";
 const ThirdSection = () => {
   return (
       <div className="relative flex flex-col items-center justify-center w-full h-auto gap-4 p-4 text-black border-gray-300 dark:text-white min-h-auto bg-yellow-50 dark:bg-neutral-800">
-        <div className="w-1/3 p-2 mx-auto text-center border-2 border-black rounded-full dark:border-white md:w-1/6">
+        <div className="p-2 mx-auto text-center border-2 border-black rounded-full dark:border-white md:w-1/6">
           <h1>Nuestro paquete</h1>
         </div>
 
@@ -35,9 +35,9 @@ const ThirdSection = () => {
               <p className="pb-2">
                 Sumérgete en el rico tapiz de culturas. los paquetes culturales
                 te llevan al corazón de ciudades vibrantes, monumentos antiguos
-                y experiencias locales auténticas.
+                y experiencias locales auténticas
               </p>
-              <button className="w-1/2 p-2 transition-all duration-700 ease-out border-2 border-white rounded-full hover:bg-white hover:text-black">
+              <button className="p-2 transition-all duration-700 ease-out border-2 border-white rounded-full md:w-1/2 hover:bg-white hover:text-black">
                 Elija el paquete
               </button>{" "}
             </div>
@@ -54,9 +54,9 @@ const ThirdSection = () => {
               <p className="pb-2">
                 Para los amantes de la adrenalina, nuestros paquetes de aventura
                 ofrecen actividades emocionantes como senderismo, trekking,
-                deportes acuáticos y encuentros con la vida silvestre.
+                deportes acuáticos y encuentros con la vida silvestre
               </p>
-              <button className="w-1/2 p-2 transition-all duration-700 ease-out border-2 border-white rounded-full hover:bg-white hover:text-black">
+              <button className="p-2 transition-all duration-700 ease-out border-2 border-white rounded-full md:w-1/2 hover:bg-white hover:text-black">
                 Elija el paquete
               </button>{" "}
             </div>
@@ -68,7 +68,7 @@ const ThirdSection = () => {
               alt="imageN6"
               className="absolute inset-0 object-cover w-full h-full"
             />
-            <div className="relative z-10 flex flex-col h-full text-center max-w-[30rem] p-4 m-auto text-white">
+            <div className="relative z-10 flex flex-col h-full  max-w-[30rem] p-4 text-white">
               <h1 className="pb-2 font-serif text-3xl">
                 Retiros de relajación
               </h1>
@@ -77,7 +77,7 @@ const ThirdSection = () => {
                 prístinas y descanse en entornos tranquilos. La escapada
                 perfecta implica serenidad y relajación
               </p>
-              <button className="w-1/2 p-2 transition-all duration-700 ease-out border-2 border-white rounded-full hover:bg-white hover:text-black">
+              <button className="p-2 transition-all duration-700 ease-out border-2 border-white rounded-full md:w-1/2 hover:bg-white hover:text-black">
                 Elija el paquete
               </button>{" "}
             </div>
@@ -89,16 +89,16 @@ const ThirdSection = () => {
               alt="imageN7"
               className="absolute inset-0 object-cover w-full h-full"
             />
-            <div className="relative z-10 flex flex-col h-full text-center max-w-[30rem] p-4 m-auto text-white">
+            <div className="relative z-10 flex flex-col h-full max-w-[30rem] p-4 text-white">
               <h1 className="pb-2 font-serif text-3xl text-black">
                 Experiencia de vida salvaje
               </h1>
               <p className="pb-2">
                 Nuestro paquete de experiencias con la vida silvestre está
                 diseñado para que puedas conocer cara a cara las maravillas del
-                reino animal mientras preservas la integridad de sus entornos.
+                reino animal mientras preservas la integridad de sus entornos
               </p>
-              <button className="w-1/2 p-2 transition-all duration-700 ease-out border-2 border-white rounded-full hover:bg-white hover:text-black">
+              <button className="p-2 transition-all duration-700 ease-out border-2 border-white rounded-full md:w-1/2 hover:bg-white hover:text-black">
                 Elija el paquete
               </button>{" "}
             </div>

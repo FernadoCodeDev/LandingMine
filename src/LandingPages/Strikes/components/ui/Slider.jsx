@@ -58,7 +58,7 @@ export default function BowlingBallSlider() {
         className="w-full h-auto"
         isPlay={true}
         pauseOnHoverActive={false}
-        durationMs={10000}
+        durationMs={20000}
       />
     </div>
   );

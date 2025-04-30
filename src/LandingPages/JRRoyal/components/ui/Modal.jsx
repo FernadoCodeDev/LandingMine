@@ -33,7 +33,7 @@ export const Services = [
   {
     id: 1,
     name: "HABITACIONES & SUITES ROYAL",
-    text: "Desde acogedoras habitaciones hasta lujosas suites, cada espacio ha sido diseñado para brindarte el máximo confort y elegancia. Descansa en camas premium y disfruta de un ambiente exclusivo. ",
+    text: "Desde acogedoras habitaciones hasta lujosas suites con Room services y Wifi, cada espacio ha sido diseñado para brindarte el máximo confort y elegancia. Descansa en camas premium y disfruta de un ambiente exclusivo. ",
     image1: imgN4,
     image2: Room2,
     image3: Room3,
@@ -47,7 +47,7 @@ export const Services = [
   {
     id: 2,
     name: "PISCINAS PARA RELAJARTE & DISFRUTAR",
-    text: "Sumérgete en nuestras refrescantes piscinas y disfruta de un ambiente tranquilo y sofisticado. Perfecto para relajarte bajo el sol o nadar a cualquier hora del día.",
+    text: "Sumérgete en nuestras refrescantes piscinas, en la playa o en las canchas volleyball y disfruta de un ambiente tranquilo y sofisticado. Perfecto para relajarte bajo el sol o nadar a cualquier hora del día.",
     image1: imgN5,
     image2: Beach,
     image3: Voley,
@@ -56,7 +56,7 @@ export const Services = [
     svg3: Volleyball,
     textSVG1: "Piscina",
     textSVG2: "Playa",
-    textSVG3: "Cancha de volleyball en la playa",
+    textSVG3: "Cancha de volleyball ",
   },
   {
     id: 3,
@@ -75,7 +75,7 @@ export const Services = [
   {
     id: 4,
     name: "SAUNA PARA TU BIENESTAR",
-    text: "Déjate envolver por la calidez y el confort de nuestro sauna, el lugar perfecto para relajarte y revitalizar cuerpo y mente después de un día de exploración o negocios.",
+    text: "Déjate envolver por la calidez y el confort de nuestro sauna y jacuzzi, el lugar perfecto para relajarte y revitalizar cuerpo y mente después de un día de exploración o negocios.",
     image1: imgN7,
     image2: Jacuzzi,
     image3: Relaxation,

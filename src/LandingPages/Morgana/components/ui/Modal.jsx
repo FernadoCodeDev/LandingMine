@@ -84,7 +84,7 @@ export default function Modal({ isOpen, onClose, car }) {
             <img
               src={car.image}
               alt={car.name}
-              className="w-full h-auto rounded"
+              className="w-full h-auto m-auto rounded sm:max-w-4xl"
             />
           </div>
 

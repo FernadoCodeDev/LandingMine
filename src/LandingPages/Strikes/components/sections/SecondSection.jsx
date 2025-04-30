@@ -12,7 +12,7 @@ import imgN8 from "../../assets/img/imgN8.webp";
 const SecondSection = () => {
   return (
     <div className="relative flex flex-col items-center w-full min-h-screen text-black bg-white md:text-2xl dark:border-slate-950 dark:bg-slate-950 dark:text-white">
-      <div className="w-full h-auto mx-auto ">
+      <div className="w-full h-auto m-auto ">
         <BowlingBallSlider />
       </div>
 
@@ -34,6 +34,8 @@ const SecondSection = () => {
           <img src={imgN8} alt="imgN8" className="w-full h-auto" />
         </Masonry>
       </div>
+
+
     </div>
   );
 };

@@ -83,8 +83,7 @@ export default function Modal({ isOpen, onClose, Articles }) {
             </div>
             <p className="text-lg">{Articles.Description}</p>
 
-            <botton className="flex flex-row justify-center gap-2 p-2 font-bold text-center transition duration-700 ease-out cursor-pointer text-stone-800 hover:text-stone-200 rounded-xl bg-stone-300 hover:bg-stone-500">
-              Agregar al
+            <botton className="text-black hover:text-white flex flex-row justify-center gap-2 p-2 font-bold text-center transition duration-700 ease-out cursor-pointer rounded-xl bg-stone-300 hover:bg-stone-500">
               <ShoppingCart width="32" height="32" />
             </botton>
           </div>

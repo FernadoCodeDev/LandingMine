@@ -99,53 +99,53 @@ const HeaderM = () => {
             </div>
           </div>
 
-          <div className="hidden md:block m-auto w-full p-4 bg-white max-w-[70rem]">
-            <div className="grid grid-cols-1 gap-2 md:grid-cols-5">
-              <div className="flex flex-col md:items-center">
-                <h1 className="font-bold text-start md:text-center">
+          <div className="m-auto w-full p-4 bg-white max-w-[70rem]">
+            <div className="grid grid-cols-1 gap-2 lg:grid-cols-5">
+              <div className="flex flex-col">
+                <h1 className="font-bold text-start ">
                   Dirección de recogida
                 </h1>
                 <input
-                  className="p-1 md:items-center md:text-center"
+                  className="p-1 "
                   type="text"
                   disabled
                   placeholder="Desde: dirección, aeropuerto, hotel,"
                 />
               </div>
 
-              <div className="flex flex-col md:items-center">
-                <h1 className="font-bold md:text-center">
-                  Dirección de entrega
+              <div className="flex flex-col">
+                <h1 className="font-bold ">
+                  Tarifa de entrega
                 </h1>
                 <input
-                  className="p-1 md:items-center md:text-center"
+                  className="p-1 "
                   type="text"
                   disabled
                   placeholder="Distancia, Tarifa por hora, Tarifa fija"
                 />
               </div>
 
-              <div className="flex flex-col md:items-center">
-                <h1 className="font-bold md:text-center">Fecha de recogida</h1>
+              <div className="flex flex-col">
+                <h1 className="font-bold ">Fecha de recogida</h1>
                 <input
-                  className="p-1 md:items-center md:text-center"
+                  className="p-1 "
                   type="text"
                   disabled
                   placeholder="19 ABR 2025"
                 />
               </div>
 
-              <div className="flex flex-col md:items-center">
-                <h1 className="font-bold md:text-center">Hora de recogida</h1>
+              <div className="flex flex-col ">
+                <h1 className="font-bold ">Hora de recogida</h1>
                 <input
-                  className="p-1 md:items-center md:text-center"
+                  className="p-1 "
                   type="text"
                   disabled
                   placeholder="12:25 am"
                 />
               </div>
 
-              <button className="flex justify-center w-full h-auto p-2 transition-all duration-700 ease-out bg-beige-200 md:w-20 hover:bg-beige-400 md:ms-auto">
+              <button className="flex justify-center w-full h-auto p-2 transition-all duration-700 ease-out bg-beige-200 lg:w-20 hover:bg-beige-400 lg:ms-auto">
                 <SearchSVG width="40" height="40" />
               </button>
             </div>

@@ -6,7 +6,7 @@ import imageN3 from "../../assets/img/imageN3.webp";
 const SecondSection = () => {
   return (
     <div className="relative flex flex-col items-center justify-center w-full h-auto gap-4 p-4 text-black border-b-2 border-gray-300 dark:text-white min-h-auto bg-yellow-50 dark:bg-neutral-800">
-      <div className="w-1/3 p-2 text-center border-2 border-black rounded-full dark:border-white md:w-1/6">
+      <div className="p-2 text-center border-2 border-black rounded-full dark:border-white md:w-1/6">
         <h1>Nuestros servicios</h1>
       </div>
 
@@ -29,7 +29,7 @@ const SecondSection = () => {
               excursiones. Nuestro objetivo es hacer que su experiencia de viaje
               sea lo más placentera posible.
             </p>
-            <button className="w-1/3 p-2 transition-all duration-700 ease-out border-2 border-white rounded-full hover:bg-white hover:text-black">
+            <button className="p-2 transition-all duration-700 ease-out border-2 border-white rounded-full md:w-1/3 hover:bg-white hover:text-black">
               Ver detalles
             </button>{" "}
           </div>
@@ -48,7 +48,7 @@ const SecondSection = () => {
               conocen a fondo varios destinos. Ofrecen consejos de expertos,
               consejos de expertos y recomendaciones para mejorar su viaje.
             </p>
-            <button className="w-1/3 p-2 transition-all duration-700 ease-out border-2 border-white rounded-full hover:bg-white hover:text-black">
+            <button className="p-2 transition-all duration-700 ease-out border-2 border-white rounded-full md:w-1/3 hover:bg-white hover:text-black">
               Ver detalles
             </button>{" "}
           </div>
@@ -60,7 +60,7 @@ const SecondSection = () => {
             alt="imageN3"
             className="absolute inset-0 object-cover w-full h-full"
           />
-          <div className="relative z-10 flex flex-col h-full text-center max-w-[30rem] p-4 m-auto text-white">
+          <div className="relative z-10 flex flex-col h-full md:text-center max-w-[30rem] p-4 m-auto text-white">
             <h1 className="pb-2 font-serif text-3xl">
               Asociaciones exclusivas
             </h1>
@@ -69,7 +69,7 @@ const SecondSection = () => {
               exclusivo a experiencias y alojamientos únicos, brindándole
               aventuras únicas.
             </p>
-            <button className="w-1/3 p-2 transition-all duration-700 ease-out border-2 border-white rounded-full hover:bg-white hover:text-black">
+            <button className="p-2 transition-all duration-700 ease-out border-2 border-white rounded-full md:mx-auto md:w-1/3 hover:bg-white hover:text-black">
               Ver detalles
             </button>{" "}
           </div>

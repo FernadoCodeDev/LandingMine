@@ -3,7 +3,7 @@ import React from "react";
 const FirstSection = () => {
   return (
     <div className="relative flex flex-col items-center justify-center w-full h-auto gap-4 p-4 text-black border-b-2 border-gray-300 dark:text-white bg-yellow-50 dark:bg-neutral-800">
-      <div className="w-1/2 p-2 mb-4 text-center border-2 border-black rounded-full dark:border-white md:w-1/6">
+      <div className="p-2 mb-4 text-center border-2 border-black rounded-full  dark:border-white md:w-1/6">
         <h1>INTEGRACIÓN</h1>
       </div>
 
