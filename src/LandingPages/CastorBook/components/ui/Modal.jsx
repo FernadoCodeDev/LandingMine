@@ -18,6 +18,10 @@ export const Books = [
     start: "4.9",
     color: {
       base: "bg-violet-200",
+      baseButton: "bg-violet-400",
+      border: "border-violet-500",
+      baseHover: "bg-violet-600",
+      borderHover: "border-violet-700",
     },
   },
   {
@@ -29,6 +33,10 @@ export const Books = [
     start: "4.9",
     color: {
       base: "bg-blue-200",
+      baseButton: "bg-blue-400",
+      border: "border-blue-500",
+      baseHover: "bg-blue-600",
+      borderHover: "border-blue-700",
     },
   },
   {
@@ -40,6 +48,10 @@ export const Books = [
     start: "4.9",
     color: {
       base: "bg-sky-200",
+      baseButton: "bg-sky-400",
+      border: "border-sky-500",
+      baseHover: "bg-sky-600",
+      borderHover: "border-sky-700",
     },
   },
   {
@@ -51,6 +63,10 @@ export const Books = [
     start: "4.9",
     color: {
       base: "bg-purple-200",
+      baseButton: "bg-purple-400",
+      border: "border-purple-500",
+      baseHover: "bg-purple-600",
+      borderHover: "border-purple-700",
     },
   },
   {
@@ -62,6 +78,10 @@ export const Books = [
     start: "4.9",
     color: {
       base: "bg-teal-200",
+      baseButton: "bg-teal-400",
+      border: "border-teal-500",
+      baseHover: "bg-teal-600",
+      borderHover: "border-teal-700",
     },
   },
   {
@@ -73,6 +93,10 @@ export const Books = [
     start: "4.9",
     color: {
       base: "bg-stone-200",
+      baseButton: "bg-stone-400",
+      border: "border-stone-500",
+      baseHover: "bg-stone-600",
+      borderHover: "border-stone-700",
     },
   },
   {
@@ -84,12 +108,22 @@ export const Books = [
     start: "4.9",
     color: {
       base: "bg-emerald-200",
+      baseButton: "bg-emerald-400",
+      border: "border-emerald-500",
+      baseHover: "bg-emerald-600",
+      borderHover: "border-emerald-700",
     },
   },
 ];
 
 export default function Modal({ isOpen, onClose, Book }) {
   if (!isOpen || !Book) return null;
+
+  function getButtonClasses(color) {
+    return `px-4 py-2 w-full text-white transition border-2 rounded-lg 
+            ${color.baseButton} ${color.border} 
+            hover:${color.baseHover} hover:${color.borderHover}`;
+  }
 
   return (
     <div className="fixed inset-0 z-50 flex items-center justify-center text-center text-black bg-black bg-opacity-60">
@@ -127,11 +161,7 @@ export default function Modal({ isOpen, onClose, Book }) {
             <p className="text-base md:text-lg">{Book.text}</p>
             <h1 className="text-base font-bold md:text-lg">{Book.price}</h1>
 
-            <button
-              className={`p-2 w-full text-white transition duration-700 ease-out bg-blue-400  border-2 border-blue-600 hover:bg-blue-600 hover:border-blue-800  rounded-lg`}
-            >
-              COMPRAR
-            </button>
+            <button className={getButtonClasses(Book.color)}>COMPRAR</button>
           </div>
         </div>
       </div>
