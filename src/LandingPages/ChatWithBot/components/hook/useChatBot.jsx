@@ -9,10 +9,10 @@ export function useChatBot() {
   const [isLoading, setIsLoading] = useState(true);
   const [infoText, setInfoText] = useState("");
   const [engine, setEngine] = useState(null);
-  const [isThinking, setIsThinking] = useState(false); // NUEVO: evita múltiples envíos
+  const [isThinking, setIsThinking] = useState(false); // NEW: Avoid multiple submissions
 
   useEffect(() => {
-    if (engine) return; // Previene reinicialización
+    if (engine) return; // Prevent reboot
 
     async function initEngine() {
       try {
@@ -51,14 +51,14 @@ export function useChatBot() {
     const messageText = inputValue.trim();
     setInputValue("");
     addUserMessage(messageText);
-    setIsThinking(true); // Marcar que está pensando
+    setIsThinking(true); // Mark what you are thinking
 
     try {
       const currentMessages = [...messages, { role: "user", content: messageText }];
       const chunks = await engine.chat.completions.create({ messages: currentMessages, stream: true });
 
       let reply = "";
-      addBotMessage(""); // Mensaje vacío como placeholder
+      addBotMessage(""); 
 
       for await (const chunk of chunks) {
         const choice = chunk.choices[0];
@@ -75,7 +75,7 @@ export function useChatBot() {
       console.error("Error al generar respuesta:", err);
       addBotMessage("❌ Hubo un error generando la respuesta.");
     } finally {
-      setIsThinking(false); // Finaliza el estado de espera
+      setIsThinking(false); // Waiting state ends
     }
   };
 
