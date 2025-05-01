@@ -4,7 +4,7 @@ import Cars from "./Cars";
 const ThirdSection = () => {
   return (
     <div className="relative grid items-center justify-center w-full grid-cols-1 p-4 py-20 text-black min-h-auto bg-beige-50 dark:text-white dark:bg-neutral-900">
-      <div className="m-auto grid grid-cols-1 md:grid-cols-2 gap-2  max-w-[80rem]">
+      <div className="m-auto grid grid-cols-1 md:grid-cols-2 gap-2 w-full md:max-w-[80rem]">
         <div className="flex flex-col items-center justify-center gap-2 p-2 md:flex-row">
           <h1 className="text-6xl font-bold text-center text-beige-900 dark:text-beige-200">
             Autos

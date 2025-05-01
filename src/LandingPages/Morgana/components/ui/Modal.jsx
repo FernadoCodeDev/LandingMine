@@ -39,9 +39,9 @@ export const cars = [
     svg2: Ray,
     text2: "Carga rápida (0-80% en 30 min)",
     svg3: Compass,
-    text3: " Navegador integrado",
+    text3: "Navegador integrado",
     svg4: CarwithWiFi,
-    text4: "Coche con wifi autonomía y conectividad",
+    text4: "Auto con wifi, autonomía y conectividad",
   },
 
   {
@@ -90,26 +90,35 @@ export default function Modal({ isOpen, onClose, car }) {
 
           <div className="grid items-center justify-center grid-cols-2 gap-4 md:mt-20">
             <div className="grid items-center justify-center grid-cols-1 gap-2">
-            {car.svg1 && React.createElement(car.svg1)}
+              {car.svg1 && React.createElement(car.svg1)}
 
               <h1 className="text-base md:text-lg">{car.text1}</h1>
             </div>
             <div className="grid items-center justify-center grid-cols-1 gap-2">
-            {car.svg2 && React.createElement(car.svg2)}
+              {car.svg2 && React.createElement(car.svg2)}
 
               <h1 className="text-base md:text-lg">{car.text2}</h1>
             </div>
 
             <div className="grid items-center justify-center grid-cols-1 gap-2">
-            {car.svg3 && React.createElement(car.svg3)}
+              {car.svg3 && React.createElement(car.svg3)}
 
               <h1 className="text-base md:text-lg">{car.text3}</h1>
             </div>
 
             <div className="grid items-center justify-center grid-cols-1 gap-2">
-            {car.svg4 && React.createElement(car.svg4)}
+              {car.svg4 && React.createElement(car.svg4)}
 
               <h1 className="text-base md:text-lg">{car.text4}</h1>
+            </div>
+
+            <div className="grid w-full grid-cols-1 col-span-2 gap-2 m-auto md:grid-cols-2">
+              <button className="flex justify-center w-full p-2 font-bold transition-all duration-700 ease-out rounded-xl bg-beige-200 hover:bg-beige-500 ">
+                Comprar
+              </button>
+              <button className="flex justify-center w-full p-2 font-bold text-white transition-all duration-700 ease-out rounded-xl bg-neutral-900 hover:bg-black ">
+                Alquilar
+              </button>
             </div>
           </div>
         </div>
