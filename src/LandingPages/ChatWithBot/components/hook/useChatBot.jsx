@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { CreateWebWorkerMLCEngine } from "https://cdn.jsdelivr.net/npm/@mlc-ai/web-llm@0.2.46/+esm";
+//import { CreateWebWorkerMLCEngine } from "https://cdn.jsdelivr.net/npm/@mlc-ai/web-llm@0.2.46/+esm";
 
 const SELECTED_MODEL = "Llama-3-8B-Instruct-q4f32_1-MLC-1k";
 
@@ -9,7 +9,7 @@ export function useChatBot() {
   const [isLoading, setIsLoading] = useState(true);
   const [infoText, setInfoText] = useState("");
   const [engine, setEngine] = useState(null);
-  const [isThinking, setIsThinking] = useState(false); // NEW: Avoid multiple submissions
+  const [isThinking, setIsThinking] = useState(false); // Avoid multiple submissions
 
   useEffect(() => {
     if (engine) return; // Prevent reboot
