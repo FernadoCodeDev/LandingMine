@@ -7,7 +7,7 @@ const FirstSection = () => {
   return (
     <div className="relative flex flex-col items-center w-full h-auto gap-4 p-4 text-black bg-beige-50 dark:text-white dark:bg-neutral-900">
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4 m-auto max-w-[80rem]">
-        <div className="grid grid-cols-1 gap-4">
+        <div className="flex flex-col  gap-4">
           <h1 className="text-2xl font-bold md:text-4xl">
             Descubre la magia de acampar con Camping Night
           </h1>
@@ -19,9 +19,7 @@ const FirstSection = () => {
             senderos naturales o simplemente contemplar el amanecer desde tu
             tienda, aquí encontrarás el lugar ideal para tu próxima escapada.
           </p>
-          <button className="w-full p-2 font-bold transition-all duration-700 ease-out rounded-full md:w-1/2 bg-neutral-800 hover:bg-black text-beige-50 dark:text-black dark:bg-beige-50 dark:hover:bg-beige-200">
-            Saber más
-          </button>
+
         </div>
 
         <div className="order-3 md:order-2">
@@ -29,7 +27,7 @@ const FirstSection = () => {
         </div>
 
         <div className="grid order-2 grid-cols-1 gap-2 md:order-3 md:col-span-2 md:grid-cols-2">
-          <div className="grid grid-cols-1 gap-4 p-4 bg-beige-100 dark:bg-neutral-800">
+          <div className="flex flex-col gap-4 p-4 bg-beige-100 dark:bg-neutral-800">
             <CampingTentSVG width="60" height="60" />
 
             <div>

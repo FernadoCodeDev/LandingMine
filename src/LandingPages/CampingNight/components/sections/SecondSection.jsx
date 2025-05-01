@@ -9,7 +9,7 @@ const SecondSection = () => {
   return (
     <div className="relative flex flex-col items-center w-full h-auto p-4 text-black bg-beige-100 dark:text-white dark:bg-neutral-800">
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4 m-auto max-w-[80rem]">
-        <div className="grid items-center justify-center order-1 grid-cols-1 gap-2 md:order-2">
+        <div className="flex flex-col items-center justify-center order-1 gap-4 md:order-2">
           <h1 className="text-2xl font-bold md:text-4xl">Descubre la magia de acampar</h1>
           <p className="text-base md:text-xl">
             En Camping Night, cada experiencia de campamento es única. Ya sea
@@ -17,10 +17,6 @@ const SecondSection = () => {
             estrellas o compartir historias alrededor de una fogata con amigos,
             aquí encontrarás el lugar perfecto para vivirlo.
           </p>
-    
-          <button className="w-full p-2 font-bold transition-all duration-700 ease-out rounded-full md:w-1/2 bg-neutral-800 hover:bg-black text-beige-50 dark:text-black dark:bg-beige-50 dark:hover:bg-beige-200">
-            Saber más
-          </button>
           
         </div>
 
@@ -28,8 +24,8 @@ const SecondSection = () => {
           <img src={imgN2} alt="imgN2" className="w-full h-auto rounded-2xl" />
         </div>
 
-        <div className="grid order-2 grid-cols-2 gap-2 md:order-3 md:col-span-2 ">
-            <div className="grid grid-cols-1 gap-4 p-2">
+        <div className="grid order-2 grid-cols-2 gap-4 md:order-3 md:col-span-2 ">
+            <div className="flex flex-col gap-4 ">
               <LandscapeSVG width="60" height="60" />
               <p className="text-base md:text-xl">
                 Explora senderos, escala montañas y sumérgete en la belleza
@@ -38,7 +34,7 @@ const SecondSection = () => {
               </p>
             </div>
 
-            <div className="grid grid-cols-1 gap-4 p-2">
+            <div className="flex flex-col gap-4 ">
               <PeaceSVG width="60" height="60" />
               <p className="text-base md:text-xl">
                 Nuestras zonas de camping están alejadas del ruido de la ciudad,
@@ -48,7 +44,7 @@ const SecondSection = () => {
               </p>
             </div>
 
-            <div className="grid grid-cols-1 gap-4 p-2">
+            <div className="flex flex-col gap-4 ">
               <ExperienceSVG width="60" height="60" />
               <p className="text-base md:text-xl">
                 Con dos décadas ofreciendo las mejores zonas de campamento, en
@@ -57,7 +53,7 @@ const SecondSection = () => {
               </p>
             </div>
 
-            <div className="grid grid-cols-1 gap-4 p-2">
+            <div className="flex flex-col gap-4 ">
               <MarshmallowSVG width="60" height="60" />
               <p className="text-base md:text-xl">
                 Nada como terminar el día asando malvaviscos y preparando
