@@ -13,7 +13,7 @@ const HeaderDH = () => {
         style={{ backgroundImage: `url(${Background})` }}
       ></div>
 
-      <div className="relative grid items-center h-auto grid-cols-2 gap-2 p-4 md:grid-cols-3">
+      <div className="relative grid items-start h-auto min-h-screen grid-cols-2 gap-2 p-4 md:grid-cols-3">
         <div className="order-3 col-span-2 mx-auto md:col-span-1 md:order-1 md:w-auto md:h-20 md:backdrop-blur-[4px] md:bg-black/20">
           <MobileMenu
             textColor="text-black transition-all duration-700 ease-out"
