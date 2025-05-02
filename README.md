@@ -71,22 +71,24 @@ Cada landing tiene su estructura específica para facilitar su mantenimiento y e
 
 ## 🏗 Estructura de una Landing Page  
 
-A partir de la Landing N°17 - CastorBook 📚, todas las landing pages del proyecto adoptan una estructura modular y organizada, lo que facilita su mantenimiento y escalabilidad. Cada landing sigue esta estructura de carpetas:
+Todas las landing pages del proyecto adoptan una estructura modular y organizada, lo que facilita su mantenimiento y escalabilidad. Cada landing sigue esta estructura de carpetas:
 
 ![imgN5](https://github.com/FernadoCodeDev/LandingMine/blob/main/ImageReadme/imgReadmeN5.png)
 
-    ```
-    /LandingPage
-    │── /components
-    │   │── /layout       ⬅ Estructura base: Header, Main y Footer
-    │   │   ├── Header.jsx
-    │   │   ├── Main.jsx
-    │   │   ├── Footer.jsx
-    │   │── /ui           ⬅ Componentes reutilizables (botones, tarjetas, etc.)
-    │   │── /sections     ⬅ Secciones completas del contenido de la página
-    │── /pages
-    │   └── Home.jsx      ⬅ Página principal que renderiza toda la landing
-    │── /assets           ⬅ Imágenes, íconos, fuentes, etc.
+   ```
+/LandingPage
+│── /components
+│   │── /layout       ⬅ Estructura base: Header, Main y Footer
+│   │   ├── Header.jsx
+│   │   ├── Main.jsx
+│   │   ├── Footer.jsx
+│   │── /ui           ⬅ Componentes reutilizables (botones, tarjetas, etc.)
+│   │── /sections     ⬅ Secciones completas del contenido de la página
+│── /pages
+│   └── Home.jsx      ⬅ Página principal que renderiza toda la landing
+│── /assets           ⬅ Imágenes, íconos, fuentes, etc.
+```
+
 
 ### 🔍 Descripción rápida
 
