@@ -40,7 +40,6 @@ const HeaderDH = () => {
               <span className="font-bold">S'more </span>
               caliente siempre te espera
             </h1>
-
             <Modal />
           </div>
         </div>
