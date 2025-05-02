@@ -14,10 +14,7 @@ Este proyecto tiene como objetivo mejorar mis habilidades en **Front-End** y Mej
 Para ejecutar **LandingMine**, sigue estos pasos:
 
 1. Clona el repositorio
-2. Instala las dependecias
-     ```
-     npm install
-3. Inicia el proyecto desde la terminal con
+2. Inicia el proyecto desde la terminal con
      ```
      npm start
 ## ⚡ ¿Por qué usar npm start?
@@ -42,15 +39,15 @@ Cada landing tiene su propio diseño y características especiales:
 
 - 🎭 **Diseño personalizado:** Cada página sigue un estilo acorde a su temática.  
 - 🌙 **Modos de color:** Algunas incluyen **Dark Mode** para mejorar la experiencia visual.  
-- 🎨 **Interactividad:** Se han agregado efectos de **hover y animaciones** para hacerlas más dinámicas.  
+- 🎨 **Interactividad:** Se han agregado **Interactividad a cada landing ** para hacerlas más dinámicas.  
 
 Por ejemplo:  
 
 📌 **DreamHouse** (Landing N°7) - 🏡 *Inmobiliaria*  
- Su diseño está inspirado en el sector inmobiliario, con un header atractivo y una paleta de colores sobria y elegante.  
+ Su diseño está inspirado en el sector inmobiliario, con un header atractivo y una paleta de colores sobria y elegante, con un paginación.  
 
 📚 **CastorBook** (Landing N°17) - 📖 *Librería y editorial*  
- Esta landing incluye un efecto **hover** en los libros, simulando un estante donde al pasar el mouse se revela el contenido de cada uno.  
+ Esta landing incluye un efecto **hover** en los libros, simulando un estante donde al pasar el mouse se revela el contenido de cada uno y en cada tarjeta de libro abre un modal con la descripción de dicho libro.  
 
 Cada una de estas páginas permite experimentar con distintos enfoques de diseño y **crear interfaces Front-End adaptadas a diversas necesidades**.  
 
@@ -65,55 +62,43 @@ Para mantener un código limpio y estructurado, cada landing page en **LandingMi
 
 Dentro de **src**, encontrarás la carpeta **LandingPage,** donde cada landing está organizada en su propia carpeta. Además, hay carpetas de **componentes globales** y **hooks**:  
 
-![imgN4](https://github.com/FernadoCodeDev/LandingMine/blob/main/ImageReadme/imgReadmeN4.webp)
+![imgN4](https://github.com/FernadoCodeDev/LandingMine/blob/main/ImageReadme/imgReadmeN4.png)
 
 - **LandingPage/** → Contiene todas las landing pages, cada una en su propia carpeta.  
 - **GlobalComponents/** → Contiene componentes reutilizables como `DarkMode` y `MenuMovile`.  
-- **Hooks/** → Contiene **useScrollTransition.js**, utilizado en la landing N°3 (*Marketing Agency*) para transiciones suaves.  
 
 Cada landing tiene su estructura específica para facilitar su mantenimiento y escalabilidad.  
 
 ## 🏗 Estructura de una Landing Page  
 
-Tomemos como ejemplo la **Landing N°17 - CastorBook** 📚.  
-Al abrir su carpeta, encontrarás:  
+Todas las landing pages del proyecto adoptan una estructura modular y organizada, lo que facilita su mantenimiento y escalabilidad. Cada landing sigue esta estructura de carpetas:
 
-📌 **`HomeCastorBook.jsx`** → Componente principal que estructura la landing y llama a:  
-  - **`Header.jsx`** → Cabecera de la página.  
-  - **`Main.jsx`** → Contenido principal.  
-  - **`Footer.jsx`** → Pie de página.
-    
 ![imgN5](https://github.com/FernadoCodeDev/LandingMine/blob/main/ImageReadme/imgReadmeN5.png)
 
-📌 **`components/`** → Carpeta donde se organizan los elementos de la landing.  
-  - Dentro de `Main.jsx`, cada landing se divide en **tres secciones de contenido** (algunas en cuatro).  
-  - Estas secciones son **independientes**, lo que permite modificarlas fácilmente: puedes **comentar o eliminar** una sin afectar a las demás.  
+   ```
+/LandingPage
+│── /components
+│   │── /layout       ⬅ Estructura base: Header, Main y Footer
+│   │   ├── Header.jsx
+│   │   ├── Main.jsx
+│   │   ├── Footer.jsx
+│   │── /ui           ⬅ Componentes reutilizables (botones, tarjetas, etc.)
+│   │── /sections     ⬅ Secciones completas del contenido de la página
+│── /pages
+│   └── Home.jsx      ⬅ Página principal que renderiza toda la landing
+│── /assets           ⬅ Imágenes, íconos, fuentes, etc.
+```
 
-📌 **`SVGcomponents/`** → (Opcional) Contiene iconos en formato SVG específicos de la landing.  
 
-![imgN6](https://github.com/FernadoCodeDev/LandingMine/blob/main/ImageReadme/imgReadmeN6.png)
+### 🔍 Descripción rápida
 
-Esta estructura ayuda a mantener el código ordenado y modular, permitiendo personalizar o agregar nuevas landing pages de forma sencilla. 🚀  
-
-
-## 📄 Organización de la Carpeta `pages`  
-
-Dentro de **src/**, hay una carpeta llamada **pages/** 📂 que se encarga de organizar todas las landing pages y conectarlas con el sistema de rutas en **App.js**.  
-
-![imgN9](https://github.com/FernadoCodeDev/LandingMine/blob/main/ImageReadme/imgReadmeN9.webp)
-
-## 📌 ¿Cómo funciona la carpeta `pages`?  
-
-- **Cada landing page tiene su propio archivo dentro de `pages/`**, con el mismo nombre de la landing.  
-- **Su único propósito es importar y renderizar el contenido desde `LandingPages/`**, lo que mantiene el código limpio y modular.  
-
-📌 **Ejemplo:**  
-Si abrimos el archivo `CampingNight.jsx` dentro de `pages/`, veremos que simplemente importa el contenido de la landing desde `LandingPages/CampingNight/HomeCampingNight.jsx`:  
-
-![imgN10](https://github.com/FernadoCodeDev/LandingMine/blob/main/ImageReadme/imgReadmeN10.png)
-
-**Esto significa que todas las páginas dentro de pages/ funcionan como intermediarias:
-🔹 No contienen lógica ni estructura de la landing, solo la llaman desde LandingPages/.**
+1. `layout/`: Contiene la estructura principal de la página (cabecera, contenido y pie).
+2. `sections/`: Cada sección de contenido está separada como componente independiente. Esto permite:
+   - Agregar, quitar o reorganizar secciones fácilmente.
+   - Reutilizar secciones entre diferentes landings.
+3. `ui/`: Elementos pequeños y reutilizables como botones, íconos, etc.
+4. `pages/`: Componente principal que arma la página `(Home.jsx)`.
+5. `assets/`: Archivos estáticos como imágenes, íconos, logos, fuentes personalizadas, etc.
 
 
 ## 📌 Conexión con App.js
@@ -122,12 +107,7 @@ El archivo `App.js` es el que maneja la navegación entre las landing pages.
 - **Cada landing está registrada con una ruta usando su nombre en la URL.**
 - **Las rutas están organizadas con comentarios para facilitar su lectura.**
 
-> **💡  Importante:** Si deseas agregar una nueva landing: 1️⃣ Crea su archivo en LandingPages/ y sigue la estructura, 2️⃣ Agrega un archivo dentro de pages/ que la importe, 3️⃣ Registra su ruta en App.js.
-
-**Esta organización te ayudara a mantener el código modular y fácil de gestionar. ✅**
-
-
-![imgN7](https://github.com/FernadoCodeDev/LandingMine/blob/main/ImageReadme/imgReadmeN7.webp)
+![imgN7](https://github.com/FernadoCodeDev/LandingMine/blob/main/ImageReadme/imgReadmeN6.png)
 
 
 ### 🌍 Componentes Globales
@@ -138,18 +118,18 @@ Estos componentes tienen una lógica simple pero útil para mejorar la experienc
 ### 🔆 DarkMode.jsx
 Este archivo contiene la lógica que permite cambiar entre el modo claro y oscuro en las landing pages. Con este componente, los usuarios pueden alternar entre ambos modos sin afectar la estructura del sitio.
 
-![imgN8](https://github.com/FernadoCodeDev/LandingMine/blob/main/ImageReadme/imgReadmeN8.webp)
+![imgN8](https://github.com/FernadoCodeDev/LandingMine/blob/main/ImageReadme/imgReadmeN7.png)
 
 ### 📱 MobileMenu.jsx
 Este componente maneja el menú móvil, que aparece en pantallas menores a md (768px en Tailwind CSS). Sin embargo, dado que cada landing page tiene un diseño y una combinación de colores distinta, no se puede definir un color único para todos los menús.
 
-![imgN11](https://github.com/FernadoCodeDev/LandingMine/blob/main/ImageReadme/imgReadmeN11.png)
+![imgN11](https://github.com/FernadoCodeDev/LandingMine/blob/main/ImageReadme/imgReadmeN8.png)
 
 Para solucionar esto, MobileMenu.jsx permite personalizar ciertos estilos a través de propiedades dinámicas. Cada landing puede ajustar estos valores para que el menú encaje perfectamente con su diseño.
 
 Por ejemplo, en la landing **CampingNight**, se llama al componente **MobileMenu** con propiedades específicas para modificar colores y efectos:
 
-![imgN12](https://github.com/FernadoCodeDev/LandingMine/blob/main/ImageReadme/imgReadmeN12.png)
+![imgN12](https://github.com/FernadoCodeDev/LandingMine/blob/main/ImageReadme/imgReadmeN9.png)
 
 Estas propiedades permiten que el menú:
 - **✅ Tenga colores adaptados al diseño de cada landing.**
