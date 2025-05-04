@@ -147,7 +147,7 @@ Si tienes alguna duda sobre el funcionamiento de **LandingMine**, no dudes en co
 Puedes ver más de mi trabajo en mi portafolio o conectar conmigo en LinkedIn:  
 
 [![portfolio](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://fercode.netlify.app/)  
-[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/fernando-mej%C3%ADa/)  
+[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/fernando-mejía-866a4b363)  
 
 ¡Gracias por tu tiempo y por explorar **LandingMine**! 🚀✨  
 
