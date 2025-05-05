@@ -83,7 +83,7 @@ export default function fightersGrid() {
             onMouseEnter={() => setHovered(fighter.id)}
             onMouseLeave={() => setHovered(null)}
             onClick={() => setSelected(fighter.id)}
-            className={`cursor-pointer overflow-hidden transition-all duration-700 transform hover:scale-105 ${
+            className={`cursor-pointer overflow-hidden ${
               selected === fighter.id ? "" : ""
             }`}
           >
