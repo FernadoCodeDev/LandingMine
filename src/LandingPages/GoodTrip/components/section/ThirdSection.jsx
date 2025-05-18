@@ -22,17 +22,17 @@ const ThirdSection = () => {
         </p>
 
         <div className="grid justify-center grid-cols-1 gap-4 p-2 m-auto md:grid-cols-2 max-w-[80rem]">
-          <div className="relative overflow-hidden rounded-3xl">
+          <div className="relative overflow-hidden group rounded-3xl">
             <img
               src={imageN4}
               alt="imageN4"
               className="absolute inset-0 object-cover w-full h-full"
             />
-            <div className="relative z-10 flex flex-col h-full p-4 m-auto text-white">
-              <h1 className="pb-2 font-serif text-3xl text-black">
+            <div className="w-full h-full bottom-0 left-0 rounded-xl md:rounded-none md:rounded-tr-xl flex flex-col justify-center text-start gap-2 backdrop-blur-[1px] bg-black/60 p-4 m-auto text-white z-10 opacity-0 group-hover:opacity-100 transition-all duration-300">
+              <h1 className="font-serif text-3xl ">
                 Escapadas culturales
               </h1>
-              <p className="pb-2">
+              <p className="">
                 Sumérgete en el rico tapiz de culturas. los paquetes culturales
                 te llevan al corazón de ciudades vibrantes, monumentos antiguos
                 y experiencias locales auténticas
@@ -43,15 +43,15 @@ const ThirdSection = () => {
             </div>
           </div>
 
-          <div className="relative overflow-hidden rounded-3xl">
+          <div className="relative overflow-hidden group rounded-3xl">
             <img
               src={imageN5}
               alt="imageN5"
               className="absolute inset-0 object-cover w-full h-full"
             />
-            <div className="relative z-10 flex flex-col p-4 m-auto text-white">
-              <h1 className="pb-2 font-serif text-3xl">Viajes de aventura</h1>
-              <p className="pb-2">
+            <div className="w-full h-full bottom-0 left-0 rounded-xl md:rounded-none md:rounded-tr-xl flex flex-col justify-center text-start gap-2 backdrop-blur-[1px] bg-black/60 p-4 m-auto text-white z-10 opacity-0 group-hover:opacity-100 transition-all duration-300">
+              <h1 className="font-serif text-3xl ">Viajes de aventura</h1>
+              <p className="">
                 Para los amantes de la adrenalina, nuestros paquetes de aventura
                 ofrecen actividades emocionantes como senderismo, trekking,
                 deportes acuáticos y encuentros con la vida silvestre
@@ -62,17 +62,17 @@ const ThirdSection = () => {
             </div>
           </div>
 
-          <div className="relative overflow-hidden rounded-3xl">
+          <div className="relative overflow-hidden group rounded-3xl">
             <img
               src={imageN6}
               alt="imageN6"
               className="absolute inset-0 object-cover w-full h-full"
             />
-            <div className="relative z-10 flex flex-col h-full  max-w-[30rem] p-4 text-white">
-              <h1 className="pb-2 font-serif text-3xl">
+            <div className="w-full h-full bottom-0 left-0 rounded-xl md:rounded-none md:rounded-tr-xl flex flex-col justify-center text-start gap-2 backdrop-blur-[1px] bg-black/60 p-4 m-auto text-white z-10 opacity-0 group-hover:opacity-100 transition-all duration-300">
+              <h1 className="font-serif text-3xl">
                 Retiros de relajación
               </h1>
-              <p className="pb-2">
+              <p className="">
                 Disfrute de lujosos tratamientos de spa, descanse en playas
                 prístinas y descanse en entornos tranquilos. La escapada
                 perfecta implica serenidad y relajación
@@ -83,17 +83,17 @@ const ThirdSection = () => {
             </div>
           </div>
 
-          <div className="relative overflow-hidden rounded-3xl">
+          <div className="relative overflow-hidden group rounded-3xl">
             <img
               src={imageN7}
               alt="imageN7"
               className="absolute inset-0 object-cover w-full h-full"
             />
-            <div className="relative z-10 flex flex-col h-full max-w-[30rem] p-4 text-white">
-              <h1 className="pb-2 font-serif text-3xl text-black">
+            <div className="w-full h-full bottom-0 left-0 rounded-xl md:rounded-none md:rounded-tr-xl flex flex-col justify-center text-start gap-2 backdrop-blur-[1px] bg-black/60 p-4 m-auto text-white z-10 opacity-0 group-hover:opacity-100 transition-all duration-300">
+              <h1 className="font-serif text-3xl ">
                 Experiencia de vida salvaje
               </h1>
-              <p className="pb-2">
+              <p className="">
                 Nuestro paquete de experiencias con la vida silvestre está
                 diseñado para que puedas conocer cara a cara las maravillas del
                 reino animal mientras preservas la integridad de sus entornos
