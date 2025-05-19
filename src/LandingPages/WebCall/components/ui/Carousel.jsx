@@ -87,7 +87,7 @@ export default function Slider() {
         </button>
       </div>
 
-      <div className="flex items-center justify-center gap-4">
+      <div className="flex items-center justify-center gap-4 m-auto max-w-[80rem]">
         {getVisiblePackages().map((pkg, i) => {
           const isSelected = i === 1;
           const positionClass = isSelected
