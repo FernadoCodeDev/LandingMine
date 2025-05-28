@@ -1,6 +1,5 @@
 import React from "react";
 import Acapulco from "../../assets/img/Acapulco.webp";
-import Durban from "../../assets/img/Durban.webp";
 import Japan from "../../assets/img/Japan.webp";
 import LasVegas from "../../assets/img/Las Vegas.webp";
 import Lyon from "../../assets/img/Lyon.webp";
@@ -80,15 +79,6 @@ export default function InteractiveMap() {
           title="Marruecos"
           desc="Fez, Chaouen, Rabat"
           img={Rabat}
-        />
-
-        {/* South Africa */}
-        <MapPoint
-          top="80%"
-          left="54%"
-          title="sudáfrica"
-          desc="Ciudad del cabo, Durban, Johannesburgo"
-          img={Durban}
         />
 
         {/* Argentina */}
