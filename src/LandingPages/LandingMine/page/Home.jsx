@@ -63,7 +63,7 @@ const HomePage = () => {
               y<span className="font-bold text-sky-400"> Tailwind CSS.</span>
             </p>
 
-            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4 p-4 m-auto ">
+            <div className="grid grid-cols-1 gap-4 p-4 m-auto sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 ">
               <div className="bg-gray-300 rounded-lg shadow-md dark:bg-neutral-800">
                 <img
                   src={BackgroundPizzaUp}
@@ -75,7 +75,8 @@ const HomePage = () => {
                     PizzaUp
                   </h2>
                   <p className="text-black dark:text-white">
-                    landing page sobre una pizzeria
+                    Una landing page ideal para pizzerías que buscan atraer más
+                    clientes y mostrar su menú de forma visual y atractiva.
                   </p>
 
                   <a href="/PizzaUp">
@@ -93,7 +94,9 @@ const HomePage = () => {
                 <div className="p-4">
                   <h2 className="text-xl font-semibold dark:text-white">Gym</h2>
                   <p className="text-black dark:text-white">
-                    landing page sobre un gimnasio
+                    Landing page pensada para gimnasios que quieren promocionar
+                    sus servicios, destacar sus entrenadores y captar nuevos
+                    miembros.
                   </p>
 
                   <a href="/Gym">
@@ -113,7 +116,9 @@ const HomePage = () => {
                     Marketing Agency
                   </h2>
                   <p className="text-black dark:text-white">
-                    landing page sobre un Agencia de Marketing digital
+                    Diseñada para agencias de marketing digital que necesitan
+                    una presentación profesional para captar clientes y mostrar
+                    su portafolio.
                   </p>
 
                   <a href="/MarketingAgency">
@@ -133,7 +138,9 @@ const HomePage = () => {
                     Pig Bank
                   </h2>
                   <p className="text-black dark:text-white">
-                    landing page sobre un Banco
+                    Una landing para bancos o fintechs que desean transmitir
+                    confianza y presentar sus productos financieros de forma
+                    clara.
                   </p>
 
                   <a href="/PigBank">
@@ -153,7 +160,9 @@ const HomePage = () => {
                     Good Trip
                   </h2>
                   <p className="text-black dark:text-white">
-                    landing page sobre un Agencia de Viajes
+                    Landing enfocada en agencias de viaje que buscan inspirar a
+                    sus clientes y mostrar sus paquetes turísticos de manera
+                    atractiva.
                   </p>
 
                   <a href="/GoodTrip">
@@ -173,7 +182,8 @@ const HomePage = () => {
                     Cooktopia Shop
                   </h2>
                   <p className="text-black dark:text-white">
-                    E-commerce sobre una tienda de articulos de cocina
+                    Landing page pensada para tiendas de artículos de cocina que
+                    buscan vender sus productos de forma moderna y organizada.
                   </p>
 
                   <a href="/CooktopiaShop">
@@ -193,7 +203,9 @@ const HomePage = () => {
                     Dream House
                   </h2>
                   <p className="text-black dark:text-white">
-                    landing page sobre un Agencia de Bienes Raíces
+                    Ideal para agencias inmobiliarias que quieren mostrar
+                    propiedades destacadas y captar nuevos compradores o
+                    arrendatarios.
                   </p>
 
                   <a href="/DreamHouse">
@@ -213,7 +225,9 @@ const HomePage = () => {
                     WebCall
                   </h2>
                   <p className="text-black dark:text-white">
-                    landing page sobre una plataforma de conferencias en linea
+                    Landing diseñada para plataformas de videollamadas que
+                    necesitan explicar sus funciones y atraer usuarios o
+                    empresas.
                   </p>
 
                   <a href="/WebCall">

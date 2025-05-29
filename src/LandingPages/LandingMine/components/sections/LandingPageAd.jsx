@@ -18,6 +18,7 @@ import BackgroundZoologicalWorld from "../../../ZoologicalWorld/assets/img/Backg
 import BackgroundJRRoyal from "../../../JRRoyal/assets/img/BackgroundJRRoyal.webp";
 import BackgroundCastorBook from "../../../CastorBook/assets/img/BackgroundCastorBook.webp";
 import BackgroundStrikes from "../../../Strikes/assets/img/BackgroundStrike's.webp";
+import BackgroundChatWithBot from "../../../ChatWithBot/assets/img/ChatWithBotBackground.webp";
 
 const LandingPageAd = () => {
   return (
@@ -31,7 +32,8 @@ const LandingPageAd = () => {
         <div className="p-4">
           <h2 className="text-xl font-semibold dark:text-white">PizzaUp</h2>
           <p className="text-black dark:text-white">
-            landing page sobre una pizzeria
+            Una landing page ideal para pizzerías que buscan atraer más clientes
+            y mostrar su menú de forma visual y atractiva.
           </p>
 
           <a href="/PizzaUp">
@@ -49,7 +51,8 @@ const LandingPageAd = () => {
         <div className="p-4">
           <h2 className="text-xl font-semibold dark:text-white">Gym</h2>
           <p className="text-black dark:text-white">
-            landing page sobre un gimnasio
+            Landing page pensada para gimnasios que quieren promocionar sus
+            servicios, destacar sus entrenadores y captar nuevos miembros.
           </p>
 
           <a href="/Gym">
@@ -65,7 +68,9 @@ const LandingPageAd = () => {
             Marketing Agency
           </h2>
           <p className="text-black dark:text-white">
-            landing page sobre un Agencia de Marketing digital
+            Diseñada para agencias de marketing digital que necesitan una
+            presentación profesional para captar clientes y mostrar su
+            portafolio.
           </p>
 
           <a href="/MarketingAgency">
@@ -79,7 +84,8 @@ const LandingPageAd = () => {
         <div className="p-4">
           <h2 className="text-xl font-semibold dark:text-white">Pig Bank</h2>
           <p className="text-black dark:text-white">
-            landing page sobre un Banco
+            Una landing para bancos o fintechs que desean transmitir confianza y
+            presentar sus productos financieros de forma clara.
           </p>
 
           <a href="/PigBank">
@@ -97,7 +103,8 @@ const LandingPageAd = () => {
         <div className="p-4">
           <h2 className="text-xl font-semibold dark:text-white">Good Trip</h2>
           <p className="text-black dark:text-white">
-            landing page sobre un Agencia de Viajes
+            Landing enfocada en agencias de viaje que buscan inspirar a sus
+            clientes y mostrar sus paquetes turísticos de manera atractiva.
           </p>
 
           <a href="/GoodTrip">
@@ -117,7 +124,8 @@ const LandingPageAd = () => {
             Cooktopia Shop
           </h2>
           <p className="text-black dark:text-white">
-            E-commerce sobre una tienda de articulos de cocina
+            Landing page pensada para tiendas de artículos de cocina que buscan
+            vender sus productos de forma moderna y organizada.
           </p>
 
           <a href="/CooktopiaShop">
@@ -135,7 +143,8 @@ const LandingPageAd = () => {
         <div className="p-4">
           <h2 className="text-xl font-semibold dark:text-white">Dream House</h2>
           <p className="text-black dark:text-white">
-            landing page sobre un Agencia de Bienes Raíces
+            Ideal para agencias inmobiliarias que quieren mostrar propiedades
+            destacadas y captar nuevos compradores o arrendatarios.
           </p>
 
           <a href="/DreamHouse">
@@ -153,7 +162,8 @@ const LandingPageAd = () => {
         <div className="p-4">
           <h2 className="text-xl font-semibold dark:text-white">WebCall</h2>
           <p className="text-black dark:text-white">
-            landing page sobre una plataforma de conferencias en linea
+            Landing diseñada para plataformas de videollamadas que necesitan
+            explicar sus funciones y atraer usuarios o empresas.
           </p>
 
           <a href="/WebCall">
@@ -171,7 +181,8 @@ const LandingPageAd = () => {
         <div className="p-4">
           <h2 className="text-xl font-semibold dark:text-white">W L P</h2>
           <p className="text-black dark:text-white">
-            Landing Page sobre una academia de lucha libre
+            Una landing para academias de lucha libre que desean promocionar sus
+            clases, eventos y captar nuevos estudiantes.
           </p>
 
           <a href="/WLP">
@@ -189,7 +200,8 @@ const LandingPageAd = () => {
         <div className="p-4">
           <h2 className="text-xl font-semibold dark:text-white">Morgana</h2>
           <p className="text-black dark:text-white">
-            Landing page sobre una con concesionaria de autos
+            Pensada para concesionarias de autos que quieren presentar su
+            catálogo de vehículos y atraer potenciales compradores.
           </p>
 
           <a href="/Morgana">
@@ -203,7 +215,8 @@ const LandingPageAd = () => {
         <div className="p-4">
           <h2 className="text-xl font-semibold dark:text-white">GoldTeeth</h2>
           <p className="text-black dark:text-white">
-            Landing page sobre una clinica dentista.
+            Landing page ideal para clínicas dentales que desean ofrecer sus
+            servicios, generar confianza y captar nuevos pacientes.
           </p>
 
           <a href="/GoldTeeth">
@@ -223,7 +236,8 @@ const LandingPageAd = () => {
             Camping Night
           </h2>
           <p className="text-black dark:text-white">
-            Landing page de una empresa de hacer camping
+            Diseñada para empresas de campamentos que buscan promocionar
+            experiencias al aire libre y atraer a los amantes de la naturaleza.
           </p>
 
           <a href="/CampingNight">
@@ -241,7 +255,9 @@ const LandingPageAd = () => {
         <div className="p-4">
           <h2 className="text-xl font-semibold dark:text-white">Clover</h2>
           <p className="text-black dark:text-white">
-            Landing page sobre una tienda de paneles solares
+            Landing enfocada en tiendas de paneles solares que quieren mostrar
+            sus productos, beneficios y atraer clientes comprometidos con la
+            energía limpia.
           </p>
 
           <a href="/Clover">
@@ -261,7 +277,8 @@ const LandingPageAd = () => {
             Organic Gold
           </h2>
           <p className="text-black dark:text-white">
-            landing page de una tienda de Productos Orgánicos
+            Perfecta para tiendas de productos orgánicos que desean transmitir
+            su estilo de vida saludable y vender de manera efectiva.
           </p>
 
           <a href="/OrganicGold">
@@ -281,7 +298,8 @@ const LandingPageAd = () => {
             Zoological World
           </h2>
           <p className="text-black dark:text-white">
-            landing page de un Zoológico
+            Una landing para zoológicos que quieren informar sobre sus animales,
+            actividades y atraer a más visitantes.
           </p>
 
           <a href="/ZoologicalWorld">
@@ -299,7 +317,8 @@ const LandingPageAd = () => {
         <div className="p-4">
           <h2 className="text-xl font-semibold dark:text-white">JR Royal</h2>
           <p className="text-black dark:text-white">
-            Landing page sobre un hotel
+            Landing page ideal para hoteles que buscan mostrar sus habitaciones,
+            servicios y facilitar reservas en línea.
           </p>
 
           <a href="/JRRoyal">
@@ -317,7 +336,8 @@ const LandingPageAd = () => {
         <div className="p-4">
           <h2 className="text-xl font-semibold dark:text-white">Castor Book</h2>
           <p className="text-black dark:text-white">
-            Landing page sobre una librería y editorial.
+            Diseñada para librerías y editoriales que desean exhibir sus libros,
+            autores y fomentar la lectura con estilo.
           </p>
 
           <a href="/CastorBook">
@@ -327,16 +347,40 @@ const LandingPageAd = () => {
       </div>
 
       <div className="bg-gray-200 rounded-lg shadow-md dark:bg-neutral-800">
-        <img src={BackgroundStrikes} alt="BackgroundStrikes" className="w-full h-auto" />
+        <img
+          src={BackgroundStrikes}
+          alt="BackgroundStrikes"
+          className="w-full h-auto"
+        />
         <div className="p-4">
-          <h2 className="text-xl font-semibold dark:text-white">
-          Strikes 
-          </h2>
+          <h2 className="text-xl font-semibold dark:text-white">Strikes</h2>
           <p className="text-black dark:text-white">
-           Landing page sobre un establecimiento de boliche
+            Landing enfocada en boliches que quieren promocionar sus
+            instalaciones, torneos y atraer más jugadores.
           </p>
 
           <a href="/Strikes">
+            <ButtonLanding />
+          </a>
+        </div>
+      </div>
+
+      <div className="bg-gray-200 rounded-lg shadow-md dark:bg-neutral-800">
+        <img
+          src={BackgroundChatWithBot}
+          alt="BackgroundChatWithBot"
+          className="w-full h-auto"
+        />
+        <div className="p-4">
+          <h2 className="text-xl font-semibold dark:text-white">
+            Charla Con Bot
+          </h2>
+          <p className="text-black dark:text-white">
+            Una landing para chats con inteligencia artificial local, perfecta
+            para presentar sus funciones y casos de uso en distintos contextos.
+          </p>
+
+          <a href="/ChatWithBot">
             <ButtonLanding />
           </a>
         </div>
