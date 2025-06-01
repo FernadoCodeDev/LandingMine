@@ -27,7 +27,7 @@ function BooksCard() {
       {/* Masonry effect*/}
       <Masonry
         breakpointCols={{ default: 3, 1024: 3, 768: 2 }}
-        className="flex items-center justify-center gap-2 m-auto text-center md:gap-2 max-w-[80rem]"
+        className="flex items-center justify-center gap-2 m-auto text-center md:gap-2 max-w-[90rem]"
         columnClassName="flex flex-col gap-2 "
       >
         {Books.map((Book) => (
