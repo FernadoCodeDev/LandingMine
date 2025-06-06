@@ -2,6 +2,8 @@ import React, { useState, useEffect } from "react";
 import DarkModeIcon from "../../assets/img/DarkMode.webp";
 import MobileMenu from "../../assets/img/MobileMenu.webp";
 import CloseMenuIcon from "../../assets/img/CloseMenuIcon.webp";
+import LanguageSelectorButton from "./languageSelectorButton";
+import { Trans, useTranslation } from "react-i18next";
 
 const Navegation = () => {
   const [darkMode, setDarkMode] = useState(false);
@@ -73,19 +75,20 @@ const Navegation = () => {
                 onClick={() => setDarkMode(!darkMode)}
               />
             </div>
-            <div className="flex flex-col justify-between m-2">
-            <a href="/" className="px-4 py-2 rounded hover:bg-blue-800">
-              Home
-            </a>
-            <a
-              href="/Collection"
-              className="px-4 py-2 rounded hover:bg-blue-800"
-            >
-              Colletion
-            </a>
-            <a href="/About" className="px-4 py-2 rounded hover:bg-blue-800">
-              LandigMine
-            </a>
+            <LanguageSelectorButton />
+            <div className="flex flex-col justify-between m-2 ">
+              <a href="/" className="px-4 py-2 rounded hover:bg-blue-800">
+                <Trans  i18nKey="homeNav" />
+              </a>
+              <a
+                href="/Collection"
+                className="px-4 py-2 rounded hover:bg-blue-800"
+              >
+                <Trans i18nKey="collectionNav" />
+              </a>
+              <a href="/About" className="px-4 py-2 rounded hover:bg-blue-800">
+                LandigMine
+              </a>
             </div>
           </nav>
         </div>
@@ -102,20 +105,23 @@ const Navegation = () => {
               onClick={() => setDarkMode(!darkMode)}
             />
           </div>
+
           <div className="flex flex-col justify-between m-2">
+            <LanguageSelectorButton />
+
             <a href="/" className="px-4 py-2 rounded hover:bg-blue-800">
-              Home
+              <Trans i18nKey="homeNav" />
             </a>
             <a
               href="/Collection"
               className="px-4 py-2 rounded hover:bg-blue-800"
             >
-              Colletion
+             <Trans i18nKey="collectionNav" />
             </a>
             <a href="/About" className="px-4 py-2 rounded hover:bg-blue-800">
               LandigMine
             </a>
-            </div>
+          </div>
         </nav>
       )}
 

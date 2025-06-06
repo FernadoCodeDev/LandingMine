@@ -3,6 +3,7 @@ import Logo from "../assets/img/LandingMineWeb.webp";
 import Navegation from "../components/ui/Navegation";
 import Footer from "../components/ui/Footer";
 import LandingPageAd from "../components/sections/LandingPageAd";
+import { Trans, useTranslation } from "react-i18next";
 
 const Collection = () => {
   return (

@@ -4,6 +4,7 @@ import Navegation from "../components/ui/Navegation";
 import Footer from "../components/ui/Footer";
 import GitHub from "../components/ui/GitHubButton";
 import PersonalPage from "../components/ui/PersonalPageButton";
+import { Trans, useTranslation } from "react-i18next";
 
 const About = () => {
   return (

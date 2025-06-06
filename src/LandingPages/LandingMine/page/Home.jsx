@@ -12,8 +12,11 @@ import BackgroundGoodTrip from "../../GoodTrip/assets/img/GoodTrip.webp";
 import BackgroundCooktopiaShop from "../../CooktopiaShop/assets/img/BackgroundCooktopiaShop.webp";
 import BackgroundDreamHouse from "../../DreamHouse/assets/img/BackgroundDreamHouse.webp";
 import BackgroundWebCall from "../../WebCall/assets/img/BackgroundWebCall.webp";
+import { Trans, useTranslation } from "react-i18next";
 
 const HomePage = () => {
+  const { t } = useTranslation();
+
   return (
     <div className="flex flex-row min-h-screen">
       <Navegation />
@@ -37,30 +40,26 @@ const HomePage = () => {
               </span>
             </h1>
 
-            <p className="text-center w-full p-2 mb-8 text-lg md:max-w-[70rem] md:mx-auto dark:text-white">
-              ¿Qué es{" "}
-              <strong className="text-blue-950 dark:text-orange-300">
-                LandingMine
-              </strong>
-              ? Es una colección de landing pages inspiradas en diseños como
-              <span className="font-bold text-blue-950 dark:text-orange-300">
-                {" "}
-                collectui
-              </span>
-              ,
-              <span className="font-bold text-blue-950 dark:text-orange-300">
-                {" "}
-                Dribbble
-              </span>
-              ,
-              <span className="font-bold text-blue-950 dark:text-orange-300">
-                {" "}
-                Behance,{" "}
-              </span>
-              hechas con <span className="font-bold text-cyan-400">
-                React
-              </span>{" "}
-              y<span className="font-bold text-sky-400"> Tailwind CSS.</span>
+            <p className="text-center w-full p-2 mb-8 text-lg md:max-w-[42rem] md:mx-auto dark:text-white">
+              <Trans
+                i18nKey="descripcionLanding"
+                components={{
+                  strong: (
+                    <strong className="text-blue-950 dark:text-orange-300" />
+                  ),
+                  collect: (
+                    <span className="font-bold text-blue-950 dark:text-orange-300" />
+                  ),
+                  dribbble: (
+                    <span className="font-bold text-blue-950 dark:text-orange-300" />
+                  ),
+                  behance: (
+                    <span className="font-bold text-blue-950 dark:text-orange-300" />
+                  ),
+                  react: <span className="font-bold text-cyan-400" />,
+                  tailwind: <span className="font-bold text-sky-400" />,
+                }}
+              />
             </p>
 
             <div className="grid grid-cols-1 gap-4 p-4 m-auto sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 ">

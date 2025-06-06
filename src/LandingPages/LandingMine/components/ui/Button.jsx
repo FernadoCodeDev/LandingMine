@@ -4,12 +4,12 @@ const Button = () => {
   return (
     <div className="w-full sm:col-span-2 lg:col-span-3 xl:col-span-4">
       <a href="/Collection">
-        <button class="overflow-hidden relative w-full p-2 h-12 bg-orange-500 text-white border-none rounded-md text-xl font-bold cursor-pointer relative z-10 group">
+        <button className="relative z-10 w-full h-12 p-2 overflow-hidden text-xl font-bold text-white bg-orange-500 border-none rounded-md cursor-pointer group">
           Explorar
-          <span class="absolute w-full h-32 -top-8 left-0 bg-orange-200 rounded-full transform scale-0 group-hover:scale-100 transition-transform group-hover:duration-500 duration-1000 origin-center"></span>
-          <span class="absolute w-full h-32 -top-8 left-0 bg-orange-400 rounded-full transform scale-0 group-hover:scale-100 transition-transform group-hover:duration-700 duration-700 origin-center"></span>
-          <span class="absolute w-full h-32 -top-8 left-0 bg-orange-600 rounded-full transform scale-0 group-hover:scale-100 transition-transform group-hover:duration-1000 duration-500 origin-center"></span>
-          <span class="absolute inset-0 w-full h-full flex items-center justify-center text-center m-auto group-hover:opacity-100 group-hover:duration-1000 duration-100 opacity-0 z-10">
+          <span className="absolute left-0 w-full h-32 transition-transform duration-1000 origin-center transform scale-0 bg-orange-200 rounded-full -top-8 group-hover:scale-100 group-hover:duration-500"></span>
+          <span className="absolute left-0 w-full h-32 transition-transform duration-700 origin-center transform scale-0 bg-orange-400 rounded-full -top-8 group-hover:scale-100 group-hover:duration-700"></span>
+          <span className="absolute left-0 w-full h-32 transition-transform duration-500 origin-center transform scale-0 bg-orange-600 rounded-full -top-8 group-hover:scale-100 group-hover:duration-1000"></span>
+          <span className="absolute inset-0 z-10 flex items-center justify-center w-full h-full m-auto text-center duration-100 opacity-0 group-hover:opacity-100 group-hover:duration-1000">
             LandingMine
           </span>
         </button>
