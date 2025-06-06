@@ -1,7 +1,9 @@
 {
   "files": {
-    "main.css": "/static/css/main.ecd205f6.css",
-    "main.js": "/static/js/main.5f970b22.js",
+    "main.css": "/static/css/main.312d8173.css",
+    "main.js": "/static/js/main.95c2f03c.js",
+    "static/js/68.d24918ee.chunk.js": "/static/js/68.d24918ee.chunk.js",
+    "static/js/691.9073d877.chunk.js": "/static/js/691.9073d877.chunk.js",
     "static/media/Background.webp": "/static/media/Background.4ffbc59801550c6519c8.webp",
     "static/media/BackgroundZoologicalWorld.webp": "/static/media/BackgroundZoologicalWorld.91216f6d81293443dd90.webp",
     "static/media/imgN5.webp": "/static/media/imgN5.878b3adc5c56cb8b0a42.webp",
@@ -168,11 +170,11 @@
     "static/media/MobileMenu.webp": "/static/media/MobileMenu.b9c2e010d8b9c09d5d25.webp",
     "static/media/GYMLogo.webp": "/static/media/GYMLogo.f16f87b0e8f4165cbe64.webp",
     "index.html": "/index.html",
-    "main.ecd205f6.css.map": "/static/css/main.ecd205f6.css.map",
-    "main.5f970b22.js.map": "/static/js/main.5f970b22.js.map"
+    "main.312d8173.css.map": "/static/css/main.312d8173.css.map",
+    "main.95c2f03c.js.map": "/static/js/main.95c2f03c.js.map"
   },
   "entrypoints": [
-    "static/css/main.ecd205f6.css",
-    "static/js/main.5f970b22.js"
+    "static/css/main.312d8173.css",
+    "static/js/main.95c2f03c.js"
   ]
 }
