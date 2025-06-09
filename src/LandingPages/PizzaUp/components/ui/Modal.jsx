@@ -34,7 +34,7 @@ export const pizzas = [
 
   {
     id: 4,
-    name: "Cheeseburger",
+    name: "Cheeseburger Pizza ",
     price: 12,
     image: Pizza4,
   },
