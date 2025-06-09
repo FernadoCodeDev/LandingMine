@@ -27,5 +27,9 @@
   "Abouttext3": "If you are interested in exploring more about my projects, both on the side <frontEnd>Front-End</frontEnd> as <backend>Back-End,</backend> I invite you to visit my <webpersonal>personal page.</webpersonal> There you will find a collection of my previous work, as well as links to my repositories in <github>GitHub,</github> where you can delve into the code of each of the projects.",
   "button": "Explore",
   "buttonlanding": "View Landing Page",
-  "buttonSearch": "Search"
+  "buttonSearch": "Search",
+   "linkroute1": "Home",
+  "linkroute2": "Contact",
+  "linkroute3": "Us",
+  "footer": "You can find this and more of my work on my <link>personal page</link>"
 }
