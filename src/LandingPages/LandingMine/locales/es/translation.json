@@ -1,5 +1,32 @@
 {
   "descripcionLanding": "¿Qué es <strong>LandingMine</strong>? Es una colección de landing pages inspiradas en diseños como <collect>collectui</collect>, <dribbble>Dribbble</dribbble>, <behance>Behance</behance>, hechas con <react>React</react> y <tailwind>Tailwind CSS</tailwind>.",
   "homeNav": "Inicio",
-  "collectionNav": "Colección"
+  "collectionNav": "Colección",
+  "CollectionLanding": "Bienvenido a <strong>LandingMine</strong>, tu mina digital de aterrizajes exclusivos y cuidadosamente seleccionados. Aquí encontrarás una vasta colección de <span>landing pages</span> diseñadas con <react>React</react> y <tailwind>Tailwind CSS</tailwind>, inspiradas en las últimas tendencias de plataformas como <collect>CollectUI</collect>, <dribbble>Dribbble</dribbble> y <behance>Behance</behance>. Cada página es una pieza única, perfecta para dar vida a tu proyecto con una base sólida y moderna.",
+  "PizzaUp": "Una landing page ideal para pizzerías que buscan atraer más clientes y mostrar su menú de forma visual y atractiva.",
+  "Gym": "Landing page pensada para gimnasios que quieren promocionar sus servicios, destacar sus entrenadores y captar nuevos miembros.",
+  "MarketingAgency": "Diseñada para agencias de marketing digital que necesitan una presentación profesional para captar clientes y mostrar su portafolio.",
+  "PigBank": "Una landing para bancos o fintechs que desean transmitir confianza y presentar sus productos financieros de forma clara.",
+  "GoodTrip": "Landing enfocada en agencias de viaje que buscan inspirar a sus clientes y mostrar sus paquetes turísticos de manera atractiva.",
+  "CooktopiaShop": "Landing page pensada para tiendas de artículos de cocina que buscan vender sus productos de forma moderna y organizada.",
+  "DreamHouse": "Ideal para agencias inmobiliarias que quieren mostrar propiedades destacadas y captar nuevos compradores o arrendatarios.",
+  "WebCall": "Landing diseñada para plataformas de videollamadas que necesitan explicar sus funciones y atraer usuarios o empresas.",
+  "WLP": "Una landing para academias de lucha libre que desean promocionar sus clases, eventos y captar nuevos estudiantes.",
+  "Morgana": "Pensada para concesionarias de autos que quieren presentar su catálogo de vehículos y atraer potenciales compradores.",
+  "GoldTeeth": "Landing page ideal para clínicas dentales que desean ofrecer sus servicios, generar confianza y captar nuevos pacientes.",
+  "CampingNight": "Diseñada para empresas de campamentos que buscan promocionar experiencias al aire libre y atraer a los amantes de la naturaleza.",
+  "Clover": "Landing enfocada en tiendas de paneles solares que quieren mostrar sus productos, beneficios y atraer clientes comprometidos con la energía limpia.",
+  "OrganicGold": "Perfecta para tiendas de productos orgánicos que desean transmitir su estilo de vida saludable y vender de manera efectiva.",
+  "ZoologicalWorld": "Una landing para zoológicos que quieren informar sobre sus animales, actividades y atraer a más visitantes.",
+  "JRRoyal": "Landing page ideal para hoteles que buscan mostrar sus habitaciones, servicios y facilitar reservas en línea.",
+  "CastorBook": "Diseñada para librerías y editoriales que desean exhibir sus libros, autores y fomentar la lectura con estilo.",
+  "Strikes": "Landing enfocada en boliches que quieren promocionar sus instalaciones, torneos y atraer más jugadores.",
+  "ChatWithBot": "Una landing para chats con inteligencia artificial local, perfecta para presentar sus funciones y casos de uso en distintos contextos.",
+  "Abouttext1": "<strong>Sobre Landing Mine</strong> es un proyecto personal que he desarrollado para mostrar mis habilidades como desarrollador Front-End, con un enfoque en el uso de tecnologías modernas como <react> React</react> y <tailwind>Tailwind CSS,</tailwind> Cada landing page en esta colección ha sido cuidadosamente diseñada y optimizada para ser <responsive>100% responsive,</responsive> asegurando una experiencia de usuario fluida y atractiva en cualquier dispositivo.",
+  "Abouttext2": "Este proyecto no solo refleja mi trabajo en el <frontend>Front-End,</frontend> sino que también sirve como un escaparate de mi capacidad para trabajar con tecnologías <backend>Back-End.</backend> A través de <strong>Sobre LandingMine,</strong> quiero demostrar mi versatilidad como desarrollador, abarcando tanto el diseño visual como la funcionalidad robusta en aplicaciones web. ",
+  "Abouttext3": "Si estás interesado en explorar más sobre mis proyectos, tanto del lado  <frontend>Front-End</frontend> como <backend>Back-End,</backend> te invito a visitar mi <webpersonal>página personal.</webpersonal> Ahí encontrarás una colección de mis trabajos previos, así como los enlaces a mis repositorios en <github>GitHub,</github> donde puedes profundizar en el código de cada uno de los proyectos.",
+   "button": "Explorar",
+   "buttonlanding": "Ver Landing Page",
+   "buttonSearch": "Buscar"
 }
+ 

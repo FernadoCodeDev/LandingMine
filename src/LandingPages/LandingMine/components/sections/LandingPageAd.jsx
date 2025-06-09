@@ -19,6 +19,7 @@ import BackgroundJRRoyal from "../../../JRRoyal/assets/img/BackgroundJRRoyal.web
 import BackgroundCastorBook from "../../../CastorBook/assets/img/BackgroundCastorBook.webp";
 import BackgroundStrikes from "../../../Strikes/assets/img/BackgroundStrike's.webp";
 import BackgroundChatWithBot from "../../../ChatWithBot/assets/img/ChatWithBotBackground.webp";
+import { Trans, useTranslation } from "react-i18next";
 
 const LandingPageAd = () => {
   return (
@@ -32,10 +33,8 @@ const LandingPageAd = () => {
         <div className="p-4">
           <h2 className="text-xl font-semibold dark:text-white">PizzaUp</h2>
           <p className="text-black dark:text-white">
-            Una landing page ideal para pizzerías que buscan atraer más clientes
-            y mostrar su menú de forma visual y atractiva.
+            <Trans i18nKey="PizzaUp" components={{}} />
           </p>
-
           <a href="/PizzaUp">
             <ButtonLanding />
           </a>
@@ -51,8 +50,7 @@ const LandingPageAd = () => {
         <div className="p-4">
           <h2 className="text-xl font-semibold dark:text-white">Gym</h2>
           <p className="text-black dark:text-white">
-            Landing page pensada para gimnasios que quieren promocionar sus
-            servicios, destacar sus entrenadores y captar nuevos miembros.
+            <Trans i18nKey="Gym" components={{}} />
           </p>
 
           <a href="/Gym">
@@ -68,9 +66,7 @@ const LandingPageAd = () => {
             Marketing Agency
           </h2>
           <p className="text-black dark:text-white">
-            Diseñada para agencias de marketing digital que necesitan una
-            presentación profesional para captar clientes y mostrar su
-            portafolio.
+            <Trans i18nKey="MarketingAgency" components={{}} />
           </p>
 
           <a href="/MarketingAgency">
@@ -84,8 +80,7 @@ const LandingPageAd = () => {
         <div className="p-4">
           <h2 className="text-xl font-semibold dark:text-white">Pig Bank</h2>
           <p className="text-black dark:text-white">
-            Una landing para bancos o fintechs que desean transmitir confianza y
-            presentar sus productos financieros de forma clara.
+            <Trans i18nKey="PigBank" components={{}} />
           </p>
 
           <a href="/PigBank">
@@ -103,8 +98,7 @@ const LandingPageAd = () => {
         <div className="p-4">
           <h2 className="text-xl font-semibold dark:text-white">Good Trip</h2>
           <p className="text-black dark:text-white">
-            Landing enfocada en agencias de viaje que buscan inspirar a sus
-            clientes y mostrar sus paquetes turísticos de manera atractiva.
+            <Trans i18nKey="GoodTrip" components={{}} />
           </p>
 
           <a href="/GoodTrip">
@@ -124,10 +118,8 @@ const LandingPageAd = () => {
             Cooktopia Shop
           </h2>
           <p className="text-black dark:text-white">
-            Landing page pensada para tiendas de artículos de cocina que buscan
-            vender sus productos de forma moderna y organizada.
+            <Trans i18nKey="CooktopiaShop" components={{}} />
           </p>
-
           <a href="/CooktopiaShop">
             <ButtonLanding />
           </a>
@@ -143,8 +135,7 @@ const LandingPageAd = () => {
         <div className="p-4">
           <h2 className="text-xl font-semibold dark:text-white">Dream House</h2>
           <p className="text-black dark:text-white">
-            Ideal para agencias inmobiliarias que quieren mostrar propiedades
-            destacadas y captar nuevos compradores o arrendatarios.
+            <Trans i18nKey="DreamHouse" components={{}} />
           </p>
 
           <a href="/DreamHouse">
@@ -160,10 +151,9 @@ const LandingPageAd = () => {
           className="w-full h-auto"
         />
         <div className="p-4">
-          <h2 className="text-xl font-semibold dark:text-white">WebCall</h2>
+          <h2 className="text-xl font-semibold dark:text-white">Web Call</h2>
           <p className="text-black dark:text-white">
-            Landing diseñada para plataformas de videollamadas que necesitan
-            explicar sus funciones y atraer usuarios o empresas.
+            <Trans i18nKey="WebCall" components={{}} />
           </p>
 
           <a href="/WebCall">
@@ -181,8 +171,7 @@ const LandingPageAd = () => {
         <div className="p-4">
           <h2 className="text-xl font-semibold dark:text-white">W L P</h2>
           <p className="text-black dark:text-white">
-            Una landing para academias de lucha libre que desean promocionar sus
-            clases, eventos y captar nuevos estudiantes.
+            <Trans i18nKey="WLP" components={{}} />
           </p>
 
           <a href="/WLP">
@@ -200,8 +189,7 @@ const LandingPageAd = () => {
         <div className="p-4">
           <h2 className="text-xl font-semibold dark:text-white">Morgana</h2>
           <p className="text-black dark:text-white">
-            Pensada para concesionarias de autos que quieren presentar su
-            catálogo de vehículos y atraer potenciales compradores.
+            <Trans i18nKey="Morgana" components={{}} />
           </p>
 
           <a href="/Morgana">
@@ -213,10 +201,9 @@ const LandingPageAd = () => {
       <div className="bg-gray-200 rounded-lg shadow-md dark:bg-neutral-800">
         <img src={GoldTeeth} alt="GoldTeeth" className="w-full h-auto" />
         <div className="p-4">
-          <h2 className="text-xl font-semibold dark:text-white">GoldTeeth</h2>
+          <h2 className="text-xl font-semibold dark:text-white">Gold Teeth</h2>
           <p className="text-black dark:text-white">
-            Landing page ideal para clínicas dentales que desean ofrecer sus
-            servicios, generar confianza y captar nuevos pacientes.
+            <Trans i18nKey="GoldTeeth" components={{}} />
           </p>
 
           <a href="/GoldTeeth">
@@ -236,8 +223,7 @@ const LandingPageAd = () => {
             Camping Night
           </h2>
           <p className="text-black dark:text-white">
-            Diseñada para empresas de campamentos que buscan promocionar
-            experiencias al aire libre y atraer a los amantes de la naturaleza.
+            <Trans i18nKey="CampingNight" components={{}} />
           </p>
 
           <a href="/CampingNight">
@@ -255,9 +241,7 @@ const LandingPageAd = () => {
         <div className="p-4">
           <h2 className="text-xl font-semibold dark:text-white">Clover</h2>
           <p className="text-black dark:text-white">
-            Landing enfocada en tiendas de paneles solares que quieren mostrar
-            sus productos, beneficios y atraer clientes comprometidos con la
-            energía limpia.
+            <Trans i18nKey="Clover" components={{}} />
           </p>
 
           <a href="/Clover">
@@ -277,8 +261,7 @@ const LandingPageAd = () => {
             Organic Gold
           </h2>
           <p className="text-black dark:text-white">
-            Perfecta para tiendas de productos orgánicos que desean transmitir
-            su estilo de vida saludable y vender de manera efectiva.
+            <Trans i18nKey="OrganicGold" components={{}} />
           </p>
 
           <a href="/OrganicGold">
@@ -298,8 +281,7 @@ const LandingPageAd = () => {
             Zoological World
           </h2>
           <p className="text-black dark:text-white">
-            Una landing para zoológicos que quieren informar sobre sus animales,
-            actividades y atraer a más visitantes.
+            <Trans i18nKey="ZoologicalWorld" components={{}} />
           </p>
 
           <a href="/ZoologicalWorld">
@@ -317,8 +299,7 @@ const LandingPageAd = () => {
         <div className="p-4">
           <h2 className="text-xl font-semibold dark:text-white">JR Royal</h2>
           <p className="text-black dark:text-white">
-            Landing page ideal para hoteles que buscan mostrar sus habitaciones,
-            servicios y facilitar reservas en línea.
+            <Trans i18nKey="JRRoyal" components={{}} />
           </p>
 
           <a href="/JRRoyal">
@@ -336,8 +317,7 @@ const LandingPageAd = () => {
         <div className="p-4">
           <h2 className="text-xl font-semibold dark:text-white">Castor Book</h2>
           <p className="text-black dark:text-white">
-            Diseñada para librerías y editoriales que desean exhibir sus libros,
-            autores y fomentar la lectura con estilo.
+            <Trans i18nKey="CastorBook" components={{}} />
           </p>
 
           <a href="/CastorBook">
@@ -355,8 +335,7 @@ const LandingPageAd = () => {
         <div className="p-4">
           <h2 className="text-xl font-semibold dark:text-white">Strikes</h2>
           <p className="text-black dark:text-white">
-            Landing enfocada en boliches que quieren promocionar sus
-            instalaciones, torneos y atraer más jugadores.
+            <Trans i18nKey="Strikes" components={{}} />
           </p>
 
           <a href="/Strikes">
@@ -376,8 +355,7 @@ const LandingPageAd = () => {
             Charla Con Bot
           </h2>
           <p className="text-black dark:text-white">
-            Una landing para chats con inteligencia artificial local, perfecta
-            para presentar sus funciones y casos de uso en distintos contextos.
+            <Trans i18nKey="ChatWithBot" components={{}} />
           </p>
 
           <a href="/ChatWithBot">

@@ -1,9 +1,31 @@
 {
-    "descripcionLanding": "What is <strong>LandingMine</strong>? It's a collection of landing pages inspired by designs like <collect>collectui</collect>, <dribbble>Dribbble</dribbble>, <behance>Behance</behance>, built with <react>React</react> and <tailwind>Tailwind CSS</tailwind>.",
-    "homeNav": "Home",
-    "collectionNav": "Colletion"
+  "descripcionLanding": "What is <strong>LandingMine</strong>? It's a collection of landing pages inspired by designs like <collect>collectui</collect>, <dribbble>Dribbble</dribbble>, <behance>Behance</behance>, built with <react>React</react> and <tailwind>Tailwind CSS</tailwind>.",
+  "homeNav": "Home",
+  "collectionNav": "Colletion",
+  "CollectionLanding": "Welcome a <strong>LandingMine</strong>, Your digital treasure trove of exclusive, carefully curated landing pages. Here you'll find a wide collection of <span>landing pages</span> designed with <react>React</react> and <tailwind>Tailwind CSS</tailwind>, inspired by the latest trends from platforms like <collect>CollectUI</collect>, <dribbble>Dribbble</dribbble> y <behance>Behance</behance>. Each page is a unique piece, perfect for bringing your project to life with a solid, modern foundation.",
+  "PizzaUp": "A landing page ideal para pizzerías que buscan atraer más clientes y mostrar su menú de forma visual y atractiva.",
+  "Gym": "A landing page designed for gyms that want to promote their services, highlight their trainers, and attract new members.",
+  "MarketingAgency": "Designed for digital marketing agencies that need a professional presentation to attract clients and showcase their portfolio.",
+  "PigBank": "A landing page for banks or fintechs that want to convey confidence and present their financial products clearly.",
+  "GoodTrip": "A landing page focused on travel agencies looking to inspire their clients and showcase their tour packages in an engaging way.",
+  "CooktopiaShop": "A landing page designed for kitchen supply stores looking to sell their products in a modern and organized way.",
+  "DreamHouse": "Ideal for real estate agencies looking to showcase outstanding properties and attract new buyers or tenants.",
+  "WebCall": "A landing page designed for video calling platforms that need to explain their features and attract users or businesses.",
+  "WLP": "A landing page for wrestling academies looking to promote their classes, events, and attract new students.",
+  "Morgana": "Designed for car dealerships looking to showcase their vehicle catalog and attract potential buyers.",
+  "GoldTeeth": "An ideal landing page for dental clinics looking to offer their services, build trust, and attract new patients.",
+  "CampingNight": "Designed for camping businesses looking to promote outdoor experiences and attract nature lovers.",
+  "Clover": "A landing page focused on solar panel stores that want to showcase their products and benefits, and attract customers committed to clean energy.",
+  "OrganicGold": "Perfect for organic food stores that want to convey their healthy lifestyle and sell effectively.",
+  "ZoologicalWorld": "A landing page for zoos that want to educate about their animals and activities and attract more visitors.",
+  "JRRoyal": "An ideal landing page for hotels looking to showcase their rooms and amenities and facilitate online bookings.",
+  "CastorBook": "Designed for bookstores and publishers who want to showcase their books, authors, and encourage reading in style.",
+  "Strikes": "A landing page focused on bowling alleys looking to promote their facilities, tournaments, and attract more players.",
+  "ChatWithBot": "A landing page for chats powered by local AI, perfect for showcasing your features and use cases in different contexts.",
+  "Abouttext1": "<strong>About Landing Mine</strong> It is a personal project that I have developed to showcase my skills as a Front-End developer, with a focus on the use of modern technologies such as <react> React</react> and <tailwind>Tailwind CSS,</tailwind> Each landing page in this collection has been carefully designed and optimized to be <responsive>100% responsive,</responsive> ensuring a smooth and engaging user experience on any device.",
+  "Abouttext2": "This project not only reflects my work in the <frontend>Front-End,</frontend> but also serves as a showcase of my ability to work with technologies <backend>Back-End.</backend> Through <strong>about LandingMine,</strong> I want to demonstrate my versatility as a developer, covering both visual design and robust functionality in web applications. ",
+  "Abouttext3": "If you are interested in exploring more about my projects, both on the side <frontEnd>Front-End</frontEnd> as <backend>Back-End,</backend> I invite you to visit my <webpersonal>personal page.</webpersonal> There you will find a collection of my previous work, as well as links to my repositories in <github>GitHub,</github> where you can delve into the code of each of the projects.",
+  "button": "Explore",
+  "buttonlanding": "View Landing Page",
+  "buttonSearch": "Search"
 }
-
-
-
-

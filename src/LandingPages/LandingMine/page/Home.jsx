@@ -74,8 +74,7 @@ const HomePage = () => {
                     PizzaUp
                   </h2>
                   <p className="text-black dark:text-white">
-                    Una landing page ideal para pizzerías que buscan atraer más
-                    clientes y mostrar su menú de forma visual y atractiva.
+                    <Trans i18nKey="PizzaUp" components={{}} />
                   </p>
 
                   <a href="/PizzaUp">
@@ -93,9 +92,7 @@ const HomePage = () => {
                 <div className="p-4">
                   <h2 className="text-xl font-semibold dark:text-white">Gym</h2>
                   <p className="text-black dark:text-white">
-                    Landing page pensada para gimnasios que quieren promocionar
-                    sus servicios, destacar sus entrenadores y captar nuevos
-                    miembros.
+                    <Trans i18nKey="Gym" components={{}} />
                   </p>
 
                   <a href="/Gym">
@@ -115,9 +112,7 @@ const HomePage = () => {
                     Marketing Agency
                   </h2>
                   <p className="text-black dark:text-white">
-                    Diseñada para agencias de marketing digital que necesitan
-                    una presentación profesional para captar clientes y mostrar
-                    su portafolio.
+                    <Trans i18nKey="MarketingAgency" components={{}} />
                   </p>
 
                   <a href="/MarketingAgency">
@@ -137,9 +132,7 @@ const HomePage = () => {
                     Pig Bank
                   </h2>
                   <p className="text-black dark:text-white">
-                    Una landing para bancos o fintechs que desean transmitir
-                    confianza y presentar sus productos financieros de forma
-                    clara.
+                    <Trans i18nKey="PigBank" components={{}} />
                   </p>
 
                   <a href="/PigBank">
@@ -159,9 +152,7 @@ const HomePage = () => {
                     Good Trip
                   </h2>
                   <p className="text-black dark:text-white">
-                    Landing enfocada en agencias de viaje que buscan inspirar a
-                    sus clientes y mostrar sus paquetes turísticos de manera
-                    atractiva.
+                    <Trans i18nKey="GoodTrip" components={{}} />
                   </p>
 
                   <a href="/GoodTrip">
@@ -181,10 +172,8 @@ const HomePage = () => {
                     Cooktopia Shop
                   </h2>
                   <p className="text-black dark:text-white">
-                    Landing page pensada para tiendas de artículos de cocina que
-                    buscan vender sus productos de forma moderna y organizada.
+                    <Trans i18nKey="CooktopiaShop" components={{}} />
                   </p>
-
                   <a href="/CooktopiaShop">
                     <ButtonLanding />
                   </a>
@@ -202,9 +191,7 @@ const HomePage = () => {
                     Dream House
                   </h2>
                   <p className="text-black dark:text-white">
-                    Ideal para agencias inmobiliarias que quieren mostrar
-                    propiedades destacadas y captar nuevos compradores o
-                    arrendatarios.
+                    <Trans i18nKey="DreamHouse" components={{}} />
                   </p>
 
                   <a href="/DreamHouse">
@@ -221,16 +208,14 @@ const HomePage = () => {
                 />
                 <div className="p-4">
                   <h2 className="text-xl font-semibold dark:text-white">
-                    WebCall
+                    Web Call
                   </h2>
                   <p className="text-black dark:text-white">
-                    Landing diseñada para plataformas de videollamadas que
-                    necesitan explicar sus funciones y atraer usuarios o
-                    empresas.
+                    <Trans i18nKey="WebCall" components={{}} />
                   </p>
 
                   <a href="/WebCall">
-                    <ButtonLanding />
+                    <ButtonLanding />   
                   </a>
                 </div>
               </div>

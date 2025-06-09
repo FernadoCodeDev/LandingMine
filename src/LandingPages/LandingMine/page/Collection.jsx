@@ -6,6 +6,8 @@ import LandingPageAd from "../components/sections/LandingPageAd";
 import { Trans, useTranslation } from "react-i18next";
 
 const Collection = () => {
+  const { t } = useTranslation();
+
   return (
     <div className="flex flex-row min-h-screen">
       <Navegation />
@@ -29,28 +31,30 @@ const Collection = () => {
               </span>
             </h1>
 
-            <h2 className="mb-4 text-4xl font-bold text-blue-950 dark:text-orange-300">
-              Explora la Mina de Landing Pages
-            </h2>
-
             <p className="text-center w-full p-2 text-lg max-w-full md:max-w-[70rem] md:mx-auto dark:text-white">
-              Bienvenido a{" "}
-              <strong className="text-blue-950 dark:text-orange-300">
-                LandingMine,
-              </strong>{" "}
-              tu mina digital de aterrizajes exclusivos y cuidadosamente
-              seleccionados. Aquí encontrarás una vasta colección de{" "}
-              <span className="font-bold text-blue-950 dark:text-orange-300">
-                landing pages
-              </span>{" "}
-              diseñadas con
-              <span className="font-bold text-cyan-400"> React </span>y
-              <span className="font-bold text-sky-400"> Tailwind CSS, </span>
-              inspiradas en las últimas tendencias de plataformas como
-              CollectUI, Dribbble y Behance. Cada página es una pieza única,
-              perfecta para dar vida a tu proyecto con una base sólida y
-              moderna.
-            </p>
+              <Trans
+                i18nKey="CollectionLanding"
+                components={{
+                  strong: (
+                    <strong className="font-bold text-blue-950 dark:text-orange-300" />
+                  ),
+
+                  span: (
+                    <span className="font-bold text-blue-950 dark:text-orange-300" />
+                  ),
+
+                  react: <span className="font-bold text-cyan-400" />,
+
+                  tailwind: <span className="font-bold text-sky-400" />,
+
+                  collect: <span className="font-bold text-blue-950 dark:text-orange-300" />,
+
+                  dribbble: <span className="font-bold text-blue-950 dark:text-orange-300" />,
+  
+                  behance: <span className="font-bold text-blue-950 dark:text-orange-300" />,
+                }}
+              />
+            </p>     
 
             <LandingPageAd />
           </section>
