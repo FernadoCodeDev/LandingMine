@@ -23,14 +23,14 @@ const FormModal = () => {
     container.innerHTML = "";
 
     const calendarRange = document.createElement("calendar-range");
-    calendarRange.setAttribute("months", "2");
+    calendarRange.setAttribute("months", "1");
 
     const month1 = document.createElement("calendar-month");
-    const month2 = document.createElement("calendar-month");
-    month2.setAttribute("offset", "1");
+    //const month2 = document.createElement("calendar-month");
+    //month2.setAttribute("offset", "2");
 
     calendarRange.appendChild(month1);
-    calendarRange.appendChild(month2);
+    //calendarRange.appendChild(month2);
 
     container.appendChild(calendarRange);
   }, [isOpen]);
@@ -83,7 +83,7 @@ const FormModal = () => {
                     />
                   </div>
 
-                  <div id="calendar-container" className="w-full col-span-2 " />
+                  <div id="calendar-container" className="flex justify-center w-full col-span-2 " />
 
                   <div className="flex flex-row items-center justify-between col-span-2 gap-2">
                     <div className="flex flex-col w-full md:w-1/2">
