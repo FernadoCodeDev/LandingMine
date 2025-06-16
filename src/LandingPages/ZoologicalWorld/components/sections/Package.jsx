@@ -45,7 +45,7 @@ function PackagesCard() {
         {Packages.map((pkg) => (
           <div
             key={pkg.id}
-            className={`flex items-center justify-center flex-grow p-4 text-center transition-all duration-500 ${pkg.color.base} border-4 ${pkg.color.border} hover:grow-[4] `}
+            className={`flex h-60 items-center justify-center flex-grow p-4 text-center transition-all duration-500 ${pkg.color.base} border-4 ${pkg.color.border} hover:grow-[4] `}
             onClick={() => handleClick(pkg)}
           >
             <div className="flex flex-col items-center">
