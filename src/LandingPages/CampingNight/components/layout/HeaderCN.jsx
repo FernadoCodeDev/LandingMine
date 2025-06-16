@@ -3,6 +3,7 @@ import MobileMenu from "../../../GlobalComponents/MobileMenu";
 import DarkMode from "../../../GlobalComponents/DarkMode";
 import Background from "../../assets/img/Background.webp";
 import CampingNightLogo from "../../assets/img/CampingNightLogo.webp";
+import "cally";
 import Modal from "../ui/Modal";
 
 const HeaderDH = () => {

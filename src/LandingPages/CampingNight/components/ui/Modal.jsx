@@ -1,5 +1,7 @@
 import { useEffect, useState } from "react";
+import "cally";
 import Close from "../../assets/svg/Close";
+
 const FormModal = () => {
   const [isOpen, setIsOpen] = useState(false);
 
@@ -13,13 +15,33 @@ const FormModal = () => {
     }
   }, [isOpen]);
 
+  useEffect(() => {
+    if (!isOpen) return;
+
+    const container = document.getElementById("calendar-container");
+
+    container.innerHTML = "";
+
+    const calendarRange = document.createElement("calendar-range");
+    calendarRange.setAttribute("months", "2");
+
+    const month1 = document.createElement("calendar-month");
+    const month2 = document.createElement("calendar-month");
+    month2.setAttribute("offset", "1");
+
+    calendarRange.appendChild(month1);
+    calendarRange.appendChild(month2);
+
+    container.appendChild(calendarRange);
+  }, [isOpen]);
+
   return (
     <div className="relative w-full">
       <button
         onClick={toggleModal}
         className="w-full h-auto p-2 font-bold text-white transition-all duration-700 ease-out bg-orange-400 rounded-2xl md:w-1/2 hover:bg-orange-600"
       >
-         Acampar en Camping Night
+        Acampar en Camping Night
       </button>
       {/* Modal */}
       {isOpen && (
@@ -38,7 +60,7 @@ const FormModal = () => {
               </h2>
 
               <form className="w-full space-y-4">
-                <div className="flex flex-col gap-4">
+                <div className="grid grid-cols-2 gap-4">
                   <div className="flex flex-col">
                     <label className="font-bold text-start">
                       Nombre completo
@@ -52,48 +74,18 @@ const FormModal = () => {
 
                   <div className="flex flex-col">
                     <label className="font-bold text-start">
-                      Número de personas
-                    </label>
-                    <input
-                      type="number"
-                      min="1"
-                      placeholder="Cuántas personas acamparan en CampingNight"
-                      className="p-2 border rounded-md"
-                    />
-                  </div>
-
-                  <div className="flex flex-col">
-                    <label className="font-bold text-start">
                       Email de contacto
                     </label>
                     <input
                       type="email"
-                      placeholder="CampingNight@gmail.com"
+                      placeholder="Gmail"
                       className="p-2 border rounded-md"
                     />
                   </div>
 
-                  <div className="flex flex-row items-center justify-between gap-2">
-                    <div className="flex flex-col w-full md:w-1/2">
-                      <label className="font-bold text-start">
-                        Inicio de estadia en{" "}
-                        <span className="font-bold">CampingNight</span>
-                      </label>
-                      <input type="date" className="p-2 border rounded-md" />
-                    </div>
+                  <div id="calendar-container" className="w-full col-span-2 " />
 
-                    <div className="hidden md:block md:w-4"></div>
-
-                    <div className="flex flex-col w-full md:w-1/2">
-                      <label className="font-bold text-start">
-                        Final de estadia en{" "}
-                        <span className="font-bold">CampingNight</span>
-                      </label>
-                      <input type="date" className="p-2 border rounded-md" />
-                    </div>
-                  </div>
-
-                  <div className="flex flex-row items-center justify-between gap-2">
+                  <div className="flex flex-row items-center justify-between col-span-2 gap-2">
                     <div className="flex flex-col w-full md:w-1/2">
                       <h1 className="font-bold text-start">
                         Tipo de campamento
