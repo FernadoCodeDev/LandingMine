@@ -37,7 +37,7 @@ const FormModal = () => {
                 Agendar Cita Dental
               </h2>
 
-              <form className="w-full space-y-4">
+              <div className="flex flex-col w-full space-y-4">
                 <div>
                   <label className="block text-sm font-medium text-gray-700">
                     Nombre completo
@@ -82,12 +82,11 @@ const FormModal = () => {
                 </div>
 
                 <button
-                  type="submit"
                   className="w-full py-2 font-medium text-white transition-all duration-700 ease-out rounded-lg bg-rose-400 hover:bg-rose-600"
                 >
                   Reservar cita
                 </button>
-              </form>
+              </div>
             </div>
           </div>
         </div>

@@ -59,7 +59,7 @@ const FormModal = () => {
                 Formulario de Registro
               </h2>
 
-              <form className="w-full space-y-4">
+              <div className="flex flex-col w-full space-y-4">
                 <div className="grid grid-cols-2 gap-4">
                   <div className="flex flex-col">
                     <label className="font-bold text-start">
@@ -116,7 +116,7 @@ const FormModal = () => {
                 <button className="flex justify-center w-full h-auto p-2 font-bold text-white transition-all duration-700 ease-out bg-orange-400 rounded-2xl hover:bg-orange-600">
                   Registarse Ahora
                 </button>
-              </form>
+              </div>
             </div>
           </div>
         </div>
