@@ -8,7 +8,7 @@ Ideal para reclutadores o clientes que buscan ver ejemplos reales de diseño pro
 
 ## 🛠 Tecnologías utilizadas
 
-[![My Skills](https://skillicons.dev/icons?i=react,tailwind)](https://skillicons.dev)
+[![My Skills](https://skillicons.dev/icons?i=react,tailwind,vite)](https://skillicons.dev)
 
  ## 🚀 Instalación y Uso
 
