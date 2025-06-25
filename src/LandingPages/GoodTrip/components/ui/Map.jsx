@@ -1,20 +1,25 @@
 import React from "react";
 import Acapulco from "../../assets/img/Acapulco.webp";
 import Japan from "../../assets/img/Japan.webp";
-import LasVegas from "../../assets/img/Las Vegas.webp";
+import LasVegas from "../../assets/img/LasVegas.webp";
 import Lyon from "../../assets/img/Lyon.webp";
 import Pekín from "../../assets/img/Pekín.webp";
 import Rabat from "../../assets/img/Rabat.webp";
 import Sídney from "../../assets/img/Sídney.webp";
 import Tasiilaq from "../../assets/img/Tasiilaq.webp";
-import BuenosAires from "../../assets/img/buenos Aires.webp";
+import BuenosAires from "../../assets/img/BuenosAires.webp";
 
 export default function InteractiveMap() {
   return (
     <div className="w-full m-auto text-center max-w-[80rem]">
-      <h1 className="mb-5 font-serif text-2xl font-bold uppercase md:text-4xl">¿Listo para tu próxima aventura?</h1>
+      <h1 className="mb-5 font-serif text-2xl font-bold uppercase md:text-4xl">
+        ¿Listo para tu próxima aventura?
+      </h1>
       <p className="max-w-[50rem] m-auto mb-8 text-base md:text-xl">
-      En <span className="font-bold">Good Trip</span> convertimos tus sueños de viaje en experiencias inolvidables. Ya sea que busques playas paradisíacas, ciudades vibrantes o paisajes naturales impresionantes, estamos aquí para ayudarte a planear el viaje perfecto.
+        En <span className="font-bold">Good Trip</span> convertimos tus sueños
+        de viaje en experiencias inolvidables. Ya sea que busques playas
+        paradisíacas, ciudades vibrantes o paisajes naturales impresionantes,
+        estamos aquí para ayudarte a planear el viaje perfecto.
       </p>
 
       <div className="relative w-full ">
@@ -33,7 +38,6 @@ export default function InteractiveMap() {
           title="Estado Unidos"
           desc="New York, Las vegas, Orlando"
           img={LasVegas}
-          
         />
 
         {/* Mexico */}
@@ -63,8 +67,8 @@ export default function InteractiveMap() {
           img={Pekín}
         />
 
-         {/* Greenland */}
-         <MapPoint
+        {/* Greenland */}
+        <MapPoint
           top="12%"
           left="35%"
           title="Groenlandia"
@@ -72,8 +76,8 @@ export default function InteractiveMap() {
           img={Tasiilaq}
         />
 
-         {/* Morocco */}
-         <MapPoint
+        {/* Morocco */}
+        <MapPoint
           top="48%"
           left="44%"
           title="Marruecos"
@@ -113,15 +117,21 @@ export default function InteractiveMap() {
 }
 
 function MapPoint({ top, left, title, desc, img }) {
+  const backgroundImage = `url(${img})`;
+
   return (
     <button
-      className="absolute w-8 h-8 transition-all duration-700 ease-in-out border-4 rounded-full group bg-neutral-800/85 border-cyan-700 opacity-80 hover:z-10 focus:z-10 focus:rounded-2xl focus:opacity-100 md:w-10 md:h-10 focus:w-40 focus:h-auto md:focus:w-60 md:focus:h-auto"
-      style={{ top, left, transform: "translate(-50%, -50%)" }}
+      className="absolute w-8 h-8 transition-all duration-700 ease-in-out border-4 rounded-full group bg-neutral-800/85 border-cyan-700 opacity-80 hover:z-10 focus:z-10 focus:rounded-2xl focus:opacity-100 md:w-10 focus:w-60 focus:h-auto  overflow-hidden bg-cover bg-center"
+      style={{
+        top,
+        left,
+        transform: "translate(-50%, -50%)",
+        backgroundImage: `url(${img})`,
+      }}
     >
-      <div className="flex flex-col items-center justify-center w-full h-full gap-2 p-2 text-center text-white transition-opacity duration-700 opacity-0 group-focus:opacity-100">
-        <h2 className="text-xl font-bold">{title}</h2>
-        <p className="text-base">{desc}</p>
-        <img src={img} alt={title} className="w-full h-auto" />
+     <div className="relative hidden group-focus:flex flex-col items-center justify-center w-full h-full gap-2 p-2 text-center text-white bg-black/60">
+        <h2 className="text-lg md:text-2xl font-bold">{title}</h2>
+        <p className="text-base md:text-lg">{desc}</p>
       </div>
     </button>
   );
