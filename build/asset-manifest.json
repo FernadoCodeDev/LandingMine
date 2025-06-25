@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.312d8173.css",
-    "main.js": "/static/js/main.a002248b.js",
+    "main.css": "/static/css/main.ea78f599.css",
+    "main.js": "/static/js/main.161a99fc.js",
     "static/js/68.c4bd6505.chunk.js": "/static/js/68.c4bd6505.chunk.js",
     "static/js/709.a6e99fdb.chunk.js": "/static/js/709.a6e99fdb.chunk.js",
     "static/js/691.7499666b.chunk.js": "/static/js/691.7499666b.chunk.js",
@@ -20,7 +20,7 @@
     "static/media/Map.webp": "/static/media/Map.7b07325d380e16803cb5.webp",
     "static/media/VIPGuardian.webp": "/static/media/VIPGuardian.95bb15fa88268955a23d.webp",
     "static/media/imgN1.webp": "/static/media/imgN1.66baf78bf6364d6343dc.webp",
-    "static/media/buenos Aires.webp": "/static/media/buenos Aires.b2a733a113173b79d861.webp",
+    "static/media/BuenosAires.webp": "/static/media/BuenosAires.b2a733a113173b79d861.webp",
     "static/media/imgN16.webp": "/static/media/imgN16.1fc7f2c10e3bc19a8171.webp",
     "static/media/imgN4.webp": "/static/media/imgN4.105a3a1fb3f8520121ff.webp",
     "static/media/FeedingtheLittleOnes.webp": "/static/media/FeedingtheLittleOnes.bc6b313905f1942d9ced.webp",
@@ -56,7 +56,7 @@
     "static/media/CooktopiaShopBG.webp": "/static/media/CooktopiaShopBG.d78ad7cf1a070e2c2d01.webp",
     "static/media/Camping.webp": "/static/media/Camping.3b8b94e9a4ea1d96b18d.webp",
     "static/media/imageN7.webp": "/static/media/imageN7.e031feb062a4c8370ac4.webp",
-    "static/media/Las Vegas.webp": "/static/media/Las Vegas.bd9d28f14a3be3a39593.webp",
+    "static/media/LasVegas.webp": "/static/media/LasVegas.bd9d28f14a3be3a39593.webp",
     "static/media/BackgroundWLP.webp": "/static/media/BackgroundWLP.62839b80243a25cb7688.webp",
     "static/media/imageN4.webp": "/static/media/imageN4.9846b3019543672ec097.webp",
     "static/media/Pekín.webp": "/static/media/Pekín.c7d746ba36c674a72966.webp",
@@ -172,11 +172,11 @@
     "static/media/MobileMenu.webp": "/static/media/MobileMenu.b9c2e010d8b9c09d5d25.webp",
     "index.html": "/index.html",
     "static/media/GYMLogo.webp": "/static/media/GYMLogo.f16f87b0e8f4165cbe64.webp",
-    "main.312d8173.css.map": "/static/css/main.312d8173.css.map",
-    "main.a002248b.js.map": "/static/js/main.a002248b.js.map"
+    "main.ea78f599.css.map": "/static/css/main.ea78f599.css.map",
+    "main.161a99fc.js.map": "/static/js/main.161a99fc.js.map"
   },
   "entrypoints": [
-    "static/css/main.312d8173.css",
-    "static/js/main.a002248b.js"
+    "static/css/main.ea78f599.css",
+    "static/js/main.161a99fc.js"
   ]
 }
