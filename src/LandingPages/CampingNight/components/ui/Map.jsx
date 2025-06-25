@@ -68,15 +68,21 @@ export default function InteractiveMap() {
 }
 
 function MapPoint({ top, left, title, desc, img }) {
+  const backgroundImage = `url(${img})`;
+
   return (
     <button
-      className="absolute w-8 h-8 transition-all duration-700 ease-in-out border-4 rounded-full group bg-beige-800/85 border-beige-950 opacity-80 hover:z-10 focus:z-10 focus:rounded-2xl focus:opacity-100 md:w-10 md:h-10 focus:w-60 focus:h-auto md:focus:w-96 md:focus:h-auto"
-      style={{ top, left, transform: "translate(-50%, -50%)" }}
+      className="absolute w-8 h-8 transition-all duration-700 ease-in-out border-4 rounded-full group bg-beige-800/85 border-beige-950 opacity-80 hover:z-10 focus:z-10 focus:rounded-2xl focus:opacity-100 md:w-10 md:h-10 focus:w-60 focus:h-auto md:focus:w-96 md:focus:h-auto overflow-hidden bg-cover bg-center"
+      style={{
+        top,
+        left,
+        transform: "translate(-50%, -50%)",
+        backgroundImage: `url(${img})`,
+      }}
     >
-      <div className="flex-col items-center justify-center hidden w-full h-full gap-2 p-2 text-center text-white transition-opacity duration-700 group-focus:block">
-        <h2 className="text-xl font-bold">{title}</h2>
-        <p className="text-base">{desc}</p>
-        <img src={img} alt={title} className="w-full h-auto" />
+      <div className="relative hidden group-focus:flex flex-col items-center justify-center w-full h-full gap-2 p-2 text-center text-white bg-black/60">
+        <h2 className="text-base md:text-lg font-bold">{title}</h2>
+        <p className="text-xs md:text-xs">{desc}</p>
       </div>
     </button>
   );
