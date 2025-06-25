@@ -2,12 +2,13 @@
 
 #  ⛏ **LandingMine**
 
-LandingMine es una colección de landing pages con diferentes temáticas, creadas con **React** y **Tailwind CSS**.  
-Este proyecto tiene como objetivo mejorar mis habilidades en **Front-End** y Mejorar con el uso de **Tailwind CSS** para desarrollar interfaces modernas y eficientes.
+Catálogo de 19 landing pages con temáticas variadas (restaurantes, e-commerce, inmobiliarias, y más), diseñado para mostrar interfaces modernas y adaptadas a distintos tipos de negocio.
+
+Ideal para reclutadores o clientes que buscan ver ejemplos reales de diseño profesional aplicado a distintos sectores.
 
 ## 🛠 Tecnologías utilizadas
 
-[![My Skills](https://skillicons.dev/icons?i=react,tailwind)](https://skillicons.dev)
+[![My Skills](https://skillicons.dev/icons?i=react,tailwind,vite)](https://skillicons.dev)
 
  ## 🚀 Instalación y Uso
 
