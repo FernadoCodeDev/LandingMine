@@ -121,7 +121,7 @@ function MapPoint({ top, left, title, desc, img }) {
 
   return (
     <button
-      className="absolute w-8 h-8 transition-all duration-700 ease-in-out border-4 rounded-full group bg-neutral-800/85 border-cyan-700 opacity-80 hover:z-10 focus:z-10 focus:rounded-2xl focus:opacity-100 md:w-10 focus:w-60 focus:h-auto  overflow-hidden bg-cover bg-center"
+      className="absolute w-8 h-8 overflow-hidden transition-all duration-700 ease-in-out bg-center bg-cover border-4 rounded-full group bg-neutral-800/85 border-cyan-700 opacity-80 hover:z-10 focus:z-10 focus:rounded-2xl focus:opacity-100 md:w-10 focus:w-28 md:focus:w-60 xl:focus:w-80 focus:h-auto"
       style={{
         top,
         left,
@@ -129,8 +129,8 @@ function MapPoint({ top, left, title, desc, img }) {
         backgroundImage: `url(${img})`,
       }}
     >
-     <div className="relative hidden group-focus:flex flex-col items-center justify-center w-full h-full gap-2 p-2 text-center text-white bg-black/60">
-        <h2 className="text-lg md:text-2xl font-bold">{title}</h2>
+     <div className="relative flex-col items-center justify-center hidden w-full h-full gap-2 p-2 text-center text-white group-focus:flex bg-black/60">
+        <h2 className="text-lg font-bold md:text-2xl">{title}</h2>
         <p className="text-base md:text-lg">{desc}</p>
       </div>
     </button>

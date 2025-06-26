@@ -29,7 +29,6 @@ export default function InteractiveMap() {
           img={Store}
         />
 
-
         <MapPoint
           top="70%"
           left="35%"
@@ -37,7 +36,6 @@ export default function InteractiveMap() {
           desc="Tu aventura comienza aquí, en nuestra acogedora recepción dentro de la cabaña principal. Tal como en un hotel, te registramos para asegurarnos de que tu estadía sea segura, organizada y 100% placentera. ¡Este es tu primer paso hacia una experiencia inolvidable!"
           img={InteriorCabin}
         />
-
 
         <MapPoint
           top="70%"
@@ -72,7 +70,7 @@ function MapPoint({ top, left, title, desc, img }) {
 
   return (
     <button
-      className="absolute w-8 h-8 transition-all duration-700 ease-in-out border-4 rounded-full group bg-beige-800/85 border-beige-950 opacity-80 hover:z-10 focus:z-10 focus:rounded-2xl focus:opacity-100 md:w-10 md:h-10 focus:w-60 focus:h-auto md:focus:w-96 md:focus:h-auto overflow-hidden bg-cover bg-center"
+      className="absolute w-8 h-8 overflow-hidden transition-all duration-700 ease-in-out bg-center bg-cover border-4 rounded-full group bg-beige-800/85 border-beige-950 opacity-80 hover:z-10 focus:z-10 focus:rounded-2xl focus:opacity-100 md:w-10 md:h-10 focus:w-40 focus:h-auto md:focus:w-60 xl:focus:w-80 md:focus:h-auto"
       style={{
         top,
         left,
@@ -80,9 +78,9 @@ function MapPoint({ top, left, title, desc, img }) {
         backgroundImage: `url(${img})`,
       }}
     >
-      <div className="relative hidden group-focus:flex flex-col items-center justify-center w-full h-full gap-2 p-2 text-center text-white bg-black/60">
-        <h2 className="text-base md:text-lg font-bold">{title}</h2>
-        <p className="text-xs md:text-xs">{desc}</p>
+      <div className="relative flex-col items-center justify-center hidden w-full h-full gap-2 p-2 text-center text-white group-focus:flex bg-black/60">
+        <h2 className="text-base font-bold md:text-xl">{title}</h2>
+        <p className="text-xs md:text-base">{desc}</p>
       </div>
     </button>
   );
