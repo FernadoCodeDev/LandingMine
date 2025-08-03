@@ -8,7 +8,14 @@ Ideal para reclutadores o clientes que buscan ver ejemplos reales de diseño pro
 
 ## 🛠 Tecnologías utilizadas
 
-[![My Skills](https://skillicons.dev/icons?i=react,tailwind,vite)](https://skillicons.dev)
+<div align="left">
+
+![javascript](https://img.shields.io/static/v1?message=javascript&logo=javascript&label=&color=F7DF1E&logoColor=black&labelColor=&style=for-the-badge)
+![react](https://img.shields.io/static/v1?message=react&logo=react&label=&color=61DAFB&logoColor=black&labelColor=&style=for-the-badge)
+![tailwind](https://img.shields.io/static/v1?message=tailwindCSS&logo=tailwindcss&label=&color=06B6D4&logoColor=white&labelColor=&style=for-the-badge)
+![vite](https://img.shields.io/static/v1?message=vite&logo=vite&label=&color=646CFF&logoColor=white&labelColor=&style=for-the-badge)
+
+</div>
 
  ## 🚀 Instalación y Uso
 
@@ -151,4 +158,5 @@ Puedes ver más de mi trabajo en mi portafolio o conectar conmigo en LinkedIn:
 [![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/fernando-mejía-866a4b363)  
 
 ¡Gracias por tu tiempo y por explorar **LandingMine**! 🚀✨  
+
 
