@@ -160,3 +160,4 @@ Puedes ver más de mi trabajo en mi portafolio o conectar conmigo en LinkedIn:
 ¡Gracias por tu tiempo y por explorar **LandingMine**! 🚀✨  
 
 
+
