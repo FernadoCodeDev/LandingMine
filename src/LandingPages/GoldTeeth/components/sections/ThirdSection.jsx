@@ -5,7 +5,7 @@ import imgN7 from "../../assets/img/imgN7.webp";
 
 const ThirdSection = () => {
   return (
-    <div className="relative flex flex-col items-center justify-center w-full min-h-screen p-4 text-black lg:text-xl bg-beige-100 dark:bg-neutral-800 dark:text-white">
+    <div className="relative flex flex-col items-center justify-center w-full h-auto p-4 text-black lg:text-xl bg-beige-100 dark:bg-neutral-800 dark:text-white">
       <div className="grid grid-cols-1 gap-4 md:gap-8 max-w-[80rem] m-auto">
         <h1 className="text-5xl font-bold text-center lg:text-7xl text-rose-800 dark:text-beige-100">
           Reunirse con nuestros dentistas
@@ -17,7 +17,7 @@ const ThirdSection = () => {
         </p>
       </div>
 
-      <div className="grid grid-cols-1 gap-4 mt-8 md:grid-cols-3 max-w-[80rem] m-auto">
+      <div className="grid grid-cols-1 gap-4 mt-8 md:grid-cols-3 max-w-[50rem] m-auto">
         <div className="grid items-center justify-center grid-cols-1 gap-2 bg-beige-50 dark:bg-neutral-700 rounded-2xl">
           <img
             src={imgN5}
@@ -26,9 +26,9 @@ const ThirdSection = () => {
           />
 
           <div className="p-4">
-            <h1 className="text-2xl font-bold text-start ">⭐(4.5)</h1>
+            <h1 className="text-lg font-bold text-start ">⭐(4.5)</h1>
 
-            <h1 className="text-3xl font-bold text-start text-rose-800 dark:text-beige-100">
+            <h1 className="text-2xl font-bold text-start text-rose-800 dark:text-beige-100">
               Dr David Warner
             </h1>
 
@@ -47,9 +47,9 @@ const ThirdSection = () => {
           />
 
           <div className="p-4">
-            <h1 className="text-2xl font-bold text-start ">⭐(4.5)</h1>
+            <h1 className="text-lg font-bold text-start ">⭐(4.5)</h1>
 
-            <h1 className="text-3xl font-bold text-start text-rose-800 dark:text-beige-100">
+            <h1 className="text-2xl font-bold text-start text-rose-800 dark:text-beige-100">
               Dra. Sarah Taylor
             </h1>
 
@@ -68,9 +68,9 @@ const ThirdSection = () => {
           />
 
           <div className="p-4">
-            <h1 className="text-2xl font-bold text-start ">⭐(4.5)</h1>
+            <h1 className="text-lg font-bold text-start ">⭐(4.5)</h1>
 
-            <h1 className="text-3xl font-bold text-start text-rose-800 dark:text-beige-100">
+            <h1 className="text-2xl font-bold text-start text-rose-800 dark:text-beige-100">
               Dr Aaron Finch
             </h1>
 

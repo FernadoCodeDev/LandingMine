@@ -6,7 +6,7 @@ import Tooth1SVG from "../../assets/svg/Tooth1SVG";
 
 const FirstSection = () => {
   return (
-    <div className="relative w-full min-h-screen p-4 text-black lg:text-xl bg-beige-100 dark:text-white dark:bg-neutral-900">
+    <div className="relative w-full h-auto p-4 text-black lg:text-xl bg-beige-100 dark:text-white dark:bg-neutral-900">
       <div className="grid grid-cols-1 items-center justify-center gap-4 md:gap-12 md:grid-cols-2 m-auto max-w-[80rem]">
         <h1 className="text-3xl font-bold text-center lg:text-5xl text-rose-800 dark:text-beige-100">
           Consiga dientes blancos perlados fácilmente
@@ -20,7 +20,7 @@ const FirstSection = () => {
         <img
           src={imgN4}
           alt="imgN4"
-          className="w-full max-w-[30rem] h-auto rounded-t-full"
+          className="w-full max-w-[25rem] h-auto rounded-t-full"
         />
 
         <div className="grid items-center grid-cols-1 gap-2">

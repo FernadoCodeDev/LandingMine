@@ -10,9 +10,9 @@ import Modal from "../ui/Modal";
 
 const HeaderDH = () => {
   return (
-    <div className="relative w-full min-h-screen">
+    <div className="relative w-full h-auto">
       <div
-        className="absolute inset-0 w-full min-h-screen bg-fixed bg-center bg-cover"
+        className="absolute inset-0 w-full h-auto bg-fixed bg-center bg-cover"
         style={{ backgroundImage: `url(${Background})` }}
       ></div>
 
@@ -65,14 +65,11 @@ const HeaderDH = () => {
       </div>
 
       {/*Content */}
-      <div className="relative order-4 col-span-2 text-center md:col-span-3 grid grid-cols-1 gap-4 md:grid-cols-2 p-2 m-auto max-w-[100rem]">
+      <div className="relative order-4 col-span-2 text-center md:col-span-3 grid grid-cols-1 gap-4 md:grid-cols-2 p-2 m-auto max-w-[80rem]">
         <div className="grid items-center justify-center order-1 grid-cols-1 gap-3 md:order-2 md:items-start">
           <div className="m-auto">
             <h1 className="text-5xl font-bold text-beige-100 text-start lg:text-8xl">
-              Sonríe
-            </h1>
-            <h1 className="text-5xl font-bold text-beige-100 text-start lg:text-8xl">
-              mejor
+              Sonríe mejor
             </h1>
             <h1 className="text-5xl font-bold text-beige-100 text-start lg:text-8xl">
               con nosotros
@@ -96,7 +93,7 @@ const HeaderDH = () => {
           </div>
         </div>
 
-        <div className="grid items-center justify-center order-2 grid-cols-2 gap-4 md:order-1">
+        <div className="items-center justify-center order-2 hidden grid-cols-2 gap-4 md:grid md:order-1">
           <div className="flex flex-col gap-4">
             <img
               src={imgN1}
