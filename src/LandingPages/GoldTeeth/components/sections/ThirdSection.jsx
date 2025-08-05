@@ -17,7 +17,7 @@ const ThirdSection = () => {
         </p>
       </div>
 
-      <div className="grid grid-cols-1 gap-4 mt-8 md:grid-cols-3 max-w-[50rem] m-auto">
+      <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mt-8 md:grid-cols-3 max-w-[60rem] m-auto">
         <div className="grid items-center justify-center grid-cols-1 gap-2 bg-beige-50 dark:bg-neutral-700 rounded-2xl">
           <img
             src={imgN5}
