@@ -94,7 +94,7 @@ const HeaderDH = () => {
         </div>
 
         <div className="items-center justify-center order-2 hidden grid-cols-2 gap-2 md:grid md:order-1">
-          <div className="flex flex-col gap-2">
+          <div className="flex flex-col items-end gap-2">
             <img
               src={imgN1}
               alt="imgN1"
