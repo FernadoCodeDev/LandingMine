@@ -10,9 +10,9 @@ import Modal from "../ui/Modal";
 
 const HeaderDH = () => {
   return (
-    <div className="relative w-full h-auto">
+    <div className="relative w-full min-h-screen">
       <div
-        className="absolute inset-0 w-full h-auto bg-fixed bg-center bg-cover"
+        className="absolute inset-0 w-full min-h-screen bg-fixed bg-center bg-cover"
         style={{ backgroundImage: `url(${Background})` }}
       ></div>
 
@@ -66,18 +66,18 @@ const HeaderDH = () => {
 
       {/*Content */}
       <div className="relative order-4 col-span-2 text-center md:col-span-3 grid grid-cols-1 gap-4 md:grid-cols-2 p-2 m-auto max-w-[80rem]">
-        <div className="grid items-center justify-center order-1 grid-cols-1 gap-3 md:order-2 md:items-start">
-          <div className="m-auto">
+        <div className="flex flex-col items-center justify-center order-1 gap-2 md:order-2">
+          
             <h1 className="text-5xl font-bold text-beige-100 text-start lg:text-8xl">
               Sonríe mejor
             </h1>
             <h1 className="text-5xl font-bold text-beige-100 text-start lg:text-8xl">
               con nosotros
             </h1>
-          </div>
+         
 
           <div className="flex flex-col gap-3">
-            <p className="text-beige-100 text-start md:text-2xl">
+            <p className="text-base text-beige-100 text-start md:text-lg">
               Nos dedicamos a brindarle a usted y a su familia atención dental
               de máxima calidad en un entorno cómodo y acogedor.
             </p>
@@ -86,31 +86,31 @@ const HeaderDH = () => {
               <Modal />
 
               <div>
-                <p className="font-bold">⭐⭐⭐⭐⭐(4.8)</p>
+                <p className="">⭐⭐⭐⭐⭐(4.8)</p>
                 <p className="">30K+Calificaciones en Google</p>
               </div>
             </div>
           </div>
         </div>
 
-        <div className="items-center justify-center order-2 hidden grid-cols-2 gap-4 md:grid md:order-1">
-          <div className="flex flex-col gap-4">
+        <div className="items-center justify-center order-2 hidden grid-cols-2 gap-2 md:grid md:order-1">
+          <div className="flex flex-col gap-2">
             <img
               src={imgN1}
               alt="imgN1"
-              className="w-full h-auto rounded-t-full"
+              className="w-full h-auto rounded-t-full max-w-[15rem]"
             />
             <img
               src={imgN2}
               alt="imgN3"
-              className="w-full h-auto rounded-b-full"
+              className="w-full h-auto rounded-b-full max-w-[15rem]"
             />
           </div>
-          <div className="flex gap-3">
+          <div className="flex">
             <img
               src={imgN3}
               alt="imgN3"
-              className="w-full h-auto rounded-t-full"
+              className="w-full h-auto rounded-t-full max-w-[15rem]"
             />
           </div>
         </div>
