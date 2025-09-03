@@ -7,7 +7,7 @@ import DarkMode from "../../../GlobalComponents/DarkMode";
 
 const HeaderPB = () => {
   return (
-    <div className="relative w-full min-h-screen">
+    <div className="relative w-full h-dvh">
       <div className="grid items-center justify-between grid-cols-2 p-4 m-auto md:grid-cols-3">
         <div className="order-1 m-auto">
           <img

@@ -6,8 +6,8 @@ import imgN1 from "../../assets/img/imgN1.webp";
 
 const HeaderJR = () => {
   return (
-    <div className="relative w-full min-h-screen bg-blue-900 text-beige-100">
-      <div className="relative grid items-start h-auto min-h-screen grid-cols-2 gap-2 p-4 md:grid-cols-3">
+    <div className="relative w-full bg-blue-900 h-dvh text-beige-100">
+      <div className="relative grid items-start h-auto grid-cols-2 gap-2 p-4 md:grid-cols-3">
         <div className="order-3 col-span-2 mx-auto md:col-span-1 items-center md:order-1 md:w-auto md:h-20 md:backdrop-blur-[4px] md:bg-white/20">
           <MobileMenu
             textColor="text-white transition-all duration-700 ease-out"

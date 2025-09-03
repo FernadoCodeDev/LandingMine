@@ -10,13 +10,13 @@ import Location from "../../assets/svg/Location";
 
 const HeaderPB = () => {
   return (
-    <div className="relative w-full min-h-screen">
+    <div className="relative w-full h-dvh ">
       <div
-        className="absolute inset-0 w-full min-h-screen bg-fixed bg-center bg-cover"
+        className="absolute inset-0 w-full bg-fixed bg-center bg-cover h-dvh"
         style={{ backgroundImage: `url(${BackgroundGT})` }}
       ></div>
 
-      <div className="relative grid items-start h-screen grid-cols-2 gap-2 p-4 md:grid-cols-3">
+      <div className="relative grid items-start grid-cols-2 gap-2 p-4 h-dvh md:grid-cols-3">
         <div className="order-3 col-span-2 mx-auto md:col-span-1 md:order-2 md:w-auto">
           <MobileMenu
             textColor="text-white transition-all duration-700 ease-out"
@@ -36,7 +36,7 @@ const HeaderPB = () => {
         </div>
 
         <div className="order-4 col-span-2 text-center md:col-span-3 ">
-          <h1 className="font-serif text-white text-base md:text-2xl">
+          <h1 className="font-serif text-base text-white md:text-2xl">
             Embárcate en el viaje de tus sueños con nuestra experiencia y
             orientación
           </h1>

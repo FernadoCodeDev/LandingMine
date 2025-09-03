@@ -6,7 +6,7 @@ import EventTime from "../ui/EventTime";
 
 const HeaderWC = () => {
   return (
-    <div className="relative w-full min-h-screen p-2 bg-gray-900 text-amber-50">
+    <div className="relative w-full h-auto p-2 bg-gray-900 text-amber-50">
       <div className="flex flex-col items-center justify-center m-auto md:flex-row md:justify-around">
         <img
           src={WebCallLogo}

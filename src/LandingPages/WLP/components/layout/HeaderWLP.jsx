@@ -7,7 +7,7 @@ import RightPose from "../../assets/img/RightPose.webp";
 
 const HeaderWLP = () => {
   return (
-    <div className="relative w-full min-h-screen bg-orange-50">
+    <div className="relative w-full h-dvh bg-orange-50">
       <div className="relative grid items-start h-auto grid-cols-2 gap-2 p-4 md:grid-cols-3">
         <div className="z-40 order-3 col-span-2 mx-auto md:col-span-1 md:border-b-8 md:border-slate-800 md:order-1 md:w-auto ">
           <MobileMenu

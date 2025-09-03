@@ -8,13 +8,13 @@ import Modal from "../ui/Modal";
 
 const HeaderDH = () => {
   return (
-    <div className="relative w-full min-h-screen">
+    <div className="relative w-full h-dvh">
       <div
-        className="absolute inset-0 w-full min-h-screen bg-fixed bg-center bg-cover"
+        className="absolute inset-0 w-full bg-fixed bg-center bg-cover h-dvh"
         style={{ backgroundImage: `url(${Background})` }}
       ></div>
 
-      <div className="relative grid items-start h-auto min-h-screen grid-cols-2 gap-2 p-4 md:grid-cols-3">
+      <div className="relative grid items-start grid-cols-2 gap-2 p-4 h-dvh md:grid-cols-3">
         <div className="order-3 col-span-2 mx-auto md:col-span-1 md:order-2 md:w-auto md:h-20 md:bg-white/20 md:bg-backdrop-blur-[2px]">
           <MobileMenu
             textColor="text-white transition-all duration-700 ease-out"

@@ -6,7 +6,7 @@ import imgN1 from "../../assets/img/imgN1.webp";
 
 const HeaderStrikes = () => {
   return (
-    <div className="relative w-full min-h-screen text-black bg-white lg:text-2xl">
+    <div className="relative w-full text-black bg-white h-dvh lg:text-2xl">
       <div className="relative grid items-start h-auto grid-cols-2 gap-2 p-4 md:grid-cols-3">
         <div className="items-center order-3 col-span-2 mx-auto md:col-span-1 md:order-1 md:w-auto ">
           <MobileMenu
@@ -26,7 +26,7 @@ const HeaderStrikes = () => {
         <div className=" w-fit ms-auto order-2 md:order-3 backdrop-blur-[1px] bg-black/20 p-2 rounded-3xl">
           <DarkMode />
         </div>
-        <div className=" relative m-auto grid grid-cols-1 gap-4 items-center text-center max-w-[100rem] order-4 col-span-2 md:col-span-3">
+        <div className=" relative m-auto grid grid-cols-1 gap-2 items-center text-center max-w-[100rem] order-4 col-span-2 md:col-span-3">
           <div className="flex flex-col items-center ">
             <h1 className="max-w-[45rem] text-3xl font-bold text-center text-orange-500 lg:text-6xl ">
               Cada <span className="text-4xl lg:text-7xl">Strike</span> es un momento para
@@ -34,16 +34,16 @@ const HeaderStrikes = () => {
             </h1>
           </div>
 
-          <div className="grid items-center grid-cols-1 gap-4 md:grid-cols-2">
-            <div className="flex flex-col items-center justify-center gap-4 ">
-              <p className="text-center">
+          <div className="grid items-center grid-cols-1 gap-2 md:grid-cols-2">
+            <div className="flex flex-col items-center justify-center gap-2 ">
+              <p className="text-base text-center md:text-lg">
                 En <span className="font-bold text-orange-500">Strike’s</span>, la diversión
                 nunca se detiene. Vive la emoción de cada lanzamiento, compite
                 con amigos y crea recuerdos inolvidables. ¡Ven a disfrutar el
                 mejor ambiente de boliche con música, comida y grandes momentos!
               </p>
 
-              <div className="grid grid-cols-1 gap-2 xl:grid-cols-3">
+              <div className="hidden grid-cols-1 gap-2 md:grid xl:grid-cols-3">
                 <div className="flex flex-col items-center p-2 border-b-2 border-orange-500 xl:border-b-0 xl:border-r-2">
                   <h1 className="font-bold text-orange-500">+10,000 clientes felices</h1>
                   <p className="">

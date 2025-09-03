@@ -6,9 +6,9 @@ import DarkMode from "../../../GlobalComponents/DarkMode";
 
 const HeaderCS = () => {
   return (
-    <div className="relative w-full min-h-screen bg-stone-200">
+    <div className="relative w-full h-dvh  bg-stone-200">
       {/* Design less than 768px */}
-      <div className="relative grid items-start h-screen grid-cols-2 gap-2 p-4 md:hidden">
+      <div className="relative grid items-start h-dvh grid-cols-2 gap-2 p-4 md:hidden">
         <div className="order-3 col-span-2 mx-auto">
           <MobileMenu
             textColor="text-stone-600 transition-all duration-700 ease-out"
@@ -48,7 +48,7 @@ const HeaderCS = () => {
       </div>
 
       {/* design greater than md */}
-      <div className="hidden md:grid md:grid-cols-2 md:min-h-screen">
+      <div className="hidden md:grid md:grid-cols-2 md:h-dvh ">
         {/* left side bg-stone-200 */}
 
         <div className="flex flex-col items-start justify-between p-6 bg-stone-200">

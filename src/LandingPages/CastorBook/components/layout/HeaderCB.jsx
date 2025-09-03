@@ -6,7 +6,7 @@ import imgN1 from "../../assets/img/imgN1.webp";
 
 const HeaderCB = () => {
   return (
-    <div className="relative w-full min-h-screen bg-beige-100">
+    <div className="relative w-full h-dvh bg-beige-100">
       {/* Design less than 768px */}
       <div className="relative grid items-start h-auto grid-cols-2 gap-2 p-4 md:hidden">
         <div className="order-3 col-span-2 mx-auto">
@@ -70,7 +70,7 @@ const HeaderCB = () => {
       </div>
 
       {/* design greater than md */}
-      <div className="hidden md:grid md:grid-cols-2 md:min-h-screen">
+      <div className="hidden md:grid md:grid-cols-2 md:h-dvh">
         {/* left side bg-stone-200 */}
         <div className="flex flex-col items-center justify-start p-6 bg-beige-100">
           <div className="flex flex-col items-center justify-center">

@@ -6,9 +6,9 @@ import OrganicGoldLogo from "../../assets/img/OrganicGoldLogo.webp";
 
 const HeaderOG = () => {
   return (
-    <div className="relative w-full min-h-screen ">
+    <div className="relative w-full h-dvh ">
       <div
-        className="absolute inset-0 w-full min-h-screen bg-fixed bg-center bg-cover"
+        className="absolute inset-0 w-full h-dvh bg-fixed bg-center bg-cover"
         style={{ backgroundImage: `url(${Background})` }}
       ></div>
       {/*Design less than md  */}
@@ -68,7 +68,7 @@ const HeaderOG = () => {
       </div>
 
       {/*Design greater than md */}
-      <div className="relative items-start hidden w-full min-h-screen grid-cols-1 md:grid">
+      <div className="relative items-start hidden w-full h-dvh grid-cols-1 md:grid">
         <div className="grid grid-cols-3 gap-2 p-2 w-full backdrop-blur-[3px] bg-white/20 ">
         <div className="order-2 w-auto m-auto">
           <MobileMenu

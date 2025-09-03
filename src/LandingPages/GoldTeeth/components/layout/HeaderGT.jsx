@@ -10,9 +10,9 @@ import Modal from "../ui/Modal";
 
 const HeaderDH = () => {
   return (
-    <div className="relative w-full min-h-screen">
+    <div className="relative w-full h-dvh">
       <div
-        className="absolute inset-0 w-full min-h-screen bg-fixed bg-center bg-cover"
+        className="absolute inset-0 w-full bg-fixed bg-center bg-cover h-dvh"
         style={{ backgroundImage: `url(${Background})` }}
       ></div>
 
@@ -66,17 +66,17 @@ const HeaderDH = () => {
 
       {/*Content */}
       <div className="relative order-4 col-span-2 text-center md:col-span-3 grid grid-cols-1 gap-4 md:grid-cols-2 p-2 m-auto max-w-[80rem]">
-        <div className="flex flex-col items-center justify-center order-1 gap-2 md:order-2">
+        <div className="flex flex-col items-center justify-center order-1 gap-1 md:order-2">
           
-            <h1 className="text-5xl font-bold text-beige-100 text-start lg:text-8xl">
+            <h1 className="text-2xl font-bold text-beige-100 text-start lg:text-8xl">
               Sonríe mejor
             </h1>
-            <h1 className="text-5xl font-bold text-beige-100 text-start lg:text-8xl">
+            <h1 className="text-2xl font-bold text-beige-100 text-start lg:text-8xl">
               con nosotros
             </h1>
          
 
-          <div className="flex flex-col gap-3">
+          <div className="flex flex-col gap-2">
             <p className="text-base text-beige-100 text-start md:text-lg">
               Nos dedicamos a brindarle a usted y a su familia atención dental
               de máxima calidad en un entorno cómodo y acogedor.
