@@ -146,18 +146,4 @@ Estas propiedades permiten que el menú:
 
 Gracias a esta estructura, cada landing page tiene su propio estilo sin perder consistencia en la navegación y funcionalidad.
 
-## ⛏ Conclusión 
-
-Espero que este contenido te haya sido útil y que hayas podido ver el trabajo realizado en cada landing page y en la creación completa de **LandingMine**. Mi objetivo fue construir un conjunto de landing pages bien estructuradas, responsivas y con un diseño cuidado en cada detalle.  
-
-Si tienes alguna duda sobre el funcionamiento de **LandingMine**, no dudes en contactarme.  
-
-Puedes ver más de mi trabajo en mi portafolio o conectar conmigo en LinkedIn:  
-
-[![portfolio](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://fercode.netlify.app/)  
-[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/fernando-mejía-866a4b363)  
-
-¡Gracias por tu tiempo y por explorar **LandingMine**! 🚀✨  
-
-
 
