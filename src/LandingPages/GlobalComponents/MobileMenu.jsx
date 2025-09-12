@@ -7,7 +7,8 @@ const MobileMenu = ({
   bgColor = "bg-transparent",
   invertColor = "invert",
 
-  //Each landing has a different style where in some darkMode is not used for some visible text in each landing these variables are used
+  //Each landing has a different style where in some darkMode is not used for some 
+  // visible text in each landing these variables are used
 }) => {
   const [menuOpen, setMenuOpen] = useState(false);
   const [isMobile, setIsMobile] = useState(window.innerWidth < 768);
@@ -33,7 +34,7 @@ const MobileMenu = ({
         <img
           src={MobileMenuIcon}
           alt="Mobile Menu"
-          className={`w-16 h-auto cursor-pointer ${invertColor}`}
+          className={`w-20 h-auto cursor-pointer ${invertColor}`}
           onClick={toggleMenu}
         />
       )}
@@ -45,19 +46,19 @@ const MobileMenu = ({
       >
         <a
           href="/"
-          className={`p-2 text-base md:text-lg font-bold ${bgColor} ${textColor} ${hoverColor}`}
+          className={`p-2 text-base md:text-xl font-bold ${bgColor} ${textColor} ${hoverColor} `}
         >
           Home
         </a>
         <a
           href="/"
-          className={`p-2 text-base md:text-lg font-bold ${bgColor} ${textColor} ${hoverColor}`}
+          className={`p-2 text-base md:text-xl font-bold ${bgColor} ${textColor} ${hoverColor}`}
         >
           Contact
         </a>
         <a
           href="/"
-          className={`p-2 text-base md:text-lg font-bold ${bgColor} ${textColor} ${hoverColor}`}
+          className={`p-2 text-base md:text-xl font-bold ${bgColor} ${textColor} ${hoverColor}`}
         >
           Us
         </a>

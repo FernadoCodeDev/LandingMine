@@ -23,7 +23,7 @@ const FormModal = () => {
       </button>
       {/* Modal */}
       {isOpen && (
-        <div className="fixed inset-0 z-10 flex items-center justify-center text-black bg-black bg-opacity-30">
+        <div className="fixed inset-0 z-10 flex items-center justify-center p-4 text-black bg-black bg-opacity-30">
           <div className=" flex flex-col items-center justify-center gap-4 relative w-full max-w-[60rem] p-6 bg-white rounded-2xl shadow-2xl">
             <button
               onClick={toggleModal}

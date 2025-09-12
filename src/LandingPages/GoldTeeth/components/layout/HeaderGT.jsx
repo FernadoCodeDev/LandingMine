@@ -10,90 +10,68 @@ import Modal from "../ui/Modal";
 
 const HeaderDH = () => {
   return (
-    <div className="relative w-full h-dvh">
+    <div className="relative w-full h-dvh text-beige-100 ">
       <div
-        className="absolute inset-0 w-full bg-fixed bg-center bg-cover h-dvh"
+        className="absolute inset-0 w-full bg-fixed bg-center bg-cover h-dvh "
         style={{ backgroundImage: `url(${Background})` }}
       ></div>
 
       {/*Design less than md  */}
-      <div className="relative grid items-center grid-cols-2 gap-2 md:hidden ">
-        <div className="order-3 col-span-2 mx-auto ">
-          <MobileMenu
-            textColor="text-gray-200 transition-all duration-700 ease-out"
-            hoverColor="hover:text-white"
-            bgColor="bg-backdrop-blur-[2px] last-of-type:rounded-b-3xl bg-white/20 md:bg-transparent"
-            invertColor="invert-0"
-          />
-        </div>
 
-        <div className="flex flex-row justify-between w-full col-span-2 p-2 my-2 bg-beige-100">
+      <div className="relative flex flex-col items-center justify-center gap-8 pt-4">
+
+        <div className=" flex md:hidden flex-row justify-between w-full max-w-[100rem] p-4 mx-auto bg-beige-100">
           <img
             src={GoldTeethLogo}
             alt="GoldTeethLogo"
-            className="order-1 object-contain w-40 h-auto mx-auto cursor-pointer"
+            className="object-contain w-40 h-auto cursor-pointer"
           />
 
-          <div className=" w-fit ms-auto order-2 backdrop-blur-[4px] bg-black/20 p-2 rounded-3xl">
+          <div className="backdrop-blur-[4px] bg-black/20 p-2 rounded-3xl">
             <DarkMode />
           </div>
         </div>
 
-        <div className="relative order-4 col-span-2 text-center md:col-span-3"></div>
-      </div>
-
-      {/*Design greater than md */}
-      <div className="relative items-center hidden grid-cols-3 gap-2 p-2 my-2 bg-beige-100 md:grid">
-        <div className="order-2 w-auto m-auto">
+        <div className="block md:hidden">
           <MobileMenu
-            textColor="text-beige-800 transition-all duration-700 ease-out"
-            hoverColor="hover:text-rose-800"
+            textColor="text-white transition-all duration-700 ease-out"
+            hoverColor="hover:text-beige-400"
             bgColor=""
             invertColor="invert-0"
           />
         </div>
 
-        <img
-          src={GoldTeethLogo}
-          alt="GoldTeethLogo"
-          className="order-1 object-contain w-40 h-auto mx-auto cursor-pointer "
-        />
+        <div className="flex-row justify-around hidden w-full p-4 mx-auto md:flex bg-beige-100">
 
-        <div className=" w-fit ms-auto order-3 backdrop-blur-[4px] bg-black/20 p-2 rounded-3xl">
-          <DarkMode />
+          <img
+            src={GoldTeethLogo}
+            alt="GoldTeethLogo"
+            className="object-contain w-40 h-auto cursor-pointer"
+          />
+
+          <div className="">
+            <MobileMenu
+              textColor="text-beige-800 transition-all duration-700 ease-out "
+              hoverColor="hover:text-rose-800"
+              bgColor=""
+              invertColor="invert-0"
+            />
+          </div>
+
+
+          <div className="backdrop-blur-[4px] bg-black/20 p-2 rounded-3xl">
+            <DarkMode />
+          </div>
+
         </div>
+
+
       </div>
 
       {/*Content */}
-      <div className="relative order-4 col-span-2 text-center md:col-span-3 grid grid-cols-1 gap-4 md:grid-cols-2 p-2 m-auto max-w-[80rem]">
-        <div className="flex flex-col items-center justify-center order-1 gap-1 md:order-2">
-          
-            <h1 className="text-2xl font-bold text-beige-100 text-start lg:text-8xl">
-              Sonríe mejor
-            </h1>
-            <h1 className="text-2xl font-bold text-beige-100 text-start lg:text-8xl">
-              con nosotros
-            </h1>
-         
+      <div className="h-2/3 md:h-3/4 xl:h-full relative flex flex-col md:flex-row justify-center m-auto gap-8 p-4 max-w-[80rem]">
 
-          <div className="flex flex-col gap-2">
-            <p className="text-base text-beige-100 text-start md:text-lg">
-              Nos dedicamos a brindarle a usted y a su familia atención dental
-              de máxima calidad en un entorno cómodo y acogedor.
-            </p>
-
-            <div className="grid items-center grid-cols-1 gap-2 text-white md:grid-cols-2">
-              <Modal />
-
-              <div>
-                <p className="">⭐⭐⭐⭐⭐(4.8)</p>
-                <p className="">30K+Calificaciones en Google</p>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div className="items-center justify-center order-2 hidden grid-cols-2 gap-2 md:grid md:order-1">
+        <div className="items-center justify-center hidden grid-cols-2 gap-2 md:grid ">
           <div className="flex flex-col items-end gap-2">
             <img
               src={imgN1}
@@ -114,6 +92,34 @@ const HeaderDH = () => {
             />
           </div>
         </div>
+
+        <div className="flex flex-col items-center justify-center gap-4">
+
+          <h1 className="text-4xl font-bold text-start lg:text-8xl">
+            Sonríe mejor
+          </h1>
+          <h1 className="text-4xl font-bold text-start lg:text-8xl">
+            con nosotros
+          </h1>
+
+
+          <div className="flex flex-col gap-2">
+            <p className="text-base max-w-[25rem] text-center md:text-lg">
+              Nos dedicamos a brindarle a usted y a su familia atención dental
+              de máxima calidad en un entorno cómodo y acogedor.
+            </p>
+
+            <Modal />
+
+            <div>
+              <p className="">⭐⭐⭐⭐⭐(4.8)</p>
+              <p className="">30K+Calificaciones en Google</p>
+
+            </div>
+          </div>
+        </div>
+
+
       </div>
     </div>
   );
