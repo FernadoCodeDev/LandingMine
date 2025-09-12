@@ -4,7 +4,7 @@ import Modal from "../ui/Modal";
 
 const SecondSection = () => {
   return (
-    <div className="relative flex flex-col items-center min-h-screen gap-4 p-4 text-white lg:text-2xl bg-sky-800">
+    <div className="relative flex flex-col items-center h-auto gap-4 p-4 text-white lg:text-2xl bg-sky-800">
       <div className="m-auto max-w-[80rem] grid grid-cols-1 gap-4 md:gap-8 md:grid-cols-2">
         <div className="">
           <img
@@ -19,15 +19,15 @@ const SecondSection = () => {
             Instalación Profesional
           </h1>
 
-          <p className="">
-            En <span className="font-bold text-lime-400">Clover</span> , nos
+          <p className="text-base md:text-lg">
+            En <span className="font-bold text-lime-400 ">Clover</span> , nos
             aseguramos de que cada cliente reciba una instalación profesional y
             sin complicaciones. Nuestro equipo de expertos se encargará de
             colocar tus paneles solares con precisión y eficiencia, optimizando
             su rendimiento desde el primer día.
           </p>
 
-          <p className="">
+          <p className="text-base md:text-lg">
             Además, no solo instalamos, sino que también te enseñamos a sacar el
             máximo provecho de tu sistema solar. Te explicaremos su
             funcionamiento, el monitoreo de la energía generada y las mejores
@@ -35,7 +35,7 @@ const SecondSection = () => {
             beneficios por muchos años.
           </p>
 
-          <p className="">
+          <p className="text-base md:text-lg">
             Confía en nosotros para hacer tu transición a la energía solar de
             manera sencilla, segura y eficiente.
           </p>

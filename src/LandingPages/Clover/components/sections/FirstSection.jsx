@@ -5,13 +5,13 @@ import imgN4 from "../../assets/img/imgN4.webp";
 
 const FirstSection = () => {
   return (
-    <div className="relative flex flex-col gap-4 items-center h-auto p-4 text-black lg:text-2xl bg-white dark:text-white dark:bg-neutral-900">
+    <div className="relative flex flex-col items-center h-auto gap-4 p-4 text-black bg-white lg:text-2xl dark:text-white dark:bg-neutral-900">
       <div className="m-auto flex flex-col gap-4 max-w-[80rem]">
-        <h1 className="text-center text-3xl lg:text-6xl text-sky-800 dark:text-lime-400 font-bold">
+        <h1 className="text-3xl font-bold text-center lg:text-6xl text-sky-800 dark:text-lime-400">
           Aprovecha cada rayo de sol
         </h1>
 
-        <p className="text-center max-w-[50rem]">
+        <p className="text-center text-base md:text-lg max-w-[50rem]">
           La energía solar nunca ha sido tan eficiente. En Clover, ofrecemos
           paneles solares de alta calidad diseñados para captar la máxima
           energía, incluso en condiciones de poca luz. Descubre cuál es el ideal
@@ -20,7 +20,7 @@ const FirstSection = () => {
       </div>
 
       <div className="m-auto max-w-[80rem] grid grid-cols-1 md:grid-cols-3 gap-4">
-        <div className="relative grid items-center justify-center w-full grid-cols-1 p-2 h-auto ">
+        <div className="relative grid items-center justify-center w-full h-auto grid-cols-1 p-2 ">
           <div className="relative z-10 flex flex-col items-center justify-between w-full h-full">
             {/* Image */}
             <img
@@ -30,11 +30,11 @@ const FirstSection = () => {
             />
 
             {/* Content */}
-            <div className="flex flex-col gap-4 items-center text-center justify-center p-2">
-              <h1 className="font-bold text-white text-2xl lg:text-4xl">
+            <div className="flex flex-col items-center justify-center gap-4 p-2 text-center">
+              <h1 className="text-2xl font-bold text-white lg:text-4xl">
                 Paneles Monocristalinos
               </h1>
-              <p className="text-white text-start">
+              <p className="text-base text-white md:text-lg text-start">
                 Son la opción más eficiente del mercado, ideales para quienes
                 buscan el mejor rendimiento y durabilidad. Gracias a su
                 tecnología avanzada, pueden captar más energía en menos espacio,
@@ -52,7 +52,7 @@ const FirstSection = () => {
           <div className="absolute bottom-0 left-0 w-full h-[80%] md:h-[85%]  bg-sky-800"></div>
         </div>
 
-        <div className="relative grid items-center justify-center w-full grid-cols-1 p-2 h-auto ">
+        <div className="relative grid items-center justify-center w-full h-auto grid-cols-1 p-2 ">
           <div className="relative z-10 flex flex-col items-center justify-between w-full h-full">
             {/* Image */}
             <img
@@ -62,11 +62,11 @@ const FirstSection = () => {
             />
 
             {/* Content */}
-            <div className="flex flex-col gap-4 items-center text-center justify-center p-2">
-              <h1 className="font-bold text-white text-2xl lg:text-4xl">
+            <div className="flex flex-col items-center justify-center gap-4 p-2 text-center">
+              <h1 className="text-2xl font-bold text-white lg:text-4xl">
                 Paneles policristalinos
               </h1>
-              <p className="text-white text-start">
+              <p className="text-base text-white md:text-lg text-start">
                 Representan un equilibrio perfecto entre eficiencia y precio.
                 Son una alternativa accesible para quienes desean aprovechar la
                 energía solar sin una gran inversión inicial. Su rendimiento es
@@ -85,7 +85,7 @@ const FirstSection = () => {
           <div className="absolute bottom-0 left-0 w-full h-[80%] md:h-[85%]  bg-sky-800"></div>
         </div>
 
-        <div className="relative grid items-center justify-center w-full grid-cols-1 p-2 h-auto ">
+        <div className="relative grid items-center justify-center w-full h-auto grid-cols-1 p-2 ">
           <div className="relative z-10 flex flex-col items-center justify-between w-full h-full">
             {/* Image */}
             <img
@@ -95,11 +95,11 @@ const FirstSection = () => {
             />
 
             {/* Content */}
-            <div className="flex flex-col items-center gap-4 text-center justify-center p-2">
-              <h1 className="font-bold text-white text-2xl lg:text-4xl">
+            <div className="flex flex-col items-center justify-center gap-4 p-2 text-center">
+              <h1 className="text-2xl font-bold text-white lg:text-4xl">
                 Paneles de película delgada
               </h1>
-              <p className="text-white text-start">
+              <p className="text-base text-white md:text-lg text-start">
                 Destacan por su versatilidad y diseño ligero. Son la opción
                 ideal para instalaciones donde la flexibilidad es clave, ya que
                 pueden adaptarse a distintas superficies. Aunque su eficiencia
@@ -120,7 +120,7 @@ const FirstSection = () => {
       </div>
 
       <div className="m-auto flex flex-col gap-4 max-w-[80rem]">
-        <p className="text-center max-w-[50rem]">
+        <p className="text-center max-w-[50rem] text-base md:text-lg">
           No importa el clima,{" "}
           <span className="font-bold text-cyan-800 dark:text-lime-400">
             Clover
