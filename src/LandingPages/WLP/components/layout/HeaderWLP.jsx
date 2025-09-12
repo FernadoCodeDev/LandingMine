@@ -16,7 +16,7 @@ const HeaderWLP = () => {
             <MobileMenu
               textColor="text-slate-800 transition-all duration-700 ease-out"
               hoverColor="hover:text-amber-950"
-              bgColor="bg-backdrop-blur-[4px] last-of-type:rounded-b-3xl bg-black/20 md:bg-transparent"
+              bgColor="bg-transparent"
               invertColor="invert"
               className="z-40"
             />
@@ -51,7 +51,7 @@ const HeaderWLP = () => {
               <img
                 src={LeftPose}
                 alt="LeftPose"
-                className="w-40 h-auto m-auto md:w-48 lg:w-full lg:max-w-[20rem] "
+                className="w-40 h-auto m-auto sm:48 lg:w-60 xl:w-full lg:max-w-[20rem] "
               />
 
               <div className="-top-[6rem] absolute inset-0 flex items-center justify-center text-center max-w-[30rem] p-4 m-auto z-10 text-teal-600 font-antonio">
@@ -87,7 +87,7 @@ const HeaderWLP = () => {
               <img
                 src={RightPose}
                 alt="RightPose"
-                className="w-40 h-auto m-auto md:w-48 lg:w-full lg:max-w-[20rem] "
+                className="w-40 h-auto m-auto sm:48 lg:w-60 xl:w-full lg:max-w-[20rem]"
               />
 
               <div className="-top-[6rem] absolute inset-0 flex items-center justify-center max-w-[30rem] p-4 m-auto z-10 text-orange-500 opacity-75 font-antonio">
