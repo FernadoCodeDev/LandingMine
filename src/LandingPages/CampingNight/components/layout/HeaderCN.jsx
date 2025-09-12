@@ -14,28 +14,43 @@ const HeaderDH = () => {
         style={{ backgroundImage: `url(${Background})` }}
       ></div>
 
-      <div className="relative grid items-start grid-cols-2 gap-2 p-4 h-dvh md:grid-cols-3">
-        <div className="order-3 col-span-2 mx-auto md:col-span-1 md:order-2 md:w-auto md:h-20 md:bg-white/20 md:bg-backdrop-blur-[2px]">
+      <div className="relative flex flex-col items-center justify-center gap-4">
+
+        <div className="flex flex-row justify-between w-full max-w-[100rem] p-4">
+
+          <div className="hidden my-auto md:block">
+            <MobileMenu
+              textColor="text-white transition-all duration-700 ease-out"
+              hoverColor="hover:text-orange-300"
+              bgColor="bg-backdrop-blur-[2px] last-of-type:rounded-b-3xl bg-white/20 md:bg-transparent"
+              invertColor="invert-0"
+            />
+          </div>
+
+          <img
+            src={CampingNightLogo}
+            alt="CampingNightLogo"
+            className="object-contain w-28 h-28 md:w-40 md:h-40"
+          />
+
+          <div className="my-auto">
+            <DarkMode />
+          </div>
+
+        </div>
+
+        <div className="block mx-auto md:hidden md:w-auto md:h-20 ">
           <MobileMenu
             textColor="text-white transition-all duration-700 ease-out"
             hoverColor="hover:text-orange-300"
-            bgColor="bg-backdrop-blur-[2px] last-of-type:rounded-b-3xl bg-white/20 md:bg-transparent"
+            bgColor=""
             invertColor="invert-0"
           />
         </div>
 
-        <img
-          src={CampingNightLogo}
-          alt="CampingNightLogo"
-          className="order-1 w-full md:max-w-[15rem] h-auto mx-auto cursor-pointer md:order-1"
-        />
 
-        <div className=" w-fit ms-auto order-2 md:order-3 backdrop-blur-[4px] bg-white/20 p-2 rounded-3xl">
-          <DarkMode />
-        </div>
 
-        <div className="relative order-4 col-span-2 md:col-span-3">
-          <div className="m-auto flex flex-col items-center text-center justify-center gap-12 max-w-[80rem] ">
+          <div className="relative m-auto flex flex-col items-center text-center p-4 justify-center gap-12 max-w-[80rem] ">
             <h1 className="text-4xl text-white md:text-6xl lg:text-7xl">
               Un lugar para acampar, donde la tranquilidad reina, y un{" "}
               <span className="font-bold">S'more </span>
@@ -45,7 +60,6 @@ const HeaderDH = () => {
           </div>
         </div>
       </div>
-    </div>
   );
 };
 
