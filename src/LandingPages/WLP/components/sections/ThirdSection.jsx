@@ -3,10 +3,10 @@ import imgN2 from "../../assets/img/imgN2.webp";
 
 const ThirdSection = () => {
   return (
-    <div className="relative flex flex-col items-center justify-center w-full h-auto gap-4 p-4 bg-orange-50 dark:bg-sky-900 text-cyan-950 dark:text-orange-50">
+    <div className="relative flex flex-col items-center justify-center w-full h-auto gap-4 p-4 bg-orange-50 dark:bg-slate-900 text-slate-950 dark:text-orange-50">
       <div className="p-2 grid grid-cols-1 md:grid-cols-2 gap-4 m-auto max-w-[80rem]">
         <div className="">
-          <h1 className="pb-2 text-2xl font-bold text-center border-b-2 border-cyan-950 dark:border-orange-50 md:text-4xl">
+          <h1 className="pb-2 text-2xl font-bold text-center border-b-2 border-slate-950 dark:border-orange-50 md:text-4xl">
             HONOR
           </h1>
 
@@ -14,11 +14,11 @@ const ThirdSection = () => {
             CONSTANCIA
           </h1>
           <img src={imgN2} alt="imgN2" className="w-full h-auto m-auto md:max-w-96" />
-          <h1 className="pb-2 text-2xl font-bold text-center border-b-2 border-cyan-950 dark:border-orange-50 md:text-4xl">
+          <h1 className="pb-2 text-2xl font-bold text-center border-b-2 border-slate-950 dark:border-orange-50 md:text-4xl">
             PASIÓN
           </h1>
 
-          <h1 className="pb-2 text-3xl font-bold text-center border-b-2 border-cyan-950 dark:border-orange-50 md:text-4xl">
+          <h1 className="pb-2 text-3xl font-bold text-center border-b-2 border-slate-950 dark:border-orange-50 md:text-4xl">
             DISCIPLINA
           </h1>
         </div>
@@ -29,14 +29,14 @@ const ThirdSection = () => {
             <h1 className="text-xl font-bold text-center md:text-xl ">
               Pasión, Disciplina y Compromiso
             </h1>
-            <p className="text-base text-black text-start dark:text-white md:text-xl">
+            <p className="text-base text-slate-950 text-start dark:text-white md:text-xl">
               La lucha libre es un deporte emocionante, pero también desafiante.
               En WLP, sabemos que subir al ring implica riesgos, por eso te
               entrenamos con la mejor técnica, disciplina y seguridad. Cada
               llave, caída y movimiento requiere precisión, fuerza y control. No
               se trata solo de talento, sino de preparación.
             </p>
-            <p className="text-base text-black text-start dark:text-white md:text-xl">
+            <p className="text-base text-slate-950 text-start dark:text-white md:text-xl">
               Para ser un verdadero luchador, debes comprometerte con tu cuerpo
               y mente:
               <ul>
@@ -63,7 +63,7 @@ const ThirdSection = () => {
                 </li>
               </ul>
             </p>
-            <p className="text-base text-black text-start dark:text-white md:text-xl">
+            <p className="text-base text-slate-950 text-start dark:text-white md:text-xl">
               La lucha libre no es solo combate, es superación. Si entrenas con
               dedicación y respeto, dominarás el ring sin ponerte en peligro.
               <span className="font-bold text-start md:text-xl">
@@ -76,7 +76,7 @@ const ThirdSection = () => {
             </h1>
           </div>
 
-          <button className="flex justify-center w-full p-2 font-bold text-white transition-all duration-700 ease-out rounded-xl dark:text-black bg-sky-700 hover:bg-sky-900 dark:bg-orange-50 hover:dark:bg-orange-200 md:text-2xl ">
+          <button className="flex justify-center w-full p-2 font-bold text-white transition-all duration-700 ease-out rounded-xl dark:text-slate-950 bg-slate-700 hover:bg-slate-900 dark:bg-orange-50 hover:dark:bg-orange-200 md:text-2xl ">
             Subir al Ring
           </button>
         </div>
