@@ -27,10 +27,10 @@ const HeaderClover = () => {
       </div>
 
       <div className="h-auto ms-auto grid grid-cols-1 gap-4 md:grid-cols-2 max-w-[100rem] relative order-4 col-span-2 md:col-span-3">
-        <div className="flex flex-col items-center gap-3 p-4">
-          <h1 className="text-2xl font-bold lg:text-7xl">
+        <div className="flex flex-col items-center gap-4 p-4">
+          <h1 className="text-2xl font-bold md:text-4xl xl:text-7xl">
             Energía Solar para un Futuro
-            <span className="text-3xl font-bold text-lime-400 lg:text-8xl">
+            <span className="text-3xl font-bold text-lime-400 md:text-5xl xl:8xl">
               {" "}
               Sostenible
             </span>
