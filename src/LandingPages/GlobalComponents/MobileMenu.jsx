@@ -33,7 +33,7 @@ const MobileMenu = ({
         <img
           src={MobileMenuIcon}
           alt="Mobile Menu"
-          className={`w-24 h-auto cursor-pointer ${invertColor}`}
+          className={`w-16 h-auto cursor-pointer ${invertColor}`}
           onClick={toggleMenu}
         />
       )}
@@ -44,20 +44,20 @@ const MobileMenu = ({
         ${isMobile ? "flex flex-col" : "flex flex-row max-h-none opacity-100"}`}
       >
         <a
-          href="/#"
-          className={`p-2 text-[1rem] md:text-[2rem] font-bold ${bgColor} ${textColor} ${hoverColor}`}
+          href="/"
+          className={`p-2 text-base md:text-lg font-bold ${bgColor} ${textColor} ${hoverColor}`}
         >
           Home
         </a>
         <a
-          href="/#"
-          className={`p-2 text-[1rem] md:text-[2rem] font-bold ${bgColor} ${textColor} ${hoverColor}`}
+          href="/"
+          className={`p-2 text-base md:text-lg font-bold ${bgColor} ${textColor} ${hoverColor}`}
         >
           Contact
         </a>
         <a
-          href="/#"
-          className={`p-2 text-[1rem] md:text-[2rem] font-bold ${bgColor} ${textColor} ${hoverColor}`}
+          href="/"
+          className={`p-2 text-base md:text-lg font-bold ${bgColor} ${textColor} ${hoverColor}`}
         >
           Us
         </a>
