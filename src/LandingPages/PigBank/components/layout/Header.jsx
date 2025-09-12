@@ -32,7 +32,7 @@ const HeaderPB = () => {
 
       <div className="flex flex-col items-center justify-center text-center md:mt-20">
         <div className="flex items-center gap-2">
-          <h1 className="text-4xl text-black md:text-6xl xl:text-9xl dark:text-white ">
+          <h1 className="text-2xl text-black md:text-4xl xl:text-6xl 2xl:text-8xl dark:text-white ">
             Mejora
           </h1>
           <img
@@ -40,7 +40,7 @@ const HeaderPB = () => {
             alt="PigBank"
             className="w-20 h-auto md:w-32 xl:w-40 rotate-12"
           />
-          <h1 className="text-4xl text-black md:text-6xl xl:text-9xl dark:text-white">
+          <h1 className="text-2xl text-black md:text-4xl xl:text-6xl 2xl:text-8xl dark:text-white">
             tus
           </h1>
         </div>
@@ -52,13 +52,13 @@ const HeaderPB = () => {
             className="w-20 md:w-32 xl:w-40 h-auto rotate-[330deg]"
           />
 
-          <h1 className="text-4xl text-black dark:text-white md:text-6xl xl:text-9xl">
+          <h1 className="text-2xl text-black dark:text-white md:text-4xl xl:text-6xl 2xl:8xl">
             finanzas
           </h1>
         </div>
 
         <div>
-          <h1 className="text-4xl text-black dark:text-white md:text-6xl xl:text-9xl">
+          <h1 className="text-2xl text-black dark:text-white md:text-4xl xl:text-6xl 2xl:8xl">
             con{" "}
             <span className="font-bold text-red-500 border-b-2 border-red-500 ">
               Pig Bank
@@ -67,11 +67,11 @@ const HeaderPB = () => {
         </div>
 
         <div className="mt-8">
-          <p className="p-4 max-w-[60rem] text-2xl text-center text-black dark:text-white">
+          <p className="p-4 max-w-[60rem] text-lg text-center text-black dark:text-white">
             Mover dinero nunca debería requerir más que unos simples clicks.
           </p>
 
-          <button className="p-3 mt-4 mb-4 font-bold text-center text-white transition-all duration-700 ease-out bg-red-500 rounded-full hover:bg-red-600 ">
+          <button className="p-2 mt-4 mb-4 font-bold text-center text-white transition-all duration-700 ease-out bg-red-500 rounded-full hover:bg-red-600 ">
             Envía dinero ahora
           </button>
         </div>

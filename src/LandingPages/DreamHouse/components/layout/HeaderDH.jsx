@@ -9,11 +9,11 @@ const HeaderDH = () => {
   return (
     <div className="relative w-full h-dvh">
       <div
-        className="absolute inset-0 w-full h-dvh bg-fixed bg-center bg-cover"
+        className="absolute inset-0 w-full bg-fixed bg-center bg-cover h-dvh"
         style={{ backgroundImage: `url(${Background})` }}
       ></div>
 
-      <div className="relative grid items-start h-auto grid-cols-2 gap-2 p-4 md:grid-cols-3">
+      <div className="relative grid items-start grid-cols-2 gap-2 p-4 h-dvh md:grid-cols-3">
         <div className="order-3 col-span-2 mx-auto md:col-span-1 md:order-1 md:w-auto md:h-20 md:backdrop-blur-[4px] md:bg-black/20">
           <MobileMenu
             textColor="text-black transition-all duration-700 ease-out"
@@ -33,17 +33,17 @@ const HeaderDH = () => {
           <DarkMode />
         </div>
 
-        <div className="relative flex flex-col order-4 col-span-2 gap-4 text-center md:col-span-3">
-          <h1 className="font-bold text-black text-[2rem] md:text-[4rem]">
+        <div className="relative flex flex-col order-4 col-span-2 gap-2 text-center md:col-span-3">
+          <h1 className="text-2xl font-bold text-black ">
             Encuentra la casa de tus sueños
           </h1>
-          <p className="text-black text-[1rem] md:text-[2rem] lg:text-[2.5rem">
+          <p className="text-lg text-black">
             Entendemos el hecho de que la gente moderna se esfuerza por lograr
             la máxima comodidad.
           </p>
 
           <div className="m-auto w-full p-4 bg-white max-w-[60rem]">
-            <div className="grid grid-cols-1 gap-2">
+            <div className="grid grid-cols-1 gap-2 md:grid-cols-3">
               <div className="flex flex-col">
                 <h1 className="font-bold text-start">Ubicación</h1>
                 <input
@@ -74,7 +74,7 @@ const HeaderDH = () => {
                 />
               </div>
 
-              <button className="flex justify-center w-full h-auto p-2 transition-all duration-700 ease-out bg-blue-400 hover:bg-blue-600 ">
+              <button className="flex justify-center w-full h-auto p-2 transition-all duration-700 ease-out bg-blue-400 md:col-span-3 hover:bg-blue-600 ">
                 <SearchSVG width="40" height="40" />
               </button>
             </div>

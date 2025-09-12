@@ -9,7 +9,6 @@ const packages = [
     li1: "Evento de 1 día",
     li2: "5 Charlas",
     li3: "Sesión de interacción",
-    li4: "Almuerzo y café",
   },
   {
     id: 2,
@@ -18,7 +17,6 @@ const packages = [
     li1: "Evento de 2 día",
     li2: "10 Charlas",
     li3: "Sesión de interacción",
-    li4: "Almuerzo y café",
   },
   {
     id: 3,
@@ -27,7 +25,6 @@ const packages = [
     li1: "Evento de 3 día",
     li2: "20 Charlas",
     li3: "Sesión de interacción",
-    li4: "Almuerzo y café",
   },
 ];
 
@@ -116,9 +113,6 @@ export default function Slider() {
                 </li>
                 <li className="flex items-center gap-2 md:text-2xl">
                   <CheckSVG width="12" height="12" /> {pkg.li3}
-                </li>
-                <li className="flex items-center gap-2 md:text-2xl">
-                  <CheckSVG width="12" height="12" /> {pkg.li4}
                 </li>
               </ul>
 
