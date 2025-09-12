@@ -41,6 +41,8 @@ const HeaderDH = () => {
           />
         </div>
 
+        {/*Design greater than md*/}
+
         <div className="flex-row justify-around hidden w-full p-4 mx-auto md:flex bg-beige-100">
 
           <img
@@ -57,7 +59,6 @@ const HeaderDH = () => {
               invertColor="invert-0"
             />
           </div>
-
 
           <div className="backdrop-blur-[4px] bg-black/20 p-2 rounded-3xl">
             <DarkMode />
