@@ -4,25 +4,9 @@ const Footer = () => {
   return (
     <footer className="w-full p-6 text-white bg-black">
       <div className="max-w-6xl mx-auto">
-        <p className="mb-4 text-lg leading-relaxed">
-          <span className="font-bold">Morgana</span> expresa su más sincero
-          agradecimiento al talentoso diseñador{" "}
-          <a
-            href="https://dribbble.com/hello1usman"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="ml-1 font-bold text-white transition duration-300 ease-in-out hover:text-beige-400"
-          >
-            Usman A
-          </a>{" "}
-          cuya obra sirvió de inspiración para la creación de la landing page{" "}
-          <span className="font-bold">Morgana</span>. Utilicé su diseño como
-          referencia para desarrollar esta interpretación propia, respetando
-          siempre su estilo.
-        </p>
 
         <p className="mb-4 text-lg leading-relaxed">
-          Cabe aclarar que <span className="font-bold">Morgana</span> no es una
+         <span className="font-bold">Morgana</span> no es una
           Agencia real y fue creado únicamente con fines de desarrollo y diseño.
           Además, yo diseñé el logotipo de{" "}
           <span className="font-bold">Morgana</span> y utilicé imágenes de uso

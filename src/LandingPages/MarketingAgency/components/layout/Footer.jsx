@@ -4,25 +4,9 @@ const Footer = () => {
   return (
     <footer className="w-full p-6 text-white bg-black">
       <div className="max-w-6xl mx-auto">
-        <p className="mb-4 text-lg leading-relaxed">
-          Marketing Agency expresa su más sincero agradecimiento al talentoso
-          diseñador{" "}
-          <a
-            href="https://dribbble.com/hello1usman"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="ml-1 font-bold text-white transition duration-300 ease-in-out hover:text-yellow-400"
-          >
-            Usman A
-          </a>{" "}
-          cuya obra sirvió de inspiración para la creación de la landing page{" "}
-          <span className="font-bold">Marketing Agency</span>. Utilicé su diseño
-          como referencia para desarrollar esta interpretación propia,
-          respetando siempre su estilo.
-        </p>
 
         <p className="mb-4 text-lg leading-relaxed">
-          Cabe aclarar que <span className="font-bold">Marketing Agency</span>{" "}
+         <span className="font-bold">Marketing Agency</span>{" "}
           no es una agencia real y fue creado únicamente con fines de desarrollo
           y diseño. Además, yo diseñé el logotipo de{" "}
           <span className="font-bold">Marketing Agency</span> y utilicé imágenes

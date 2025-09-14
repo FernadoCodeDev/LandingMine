@@ -4,25 +4,9 @@ const Footer = () => {
   return (
     <footer className="w-full p-6 text-white bg-black">
       <div className="max-w-6xl mx-auto">
-        <p className="mb-4 text-lg leading-relaxed">
-          <span className="font-bold">Camping Night</span> expresa su más
-          sincero agradecimiento al talentoso diseñador{" "}
-          <a
-            href="https://dribbble.com/uiamir36"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="ml-1 font-bold transition duration-300 ease-in-out hover:text-yellow-900 dark:hover:text-beige-500"
-          >
-            Amirul Islam
-          </a>{" "}
-          cuya obra sirvió de inspiración para la creación de la landing page{" "}
-          <span className="font-bold">Camping Night</span>. Utilicé su diseño
-          como referencia para desarrollar esta interpretación propia,
-          respetando siempre su estilo.
-        </p>
 
         <p className="mb-4 text-lg leading-relaxed">
-          Cabe aclarar que <span className="font-bold">Camping Night</span> no
+          <span className="font-bold">Camping Night</span> no
           es una Agencia real y fue creado únicamente con fines de desarrollo y
           diseño. Además, yo diseñé el logotipo de{" "}
           <span className="font-bold">Camping Night</span> y utilicé imágenes de

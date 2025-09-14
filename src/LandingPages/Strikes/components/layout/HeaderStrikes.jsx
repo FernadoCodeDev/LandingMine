@@ -43,33 +43,33 @@ const HeaderStrikes = () => {
                 mejor ambiente de boliche con música, comida y grandes momentos!
               </p>
 
-              <div className="hidden grid-cols-1 gap-2 md:grid xl:grid-cols-3">
+              <div className="hidden grid-cols-3 gap-2 md:grid">
                 <div className="flex flex-col items-center p-2 border-b-2 border-orange-500 xl:border-b-0 xl:border-r-2">
-                  <h1 className="font-bold text-orange-500">+10,000 clientes felices</h1>
-                  <p className="">
+                  <h1 className="text-lg font-bold text-orange-500 md:text-xl">+10,000 clientes felices</h1>
+                  <p className="text base md:text-lg">
                     Desde familias hasta jugadores profesionales, cada visitante
                     vive la emoción de un juego inolvidable
                   </p>
                 </div>
 
                 <div className="flex flex-col items-center p-2 border-b-2 border-orange-500 xl:border-b-0 xl:border-r-2">
-                  <h1 className="font-bold text-orange-500"> Torneos y eventos exclusivos</h1>
-                  <p className="">
+                  <h1 className="text-lg font-bold text-orange-500 md:text-xl"> Torneos y eventos exclusivos</h1>
+                  <p className="text base md:text-lg">
                     Organizamos competencias, eventos temáticos y noches
                     especiales para que la diversión nunca falte.
                   </p>
                 </div>
 
                 <div className="flex flex-col items-center p-2 ">
-                  <h1 className="font-bold text-orange-500"> Ambiente único y moderno</h1>
-                  <p className="">
+                  <h1 className="text-lg font-bold text-orange-500 md:text-xl"> Ambiente único y moderno</h1>
+                  <p className="text base md:text-lg">
                     Luces, música y la mejor tecnología en bolos para que cada
                     partida sea una experiencia increíble.
                   </p>
                 </div>
               </div>
 
-              <button className="w-full p-2 font-bold transition-all duration-700 ease-out bg-transparent border-2 border-orange-300 hover:text-white rounded-xl md:rounded-full md:m-auto md:w-1/2 hover:bg-orange-500 ">
+              <button className="w-full p-2 font-bold transition-all duration-700 ease-out bg-transparent border-2 border-orange-300 text base md:text-lg hover:text-white rounded-xl md:rounded-full md:m-auto md:w-1/2 hover:bg-orange-500 ">
                 Reserva tu pista ahora
               </button>
             </div>
