@@ -6,7 +6,7 @@ const FirstSection = () => {
     <div className="relative flex flex-col items-center w-full h-auto px-4">
       <div className="m-auto max-w-[80rem] flex flex-col w-full">
         <div
-          className="relative w-full bg-center bg-cover border-4 border-white h-60 md:h-80"
+          className="relative w-full bg-center bg-cover border-4 border-white h-80"
           style={{ backgroundImage: `url(${imgN1})` }}
         >
           <div className="backdrop-blur-[1px] bg-black/40 absolute bottom-0 left-0 z-10 flex flex-col items-start justify-end w-full h-full gap-2 p-4 m-auto text-white text-start">
