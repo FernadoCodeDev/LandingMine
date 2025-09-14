@@ -1,68 +1,27 @@
 import React from "react";
+import imgN1 from "../../assets/img/imgN1.webp"
 
 const FirstSection = () => {
   return (
-    <div className="relative flex flex-col items-center w-full min-h-screen text-black bg-white border-t-2 border-orange-500 md:text-2xl dark:border-slate-950 dark:bg-slate-950 dark:text-white">
-      <div className="m-auto max-w-[90rem] p-4 grid grid-cols-1 md:grid-cols-3">
-        <div className="flex flex-col items-center gap-4 p-4">
-          <h1 className="font-bold text-center text-orange-500">
-            Pistas de última generación
-          </h1>
-          <p className="text-center">
-            Nuestra tecnología de boliche garantiza tiros precisos y una
-            experiencia fluida, perfecta para principiantes y expertos.
-          </p>
+    <div className="relative flex flex-col items-center w-full h-auto px-4">
+      <div className="m-auto max-w-[80rem] flex flex-col w-full">
+        <div
+          className="relative w-full bg-center bg-cover border-4 border-white h-60 md:h-80"
+          style={{ backgroundImage: `url(${imgN1})` }}
+        >
+          <div className="backdrop-blur-[1px] bg-black/40 absolute bottom-0 left-0 z-10 flex flex-col items-start justify-end w-full h-full gap-2 p-4 m-auto text-white text-start">
+            <h1 className="text-xl font-bold text-orange-600 md:text-2xl">
+              Cada Strike es un momento para recordar
+            </h1>
+            <p className="text-base md:text-lg md:max-w-96">
+              En <span className="font-bold text-orange-600">Strike’s</span>, 
+              la diversión nunca se detiene. Vive la emoción de cada lanzamiento, 
+              compite con amigos y crea recuerdos inolvidables. ¡Ven a disfrutar 
+              el mejor ambiente de boliche con música, comida y grandes momentos!
+            </p>
+          </div>
         </div>
 
-        <div className="flex flex-col items-center gap-4 p-4 bg-orange-200 dark:bg-slate-900">
-          <h1 className="font-bold text-center text-orange-500">
-            Más que boliche, una experiencia completa
-          </h1>
-          <p className="text-center">
-            Disfruta de deliciosas pizzas, papas con queso y carne, y bebidas
-            refrescantes mientras juegas. ¡Porque la diversión sabe mejor con
-            buen sabor!
-          </p>
-        </div>
-
-        <div className="flex flex-col items-center gap-4 p-4">
-          <h1 className="font-bold text-center text-orange-500">Diversión para todos</h1>
-          <p className="text-center">
-            Desde reuniones familiares hasta salidas con amigos, en Strike’s
-            siempre hay espacio para compartir risas y grandes momentos.
-          </p>
-        </div>
-
-        <div className="flex flex-col items-center gap-4 p-4 bg-orange-200 dark:bg-slate-900">
-          <h1 className="font-bold text-center text-orange-500">
-            Iluminación y efectos especiales
-          </h1>
-          <p className="text-center">
-            Luces vibrantes, pantallas dinámicas y efectos especiales que
-            transforman cada partida en un espectáculo.
-          </p>
-        </div>
-
-        <div className="flex flex-col items-center gap-4 p-4 ">
-          <h1 className="font-bold text-center text-orange-500">
-            Modo juego para todos los niveles
-          </h1>
-          <p className="text-center">
-            ¿Eres novato o todo un pro? Ajustamos las pistas y configuraciones
-            para que todos disfruten al máximo sin importar su nivel de
-            habilidad.
-          </p>
-        </div>
-
-        <div className="flex flex-col items-center gap-4 p-4 bg-orange-200 dark:bg-slate-900">
-          <h1 className="font-bold text-center text-orange-500">
-            Celebraciones inolvidables
-          </h1>
-          <p className="text-center">
-            Cumpleaños, reuniones de empresa o simplemente un día especial. En
-            Strike’s, cada visita puede convertirse en una gran celebración.
-          </p>
-        </div>
       </div>
     </div>
   );
