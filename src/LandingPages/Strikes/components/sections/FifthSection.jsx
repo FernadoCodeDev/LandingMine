@@ -7,15 +7,15 @@ const FifthSection = () => {
     return (
         <div className="relative flex flex-col items-center w-full h-auto gap-4 bg-beige-300 dark:bg-slate-950">
 
-                <h1 className="text-xl font-bold text-center text-orange-600 md:text-2xl">
-                    Elige tu forma de jugar y disfrutar en Strike’s
-                </h1>
-                <p className="text-base text-black md:text-lg text-center dark:text-white max-w-[30rem]">
-                    Ya sea que vengas solo, con amigos o en familia,
-                    tenemos el plan perfecto para ti. Disfruta del
-                    boliche a tu manera con opciones diseñadas para
-                    que la pases increíble.
-                </p>
+            <h1 className="text-xl font-bold text-center text-orange-600 md:text-2xl">
+                Elige tu forma de jugar y disfrutar en Strike’s
+            </h1>
+            <p className="text-base text-black md:text-lg text-center dark:text-white max-w-[30rem]">
+                Ya sea que vengas solo, con amigos o en familia,
+                tenemos el plan perfecto para ti. Disfruta del
+                boliche a tu manera con opciones diseñadas para
+                que la pases increíble.
+            </p>
 
             <div className="flex flex-col gap-4 md:flex-row m-auto max-w-[80rem]">
 

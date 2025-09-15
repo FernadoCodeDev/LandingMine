@@ -11,7 +11,7 @@ const ThirdSection = () => {
           className="relative w-full bg-center bg-cover border-4 border-white h-60 md:h-80"
           style={{ backgroundImage: `url(${imgN5})` }}
         >
-          <div className="backdrop-blur-[1px] bg-black/40 absolute bottom-0 left-0 z-10 flex flex-col items-start justify-end w-full h-full gap-2 p-4 m-auto text-white text-start">
+          <div className="absolute bottom-0 left-0 z-10 flex flex-col items-start justify-end w-full h-full gap-2 p-4 m-auto text-white bg-black/40 text-start">
             <h1 className="text-xl font-bold text-orange-600 md:text-2xl">
               Pistas de última generación
             </h1>
@@ -27,7 +27,7 @@ const ThirdSection = () => {
           className="relative w-full bg-center bg-cover border-4 border-white h-60 md:h-80"
           style={{ backgroundImage: `url(${imgN6})` }}
         >
-          <div className="backdrop-blur-[1px] bg-black/40 absolute bottom-0 left-0 z-10 flex flex-col items-start justify-end w-full h-full gap-2 p-4 m-auto text-white text-start">
+          <div className="absolute bottom-0 left-0 z-10 flex flex-col items-start justify-end w-full h-full gap-2 p-4 m-auto text-white bg-black/40 text-start">
             <h1 className="text-xl font-bold text-orange-600 md:text-2xl">
               Más que boliche, una experiencia completa
             </h1>
