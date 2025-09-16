@@ -16,13 +16,12 @@ const HeaderDH = () => {
 
       <div className="relative flex flex-col items-center justify-center gap-4">
 
-        <div className="flex flex-row justify-between w-full max-w-[100rem] p-4">
-
-          <div className="hidden my-auto md:block">
+        <div className="mx-auto grid grid-cols-2 md:grid-cols-3 p-4 justify-center items-center w-full max-w-[100rem]">
+          <div className="order-3 col-span-2 m-auto mt-8  md:size-fit md:m-0 md:mt-0 md:col-span-1 md:order-1">
             <MobileMenu
               textColor="text-white transition-all duration-700 ease-out"
               hoverColor="hover:text-orange-300"
-              bgColor="bg-backdrop-blur-[2px] last-of-type:rounded-b-3xl bg-white/20 md:bg-transparent"
+              bgColor=""
               invertColor="invert-0"
             />
           </div>
@@ -30,36 +29,24 @@ const HeaderDH = () => {
           <img
             src={CampingNightLogo}
             alt="CampingNightLogo"
-            className="object-contain w-28 h-28 md:w-40 md:h-40"
+            className="order-1 object-contain h-auto m-auto cursor-pointer w-28 md:w-60 md:order-2"
           />
 
-          <div className="my-auto">
+          <div className="order-2 ms-auto md:order-3">
             <DarkMode />
           </div>
-
         </div>
 
-        <div className="block mx-auto md:hidden md:w-auto md:h-20 ">
-          <MobileMenu
-            textColor="text-white transition-all duration-700 ease-out"
-            hoverColor="hover:text-orange-300"
-            bgColor=""
-            invertColor="invert-0"
-          />
-        </div>
-
-
-
-          <div className="relative m-auto flex flex-col items-center text-center p-4 justify-center gap-12 max-w-[80rem] ">
-            <h1 className="text-4xl text-white md:text-6xl lg:text-7xl">
-              Un lugar para acampar, donde la tranquilidad reina, y un{" "}
-              <span className="font-bold">S'more </span>
-              caliente siempre te espera
-            </h1>
-            <Modal />
-          </div>
+        <div className="relative m-auto flex flex-col items-center text-center p-4 justify-center gap-12 max-w-[80rem] ">
+          <h1 className="text-4xl text-white md:text-6xl lg:text-7xl">
+            Un lugar para acampar, donde la tranquilidad reina, y un{" "}
+            <span className="font-bold">S'more </span>
+            caliente siempre te espera
+          </h1>
+          <Modal />
         </div>
       </div>
+    </div>
   );
 };
 
