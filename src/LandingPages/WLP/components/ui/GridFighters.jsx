@@ -68,7 +68,7 @@ export default function fightersGrid() {
             <h2 className="mb-2 text-2xl font-bold">{activeFighter.name}</h2>
             <h4 className="text-xl">{activeFighter.Duration}</h4>
             <p className="text-base">{activeFighter.info}</p>
-            <button className="flex justify-center w-full p-2 font-bold text-white transition-all duration-700 ease-out rounded-xl bg-sky-700 hover:bg-sky-900 md:text-2xl ">
+            <button className="flex justify-center w-full p-2 font-bold transition-all duration-700 ease-out rounded-xl bg-slate-700 hover:bg-slate-900 md:text-2xl ">
               Inscribirse
             </button>
           </div>

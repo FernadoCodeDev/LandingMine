@@ -7,43 +7,30 @@ import RightPose from "../../assets/img/RightPose.webp";
 
 const HeaderWLP = () => {
   return (
-    <div className="relative w-full h-dvh bg-orange-50">
+    <div className="relative w-full h-dvh bg-beige-100">
       <div className="relative flex flex-col items-center justify-center">
 
-        <div className="flex flex-row justify-between w-full max-w-[100rem] p-4 mx-auto">
 
-          <div className="z-50 hidden mx-auto md:block md:w-auto ">
+        <div className="mx-auto grid grid-cols-2 md:grid-cols-3 p-4 justify-center items-center w-full max-w-[100rem]">
+          <div className="z-50 order-3 col-span-2 m-auto mt-8 md:size-fit md:m-0 md:mt-0 md:col-span-1 md:order-1">
             <MobileMenu
-              textColor="text-slate-800 transition-all duration-700 ease-out"
-              hoverColor="hover:text-amber-950"
-              bgColor="bg-transparent"
+              textColor="text-beige-900 transition-all duration-700 ease-out"
+              hoverColor="hover:text-beige-950"
+              bgColor=""
               invertColor="invert"
-              className="z-40"
             />
           </div>
 
           <img
             src={WLPLogo}
             alt="WLPLogo"
-            className="object-contain w-40 h-auto mx-auto cursor-pointer "
+            className="order-1 object-contain h-auto m-auto w-28 md:w-60 md:order-2"
           />
 
-          <div className="z-50 m-auto backdrop-blur-[4px] bg-black/20 p-2 rounded-3xl">
+          <div className="z-50 order-2 ms-auto md:order-3">
             <DarkMode />
           </div>
-
         </div>
-
-          <div className="z-50 block mx-auto md:hidden md:col-span-1 md:border-b-8 md:border-slate-800 md:order-1 md:w-auto ">
-          <MobileMenu
-            textColor="text-slate-800 transition-all duration-700 ease-out"
-            hoverColor="hover:text-amber-950"
-            bgColor="bg-backdrop-blur-[4px] last-of-type:rounded-b-3xl bg-black/20 md:bg-transparent"
-            invertColor="invert"
-            className="z-50"
-          />
-        </div>
-
 
         <div className="relative order-4 col-span-2 text-center md:col-span-3">
           <div className="z-10 grid items-center justify-center grid-cols-2 md:grid-cols-3">

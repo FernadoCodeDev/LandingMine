@@ -3,8 +3,8 @@ import imgN1 from "../../assets/img/imgN1.webp";
 
 const FirstSection = () => {
   return (
-    <div className="relative flex flex-col items-center justify-center w-full h-auto gap-4 bg-orange-50 dark:bg-slate-900 text-slate-950 dark:text-orange-50">
-      <div className="flex flex-row justify-around w-full p-2 bg-orange-100 dark:bg-slate-950">
+    <div className="relative flex flex-col items-center justify-center w-full h-auto gap-4 bg-beige-100 dark:bg-slate-900 text-slate-950 dark:text-beige-100">
+      <div className="flex flex-row justify-around w-full p-2 bg-beige-300 dark:bg-slate-950">
         <h1 className="text-sm font-bold text-center md:text-3xl">
           NUEVOS CAMPEONES
         </h1>

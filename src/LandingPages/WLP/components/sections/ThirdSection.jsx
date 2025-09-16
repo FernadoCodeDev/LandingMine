@@ -3,10 +3,10 @@ import imgN2 from "../../assets/img/imgN2.webp";
 
 const ThirdSection = () => {
   return (
-    <div className="relative flex flex-col items-center justify-center w-full h-auto gap-4 p-4 bg-orange-50 dark:bg-slate-900 text-slate-950 dark:text-orange-50">
+    <div className="relative flex flex-col items-center justify-center w-full h-auto gap-4 p-4 bg-beige-100 dark:bg-slate-900 text-slate-950 dark:text-beige-100">
       <div className="p-2 grid grid-cols-1 md:grid-cols-2 gap-4 m-auto max-w-[80rem]">
         <div className="">
-          <h1 className="pb-2 text-2xl font-bold text-center border-b-2 border-slate-950 dark:border-orange-50 md:text-4xl">
+          <h1 className="pb-2 text-2xl font-bold text-center border-b-2 border-slate-950 dark:border-beige-100 md:text-4xl">
             HONOR
           </h1>
 
@@ -14,11 +14,11 @@ const ThirdSection = () => {
             CONSTANCIA
           </h1>
           <img src={imgN2} alt="imgN2" className="w-full h-auto m-auto md:max-w-96" />
-          <h1 className="pb-2 text-2xl font-bold text-center border-b-2 border-slate-950 dark:border-orange-50 md:text-4xl">
+          <h1 className="pb-2 text-2xl font-bold text-center border-b-2 border-slate-950 dark:border-beige-100 md:text-4xl">
             PASIÓN
           </h1>
 
-          <h1 className="pb-2 text-3xl font-bold text-center border-b-2 border-slate-950 dark:border-orange-50 md:text-4xl">
+          <h1 className="pb-2 text-3xl font-bold text-center border-b-2 border-slate-950 dark:border-beige-100 md:text-4xl">
             DISCIPLINA
           </h1>
         </div>
@@ -76,7 +76,7 @@ const ThirdSection = () => {
             </h1>
           </div>
 
-          <button className="flex justify-center w-full p-2 font-bold text-white transition-all duration-700 ease-out rounded-xl dark:text-slate-950 bg-slate-700 hover:bg-slate-900 dark:bg-orange-50 hover:dark:bg-orange-200 md:text-2xl ">
+          <button className="flex justify-center w-full p-2 font-bold text-white transition-all duration-700 ease-out rounded-xl dark:text-slate-950 bg-slate-700 hover:bg-slate-900 dark:bg-beige-100 hover:dark:bg-orange-200 md:text-2xl ">
             Subir al Ring
           </button>
         </div>
