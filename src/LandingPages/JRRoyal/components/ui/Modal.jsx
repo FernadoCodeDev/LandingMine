@@ -1,28 +1,28 @@
 import React from "react";
 import { useEffect, useState } from "react";
 import Close from "../../assets/svg/Close";
-import imgN4 from "../../assets/img/imgN4.webp";
+import imgN6 from "../../assets/img/imgN6.webp";
 import Room2 from "../../assets/img/Room2.webp";
 import Room3 from "../../assets/img/Room3.webp";
 import Bed from "../../assets/svg/Bed";
 import RoomService from "../../assets/svg/RoomService";
 import Wifi from "../../assets/svg/Wifi";
 
-import imgN5 from "../../assets/img/imgN5.webp";
+import imgN7 from "../../assets/img/imgN7.webp";
 import Beach from "../../assets/img/Beach.webp";
 import Voley from "../../assets/img/Voley.webp";
 import Pool from "../../assets/svg/pool";
 import BeachSVG from "../../assets/svg/Beach";
 import Volleyball from "../../assets/svg/Volleyball";
 
-import imgN6 from "../../assets/img/imgN6.webp";
+import imgN8 from "../../assets/img/imgN8.webp";
 import Buffet2 from "../../assets/img/Buffet2.webp";
 import Tiramisú from "../../assets/img/Tiramisú.webp";
 import Menu from "../../assets/svg/menu";
 import Quality from "../../assets/svg/Quality";
 import Dessert from "../../assets/svg/Dessert";
 
-import imgN7 from "../../assets/img/imgN7.webp";
+import imgN9 from "../../assets/img/imgN9.webp";
 import Jacuzzi from "../../assets/img/Jacuzzi.webp";
 import Relaxation from "../../assets/img/Relaxation.webp";
 import Sauna from "../../assets/svg/Sauna";
@@ -34,7 +34,7 @@ export const Services = [
     id: 1,
     name: "HABITACIONES & SUITES ROYAL",
     text: "Desde acogedoras habitaciones hasta lujosas suites con Room services y Wifi, cada espacio ha sido diseñado para brindarte el máximo confort y elegancia. Descansa en camas premium y disfruta de un ambiente exclusivo. ",
-    image1: imgN4,
+    image1: imgN6,
     image2: Room2,
     image3: Room3,
     svg1: Bed,
@@ -48,7 +48,7 @@ export const Services = [
     id: 2,
     name: "PISCINAS PARA RELAJARTE & DISFRUTAR",
     text: "Sumérgete en nuestras refrescantes piscinas, en la playa o en las canchas volleyball y disfruta de un ambiente tranquilo y sofisticado. Perfecto para relajarte bajo el sol o nadar a cualquier hora del día.",
-    image1: imgN5,
+    image1: imgN7,
     image2: Beach,
     image3: Voley,
     svg1: Pool,
@@ -62,7 +62,7 @@ export const Services = [
     id: 3,
     name: "DESAYUNO BUFFET CONTINENTAL",
     text: "Empieza tu día con un desayuno variado y delicioso. Disfruta de una selección de pan recién horneado, frutas frescas, café de alta calidad y mucho más en nuestro exclusivo buffet.",
-    image1: imgN6,
+    image1: imgN8,
     image2: Buffet2,
     image3: Tiramisú,
     svg1: Menu,
@@ -76,7 +76,7 @@ export const Services = [
     id: 4,
     name: "SAUNA PARA TU BIENESTAR",
     text: "Déjate envolver por la calidez y el confort de nuestro sauna y jacuzzi, el lugar perfecto para relajarte y revitalizar cuerpo y mente después de un día de exploración o negocios.",
-    image1: imgN7,
+    image1: imgN9,
     image2: Jacuzzi,
     image3: Relaxation,
     svg1: Sauna,
