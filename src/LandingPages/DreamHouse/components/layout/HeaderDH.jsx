@@ -15,49 +15,33 @@ const HeaderDH = () => {
 
       <div className="relative flex flex-col items-center justify-center h-full">
 
-        <div className="flex flex-row justify-between w-full mx-auto p-4 max-w-[100rem] ">
-
-          <div className="hidden md:flex md:w-auto md:h-16 md:backdrop-blur-[4px] md:bg-black/20">
+        <div className="mx-auto grid grid-cols-2 md:grid-cols-3 p-4 justify-center items-center w-full max-w-[100rem]">
+          <div className=" md:size-fit order-3 col-span-2 m-auto mt-8 md:m-0 md:mt-0 md:col-span-1 md:order-1 md:bg-backdrop-blur-[4px] md:bg-white/30">
             <MobileMenu
-              textColor="text-black transition-all duration-700 ease-out"
-              hoverColor="hover:text-gray-800"
-              bgColor="bg-backdrop-blur-[4px] last-of-type:rounded-b-3xl bg-black/20 md:bg-transparent"
-              invertColor="invert-0"
+              textColor="text-gray-800 transition-all duration-700 ease-out"
+              hoverColor="hover:text-blue-400"
+              bgColor="bg-backdrop-blur-[4px] last-of-type:rounded-b-3xl bg-white/30 md:bg-transparent"
+              invertColor="invert"
             />
           </div>
 
           <img
             src={DreamHouseLogo}
             alt="DreamHouseLogo"
-            className="object-contain h-auto cursor-pointer w-28 "
+            className="order-1 object-contain h-auto m-auto cursor-pointer w-28 md:w-60 md:order-2"
           />
 
-          <div className=" backdrop-blur-[4px] bg-black/20 p-2 rounded-3xl">
+          <div className="order-2 ms-auto md:order-3">
             <DarkMode />
           </div>
-
-
         </div>
 
-        <div className="flex md:hidden mx-auto  md:w-auto md:h-20 md:backdrop-blur-[4px] md:bg-black/20">
-          <MobileMenu
-            textColor="text-gray-800 transition-all duration-700 ease-out"
-            hoverColor="hover:text-black"
-            bgColor="bg-backdrop-blur-[4px] last-of-type:rounded-b-3xl bg-black/20 md:bg-transparent"
-            invertColor="invert"
-          />
-        </div>
-
-        <div className="flex flex-col gap-2 p-4 m-auto text-center">
+        <div className="flex flex-col gap-4 p-4 m-auto text-center">
           <h1 className="text-2xl font-bold text-black md:text-4xl ">
             Encuentra la casa de tus sueños
           </h1>
-          <p className="text-lg text-black">
-            Entendemos el hecho de que la gente moderna se esfuerza por lograr
-            la máxima comodidad.
-          </p>
-
-          <div className="m-auto w-full p-4  rounded-lg backdrop-blur-[4px] bg-black/20 text-white max-w-[60rem]">
+      
+          <div className="m-auto w-full p-4  rounded-2xl backdrop-blur-[4px] bg-black/20 text-white max-w-[60rem]">
             <div className="flex flex-wrap justify-between gap-2">
               <div className="flex flex-col">
                 <h1 className="text-lg font-bold text-start">Ubicación</h1>
@@ -86,7 +70,7 @@ const HeaderDH = () => {
                 />
               </div>
 
-              <button className="flex justify-center w-full h-auto p-2 transition-all duration-700 ease-out bg-blue-400 hover:bg-blue-600 ">
+              <button className="flex justify-center w-full h-auto p-2 transition-all duration-700 ease-out bg-blue-400 rounded-2xl hover:bg-blue-600 ">
                 <SearchSVG width="40" height="40" />
               </button>
             </div>
