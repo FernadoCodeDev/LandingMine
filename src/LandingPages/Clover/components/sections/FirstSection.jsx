@@ -21,7 +21,7 @@ const FirstSection = () => {
 
       <div className="m-auto max-w-[80rem] grid grid-cols-1 md:grid-cols-3 gap-4">
         <div className="relative grid items-center justify-center w-full h-auto grid-cols-1 p-2 ">
-          <div className="relative z-10 flex flex-col items-center justify-between w-full h-full">
+          <div className="relative z-10 flex flex-col items-center w-full h-full">
             {/* Image */}
             <img
               src={imgN2}
@@ -30,8 +30,8 @@ const FirstSection = () => {
             />
 
             {/* Content */}
-            <div className="flex flex-col items-center justify-center gap-4 p-2 text-center">
-              <h1 className="text-2xl font-bold text-white lg:text-4xl">
+            <div className="flex flex-col items-start justify-start gap-4 p-2 text-center">
+              <h1 className="text-lg font-bold text-white md:text-xl">
                 Paneles Monocristalinos
               </h1>
               <p className="text-base text-white md:text-lg text-start">
@@ -62,8 +62,8 @@ const FirstSection = () => {
             />
 
             {/* Content */}
-            <div className="flex flex-col items-center justify-center gap-4 p-2 text-center">
-              <h1 className="text-2xl font-bold text-white lg:text-4xl">
+            <div className="flex flex-col items-center justify-start gap-4 p-2 text-center">
+              <h1 className="text-lg font-bold text-white md:text-xl">
                 Paneles policristalinos
               </h1>
               <p className="text-base text-white md:text-lg text-start">
@@ -95,8 +95,8 @@ const FirstSection = () => {
             />
 
             {/* Content */}
-            <div className="flex flex-col items-center justify-center gap-4 p-2 text-center">
-              <h1 className="text-2xl font-bold text-white lg:text-4xl">
+            <div className="flex flex-col items-center justify-start gap-4 p-2 text-center">
+              <h1 className="text-lg font-bold text-white md:text-xl">
                 Paneles de película delgada
               </h1>
               <p className="text-base text-white md:text-lg text-start">
