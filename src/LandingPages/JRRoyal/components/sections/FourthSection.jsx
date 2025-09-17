@@ -27,7 +27,7 @@ const FourthSection = () => {
 
       {/*Round container similar to an ellipse shape width 100% 100% height, and at the top 50% and 100% (100% for top 0% for bottom) */}
       <div
-        className="flex items-center justify-center w-full h-[8rem] p-4 bg-beige-200 dark:bg-zinc-950"
+        className="flex items-center justify-center w-full h-[8rem] p-4 bg-beige-300 dark:bg-zinc-900"
         style={{ clipPath: "ellipse(100% 100% at 50% 0%)" }}
       ></div>
     </div>

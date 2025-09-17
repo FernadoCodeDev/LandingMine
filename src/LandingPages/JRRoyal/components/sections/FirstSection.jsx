@@ -9,12 +9,12 @@ const FirstSection = () => {
       <div className="relative flex w-full h-[600px]">
         
         <div
-          className="relative hidden h-full bg-center bg-cover md:block flex-[1]"
+          className="relative hidden h-full bg-center bg-cover md:block flex-[1] dark:border-beige-100 border-zinc-950"
           style={{ backgroundImage: `url(${imgN1})` }}
         />
        
         <div
-          className="relative flex-[3] h-full bg-center bg-cover md:border-x-2 border-beige-100"
+          className="relative flex-[3] h-full bg-center bg-cover md:border-x border-b dark:border-beige-100 border-zinc-950"
           style={{ backgroundImage: `url(${imgN2})` }}
         >
           <div className="bottom-0 left-0 z-10 flex flex-col items-center justify-center w-full h-full gap-2 p-4 text-white bg-black/60">
@@ -27,7 +27,7 @@ const FirstSection = () => {
             <h1 className="font-serif text-3xl font-bold md:text-4xl lg:text-7xl">
               JR ROYAL HOTEL
             </h1>
-            <p className="max-w-[25rem]">
+            <p className="text-base md:text-lg max-w-[25rem]">
               Disfruta de una experiencia única donde el lujo y la
               hospitalidad se combinan para brindarte una estancia
               inolvidable.
@@ -39,7 +39,7 @@ const FirstSection = () => {
         </div>
 
         <div
-          className="relative hidden h-full bg-center bg-cover md:block flex-[1]"
+          className="relative hidden h-full bg-center bg-cover md:block flex-[1] border-b dark:border-beige-100 border-zinc-950"
           style={{ backgroundImage: `url(${imgN3})` }}
         />
       </div>

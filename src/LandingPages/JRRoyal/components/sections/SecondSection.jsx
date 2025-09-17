@@ -17,7 +17,7 @@ const SecondSection = () => {
             <h1 className="col-span-2 font-serif text-xl font-bold text-center md:text-2xl lg:text-4xl">
                LUJO ACOGEDOR{" "}
             </h1>
-            <h1 className="col-start-2 font-serif text-xl font-bold text-center text-blue-900 md:text-2xl lg:text-4xl ">
+            <h1 className="col-start-2 font-serif text-xl font-bold text-center text-blue-900 dark:text-beige-300 md:text-2xl lg:text-4xl ">
               Y ESTADÍA INOLVIDABLE
             </h1>
           </div>
@@ -29,7 +29,7 @@ const SecondSection = () => {
               <h1 className="text-xl font-bold text-center md:text-2xl">
                 Sumérgete en la sofisticación y el confort de JR Royal Hotel
               </h1>
-              <p className="text-xl md:text-2xl">
+              <p className="text-base md:text-lg">
                 Nuestro hotel ha sido diseñado para ofrecerte una experiencia
                 única, combinando un ambiente moderno con la calidez de un
                 hogar. Desde nuestra elegante recepción hasta cada rincón de

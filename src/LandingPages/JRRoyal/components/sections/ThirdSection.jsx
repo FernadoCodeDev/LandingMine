@@ -25,7 +25,7 @@ const ThirdSection = () => {
         </div>
 
         <div className="flex flex-col items-center justify-start gap-4 md:order-3 ">
-          <p className=" max-w-[40rem] text-start">
+          <p className=" max-w-[40rem] text-start text-base md:text-lg">
             En JR Royal Hotel, ofrecemos un elegante salón al aire libre
             diseñado para eventos corporativos de alto nivel. Ya sea para
             conferencias, reuniones ejecutivas o celebraciones empresariales,

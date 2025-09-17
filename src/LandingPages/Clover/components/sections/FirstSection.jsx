@@ -30,7 +30,7 @@ const FirstSection = () => {
             />
 
             {/* Content */}
-            <div className="flex flex-col items-start justify-start gap-4 p-2 text-center">
+            <div className="flex flex-col items-center justify-start gap-4 p-2 text-center">
               <h1 className="text-lg font-bold text-white md:text-xl">
                 Paneles Monocristalinos
               </h1>

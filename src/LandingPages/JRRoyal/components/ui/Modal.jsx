@@ -109,7 +109,7 @@ export default function Modal({ isOpen, onClose, Service }) {
   }, [bgImages]);
 
   return (
-    <div className="fixed inset-0 z-50 flex items-center justify-center text-center text-white bg-black bg-opacity-60">
+    <div className="fixed inset-0 z-50 flex items-center justify-center p-4 text-center text-white bg-black bg-opacity-60">
       <div
         className="relative p-2 m-auto overflow-hidden max-w-[70rem] rounded-2xl transition-all duration-1000 ease-in-out"
         style={{

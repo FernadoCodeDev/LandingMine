@@ -1,29 +1,33 @@
 import React from "react";
 const Wifi = (props) => {
   return (
-    <svg
-      viewBox="0 0 16 16"
-      fill="none"
-      xmlns="http://www.w3.org/2000/svg"
-      {...props}
-    >
-      <g id="SVGRepo_bgCarrier" strokeWidth={0} />
-      <g
-        id="SVGRepo_tracerCarrier"
-        strokeLinecap="round"
-        strokeLinejoin="round"
+ <svg
+    viewBox="0 0 18 18"
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+    {...props}
+  >
+    <g id="SVGRepo_bgCarrier" strokeWidth={0} />
+    <g
+      id="SVGRepo_tracerCarrier"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+    />
+    <g id="SVGRepo_iconCarrier">
+      <path
+        d="M0 7L1.17157 5.82843C2.98259 4.01741 5.43884 3 8 3C10.5612 3 13.0174 4.01742 14.8284 5.82843L16 7L14.5858 8.41421L13.4142 7.24264C11.9783 5.8067 10.0307 5 8 5C5.96928 5 4.02173 5.8067 2.58579 7.24264L1.41421 8.41421L0 7Z"
+        fill="currentcolor"
       />
-      <g id="SVGRepo_iconCarrier">
-        <path
-          d="M13.1715 9.82843L11.9999 8.65686C10.9391 7.59599 9.50023 7 7.99994 7C6.49965 7 5.06081 7.59599 3.99994 8.65685L2.82837 9.82843L4.24258 11.2426L5.41416 10.0711C6.09995 9.38527 7.03008 9 7.99994 9C8.9698 9 9.89993 9.38527 10.5857 10.0711L11.7573 11.2426L13.1715 9.82843Z"
-          fill="currentcolor"
-        />
-        <path
-          d="M10.3431 12.6569L9.17151 11.4853C8.86079 11.1746 8.43936 11 7.99994 11C7.56051 11 7.13909 11.1746 6.82837 11.4853L5.6568 12.6569L7.99994 15L10.3431 12.6569Z"
-          fill="currentcolor"
-        />
-      </g>
-    </svg>
+      <path
+        d="M4.24264 11.2426L2.82843 9.82843L4 8.65685C5.06086 7.59599 6.49971 7 8 7C9.50029 7 10.9391 7.59599 12 8.65686L13.1716 9.82843L11.7574 11.2426L10.5858 10.0711C9.89999 9.38527 8.96986 9 8 9C7.03014 9 6.1 9.38527 5.41421 10.0711L4.24264 11.2426Z"
+        fill="currentcolor"
+      />
+      <path
+        d="M8 15L5.65685 12.6569L6.82842 11.4853C7.13914 11.1746 7.56057 11 8 11C8.43942 11 8.86085 11.1746 9.17157 11.4853L10.3431 12.6569L8 15Z"
+        fill="currentcolor"
+      />
+    </g>
+  </svg>
   );
 };
 
